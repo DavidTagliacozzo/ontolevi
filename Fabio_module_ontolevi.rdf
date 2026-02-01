@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.ontolevi.it/untitled-ontology-73/"
-     xml:base="http://www.ontolevi.it/untitled-ontology-73/"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Fabio_module_ontolevi.rdf#"
+     xml:base="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Fabio_module_ontolevi.rdf"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:frbr="http://purl.org/vocab/frbr/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos1="http://www.w3.org/2008/05/skos#">
-    <owl:Ontology rdf:about="http://www.ontolevi.it/untitled-ontology-73"/>
+     xmlns:fabio="http://purl.org/spar/fabio/"
+     xmlns:skos1="http://www.w3.org/2008/05/skos#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:ontolevi="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Fabio_module_ontolevi.rdf:">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Fabio_module_ontolevi.rdf"/>
     
 
 
