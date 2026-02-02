@@ -1,16 +1,21 @@
-@prefix : <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl#> .
+@prefix : <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Ontolevi_module.ttl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdo: <https://schema.org/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cito: <http://purl.org/spar/cito/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix bigrafo: <https://www.onto.bigrafo.it#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ontolevi: <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl:> .
-@base <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix ontolevi: <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Ontolevi_module.ttl#> .
+@base <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Ontolevi_module.ttl#> .
 
-<https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl> rdf:type owl:Ontology .
+<https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Ontolevi_module.ttl> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
@@ -36,6 +41,10 @@
 xsd:date rdf:type rdfs:Datatype .
 
 
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
+
+
 ###  http://www.w3.org/2001/XMLSchema#gYear
 xsd:gYear rdf:type rdfs:Datatype .
 
@@ -48,6 +57,13 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
+###  http://purl.org/dc/terms/contributor
+dcterms:contributor rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf frbr:responsibleEntity ;
+                    rdfs:domain frbr:Endeavour ;
+                    rdfs:range frbr:Person .
+
+
 ###  http://purl.org/dc/terms/creator
 dcterms:creator rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
@@ -57,9 +73,22 @@ Examples of a Creator include a person, an organization, or a service. Typically
                 rdfs:label "has creator"@en .
 
 
+###  http://purl.org/dc/terms/hasPart
+dcterms:hasPart rdf:type owl:ObjectProperty ;
+                owl:inverseOf dcterms:isPartOf ;
+                rdfs:domain fabio:BookSeries ;
+                rdfs:range frbr:Manifestation .
+
+
+###  http://purl.org/dc/terms/isPartOf
+dcterms:isPartOf rdf:type owl:ObjectProperty .
+
+
 ###  http://purl.org/dc/terms/language
 dcterms:language rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain frbr:Expression ;
+                 rdfs:range dcterms:LinguisticSystem ;
                  rdfs:comment """A language of the resource. Examples include written, spoken, sign, and computer languages.
 
 Recommended best practice is to use a controlled vocabulary such as RFC 4646 [http://www.ietf.org/rfc/rfc4646.txt]."""@en ;
@@ -69,10 +98,74 @@ Recommended best practice is to use a controlled vocabulary such as RFC 4646 [ht
 ###  http://purl.org/dc/terms/publisher
 dcterms:publisher rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain frbr:Manifestation ;
+                  rdfs:range dbo:Publisher ;
                   rdfs:comment """An entity responsible for making the resource available.
 
 Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity."""@en ;
                   rdfs:label "has publisher"@en .
+
+
+###  http://purl.org/spar/cito/cites
+cito:cites rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf <http://purl.org/swan/2.0/discourse-relationships/refersTo> ;
+           owl:inverseOf cito:isCitedBy ;
+           rdfs:comment "The citing entity cites the cited entity, either directly and explicitly (as in the reference list of a journal article), indirectly (e.g. by citing a more recent paper by the same group on the same topic), or implicitly (e.g. as in artistic quotations or parodies, or in cases of plagiarism)."@en ;
+           rdfs:label "cites"@en .
+
+
+###  http://purl.org/spar/cito/citesAsSourceDocument
+cito:citesAsSourceDocument rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf cito:cites ;
+                           owl:inverseOf cito:isCitedAsSourceDocumentBy ;
+                           <http://purl.org/dc/elements/1.1/description> "Example: Several sections of this work are based on our literature review of the topic published as journal article [X]."@en ;
+                           rdfs:comment "The citing entity cites the cited entity as being the entity from which the citing entity is derived, or about which the citing entity contains metadata."@en ;
+                           rdfs:label "cites as source document"@en .
+
+
+###  http://purl.org/spar/cito/hasCitationCharacterization
+cito:hasCitationCharacterization rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> ;
+                                 rdfs:domain cito:Citation ;
+                                 rdfs:comment """A property that links a citation to its characterization made by using a CiTO citation characterization property such as cito:extends. This usage involved OWL2 punning, whenby a CiTO object property, such as the aforementioned cito:extends, is used as the object of an OWL assertion:
+
+     :thisCitation cito:hasCitationCharacterization cito:extends .
+
+In such cases of OWL punning, the CiTO object properties are simultaneously considered both as normal object properties and also as proper named individuals of the class owl:Thing."""@en ;
+                                 rdfs:label "has citation characterization"@en .
+
+
+###  http://purl.org/spar/cito/hasCitedEntity
+cito:hasCitedEntity rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> ;
+                    rdfs:domain cito:Citation ;
+                    rdfs:range frbr:Endeavour ;
+                    rdfs:comment "A property that relates a citation to the cited entity."@en ;
+                    rdfs:label "has cited entity"@en .
+
+
+###  http://purl.org/spar/cito/hasCitingEntity
+cito:hasCitingEntity rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> ;
+                     rdfs:domain cito:Citation ;
+                     rdfs:range frbr:Manifestation ;
+                     rdfs:comment "A property that relates a citation to the citing entity."@en ;
+                     rdfs:label "has citing entity"@en .
+
+
+###  http://purl.org/spar/cito/isCitedAsSourceDocumentBy
+cito:isCitedAsSourceDocumentBy rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf cito:isCitedBy ;
+                               rdfs:domain frbr:Endeavour ;
+                               rdfs:range frbr:Manifestation ;
+                               rdfs:comment "The cited entity is cited as being the entity from which the citing entity is derived, or about which the citing entity contains metadata."@en ;
+                               rdfs:label "is cited as source document by"@en .
+
+
+###  http://purl.org/spar/cito/isCitedBy
+cito:isCitedBy rdf:type owl:ObjectProperty ;
+               rdfs:comment "The cited entity (the subject of the RDF triple) is cited by the citing entity (the object of the triple)."@en ;
+               rdfs:label "is cited by"@en .
 
 
 ###  http://purl.org/spar/fabio/hasManifestation
@@ -87,7 +180,7 @@ fabio:hasManifestation rdf:type owl:ObjectProperty ;
 
 ###  http://purl.org/spar/fabio/hasPlaceOfPublication
 fabio:hasPlaceOfPublication rdf:type owl:ObjectProperty ;
-                            rdfs:domain frbr:Endeavour ;
+                            rdfs:domain frbr:Manifestation ;
                             rdfs:range frbr:Place ;
                             rdfs:comment "The place (usually, the city) where the publisher of a particular bibliographic resource is located."@en ;
                             rdfs:label "has place of publication"@en .
@@ -157,6 +250,10 @@ fabio:stores rdf:type owl:ObjectProperty ;
              rdfs:range fabio:Item ;
              rdfs:comment "This property relates a storage medium to the fabio:Item stored upon it."@en ;
              rdfs:label "stores"@en .
+
+
+###  http://purl.org/swan/2.0/discourse-relationships/refersTo
+<http://purl.org/swan/2.0/discourse-relationships/refersTo> rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.org/vocab/frbr/core#abridgement
@@ -657,6 +754,125 @@ frbr:translationOf rdf:type owl:ObjectProperty ;
                    rdfs:label "is translation of"@en .
 
 
+###  http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting
+<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting> rdf:type owl:ObjectProperty ;
+                                                                        owl:inverseOf <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> .
+
+
+###  http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor
+<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation> ;
+                                                                          rdfs:range owl:Thing ;
+                                                                          rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/cp/owl/situation.owl> ;
+                                                                          rdfs:label "is setting for"@en .
+
+
+###  https://dbpedia.org/ontology/genre
+<https://dbpedia.org/ontology/genre> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain frbr:Endeavour ;
+                                     rdfs:range dbo:Genre .
+
+
+###  https://schema.org/affiliation
+sdo:affiliation rdf:type owl:ObjectProperty ;
+                rdfs:domain frbr:Person ;
+                rdfs:range frbr:CorporateBody .
+
+
+###  https://schema.org/author
+sdo:author rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf frbr:responsibleEntity ;
+           owl:inverseOf bigrafo:authorOf ;
+           rdfs:domain frbr:Endeavour ;
+           rdfs:range frbr:Person .
+
+
+###  https://schema.org/birthPlace
+sdo:birthPlace rdf:type owl:ObjectProperty ;
+               rdfs:domain frbr:Person ;
+               rdfs:range frbr:Place .
+
+
+###  https://schema.org/deathPlace
+sdo:deathPlace rdf:type owl:ObjectProperty ;
+               rdfs:domain frbr:Person ;
+               rdfs:range frbr:Place .
+
+
+###  https://schema.org/editor
+sdo:editor rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf frbr:responsibleEntity ;
+           rdfs:domain frbr:Endeavour ;
+           rdfs:range frbr:Person .
+
+
+###  https://schema.org/location
+sdo:location rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain frbr:CorporateBody ;
+             rdfs:range frbr:Place .
+
+
+###  https://schema.org/participant
+sdo:participant rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:responsibleEntity ;
+                rdfs:domain <ontolevi#CorrespondenceAggregate> ;
+                rdfs:range frbr:Person .
+
+
+###  https://schema.org/publicationType
+sdo:publicationType rdf:type owl:ObjectProperty ;
+                    rdfs:domain frbr:Manifestation ;
+                    rdfs:range bigrafo:PublicationType .
+
+
+###  https://schema.org/recipient
+sdo:recipient rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf sdo:participant ;
+              rdfs:domain fabio:Letter ;
+              rdfs:range frbr:Person .
+
+
+###  https://schema.org/sender
+sdo:sender rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf sdo:participant ;
+           rdfs:domain fabio:Letter ;
+           rdfs:range frbr:Person .
+
+
+###  https://schema.org/translator
+sdo:translator rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf frbr:responsibleEntity ;
+               rdfs:domain frbr:Expression ;
+               rdfs:range frbr:Person .
+
+
+###  https://www.onto.bigrafo.it#authorOf
+bigrafo:authorOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:responsibleEntityOf ;
+                 rdfs:domain frbr:Person ;
+                 rdfs:range frbr:Work ;
+                 rdfs:label "is author of" .
+
+
+###  https://www.onto.bigrafo.it#editorOf
+bigrafo:editorOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:responsibleEntityOf ;
+                 rdfs:domain frbr:Person ;
+                 rdfs:range frbr:Endeavour ;
+                 rdfs:label "is editor of" .
+
+
+###  ontolevi#interviewee
+<ontolevi#interviewee> rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf dcterms:contributor .
+
+
+###  ontolevi#interviewer
+<ontolevi#interviewer> rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf sdo:author .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -750,6 +966,10 @@ Date may be used to express temporal information at any level of granularity. Re
              rdfs:label "has date"@en .
 
 
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:DatatypeProperty .
+
+
 ###  http://purl.org/dc/terms/identifier
 dcterms:identifier rdf:type owl:DatatypeProperty ;
                    rdfs:comment """A unique and unambiguous reference to the resource within a given context.
@@ -767,8 +987,26 @@ dcterms:issued rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/dc/terms/title
 dcterms:title rdf:type owl:DatatypeProperty ;
+              rdfs:domain frbr:Endeavour ;
+              rdfs:range xsd:string ;
               rdfs:comment "A name given to a resource.  Typically, the title will be the name by which the resource is formally known."@en ;
               rdfs:label "has title"@en .
+
+
+###  http://purl.org/spar/cito/hasCitationCreationDate
+cito:hasCitationCreationDate rdf:type owl:DatatypeProperty ;
+                             rdfs:domain cito:Citation ;
+                             rdfs:range xsd:date ;
+                             rdfs:comment "The date on which the citation was created. This has the same numerical value as the publication date of the citing bibliographic resource, but is a property of the citation itself.  When combined with the citation time span, it permits that citation to be located in history."@en ;
+                             rdfs:label "has citation creation date"@en .
+
+
+###  http://purl.org/spar/cito/hasCitationTimeSpan
+cito:hasCitationTimeSpan rdf:type owl:DatatypeProperty ;
+                         rdfs:domain cito:Citation ;
+                         rdfs:range xsd:duration ;
+                         rdfs:comment "The temporal characteristic of a citation, namely the interval between the publication date of the cited entity and the publication date of the citing entity. Note that when one or both of the publication dates is given as just 'year', then the citation time span is rounded to the nearest year, and when one or both of the publication dates is given as just 'year and month', then the citation time span is rounded to the nearest month, with the inherent inaccuracies that such rounding involves."@en ;
+                         rdfs:label "has citation time span"@en .
 
 
 ###  http://purl.org/spar/fabio/hasAccessDate
@@ -856,9 +1094,160 @@ fabio:hasVolumeCount rdf:type owl:DatatypeProperty ;
                      rdfs:label "has volume count"@en .
 
 
+###  https://schema.org/alternateName
+sdo:alternateName rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf sdo:name ;
+                  rdfs:domain frbr:ResponsibleEntity ;
+                  rdfs:range xsd:string .
+
+
+###  https://schema.org/birthDate
+sdo:birthDate rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf dcterms:date ;
+              rdfs:domain frbr:Person ;
+              rdfs:range xsd:date .
+
+
+###  https://schema.org/deathDate
+sdo:deathDate rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf dcterms:date ;
+              rdfs:domain frbr:Person ;
+              rdfs:range xsd:date .
+
+
+###  https://schema.org/name
+sdo:name rdf:type owl:DatatypeProperty ;
+         rdfs:domain frbr:Place ,
+                     frbr:ResponsibleEntity ;
+         rdfs:range xsd:string .
+
+
+###  ontolevi#codiceAcnp
+<ontolevi#codiceAcnp> rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf dcterms:identifier ;
+                      rdfs:domain frbr:Manifestation ;
+                      rdfs:range xsd:string .
+
+
+###  ontolevi#codiceEditore
+<ontolevi#codiceEditore> rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf dcterms:identifier ;
+                         rdfs:domain dbo:Publisher ;
+                         rdfs:range xsd:string .
+
+
+###  ontolevi#codiceIccu
+<ontolevi#codiceIccu> rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf dcterms:identifier ;
+                      rdfs:domain sdo:Library ;
+                      rdfs:range xsd:string .
+
+
+###  ontolevi#codiceOpacSbn
+<ontolevi#codiceOpacSbn> rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf dcterms:identifier ;
+                         rdfs:domain frbr:Manifestation ;
+                         rdfs:range xsd:string .
+
+
+###  ontolevi#permalinkAcnp
+<ontolevi#permalinkAcnp> rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf fabio:hasURL ;
+                         rdfs:domain frbr:Manifestation ;
+                         rdfs:range xsd:anyURI .
+
+
+###  ontolevi#permalinkOpacSbn
+<ontolevi#permalinkOpacSbn> rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf fabio:hasURL ;
+                            rdfs:domain frbr:Manifestation ;
+                            rdfs:range xsd:anyURI .
+
+
 #################################################################
 #    Classes
 #################################################################
+
+###  http://dbpedia.org/ontology/Genre
+dbo:Genre rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Publisher
+dbo:Publisher rdf:type owl:Class ;
+              rdfs:subClassOf frbr:CorporateBody .
+
+
+###  http://purl.org/dc/dcmitype/Collection
+dcmitype:Collection rdf:type owl:Class .
+
+
+###  http://purl.org/dc/terms/LinguisticSystem
+dcterms:LinguisticSystem rdf:type owl:Class .
+
+
+###  http://purl.org/spar/cito/Citation
+cito:Citation rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation>
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty cito:hasCitationCharacterization ;
+                                                           owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                         ]
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty cito:hasCitedEntity ;
+                                                           owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                         ]
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty cito:hasCitingEntity ;
+                                                           owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:comment """A citation is a conceptual directional link from a citing entity to a cited entity, created by a human performative act of making a citation, typically instantiated by the inclusion of a bibliographic reference (biro:BibliographicReference) in the reference list of the citing entity, or by the inclusion within the citing entity of a link, in the form of an HTTP Uniform Resource Locator (URL), to a resource on the World Wide Web.
+
+The time span of a citation, i.e. the interval between the publication year of the citing entity and the publication year of the cited entity, can be recorded using the data property cito:hasCitationTimeSpan.
+
+The nature or type of a citation can be characterized by using CiTO object properties, e.g. http://purl.org/spar/cito/citesAsDataSource (definition: “The citing entity cites the cited entity as a source of data”).  
+
+This CiTO class cito:Citation and its accompanying object properties cito:hasCitingEntity, cito:hasCitedEntity and cito:hasCitationCharacterization can be employed to reify direct citation statements made using the CiTO citation object property cito:cites or one of its sub-properties. 
+
+For example, the following RDF statement
+
+     :paperA cito:extends :paperB .
+
+can be alternatively described as follows
+
+     :thisCitation a cito:Citation ; 
+          cito:hasCitingEntity :paperA ;
+          cito:hasCitationCharacterization cito:extends ;
+          cito:hasCitedEntity :paperB .
+
+This usage involved OWL2 punning, whereby a CiTO object property, such as the aforementioned cito:extends, is used as the object of the OWL assertion.
+
+     :thisCitation cito:hasCitationCharacterization cito:extends .
+
+Using such OWL2 punning (described at http://www.w3.org/TR/2009/WD-owl2-new-features-20090611/#F12:_Punning), the CiTO object property is considered as a proper named individual of the class owl:Thing. 
+
+Such reification of citation acts can be very useful, since it permits one to combine these CiTO properties with other vocabularies, or to handle situations in which none of the citation characterizations available in CiTO are applicable.  
+
+Such situations can be resolved by the creation of a user-defined citation characterization, for example by using the Open Annotation Data Model, as explained at http://semanticpublishing.wordpress.com/2013/07/03/extending-cito-for-open-annotations/."""@en ;
+              rdfs:label "citation"@en .
+
+
+###  http://purl.org/spar/cito/DistantCitation
+cito:DistantCitation rdf:type owl:Class ;
+                     rdfs:subClassOf cito:Citation ;
+                     <http://purl.org/dc/elements/1.1/description> "Derived from the article 'A Small World of Citations? The Influence of Collaboration Networks on Citation Practices' by Matthew L. Wallace, Vincent Larivière and Yves Gingras, published in PLOS One (https://doi.org/10.1371/journal.pone.0033339)."@en ;
+                     rdfs:comment "A citation in which the citing and the cited entities have nothing significant in common with one another (for example authors, journal, institutional affiliation, or funding agency) over and beyond their subject matter."@en ;
+                     rdfs:label "distant citation"@en .
+
+
+###  http://purl.org/spar/cito/SelfCitation
+cito:SelfCitation rdf:type owl:Class ;
+                  rdfs:subClassOf cito:Citation ;
+                  rdfs:comment "A citation in which the citing and the cited entities have something significant in common with one another, over and beyond their subject matter, for example authors, journal, institutional affiliation, or funding agency."@en ;
+                  rdfs:label "self citation"@en .
+
 
 ###  http://purl.org/spar/fabio/AnalogItem
 fabio:AnalogItem rdf:type owl:Class ;
@@ -1639,6 +2028,7 @@ The entity defined as place encompasses a comprehensive range of locations: terr
 
 ###  http://purl.org/vocab/frbr/core#ResponsibleEntity
 frbr:ResponsibleEntity rdf:type owl:Class ;
+                       owl:disjointWith bigrafo:PublicationType ;
                        rdfs:comment "It represents those responsible for the intellectual or artistic content, the physical production and dissemination, or the custodianship of any endeavour."@en ;
                        rdfs:label "responsible entity"@en .
 
@@ -1654,6 +2044,267 @@ frbr:Work rdf:type owl:Class ;
 
 A work is an abstract entity; there is no single material object one can point to as the work. We recognize the work through individual realizations or expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work. When we speak of Homer's Iliad as a work, our point of reference is not a particular recitation or text of the work, but the intellectual creation that lies behind all the various expressions of the work. """@en ;
           rdfs:label "work"@en .
+
+
+###  http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation
+<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> ;
+                                                                                         owl:minCardinality "1"^^xsd:nonNegativeInteger
+                                                                                       ] ;
+                                                                       rdfs:comment """A view on a set of entities. It can be seen as a 'relational context', reifying a relation.
+For example, a PlanExecution is a context including some actions executed by agents according to certain parameters and expected tasks to be achieved from a Plan; a DiagnosedSituation is a context of observed entities that is interpreted on the basis of a Diagnosis, etc.
+Situation is also able to represent reified n-ary relations, where isSettingFor is the top-level relation for all binary projections of the n-ary relation. If used in a transformation pattern for n-ary relations, the designer should take care of:
+- creating only one situation for each instance of an n-ary relation, otherwise the 'identification constraint' (Calvanese et al., IJCAI 2001) could be violated
+- adding an 'exact cardinality' restriction corresponding to the arity of the n-ary relation, otherwise the designer would actually represent a polymorphic relation.""" ;
+                                                                       rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/cp/owl/situation.owl> ;
+                                                                       rdfs:label "Situation"@en .
+
+
+###  https://schema.org/Library
+sdo:Library rdf:type owl:Class ;
+            rdfs:subClassOf frbr:CorporateBody .
+
+
+###  https://www.onto.bigrafo.it#PublicationType
+bigrafo:PublicationType rdf:type owl:Class .
+
+
+###  ontolevi#CorrespondenceAggregate
+<ontolevi#CorrespondenceAggregate> rdf:type owl:Class ;
+                                   rdfs:subClassOf fabio:ExpressionCollection ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty frbr:part ;
+                                                     owl:someValuesFrom fabio:Letter
+                                                   ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://www.onto.bigrafo.it#cataloghi
+bigrafo:cataloghi rdf:type owl:NamedIndividual ,
+                           bigrafo:PublicationType ;
+                  rdfs:label "Cataloghi" .
+
+
+###  https://www.onto.bigrafo.it#curatele
+bigrafo:curatele rdf:type owl:NamedIndividual ,
+                          bigrafo:PublicationType ;
+                 rdfs:label "Curatele" .
+
+
+###  https://www.onto.bigrafo.it#edizioni_in_lingua_estera
+bigrafo:edizioni_in_lingua_estera rdf:type owl:NamedIndividual ,
+                                           bigrafo:PublicationType ;
+                                  rdfs:label "Edizioni in lingua estera" .
+
+
+###  https://www.onto.bigrafo.it#edizioni_postume
+bigrafo:edizioni_postume rdf:type owl:NamedIndividual ,
+                                  bigrafo:PublicationType ;
+                         rdfs:label "Edizioni postume" .
+
+
+###  https://www.onto.bigrafo.it#interviste_in_rivista
+bigrafo:interviste_in_rivista rdf:type owl:NamedIndividual ,
+                                       bigrafo:PublicationType ;
+                              rdfs:label "Interviste in rivista" .
+
+
+###  https://www.onto.bigrafo.it#interviste_interventi_in_volume
+bigrafo:interviste_interventi_in_volume rdf:type owl:NamedIndividual ,
+                                                 bigrafo:PublicationType ;
+                                        rdfs:label "Interviste / Interventi in volume" .
+
+
+###  https://www.onto.bigrafo.it#lettere
+bigrafo:lettere rdf:type owl:NamedIndividual ,
+                         dbo:Genre ;
+                rdfs:label "Lettere" .
+
+
+###  https://www.onto.bigrafo.it#lettere_in_rivista
+bigrafo:lettere_in_rivista rdf:type owl:NamedIndividual ,
+                                    bigrafo:PublicationType ;
+                           rdfs:label "Lettere in rivista" .
+
+
+###  https://www.onto.bigrafo.it#lettere_in_volume
+bigrafo:lettere_in_volume rdf:type owl:NamedIndividual ,
+                                   bigrafo:PublicationType ;
+                          rdfs:label "Lettere in volume" .
+
+
+###  https://www.onto.bigrafo.it#libri_raccolte_autore
+bigrafo:libri_raccolte_autore rdf:type owl:NamedIndividual ,
+                                       bigrafo:PublicationType ;
+                              rdfs:label "Libri e raccolte d'autore" .
+
+
+###  https://www.onto.bigrafo.it#narrativa
+bigrafo:narrativa rdf:type owl:NamedIndividual ,
+                           dbo:Genre ;
+                  rdfs:label "Narrativa" .
+
+
+###  https://www.onto.bigrafo.it#note_autobiografiche_in_rivista
+bigrafo:note_autobiografiche_in_rivista rdf:type owl:NamedIndividual ,
+                                                 bigrafo:PublicationType ;
+                                        rdfs:label "Note autobiografiche in rivista" .
+
+
+###  https://www.onto.bigrafo.it#note_autobiografiche_in_volume
+bigrafo:note_autobiografiche_in_volume rdf:type owl:NamedIndividual ,
+                                                bigrafo:PublicationType ;
+                                       rdfs:label "Note autobiografiche in volume" .
+
+
+###  https://www.onto.bigrafo.it#opere_in_collaborazione
+bigrafo:opere_in_collaborazione rdf:type owl:NamedIndividual ,
+                                         bigrafo:PublicationType ;
+                                rdfs:label "Opere in collaborazione" .
+
+
+###  https://www.onto.bigrafo.it#parole_per_musica
+bigrafo:parole_per_musica rdf:type owl:NamedIndividual ,
+                                   dbo:Genre ;
+                          rdfs:label "Parole per musica" .
+
+
+###  https://www.onto.bigrafo.it#plaquettes_opuscoli
+bigrafo:plaquettes_opuscoli rdf:type owl:NamedIndividual ,
+                                     bigrafo:PublicationType ;
+                            rdfs:label "Plaquettes e opuscoli" .
+
+
+###  https://www.onto.bigrafo.it#poesia
+bigrafo:poesia rdf:type owl:NamedIndividual ,
+                        dbo:Genre ;
+               rdfs:label "Poesia" .
+
+
+###  https://www.onto.bigrafo.it#poesia_in_rivista
+bigrafo:poesia_in_rivista rdf:type owl:NamedIndividual ,
+                                   bigrafo:PublicationType ;
+                          rdfs:label "Poesia in rivista" .
+
+
+###  https://www.onto.bigrafo.it#poesia_in_volume
+bigrafo:poesia_in_volume rdf:type owl:NamedIndividual ,
+                                  bigrafo:PublicationType ;
+                         rdfs:label "Poesia in volume" .
+
+
+###  https://www.onto.bigrafo.it#prefazioni_introduzioni_postfazioni
+bigrafo:prefazioni_introduzioni_postfazioni rdf:type owl:NamedIndividual ,
+                                                     bigrafo:PublicationType ;
+                                            rdfs:label "Prefazioni/Introduzioni/Postfazioni" .
+
+
+###  https://www.onto.bigrafo.it#prosa_in_rivista
+bigrafo:prosa_in_rivista rdf:type owl:NamedIndividual ,
+                                  bigrafo:PublicationType ;
+                         rdfs:label "Prosa in rivista" .
+
+
+###  https://www.onto.bigrafo.it#prosa_in_volume
+bigrafo:prosa_in_volume rdf:type owl:NamedIndividual ,
+                                 bigrafo:PublicationType ;
+                        rdfs:label "Prosa in volume" .
+
+
+###  https://www.onto.bigrafo.it#pubblicistica
+bigrafo:pubblicistica rdf:type owl:NamedIndividual ,
+                               dbo:Genre ;
+                      rdfs:label "Pubblicistica" .
+
+
+###  https://www.onto.bigrafo.it#recensione
+bigrafo:recensione rdf:type owl:NamedIndividual ,
+                            bigrafo:PublicationType ;
+                   rdfs:label "Recensione" .
+
+
+###  https://www.onto.bigrafo.it#saggio_in_rivista_articolo_di_giornale
+bigrafo:saggio_in_rivista_articolo_di_giornale rdf:type owl:NamedIndividual ,
+                                                        bigrafo:PublicationType ;
+                                               rdfs:label "Saggio in rivista / Articolo di giornale" .
+
+
+###  https://www.onto.bigrafo.it#saggio_in_volume
+bigrafo:saggio_in_volume rdf:type owl:NamedIndividual ,
+                                  bigrafo:PublicationType ;
+                         rdfs:label "Saggio in volume" .
+
+
+###  https://www.onto.bigrafo.it#saggistica
+bigrafo:saggistica rdf:type owl:NamedIndividual ,
+                            dbo:Genre ;
+                   rdfs:label "Saggistica" .
+
+
+###  https://www.onto.bigrafo.it#scritti_teatrali_in_rivista
+bigrafo:scritti_teatrali_in_rivista rdf:type owl:NamedIndividual ,
+                                             bigrafo:PublicationType ;
+                                    rdfs:label "Scritti teatrali in rivista" .
+
+
+###  https://www.onto.bigrafo.it#teatro
+bigrafo:teatro rdf:type owl:NamedIndividual ,
+                        dbo:Genre ;
+               rdfs:label "Teatro" .
+
+
+###  https://www.onto.bigrafo.it#testi_per_film
+bigrafo:testi_per_film rdf:type owl:NamedIndividual ,
+                                dbo:Genre ;
+                       rdfs:label "Testi per film" .
+
+
+###  https://www.onto.bigrafo.it#traduzione_in_volumi_autori_vari
+bigrafo:traduzione_in_volumi_autori_vari rdf:type owl:NamedIndividual ,
+                                                  bigrafo:PublicationType ;
+                                         rdfs:label "Traduzione in volumi di autori vari" .
+
+
+###  https://www.onto.bigrafo.it#traduzioni_in_volume
+bigrafo:traduzioni_in_volume rdf:type owl:NamedIndividual ,
+                                      bigrafo:PublicationType ;
+                             rdfs:label "Traduzioni in volume" .
+
+
+###  https://www.onto.bigrafo.it#traduzioni_su_rivista
+bigrafo:traduzioni_su_rivista rdf:type owl:NamedIndividual ,
+                                       bigrafo:PublicationType ;
+                              rdfs:label "Traduzioni su rivista" .
+
+
+###  https://www.onto.bigrafo.it#voci_enciclopediche
+bigrafo:voci_enciclopediche rdf:type owl:NamedIndividual ,
+                                     bigrafo:PublicationType ;
+                            rdfs:label "Voci enciclopediche" .
+
+
+###  ontolevi#AppelliELettereAperte
+<ontolevi#AppelliELettereAperte> rdf:type owl:NamedIndividual ,
+                                          dcmitype:Collection .
+
+
+###  ontolevi#Corrispondenza
+<ontolevi#Corrispondenza> rdf:type owl:NamedIndividual ,
+                                   dcmitype:Collection .
+
+
+###  ontolevi#InterventiOrali
+<ontolevi#InterventiOrali> rdf:type owl:NamedIndividual ,
+                                    dcmitype:Collection .
+
+
+###  ontolevi#ScrittiETraduzioni
+<ontolevi#ScrittiETraduzioni> rdf:type owl:NamedIndividual ,
+                                       dcmitype:Collection .
 
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
