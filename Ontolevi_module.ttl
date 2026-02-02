@@ -1,0 +1,1659 @@
+@prefix : <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ontolevi: <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl:> .
+@base <https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl> .
+
+<https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_module_ontolevi.ttl> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2008/05/skos#note
+<http://www.w3.org/2008/05/skos#note> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#gYearMonth
+xsd:gYearMonth rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+dcterms:creator rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:comment """An entity primarily responsible for making the resource.
+
+Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity."""@en ;
+                rdfs:label "has creator"@en .
+
+
+###  http://purl.org/dc/terms/language
+dcterms:language rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:comment """A language of the resource. Examples include written, spoken, sign, and computer languages.
+
+Recommended best practice is to use a controlled vocabulary such as RFC 4646 [http://www.ietf.org/rfc/rfc4646.txt]."""@en ;
+                 rdfs:label "has language"@en .
+
+
+###  http://purl.org/dc/terms/publisher
+dcterms:publisher rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:comment """An entity responsible for making the resource available.
+
+Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity."""@en ;
+                  rdfs:label "has publisher"@en .
+
+
+###  http://purl.org/spar/fabio/hasManifestation
+fabio:hasManifestation rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf frbr:relatedEndeavour ;
+                       owl:inverseOf fabio:isManifestationOf ;
+                       rdfs:domain frbr:Work ;
+                       rdfs:range frbr:Manifestation ;
+                       rdfs:comment "A property linking a particular work to its manifestations.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en ;
+                       rdfs:label "has manifestation"@en .
+
+
+###  http://purl.org/spar/fabio/hasPlaceOfPublication
+fabio:hasPlaceOfPublication rdf:type owl:ObjectProperty ;
+                            rdfs:domain frbr:Endeavour ;
+                            rdfs:range frbr:Place ;
+                            rdfs:comment "The place (usually, the city) where the publisher of a particular bibliographic resource is located."@en ;
+                            rdfs:label "has place of publication"@en .
+
+
+###  http://purl.org/spar/fabio/hasPortrayal
+fabio:hasPortrayal rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf frbr:relatedEndeavour ;
+                   owl:inverseOf fabio:isPortrayalOf ;
+                   rdfs:domain frbr:Work ;
+                   rdfs:range frbr:Item ;
+                   rdfs:comment "A property linking a particular work to its items.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en ;
+                   rdfs:label "has portrayal"@en .
+
+
+###  http://purl.org/spar/fabio/hasRepresentation
+fabio:hasRepresentation rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf frbr:relatedEndeavour ;
+                        owl:inverseOf fabio:isRepresentationOf ;
+                        rdfs:domain frbr:Expression ;
+                        rdfs:range frbr:Item ;
+                        rdfs:comment "A property linking a particular expression to its items.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en ;
+                        rdfs:label "has representation"@en .
+
+
+###  http://purl.org/spar/fabio/isManifestationOf
+fabio:isManifestationOf rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf frbr:relatedEndeavour ;
+                        rdfs:domain frbr:Manifestation ;
+                        rdfs:range frbr:Work ;
+                        rdfs:comment "A property linking a particular manifestation to the work it is manifesting.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en ;
+                        rdfs:label "is manifestation of"@en .
+
+
+###  http://purl.org/spar/fabio/isPortrayalOf
+fabio:isPortrayalOf rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf frbr:relatedEndeavour ;
+                    rdfs:domain frbr:Item ;
+                    rdfs:range frbr:Work ;
+                    rdfs:comment "A property linking a particular item to the work it portrays.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en ;
+                    rdfs:label "is portrayal of"@en .
+
+
+###  http://purl.org/spar/fabio/isRepresentationOf
+fabio:isRepresentationOf rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf frbr:relatedEndeavour ;
+                         rdfs:domain frbr:Item ;
+                         rdfs:range frbr:Expression ;
+                         rdfs:comment "A property linking a particular item to the expression it represents.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en ;
+                         rdfs:label "is representation of"@en .
+
+
+###  http://purl.org/spar/fabio/isStoredOn
+fabio:isStoredOn rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 owl:inverseOf fabio:stores ;
+                 rdfs:domain fabio:Item ;
+                 rdfs:range fabio:StorageMedium ;
+                 rdfs:comment "This property relates a fabio:Item to the medium upon which it is stored."@en ;
+                 rdfs:label "is stored on"@en .
+
+
+###  http://purl.org/spar/fabio/stores
+fabio:stores rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain fabio:StorageMedium ;
+             rdfs:range fabio:Item ;
+             rdfs:comment "This property relates a storage medium to the fabio:Item stored upon it."@en ;
+             rdfs:label "stores"@en .
+
+
+###  http://purl.org/vocab/frbr/core#abridgement
+frbr:abridgement rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:relatedEndeavour ;
+                 owl:inverseOf frbr:abridgementOf ;
+                 rdfs:domain frbr:Expression ;
+                 rdfs:range frbr:Expression ;
+                 rdfs:comment """An expression abridged in another one.
+
+In the abridged expression some content of the previous expression is removed, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood). """@en ;
+                 rdfs:label "has abridgement"@en .
+
+
+###  http://purl.org/vocab/frbr/core#abridgementOf
+frbr:abridgementOf rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf frbr:relatedEndeavour ;
+                   rdfs:comment "It identifies the entire expression of an abridged one."@en ;
+                   rdfs:label "is abridgement of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#adaption
+frbr:adaption rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf frbr:relatedEndeavour ;
+              owl:inverseOf frbr:adaptionOf ;
+              rdfs:domain [ rdf:type owl:Class ;
+                            owl:unionOf ( frbr:Expression
+                                          frbr:Work
+                                        )
+                          ] ;
+              rdfs:range [ rdf:type owl:Class ;
+                           owl:unionOf ( frbr:Expression
+                                         frbr:Work
+                                       )
+                         ] ;
+              rdfs:comment """A work/expression adapted in another one.
+
+This property describe the modification of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works."""@en ;
+              rdfs:label "has adaption"@en .
+
+
+###  http://purl.org/vocab/frbr/core#adaptionOf
+frbr:adaptionOf rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:relatedEndeavour ;
+                rdfs:comment "It identifies the work/expression of an adapted one."@en ;
+                rdfs:label "is adaption of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#alternate
+frbr:alternate rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf frbr:relatedEndeavour ;
+               owl:inverseOf frbr:alternateOf ;
+               rdfs:domain frbr:Manifestation ;
+               rdfs:range frbr:Manifestation ;
+               rdfs:comment """A manifestation having another one as alternate.
+
+The alternate relationship involves manifestations that effectively serve as alternates for each other. The alternate relationship obtains, for example, when a publication, sound recording, video, etc. is issued in more than one format or when it is released simultaneously by different publishers in different countries."""@en ;
+               rdfs:label "has alternate"@en .
+
+
+###  http://purl.org/vocab/frbr/core#alternateOf
+frbr:alternateOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:relatedEndeavour ;
+                 rdfs:comment "It identifies the manifestation of an alternative one."@en ;
+                 rdfs:label "is alternate of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#arrangement
+frbr:arrangement rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:relatedEndeavour ;
+                 owl:inverseOf frbr:arrangementOf ;
+                 rdfs:domain frbr:Expression ;
+                 rdfs:range frbr:Expression ;
+                 rdfs:comment """An expression arranged in another one.
+
+In the arranged expression some content of the previous expression is changed in some way, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood)."""@en ;
+                 rdfs:label "has arrangement"@en .
+
+
+###  http://purl.org/vocab/frbr/core#arrangementOf
+frbr:arrangementOf rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf frbr:relatedEndeavour ;
+                   rdfs:comment "It identifies the original expression of an arranged one."@en ;
+                   rdfs:label "is arrangement of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#complement
+frbr:complement rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:relatedEndeavour ;
+                owl:inverseOf frbr:complementOf ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( frbr:Expression
+                                            frbr:Work
+                                          )
+                            ] ;
+                rdfs:range [ rdf:type owl:Class ;
+                             owl:unionOf ( frbr:Expression
+                                           frbr:Work
+                                         )
+                           ] ;
+                rdfs:comment """An expression work/expression having another one as complement.
+
+This property describes works that are intended to be combined with or inserted into the related work. In other words, they are intended to be integrated in some way with the other work, but were not part of the original conception of that prior work. If there exists a relation of this kind among two different expressions, then they always refer to different works."""@en ;
+                rdfs:label "has complement"@en .
+
+
+###  http://purl.org/vocab/frbr/core#complementOf
+frbr:complementOf rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf frbr:relatedEndeavour ;
+                  rdfs:comment "It identifies the work/expression of that is a complement of another one."@en ;
+                  rdfs:label "is complement of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#creator
+frbr:creator rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf frbr:responsibleEntity ;
+             owl:inverseOf frbr:creatorOf ;
+             rdfs:domain frbr:Work ;
+             rdfs:comment "A work linked to its creator."@en ;
+             rdfs:label "has creator"@en .
+
+
+###  http://purl.org/vocab/frbr/core#creatorOf
+frbr:creatorOf rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf frbr:responsibleEntityOf ;
+               rdfs:comment "The creator of a particular work."@en ;
+               rdfs:label "is creator of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#embodiment
+frbr:embodiment rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:relatedEndeavour ;
+                owl:inverseOf frbr:embodimentOf ;
+                rdfs:domain frbr:Expression ;
+                rdfs:range frbr:Manifestation ;
+                rdfs:comment "An expression embodied in a manifestation."@en ,
+                             "As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#embodiment), a property representing a manifestation that embodies an expression."@en ;
+                rdfs:label "has embodiment"@en .
+
+
+###  http://purl.org/vocab/frbr/core#embodimentOf
+frbr:embodimentOf rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf frbr:relatedEndeavour ;
+                  rdfs:comment "A manifestation that embodies an expression."@en ,
+                               "As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#embodimentOf), a property representing an expression that is embodied by a manifestation."@en ;
+                  rdfs:label "is embodiment of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#exemplar
+frbr:exemplar rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf frbr:relatedEndeavour ;
+              owl:inverseOf frbr:exemplarOf ;
+              rdfs:domain frbr:Manifestation ;
+              rdfs:range frbr:Item ;
+              rdfs:comment "A manifestation exemplified in an item."@en ,
+                           "As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#exemplar), a property representing an item that exemplifies a manifestation."@en ;
+              rdfs:label "has exemplar"@en .
+
+
+###  http://purl.org/vocab/frbr/core#exemplarOf
+frbr:exemplarOf rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:relatedEndeavour ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:comment "An item that exemplifies a manifestation."@en ,
+                             "As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#embodimentOf), a property representing a manifestation that is exemplified by an item."@en ;
+                rdfs:label "is exemplar of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#imitation
+frbr:imitation rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf frbr:relatedEndeavour ;
+               owl:inverseOf frbr:imitationOf ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( frbr:Expression
+                                           frbr:Work
+                                         )
+                           ] ;
+               rdfs:range [ rdf:type owl:Class ;
+                            owl:unionOf ( frbr:Expression
+                                          frbr:Work
+                                        )
+                          ] ;
+               rdfs:comment """An work/expression imitated in another one.
+
+This property describes works that are intended to be an imitation another original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, then they always refer to different works."""@en ;
+               rdfs:label "has imitation"@en .
+
+
+###  http://purl.org/vocab/frbr/core#imitationOf
+frbr:imitationOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:relatedEndeavour ;
+                 rdfs:comment "It identifies the work/expression of an imitated one."@en ;
+                 rdfs:label "is imitation of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#owner
+frbr:owner rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf frbr:responsibleEntity ;
+           owl:inverseOf frbr:ownerOf ;
+           rdfs:domain frbr:Item ;
+           rdfs:comment "An item linked to its owner."@en ;
+           rdfs:label "has owner"@en .
+
+
+###  http://purl.org/vocab/frbr/core#ownerOf
+frbr:ownerOf rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf frbr:responsibleEntityOf ;
+             rdfs:comment "The owner of a particular item."@en ;
+             rdfs:label "is owner of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#part
+frbr:part rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf frbr:relatedEndeavour ;
+          owl:inverseOf frbr:partOf ;
+          rdf:type owl:TransitiveProperty ;
+          rdfs:comment "A part of an endeavour."@en ,
+                       "Meaning = has part.  As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#part),  a property indicating that one entity includes another entity."@en ;
+          rdfs:label "has part"@en ;
+          <http://www.w3.org/2008/05/skos#note> "Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive."@en .
+
+
+###  http://purl.org/vocab/frbr/core#partOf
+frbr:partOf rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf frbr:relatedEndeavour ;
+            rdf:type owl:TransitiveProperty ;
+            rdfs:comment "An endeavour incorporating another endeavour."@en ,
+                         "Meaning = is part of.  As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#partOf), a property indicating that one entity is a part of another entity."@en ;
+            rdfs:label "is part of"@en ;
+            <http://www.w3.org/2008/05/skos#note> "Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive."@en .
+
+
+###  http://purl.org/vocab/frbr/core#producer
+frbr:producer rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf frbr:responsibleEntity ;
+              owl:inverseOf frbr:producerOf ;
+              rdfs:domain frbr:Manifestation ;
+              rdfs:comment "A manifestation linked to its prodecer."@en ;
+              rdfs:label "has producer"@en .
+
+
+###  http://purl.org/vocab/frbr/core#producerOf
+frbr:producerOf rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:responsibleEntityOf ;
+                rdfs:comment "The producer of a particular manifestation."@en ;
+                rdfs:label "is producer of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#realization
+frbr:realization rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:relatedEndeavour ;
+                 owl:inverseOf frbr:realizationOf ;
+                 rdfs:domain frbr:Work ;
+                 rdfs:range frbr:Expression ;
+                 rdfs:comment "A work realized through an expression."@en ,
+                              "As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#realization), a property representing an expression that is an intellectual or artistic realization of a work."@en ;
+                 rdfs:label "has realization"@en .
+
+
+###  http://purl.org/vocab/frbr/core#realizationOf
+frbr:realizationOf rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf frbr:relatedEndeavour ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:comment "An expression that realizes a work."@en ,
+                                "As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#realizationOf), a property representing the work that has been realized by an expression."@en ;
+                   rdfs:label "is realization of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#realizer
+frbr:realizer rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf frbr:responsibleEntity ;
+              owl:inverseOf frbr:realizerOf ;
+              rdfs:domain frbr:Expression ;
+              rdfs:comment "An expression linked to its realizer."@en ;
+              rdfs:label "has realizer"@en .
+
+
+###  http://purl.org/vocab/frbr/core#realizerOf
+frbr:realizerOf rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:responsibleEntityOf ;
+                rdfs:comment "The realizer of a particular expression."@en ;
+                rdfs:label "is realizer of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#reconfiguration
+frbr:reconfiguration rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf frbr:relatedEndeavour ;
+                     owl:inverseOf frbr:reconfigurationOf ;
+                     rdfs:domain frbr:Item ;
+                     rdfs:range frbr:Item ;
+                     rdfs:comment """An item reconfigured in another one.
+
+The reconfiguration relationship is one in which one or more items are changed in such a way that a new item or items result. Most commonly, an item of one manifestation is bound with an item of a different manifestation to make a new item. """@en ;
+                     rdfs:label "has reconfiguration"@en .
+
+
+###  http://purl.org/vocab/frbr/core#reconfigurationOf
+frbr:reconfigurationOf rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf frbr:relatedEndeavour ;
+                       rdfs:comment "It identifies the manifestation of a reconfigured one."@en ;
+                       rdfs:label "is reconfiguration of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#relatedEndeavour
+frbr:relatedEndeavour rdf:type owl:ObjectProperty ;
+                      rdfs:domain frbr:Endeavour ;
+                      rdfs:range frbr:Endeavour ;
+                      rdfs:label "has related endeavour"@en .
+
+
+###  http://purl.org/vocab/frbr/core#reproduction
+frbr:reproduction rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf frbr:relatedEndeavour ;
+                  owl:inverseOf frbr:reproductionOf ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( frbr:Item
+                                              frbr:Manifestation
+                                            )
+                              ] ;
+                  rdfs:range [ rdf:type owl:Class ;
+                               owl:unionOf ( frbr:Item
+                                             frbr:Manifestation
+                                           )
+                             ] ;
+                  rdfs:comment """A manifestation/item reproduced in another one.
+
+A reproduction indicates the relationship as it would be drawn from the first manifestation/item in the relationship to the second manifestation/item in the relationship."""@en ;
+                  rdfs:label "has reproduction"@en .
+
+
+###  http://purl.org/vocab/frbr/core#reproductionOf
+frbr:reproductionOf rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf frbr:relatedEndeavour ;
+                    rdfs:comment "It identifies the manifestation/item of a reproduced one."@en ;
+                    rdfs:label "is reproduction of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#responsibleEntity
+frbr:responsibleEntity rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       owl:inverseOf frbr:responsibleEntityOf ;
+                       rdfs:domain frbr:Endeavour ;
+                       rdfs:range frbr:ResponsibleEntity ;
+                       rdfs:comment "Any endeavour having a particular entity that is responsible of it."@en ;
+                       rdfs:label "has responsible entity"@en .
+
+
+###  http://purl.org/vocab/frbr/core#responsibleEntityOf
+frbr:responsibleEntityOf rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:comment "An entity that is resposible for a particular endeavour."@en ;
+                         rdfs:label "is responsible entity of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#revision
+frbr:revision rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf frbr:relatedEndeavour ;
+              owl:inverseOf frbr:revisionOf ;
+              rdfs:domain frbr:Expression ;
+              rdfs:range frbr:Expression ;
+              rdfs:comment """An expression revised in another one.
+
+A revision has the intent to alter or update the content of the prior expression, but without changing the content so much that it becomes a new work."""@en ;
+              rdfs:label "has revision"@en .
+
+
+###  http://purl.org/vocab/frbr/core#revisionOf
+frbr:revisionOf rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:relatedEndeavour ;
+                rdfs:comment "It identifies the previous expression of a revised one."@en ;
+                rdfs:label "is revision of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#successor
+frbr:successor rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf frbr:relatedEndeavour ;
+               owl:inverseOf frbr:successorOf ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( frbr:Expression
+                                           frbr:Work
+                                         )
+                           ] ;
+               rdfs:range [ rdf:type owl:Class ;
+                            owl:unionOf ( frbr:Expression
+                                          frbr:Work
+                                        )
+                          ] ;
+               rdfs:comment """An expression work/expression having another one as successor.
+
+The successor type of relationship involves a kind of linear progression of content from one work/expression to the other. In some cases, the content of the successor may be closely connected to the content of the preceding work, which would result in a work that is referential. In others, such as with loosely connected parts of a trilogy, the successor will be autonomous. Serial publications that result from the merger or split of their predecessors and stand on their own without requiring reference to the predecessor are also examples of autonomous works that fall within the successor relationship type. If there exists a relation of this kind among two different expressions, then they always refer to different works."""@en ;
+               rdfs:label "has successor"@en .
+
+
+###  http://purl.org/vocab/frbr/core#successorOf
+frbr:successorOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:relatedEndeavour ;
+                 rdfs:comment "It identifies the previous work/expression of a succeeded one."@en ;
+                 rdfs:label "is successor of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#summarization
+frbr:summarization rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf frbr:relatedEndeavour ;
+                   owl:inverseOf frbr:summarizationOf ;
+                   rdfs:domain [ rdf:type owl:Class ;
+                                 owl:unionOf ( frbr:Expression
+                                               frbr:Work
+                                             )
+                               ] ;
+                   rdfs:range [ rdf:type owl:Class ;
+                                owl:unionOf ( frbr:Expression
+                                              frbr:Work
+                                            )
+                              ] ;
+                   rdfs:comment """A work/expression summarized in another one.
+
+This property describe the summarization of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works."""@en ;
+                   rdfs:label "has summarization"@en .
+
+
+###  http://purl.org/vocab/frbr/core#summarizationOf
+frbr:summarizationOf rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf frbr:relatedEndeavour ;
+                     rdfs:comment "It identifies the original work/expression of a summarized one."@en ;
+                     rdfs:label "is summarization of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#supplement
+frbr:supplement rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf frbr:relatedEndeavour ;
+                owl:inverseOf frbr:supplementOf ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( frbr:Expression
+                                            frbr:Work
+                                          )
+                            ] ;
+                rdfs:range [ rdf:type owl:Class ;
+                             owl:unionOf ( frbr:Expression
+                                           frbr:Work
+                                         )
+                           ] ;
+                rdfs:comment """An expression work/expression having another one as supplement.
+
+The supplement relationship type involves works/expressions that are intended to be used in conjunction with another work/expression. Some of these, such as indices, concordances, teachers' guides, glosses, and instruction manuals for electronic resources will be so closely associated with the content of the related work/expression that they are useless without the other work/expression."""@en ;
+                rdfs:label "has supplement"@en .
+
+
+###  http://purl.org/vocab/frbr/core#supplementOf
+frbr:supplementOf rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf frbr:relatedEndeavour ;
+                  rdfs:comment "It identifies the work/expression of a particular supplement of it."@en ;
+                  rdfs:label "is supplement of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#transformation
+frbr:transformation rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf frbr:relatedEndeavour ;
+                    owl:inverseOf frbr:transformationOf ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( frbr:Expression
+                                                frbr:Work
+                                              )
+                                ] ;
+                    rdfs:range [ rdf:type owl:Class ;
+                                 owl:unionOf ( frbr:Expression
+                                               frbr:Work
+                                             )
+                               ] ;
+                    rdfs:comment """An work/expression transformed in another one.
+
+This property describes the transformation of an original work or expression into another work or expression that is sufficiently different in degree to warrant the product of the transformation being considered as a new work or expression, rather than simply a different expression of the original work. If there exists a frbr:transformation relation between two different expressions, then they always relate to different works."""@en ;
+                    rdfs:label "has transformation"@en .
+
+
+###  http://purl.org/vocab/frbr/core#transformationOf
+frbr:transformationOf rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf frbr:relatedEndeavour ;
+                      rdfs:comment "It identifies the original work/expression of a trasformed one."@en ;
+                      rdfs:label "is transformation of"@en .
+
+
+###  http://purl.org/vocab/frbr/core#translation
+frbr:translation rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf frbr:relatedEndeavour ;
+                 owl:inverseOf frbr:translationOf ;
+                 rdfs:domain frbr:Expression ;
+                 rdfs:range frbr:Expression ;
+                 rdfs:comment """An expression translated in another one.
+
+It allows to refer to a literal translation, in which the intent is to render the intellectual content of the previous expression as accurately as possible."""@en ;
+                 rdfs:label "has translation"@en .
+
+
+###  http://purl.org/vocab/frbr/core#translationOf
+frbr:translationOf rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf frbr:relatedEndeavour ;
+                   rdfs:comment "It identifies the original expression of a translated one."@en ;
+                   rdfs:label "is translation of"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://prismstandard.org/namespaces/basic/2.0/alternateTitle
+<http://prismstandard.org/namespaces/basic/2.0/alternateTitle> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf dcterms:title ;
+                                                               rdfs:comment "An alternative title for a resource."@en ;
+                                                               rdfs:label "alternate title"@en .
+
+
+###  http://prismstandard.org/namespaces/basic/2.0/doi
+<http://prismstandard.org/namespaces/basic/2.0/doi> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf dcterms:identifier ;
+                                                    rdf:type owl:FunctionalProperty ;
+                                                    rdfs:domain frbr:Endeavour ;
+                                                    rdfs:comment "A Digital Object Identifier for a serial publication item, a dataset or some other entity."@en ;
+                                                    rdfs:isDefinedBy <http://www.doi.org/> ;
+                                                    rdfs:label "has DOI"@en ,
+                                                               "has Digital Object Identifier"@en .
+
+
+###  http://prismstandard.org/namespaces/basic/2.0/isbn
+<http://prismstandard.org/namespaces/basic/2.0/isbn> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf dcterms:identifier ;
+                                                     rdf:type owl:FunctionalProperty ;
+                                                     rdfs:domain frbr:Endeavour ;
+                                                     rdfs:comment "The International Standard Book Number, ISBN, used to identify published books or, more rarely, journal issues."@en ;
+                                                     rdfs:label "has ISBN"@en ,
+                                                                "has International Standard Book Number"@en .
+
+
+###  http://prismstandard.org/namespaces/basic/2.0/issueIdentifier
+<http://prismstandard.org/namespaces/basic/2.0/issueIdentifier> rdf:type owl:DatatypeProperty ,
+                                                                         owl:FunctionalProperty ;
+                                                                rdfs:domain frbr:Endeavour ;
+                                                                rdfs:comment "An identifier used to identify a specific issue of a magazine, a journal or other resource."@en ;
+                                                                rdfs:label "has issue identifier"@en .
+
+
+###  http://prismstandard.org/namespaces/basic/2.0/keyword
+<http://prismstandard.org/namespaces/basic/2.0/keyword> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain frbr:Endeavour ;
+                                                        rdfs:comment "A property used to tag a resource with a keyword that is likely to be used in search queries."@en ;
+                                                        rdfs:label "has keyword"@en .
+
+
+###  http://prismstandard.org/namespaces/basic/2.0/pageRange
+<http://prismstandard.org/namespaces/basic/2.0/pageRange> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdf:type owl:FunctionalProperty ;
+                                                          rdfs:domain frbr:Endeavour ;
+                                                          rdfs:comment "Identifies the page range of an entity such as a journal article."@en ;
+                                                          rdfs:label "has page range"@en .
+
+
+###  http://prismstandard.org/namespaces/basic/2.0/publicationDate
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf dcterms:issued ;
+                                                                rdf:type owl:FunctionalProperty ;
+                                                                rdfs:domain frbr:Endeavour ;
+                                                                rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                             owl:unionOf ( xsd:date
+                                                                                           xsd:gYear
+                                                                                           xsd:gYearMonth
+                                                                                         )
+                                                                           ] ;
+                                                                <http://purl.org/dc/elements/1.1/description> """The date on which a document or entity is published.
+The date can be expressed in three different formats:
+- yyyy-mm-dd (i.e., xsd:date)
+- yyyy-mm (i.e., xsd:gYearMonth)
+- yyyy (i.e., xsd:gYear)"""@en ;
+                                                                rdfs:comment "The date on which a resource is published or disclosed."@en ;
+                                                                rdfs:label "has publication date"@en .
+
+
+###  http://prismstandard.org/namespaces/basic/2.0/volume
+<http://prismstandard.org/namespaces/basic/2.0/volume> rdf:type owl:DatatypeProperty ,
+                                                                owl:FunctionalProperty ;
+                                                       rdfs:domain frbr:Endeavour ;
+                                                       rdfs:comment "An identifier for a particular volume of a resource, such as a journal or a multi-volume book."@en ;
+                                                       rdfs:label "has volume identifier"@en .
+
+
+###  http://purl.org/dc/terms/date
+dcterms:date rdf:type owl:DatatypeProperty ;
+             rdfs:comment """A point or period of time associated with an event in the lifecycle of the resource.
+
+Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [http://www.w3.org/TR/NOTE-datetime]."""@en ;
+             rdfs:label "has date"@en .
+
+
+###  http://purl.org/dc/terms/identifier
+dcterms:identifier rdf:type owl:DatatypeProperty ;
+                   rdfs:comment """A unique and unambiguous reference to the resource within a given context.
+
+Recommended best practice is to identify the resource by means of a string conforming to a formal identification system."""@en ;
+                   rdfs:label "has identifier"@en .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf dcterms:date ;
+               rdfs:comment "Date of formal issuance of a resource (e.g. a publication or a patent)."@en ;
+               rdfs:label "has issue date"@en .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:DatatypeProperty ;
+              rdfs:comment "A name given to a resource.  Typically, the title will be the name by which the resource is formally known."@en ;
+              rdfs:label "has title"@en .
+
+
+###  http://purl.org/spar/fabio/hasAccessDate
+fabio:hasAccessDate rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf dcterms:date ;
+                    rdfs:domain fabio:Item ;
+                    rdfs:range xsd:dateTime ;
+                    rdfs:comment "The date on which a particular digital item, such as a PDF or an HTML file, has been accessed by somebody."@en ;
+                    rdfs:label "has access date"@en .
+
+
+###  http://purl.org/spar/fabio/hasElectronicArticleIdentifier
+fabio:hasElectronicArticleIdentifier rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                     rdfs:domain frbr:Endeavour ;
+                                     rdfs:comment "A local identifier for an article within an electronic (i.e. on line, in HTML format) periodical issue.  Use in preference to prism:startingPage when the article lacks page numbers"@en ;
+                                     rdfs:label "has electronic article identifier"@en .
+
+
+###  http://purl.org/spar/fabio/hasPublicationYear
+fabio:hasPublicationYear rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf dcterms:issued ;
+                         rdf:type owl:FunctionalProperty ;
+                         rdfs:range xsd:gYear ;
+                         rdfs:comment "The year in which a resource is published."@en ;
+                         rdfs:label "has publication year"@en .
+
+
+###  http://purl.org/spar/fabio/hasSequenceIdentifier
+fabio:hasSequenceIdentifier rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf owl:topDataProperty ;
+                            rdfs:domain frbr:Endeavour ;
+                            rdfs:comment "A literal (for example a number or a letter) that identifies the sequence position of a work within a particular context, for example a book in a book series, a chapter in a document, a volume in a journal."@en ;
+                            rdfs:label "has number"@en .
+
+
+###  http://purl.org/spar/fabio/hasShortTitle
+fabio:hasShortTitle rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf dcterms:title ;
+                    rdfs:domain frbr:Endeavour ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "A short version of the title of an entity, typically used to label or refer to a particular entity in an abbreviated form, for example an abbreviated journal title in a reference, or a short title of a document used as the running title in a page header."@en ;
+                    rdfs:label "has short title"@en .
+
+
+###  http://purl.org/spar/fabio/hasSubtitle
+fabio:hasSubtitle rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf dcterms:title ;
+                  rdfs:domain frbr:Endeavour ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "A secondary title that follows the main title of a work."@en ;
+                  rdfs:label "has subtitle"@en .
+
+
+###  http://purl.org/spar/fabio/hasTranslatedSubtitle
+fabio:hasTranslatedSubtitle rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf dcterms:title ;
+                            rdfs:comment "A version of the subtitle of an entity translated into another language, which may be specified using the object property dcterms:language."@en ;
+                            rdfs:label "has translated subtitle"@en .
+
+
+###  http://purl.org/spar/fabio/hasTranslatedTitle
+fabio:hasTranslatedTitle rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf dcterms:title ;
+                         rdfs:comment "A version of the title of an entity translated into another language, which may be specified using the object property dcterms:language."@en ;
+                         rdfs:label "has translated title"@en .
+
+
+###  http://purl.org/spar/fabio/hasURL
+fabio:hasURL rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf dcterms:identifier ;
+             rdfs:domain frbr:Endeavour ;
+             rdfs:range xsd:anyURI ;
+             rdfs:comment "An identifier, in form of an HTTP Universal Resource Locator (URL), for a particular resource on the World Wide Web."@en ;
+             rdfs:label "has URL"@en .
+
+
+###  http://purl.org/spar/fabio/hasVolumeCount
+fabio:hasVolumeCount rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdf:type owl:FunctionalProperty ;
+                     rdfs:domain frbr:Endeavour ;
+                     rdfs:range xsd:nonNegativeInteger ;
+                     rdfs:comment "The count of the number of volumes a work includes."@en ;
+                     rdfs:label "has volume count"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/spar/fabio/AnalogItem
+fabio:AnalogItem rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:Item ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty fabio:isStoredOn ;
+                                   owl:someValuesFrom fabio:AnalogStorageMedium
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty frbr:exemplarOf ;
+                                   owl:someValuesFrom fabio:AnalogManifestation
+                                 ] ;
+                 <http://purl.org/dc/elements/1.1/description> "An analog item is an exemplar of an analog manifestation only and it is always stored in a storage medium suitable for analog objects, such as paper, vinyl discs and films."@en ;
+                 rdfs:comment "A real object that is an exemplar of a fabio:Manifestation, such as a particular copy of the book 'Alice's adventures in Wonderland', that a person may own."@en ;
+                 rdfs:label "analog item"@en .
+
+
+###  http://purl.org/spar/fabio/AnalogManifestation
+fabio:AnalogManifestation rdf:type owl:Class ;
+                          rdfs:subClassOf fabio:Manifestation ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty frbr:exemplar ;
+                                            owl:someValuesFrom fabio:AnalogItem
+                                          ] ;
+                          rdfs:comment "A manifestation in an analog form."@en ;
+                          rdfs:label "analog manifestation"@en .
+
+
+###  http://purl.org/spar/fabio/AnalogStorageMedium
+fabio:AnalogStorageMedium rdf:type owl:Class ;
+                          rdfs:subClassOf fabio:StorageMedium ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty fabio:stores ;
+                                            owl:allValuesFrom fabio:AnalogItem
+                                          ] ;
+                          rdfs:comment "A means of storing information in non-digital form, e.g. paper, film (for analogue photographs or movies), magnetic tape (for analogue sound recordings or video recordings) or vinyl disc."@en ;
+                          rdfs:label "analog storage medium"@en .
+
+
+###  http://purl.org/spar/fabio/Anthology
+fabio:Anthology rdf:type owl:Class ;
+                rdfs:subClassOf fabio:ExpressionCollection ;
+                rdfs:comment "A collection of selected literary or scholastics works, for example poems, short stories, plays or research papers."@en ;
+                rdfs:label "anthology"@en .
+
+
+###  http://purl.org/spar/fabio/ArchivalDocument
+fabio:ArchivalDocument rdf:type owl:Class ;
+                       rdfs:subClassOf fabio:Expression ;
+                       rdfs:comment "An archival document is a realization of the content related to an archival record. It can be exemplified as a book, a document, a letter, a database, etc."@en ;
+                       rdfs:label "archival document"@en .
+
+
+###  http://purl.org/spar/fabio/ArchivalDocumentSet
+fabio:ArchivalDocumentSet rdf:type owl:Class ;
+                          rdfs:subClassOf fabio:ExpressionCollection ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty frbr:part ;
+                                            owl:someValuesFrom fabio:ArchivalDocument
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty frbr:part ;
+                                            owl:allValuesFrom fabio:ArchivalDocument
+                                          ] ;
+                          rdfs:comment "A collection of archival document."@en ;
+                          rdfs:label "archival document set"@en .
+
+
+###  http://purl.org/spar/fabio/ArchivalRecord
+fabio:ArchivalRecord rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:Work ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty frbr:realization ;
+                                       owl:allValuesFrom fabio:ArchivalDocument
+                                     ] ;
+                     rdfs:comment "An archival record connotes a material created or received by a person, family, or organization, public or private, in the conduct of their affairs that is preserved because of the enduring value contained in the information it contains or as evidence of the function and the responsibilities of its creator."@en ;
+                     rdfs:label "archival record"@en .
+
+
+###  http://purl.org/spar/fabio/ArchivalRecordSet
+fabio:ArchivalRecordSet rdf:type owl:Class ;
+                        rdfs:subClassOf fabio:WorkCollection ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty frbr:part ;
+                                          owl:someValuesFrom fabio:ArchivalRecord
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty frbr:part ;
+                                          owl:allValuesFrom fabio:ArchivalRecord
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty frbr:realization ;
+                                          owl:allValuesFrom fabio:ArchivalDocumentSet
+                                        ] ;
+                        rdfs:comment "A collection of archival records."@en ;
+                        rdfs:label "archival record set"@en .
+
+
+###  http://purl.org/spar/fabio/Article
+fabio:Article rdf:type owl:Class ;
+              rdfs:subClassOf fabio:Expression ;
+              rdfs:comment "The realization of a piece of writing on a particular topic, usually published within a periodical publication (e.g. journal, magazine and newspaper)."@en ;
+              rdfs:label "article"@en .
+
+
+###  http://purl.org/spar/fabio/ArtisticWork
+fabio:ArtisticWork rdf:type owl:Class ;
+                   rdfs:subClassOf fabio:Work ;
+                   rdfs:comment "It describes any work regarded as art in its widest sense, including works from literature and music, visual art, etc."@en ;
+                   rdfs:label "artistic work"@en .
+
+
+###  http://purl.org/spar/fabio/AudioDocument
+fabio:AudioDocument rdf:type owl:Class ;
+                    rdfs:subClassOf fabio:Expression ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty frbr:realizationOf ;
+                                      owl:someValuesFrom fabio:SoundRecording
+                                    ] ;
+                    rdfs:comment "The realization of a sound recording."@en ;
+                    rdfs:label "audio document"@en .
+
+
+###  http://purl.org/spar/fabio/Biography
+fabio:Biography rdf:type owl:Class ;
+                rdfs:subClassOf fabio:Work ;
+                rdfs:comment "An account of the events, works and achievements, both personal and professional, of a person, either living or dead."@en ;
+                rdfs:label "biography"@en .
+
+
+###  http://purl.org/spar/fabio/Book
+fabio:Book rdf:type owl:Class ;
+           rdfs:subClassOf fabio:Expression ;
+           rdfs:comment "A non-serial document that is complete in one volume or a designated finite number of volumes.  A book published by a publisher is usually  identified by an International Standard Book Number (ISBN), and may be manifested as a physical printed publication on paper bound in a hard or soft cover, or in electronic format as an 'e-book'."@en ;
+           rdfs:label "book"@en .
+
+
+###  http://purl.org/spar/fabio/BookChapter
+fabio:BookChapter rdf:type owl:Class ;
+                  rdfs:subClassOf fabio:Chapter ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty frbr:partOf ;
+                                    owl:someValuesFrom fabio:Book
+                                  ] ;
+                  rdfs:comment "A defined chapter of a book, usually with a separate title or number."@en ;
+                  rdfs:label "book chapter"@en .
+
+
+###  http://purl.org/spar/fabio/BookReview
+fabio:BookReview rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:Review ;
+                 rdfs:comment "A written review and critical analysis of the content, scope and quality of a book or other monographic work."@en ;
+                 rdfs:label "book review"@en .
+
+
+###  http://purl.org/spar/fabio/BookSeries
+fabio:BookSeries rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:Series ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty frbr:part ;
+                                   owl:someValuesFrom fabio:Book
+                                 ] ;
+                 rdfs:comment "A sequence of books having certain characteristics in common that are formally identified together as a group - for instance, the books in the Law, Governance and Technology Series published by Springer."@en ;
+                 rdfs:label "book series"@en .
+
+
+###  http://purl.org/spar/fabio/Chapter
+fabio:Chapter rdf:type owl:Class ;
+              rdfs:subClassOf fabio:Expression ;
+              rdfs:comment "A defined document section, forming part of or intended for inclusion within a larger document, usually with its own title or chapter number.  Different chapters within a document such as a book or a report may each be independently authored, or may all be authored by a single individual or group of authors."@en ;
+              rdfs:label "chapter"@en .
+
+
+###  http://purl.org/spar/fabio/CollectedWorks
+fabio:CollectedWorks rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:Anthology ;
+                     rdfs:comment "A collection of the literary or scholastic works of a single person."@en ;
+                     rdfs:label "collected works"@en .
+
+
+###  http://purl.org/spar/fabio/ComputerFile
+fabio:ComputerFile rdf:type owl:Class ;
+                   rdfs:subClassOf fabio:DigitalItem ;
+                   rdfs:comment "A digital item containing information in computer-readable form encoded in a particular format."@en ;
+                   rdfs:label "computer file"@en .
+
+
+###  http://purl.org/spar/fabio/DigitalItem
+fabio:DigitalItem rdf:type owl:Class ;
+                  rdfs:subClassOf fabio:Item ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty fabio:isStoredOn ;
+                                    owl:someValuesFrom fabio:DigitalStorageMedium
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty frbr:exemplarOf ;
+                                    owl:someValuesFrom fabio:DigitalManifestation
+                                  ] ;
+                  <http://purl.org/dc/elements/1.1/description> "A digital item is an exemplar of a digital manifestation only and it is always stored in a storage medium suitable for digital objects, such as CDs, DVDs, HDs and the Web."@en ;
+                  rdfs:comment "A digital object, such as a computer file."@en ;
+                  rdfs:label "digital item"@en .
+
+
+###  http://purl.org/spar/fabio/DigitalManifestation
+fabio:DigitalManifestation rdf:type owl:Class ;
+                           rdfs:subClassOf fabio:Manifestation ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty frbr:exemplar ;
+                                             owl:someValuesFrom fabio:DigitalItem
+                                           ] ;
+                           rdfs:comment "A manifestation that represents data in binary form, encoding the data as a series of 0s and 1s."@en ;
+                           rdfs:label "digital manifestation"@en .
+
+
+###  http://purl.org/spar/fabio/DigitalStorageMedium
+fabio:DigitalStorageMedium rdf:type owl:Class ;
+                           rdfs:subClassOf fabio:StorageMedium ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty fabio:stores ;
+                                             owl:allValuesFrom fabio:DigitalItem
+                                           ] ;
+                           rdfs:comment "A means of storing information in digital form, involving binary encoding of data in 0s and 1s, e.g. a computer random access memory, hard disc, USB stick, CD, DVD or digital magnetic tape."@en ;
+                           rdfs:label "digital storage medium"@en .
+
+
+###  http://purl.org/spar/fabio/DustJacket
+fabio:DustJacket rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:Expression ;
+                 rdfs:comment "A detachable outer cover, usually made of paper and printed with text and illustrations. This outer cover has folded flaps that hold it to the cover of a document."@en ;
+                 rdfs:label "dust jacket"@en .
+
+
+###  http://purl.org/spar/fabio/Entry
+fabio:Entry rdf:type owl:Class ;
+            rdfs:subClassOf fabio:Expression ;
+            rdfs:comment "An item written or printed in a diary, list, account book, reference book, or database."@en ;
+            rdfs:label "entry"@en .
+
+
+###  http://purl.org/spar/fabio/Expression
+fabio:Expression rdf:type owl:Class ;
+                 rdfs:subClassOf frbr:Expression ,
+                                 [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                          owl:onProperty frbr:part ;
+                                                          owl:allValuesFrom frbr:Expression
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty frbr:partOf ;
+                                                          owl:allValuesFrom frbr:Expression
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty frbr:embodiment ;
+                                   owl:allValuesFrom fabio:Manifestation
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty frbr:realizationOf ;
+                                   owl:allValuesFrom fabio:Work
+                                 ] ;
+                 <http://purl.org/dc/elements/1.1/description> "A fabio:Expression can only have part or be part of another fabio:Expression.  Moreover, it can be a representation only of a fabio:Work, and  it can be embodied only in fabio:Manifestation(s)."@en ;
+                 rdfs:comment "A subclass of FRBR expression, restricted to expressions of fabio:Works.  For your latest research paper, the preprint submitted to the publisher, and the final published version to which the publisher assigned a unique digital object identifier, are both expressions of the same work.  "@en ;
+                 rdfs:label "expression"@en .
+
+
+###  http://purl.org/spar/fabio/ExpressionCollection
+fabio:ExpressionCollection rdf:type owl:Class ;
+                           rdfs:subClassOf fabio:Expression ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty frbr:part ;
+                                             owl:someValuesFrom fabio:Expression
+                                           ] ;
+                           rdfs:comment "A collection of expressions, for example a periodical or a book series."@en ;
+                           rdfs:label "expression collection"@en .
+
+
+###  http://purl.org/spar/fabio/InstructionalWork
+fabio:InstructionalWork rdf:type owl:Class ;
+                        rdfs:subClassOf fabio:Work .
+
+
+###  http://purl.org/spar/fabio/Item
+fabio:Item rdf:type owl:Class ;
+           rdfs:subClassOf frbr:Item ,
+                           [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                    owl:onProperty frbr:part ;
+                                                    owl:allValuesFrom frbr:Item
+                                                  ]
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty frbr:partOf ;
+                                                    owl:allValuesFrom frbr:Item
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty frbr:exemplarOf ;
+                             owl:allValuesFrom fabio:Manifestation
+                           ] ;
+           <http://purl.org/dc/elements/1.1/description> "A fabio:Item can only have part or be part of another fabio:Item. Moreover, it can be an exemplar only of a fabio:Manifestation."@en ;
+           rdfs:comment "A subclass of FRBR item, restricted to exemplars of fabio:Manifestations.  An example of a fabio:Item is a printed copy of a journal article on your desk, or a PDF file of that article that you purchased from a publisher and that now resides in digital form on your computer hard drive.  "@en ;
+           rdfs:label "item"@en .
+
+
+###  http://purl.org/spar/fabio/ItemCollection
+fabio:ItemCollection rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:Item ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty frbr:part ;
+                                       owl:someValuesFrom fabio:Item
+                                     ] ;
+                     rdfs:comment "A collection of items."@en ;
+                     rdfs:label "item collection"@en .
+
+
+###  http://purl.org/spar/fabio/Journal
+fabio:Journal rdf:type owl:Class ;
+              rdfs:subClassOf fabio:Periodical ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty frbr:part ;
+                                owl:someValuesFrom fabio:JournalIssue
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty frbr:part ;
+                                owl:someValuesFrom fabio:JournalVolume
+                              ] ;
+              rdfs:comment "A scholarly periodical primarily devoted to the publication of original research papers. [Printed and electronic manifestations of the same journal are usually identified by separate print and electronic International Standard Serial Numbers (ISSN or eISSN, respectively), that identifies the journal as a whole, not to individual issues of it.]"@en ;
+              rdfs:label "journal"@en .
+
+
+###  http://purl.org/spar/fabio/JournalArticle
+fabio:JournalArticle rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:Article ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty frbr:partOf ;
+                                       owl:someValuesFrom fabio:JournalIssue
+                                     ] ;
+                     rdfs:comment "An article, typically the realization of a research paper reporting original research findings, published in a journal issue.  "@en ;
+                     rdfs:label "journal article"@en .
+
+
+###  http://purl.org/spar/fabio/JournalIssue
+fabio:JournalIssue rdf:type owl:Class ;
+                   rdfs:subClassOf fabio:PeriodicalIssue ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty frbr:partOf ;
+                                     owl:someValuesFrom fabio:JournalVolume
+                                   ] ;
+                   rdfs:comment "A particular published issue of a journal, one or more of which will constitute a volume of the journal."@en ;
+                   rdfs:label "journal issue"@en .
+
+
+###  http://purl.org/spar/fabio/JournalNewsItem
+fabio:JournalNewsItem rdf:type owl:Class ;
+                      rdfs:subClassOf fabio:NewsItem ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty frbr:partOf ;
+                                        owl:someValuesFrom fabio:JournalIssue
+                                      ] ;
+                      rdfs:comment "A news report published in a journal issue."@en ;
+                      rdfs:label "journal news item"@en .
+
+
+###  http://purl.org/spar/fabio/JournalVolume
+fabio:JournalVolume rdf:type owl:Class ;
+                    rdfs:subClassOf fabio:PeriodicalVolume ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty frbr:partOf ;
+                                      owl:someValuesFrom fabio:Journal
+                                    ] ;
+                    rdfs:comment "A particular published volume of a journal, comprising one or more journal issues."@en ;
+                    rdfs:label "journal volume"@en .
+
+
+###  http://purl.org/spar/fabio/Letter
+fabio:Letter rdf:type owl:Class ;
+             rdfs:subClassOf fabio:Expression ;
+             rdfs:comment "A written or printed communication of a personal or professional nature between individuals and/or representatives of corporate bodies, usually transmitted by the postal service or published in a periodical.  In the latter case, the letter is typically addressed to the editor and comments on or discussed an item previously published by that periodical, or of interest to its readership."@en ;
+             rdfs:label "letter"@en .
+
+
+###  http://purl.org/spar/fabio/LiteraryArtisticWork
+fabio:LiteraryArtisticWork rdf:type owl:Class ;
+                           rdfs:subClassOf fabio:ArtisticWork ;
+                           rdfs:comment "A literary creative work, such as a novel, play, poem or song."@en ;
+                           rdfs:label "literary artistic work"@en .
+
+
+###  http://purl.org/spar/fabio/Magazine
+fabio:Magazine rdf:type owl:Class ;
+               rdfs:subClassOf fabio:Periodical ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty frbr:part ;
+                                 owl:someValuesFrom fabio:MagazineIssue
+                               ] ;
+               rdfs:comment "A periodical, usually devoted to a particular topic or domain of interest, and usually published weekly or monthly, consisting primarily of  non-peer reviewed editorials, journalistic news items and more substantive articles, reviews, book reviews and discussions concerning current or recent events and publications, and matters of interest to the domain served by the magazine.  [Some scientific journals, notably Science and Nature, also secondarily serve as science magazines by containing substantive editorials and news items on vital or controversial issues]."@en ;
+               rdfs:label "magazine"@en .
+
+
+###  http://purl.org/spar/fabio/MagazineArticle
+fabio:MagazineArticle rdf:type owl:Class ;
+                      rdfs:subClassOf fabio:Article ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty frbr:partOf ;
+                                        owl:someValuesFrom fabio:MagazineIssue
+                                      ] ;
+                      rdfs:comment "An article published in a magazine issue."@en ;
+                      rdfs:label "magazine article"@en .
+
+
+###  http://purl.org/spar/fabio/MagazineIssue
+fabio:MagazineIssue rdf:type owl:Class ;
+                    rdfs:subClassOf fabio:PeriodicalIssue ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty frbr:partOf ;
+                                      owl:someValuesFrom fabio:Magazine
+                                    ] ;
+                    rdfs:comment "A particular published  issue of a magazine, identified by date, and sometimes also by place (e.g. 'West Coast edition') or language (e.g. 'Spanish edition')."@en ;
+                    rdfs:label "magazine issue"@en .
+
+
+###  http://purl.org/spar/fabio/MagazineNewsItem
+fabio:MagazineNewsItem rdf:type owl:Class ;
+                       rdfs:subClassOf fabio:NewsItem ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty frbr:partOf ;
+                                         owl:someValuesFrom fabio:MagazineIssue
+                                       ] ;
+                       rdfs:comment "A news report published in a magazine issue."@en ;
+                       rdfs:label "magazine news item"@en .
+
+
+###  http://purl.org/spar/fabio/Manifestation
+fabio:Manifestation rdf:type owl:Class ;
+                    rdfs:subClassOf frbr:Manifestation ,
+                                    [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                             owl:onProperty frbr:part ;
+                                                             owl:allValuesFrom frbr:Manifestation
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty frbr:partOf ;
+                                                             owl:allValuesFrom frbr:Manifestation
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty frbr:embodimentOf ;
+                                      owl:allValuesFrom fabio:Expression
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty frbr:exemplar ;
+                                      owl:allValuesFrom fabio:Item
+                                    ] ;
+                    <http://purl.org/dc/elements/1.1/description> "A fabio:Manifestation can only have part or be part of another fabio:Manifestation.  Moreover, it can be an embodiment only of a fabio:Expression and it can be exemplified only by fabio:Item(s)."@en ;
+                    rdfs:comment """A subclass of FRBR manifestation, restricted to manifestations of fabio:Expressions. fabio:Manifestation specifically applies to electronic (digital) as well as to physical manifestations of expressions.  
+
+Examples of different manifestations of a single 'version of record' expression of a scholarly work include an article in a print journal or the on-line version of that article as a web page."""@en ;
+                    rdfs:label "manifestation"@en .
+
+
+###  http://purl.org/spar/fabio/ManifestationCollection
+fabio:ManifestationCollection rdf:type owl:Class ;
+                              rdfs:subClassOf fabio:Manifestation ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty frbr:part ;
+                                                owl:someValuesFrom fabio:Manifestation
+                                              ] ;
+                              rdfs:comment "A collection of manifestations."@en ;
+                              rdfs:label "manifestation collection"@en .
+
+
+###  http://purl.org/spar/fabio/Manuscript
+fabio:Manuscript rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:Expression ;
+                 rdfs:comment "A textual work prepared 'by hand', such as a typescript or word-processed pre-publication draft of a research paper or a report, or a work not otherwise reproduced in multiple copies.  [Note: fabio:Manuscript is not intended to describe a handwritten historical document on paper or parchment, for which the FRBR distinctions between work, expression, manifestation and item (individual copy) becomes blurred.]."@en ;
+                 rdfs:label "manuscript"@en .
+
+
+###  http://purl.org/spar/fabio/NewsItem
+fabio:NewsItem rdf:type owl:Class ;
+               rdfs:subClassOf fabio:Expression ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty frbr:realizationOf ;
+                                 owl:someValuesFrom fabio:NewsReport
+                               ] ;
+               rdfs:comment "A published news report."@en ;
+               rdfs:label "news item"@en .
+
+
+###  http://purl.org/spar/fabio/NewsReport
+fabio:NewsReport rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:Work .
+
+
+###  http://purl.org/spar/fabio/Newspaper
+fabio:Newspaper rdf:type owl:Class ;
+                rdfs:subClassOf fabio:Periodical ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty frbr:part ;
+                                  owl:someValuesFrom fabio:NewspaperIssue
+                                ] ;
+                rdfs:comment "A non-peer reviewed periodical, usually published daily or weekly, consisting primarily of editorials and news items concerning current or recent events and matters of public interest."@en ;
+                rdfs:label "newspaper"@en .
+
+
+###  http://purl.org/spar/fabio/NewspaperArticle
+fabio:NewspaperArticle rdf:type owl:Class ;
+                       rdfs:subClassOf fabio:Article ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty frbr:partOf ;
+                                         owl:someValuesFrom fabio:NewspaperIssue
+                                       ] ;
+                       rdfs:comment "An article written by a journalist and published in a newspaper."@en ;
+                       rdfs:label "newspaper article"@en .
+
+
+###  http://purl.org/spar/fabio/NewspaperIssue
+fabio:NewspaperIssue rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:PeriodicalIssue ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty frbr:partOf ;
+                                       owl:someValuesFrom fabio:Newspaper
+                                     ] ;
+                     rdfs:comment "A particular published  issue of a newspaper, identified by date, and sometimes also by place or time (e.g. 'Late London Edition')."@en ;
+                     rdfs:label "newspaper issue"@en .
+
+
+###  http://purl.org/spar/fabio/NewspaperNewsItem
+fabio:NewspaperNewsItem rdf:type owl:Class ;
+                        rdfs:subClassOf fabio:NewsItem ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty frbr:partOf ;
+                                          owl:someValuesFrom fabio:NewspaperIssue
+                                        ] ;
+                        rdfs:comment "A news report published in a newspaper issue."@en ;
+                        rdfs:label "newspaper news item"@en .
+
+
+###  http://purl.org/spar/fabio/Novel
+fabio:Novel rdf:type owl:Class ;
+            rdfs:subClassOf fabio:LiteraryArtisticWork ;
+            rdfs:comment "A long fictitious narrative written in literary prose."@en ;
+            rdfs:label "novel"@en .
+
+
+###  http://purl.org/spar/fabio/Page
+fabio:Page rdf:type owl:Class ;
+           rdfs:subClassOf fabio:Manifestation ;
+           rdfs:comment "A manifestation that represents pages either in physical (e.g., one side of a sheet of paper) or in digital form (e.g., a page in a PDF, or a web page)."@en ;
+           rdfs:label "page"@en .
+
+
+###  http://purl.org/spar/fabio/Periodical
+fabio:Periodical rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:ExpressionCollection ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty frbr:part ;
+                                   owl:someValuesFrom fabio:PeriodicalIssue
+                                 ] ;
+                 rdfs:comment "A publication issued on a regular and ongoing basis as a series of issues, each issue comprising separate periodical items, for example editorials, articles, news items and/or other writings."@en ;
+                 rdfs:label "periodical"@en .
+
+
+###  http://purl.org/spar/fabio/PeriodicalIssue
+fabio:PeriodicalIssue rdf:type owl:Class ;
+                      rdfs:subClassOf fabio:Expression ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty frbr:partOf ;
+                                        owl:someValuesFrom fabio:Periodical
+                                      ] ;
+                      rdfs:comment "A particular issue of a periodical, identified and distinguished from other issues of the same publication by date and/or issue number and/or volume number, and comprising separate periodical items such as editorials, articles and news items."@en ;
+                      rdfs:label "periodical issue"@en .
+
+
+###  http://purl.org/spar/fabio/PeriodicalItem
+fabio:PeriodicalItem rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:Expression ;
+                     rdfs:comment "A piece of writing published in a periodical issue, typically accompanied by other items by different authors."@en ;
+                     rdfs:label "periodical item"@en .
+
+
+###  http://purl.org/spar/fabio/PeriodicalVolume
+fabio:PeriodicalVolume rdf:type owl:Class ;
+                       rdfs:subClassOf fabio:Expression ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty frbr:partOf ;
+                                         owl:someValuesFrom fabio:Periodical
+                                       ] ;
+                       rdfs:comment "A particular published volume of a periodical."@en ;
+                       rdfs:label "periodical volume"@en .
+
+
+###  http://purl.org/spar/fabio/Poem
+fabio:Poem rdf:type owl:Class ;
+           rdfs:subClassOf fabio:LiteraryArtisticWork ;
+           rdfs:comment "An artistic work written with an intensity or beauty of language more characteristic of poetry than of prose."@en ;
+           rdfs:label "poem"@en .
+
+
+###  http://purl.org/spar/fabio/PrintObject
+fabio:PrintObject rdf:type owl:Class ;
+                  rdfs:subClassOf fabio:AnalogManifestation ;
+                  rdfs:comment "An analog manifestation in physical printed form, typically on paper."@en ;
+                  rdfs:label "print object"@en .
+
+
+###  http://purl.org/spar/fabio/Review
+fabio:Review rdf:type owl:Class ;
+             rdfs:subClassOf fabio:Work ;
+             rdfs:comment "A review of others' work."@en ;
+             rdfs:label "review"@en .
+
+
+###  http://purl.org/spar/fabio/ReviewArticle
+fabio:ReviewArticle rdf:type owl:Class ;
+                    rdfs:subClassOf fabio:Article ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty frbr:realizationOf ;
+                                      owl:someValuesFrom fabio:Review
+                                    ] ;
+                    rdfs:comment "An article that contains a review."@en ;
+                    rdfs:label "review article"@en .
+
+
+###  http://purl.org/spar/fabio/Series
+fabio:Series rdf:type owl:Class ;
+             rdfs:subClassOf fabio:ExpressionCollection ;
+             rdfs:comment "A sequence of expressions having certain characteristics in common that are formally identified together as a group."@en ;
+             rdfs:label "series"@en .
+
+
+###  http://purl.org/spar/fabio/ShortStory
+fabio:ShortStory rdf:type owl:Class ;
+                 rdfs:subClassOf fabio:LiteraryArtisticWork ;
+                 rdfs:comment "A work of fiction that is usually written in prose, often in narrative format. This format tends to be more focused and less elaborate than longer works of fiction such as novels."@en ;
+                 rdfs:label "short story"@en .
+
+
+###  http://purl.org/spar/fabio/SoundRecording
+fabio:SoundRecording rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:Work ;
+                     rdfs:comment "The creative work of making an electrical or mechanical recording of sounds, such as the spoken voice, singing, instrumental music, animal vocalizations or sound effects. "@en ;
+                     rdfs:label "sound recording"@en .
+
+
+###  http://purl.org/spar/fabio/StorageMedium
+fabio:StorageMedium rdf:type owl:Class ;
+                    rdfs:comment "A device for recording information or storing data."@en ;
+                    rdfs:label "storage medium"@en .
+
+
+###  http://purl.org/spar/fabio/Textbook
+fabio:Textbook rdf:type owl:Class ;
+               rdfs:subClassOf fabio:Book ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty frbr:realizationOf ;
+                                 owl:someValuesFrom fabio:InstructionalWork
+                               ] ;
+               rdfs:comment "A book containing instructional material relating to a particular topic of academic study, designed to be read by students."@en ;
+               rdfs:label "textbook"@en .
+
+
+###  http://purl.org/spar/fabio/Thesis
+fabio:Thesis rdf:type owl:Class ;
+             rdfs:subClassOf fabio:Book ;
+             rdfs:comment "A book authored by a student containing a formal presentations of research outputs submitted for examination in completion of a course of study at an institution of higher education, to fulfil the requirements for an academic degree.  Also know as a dissertation.  [For the alternative meaning of the word 'thesis', namely the formulation of a concept, hypothesis, idea, point of view or theory presented for review and/or discussion, use fabio:Proposition.]"@en ;
+             rdfs:label "thesis"@en .
+
+
+###  http://purl.org/spar/fabio/WebManifestation
+fabio:WebManifestation rdf:type owl:Class ;
+                       rdfs:subClassOf fabio:DigitalManifestation ;
+                       rdfs:comment "A digital manifestation on the Web, such as a wiki, a web site, a web page or a blog."@en ;
+                       rdfs:label "web manifestation"@en .
+
+
+###  http://purl.org/spar/fabio/WebPage
+fabio:WebPage rdf:type owl:Class ;
+              rdfs:subClassOf fabio:Page ,
+                              fabio:WebManifestation ;
+              rdfs:comment "A Web manifestation usually identified by a Uniform Resource Identifier (URI), and made accessible to a user by means of the Hypertext Transport Protocol (HTTP) in a Web browser window. Several interlinked web pages hosted together on a Web server and accessed through a single domain name or IP address constitute a web site."@en ;
+              rdfs:label "web page"@en .
+
+
+###  http://purl.org/spar/fabio/Work
+fabio:Work rdf:type owl:Class ;
+           rdfs:subClassOf frbr:Work ,
+                           [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                    owl:onProperty frbr:part ;
+                                                    owl:allValuesFrom frbr:Work
+                                                  ]
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty frbr:partOf ;
+                                                    owl:allValuesFrom frbr:Work
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty frbr:realization ;
+                             owl:allValuesFrom fabio:Expression
+                           ] ;
+           <http://purl.org/dc/elements/1.1/description> "A fabio:Work can only have part or be part of another fabio:Work. Moreover, it can be realized only by fabio:Expression(s)."@en ;
+           rdfs:comment "A subclass of FRBR work, restricted to works that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define bibliographic references. FaBiO works, and their expressions and manifestations, are primarily textual publications such as books, magazines, newspapers and journals, and items of their content.  However, they also include datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also bibliographies, reference lists, library catalogues and similar collections. For this reason, fabio:Work is not an equivalent class to frbr:ScholarlyWork.  An example of a fabio:Work is your latest research paper."@en ;
+           rdfs:label "work"@en .
+
+
+###  http://purl.org/spar/fabio/WorkCollection
+fabio:WorkCollection rdf:type owl:Class ;
+                     rdfs:subClassOf fabio:Work ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty frbr:part ;
+                                       owl:someValuesFrom fabio:Work
+                                     ] ;
+                     <http://purl.org/dc/elements/1.1/creator> "A collection of works."@en ;
+                     rdfs:label "work collection"@en .
+
+
+###  http://purl.org/vocab/frbr/core#CorporateBody
+frbr:CorporateBody rdf:type owl:Class ;
+                   rdfs:subClassOf frbr:ResponsibleEntity ;
+                   rdfs:comment """An organization or group of individuals and/or organizations acting as a unit.
+
+The entity defined as corporate body encompasses organizations and groups of individuals and/or organizations that are identified by a particular name, including occasional groups and groups that are constituted as meetings, conferences, congresses, expeditions, exhibitions, festivals, fairs, etc."""@en ;
+                   rdfs:label "corporate body"@en .
+
+
+###  http://purl.org/vocab/frbr/core#Endeavour
+frbr:Endeavour rdf:type owl:Class ;
+               rdfs:comment "It describes different aspects of user interests in the products of intellectual or artistic artifact."@en ;
+               rdfs:label "endeavour"@en .
+
+
+###  http://purl.org/vocab/frbr/core#Expression
+frbr:Expression rdf:type owl:Class ;
+                rdfs:subClassOf frbr:Endeavour ;
+                rdfs:comment """The intellectual or artistic realization of a work in the form of alpha-numeric, musical, or choreographic notation, sound, image, object, movement, etc., or any combination of such forms.
+
+An expression is the specific intellectual or artistic form that a work takes each time it is \"realized.\" Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular sounds, phrasing, etc. resulting from the realization of a musical work."""@en ;
+                rdfs:label "expression"@en .
+
+
+###  http://purl.org/vocab/frbr/core#Item
+frbr:Item rdf:type owl:Class ;
+          rdfs:subClassOf frbr:Endeavour ;
+          rdfs:comment """A single exemplar of a manifestation.
+
+The entity defined as item is a concrete entity. It is in many instances a single physical object (e.g., a copy of a one-volume monograph, a single audio cassette, etc.). There are instances, however, where the entity defined as item comprises more than one physical object (e.g., a monograph issued as two separately bound volumes, a recording issued on three separate compact discs, etc.). """@en ;
+          rdfs:label "item"@en .
+
+
+###  http://purl.org/vocab/frbr/core#Manifestation
+frbr:Manifestation rdf:type owl:Class ;
+                   rdfs:subClassOf frbr:Endeavour ;
+                   rdfs:comment """The physical embodiment of an expression of a work.
+
+The entity defined as manifestation encompasses a wide range of materials and formats. As an entity, manifestation represents all the physical objects that bear the same characteristics, in respect to both intellectual content and physical form. """@en ;
+                   rdfs:label "manifestation"@en .
+
+
+###  http://purl.org/vocab/frbr/core#Person
+frbr:Person rdf:type owl:Class ;
+            rdfs:subClassOf frbr:ResponsibleEntity ;
+            rdfs:comment "An individual. The entity defined as person encompasses individuals that are deceased as well as those that are living."@en ;
+            rdfs:label "person"@en .
+
+
+###  http://purl.org/vocab/frbr/core#Place
+frbr:Place rdf:type owl:Class ;
+           rdfs:subClassOf frbr:Subject ;
+           rdfs:comment """A location.
+
+The entity defined as place encompasses a comprehensive range of locations: terrestrial and extra-terrestrial; historical and contemporary; geographic features and geo-political jurisdictions. """@en ;
+           rdfs:label "place"@en .
+
+
+###  http://purl.org/vocab/frbr/core#ResponsibleEntity
+frbr:ResponsibleEntity rdf:type owl:Class ;
+                       rdfs:comment "It represents those responsible for the intellectual or artistic content, the physical production and dissemination, or the custodianship of any endeavour."@en ;
+                       rdfs:label "responsible entity"@en .
+
+
+###  http://purl.org/vocab/frbr/core#Subject
+frbr:Subject rdf:type owl:Class .
+
+
+###  http://purl.org/vocab/frbr/core#Work
+frbr:Work rdf:type owl:Class ;
+          rdfs:subClassOf frbr:Endeavour ;
+          rdfs:comment """A distinct intellectual or artistic creation.
+
+A work is an abstract entity; there is no single material object one can point to as the work. We recognize the work through individual realizations or expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work. When we speak of Homer's Iliad as a work, our point of reference is not a particular recitation or text of the work, but the intellectual creation that lies behind all the various expressions of the work. """@en ;
+          rdfs:label "work"@en .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
