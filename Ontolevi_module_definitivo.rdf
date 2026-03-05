@@ -45,7 +45,7 @@ Situation is also able to represent reified n-ary relations, where isSettingFor 
   <rdf:Description rdf:about="https://schema.org/author">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
     <owl:inverseOf rdf:resource="https://www.onto.bigrafo.it#authorOf"/>
   </rdf:Description>
@@ -284,7 +284,7 @@ The date can be expressed in three different formats:
     <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/contributor">
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
@@ -450,7 +450,7 @@ In the abridged expression some content of the previous expression is removed, b
   <rdf:Description rdf:about="https://schema.org/translator">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/hasTranslatedSubtitle">
@@ -603,7 +603,7 @@ The supplement relationship type involves works/expressions that are intended to
   <rdf:Description rdf:about="https://schema.org/editor">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="n1f16969b49de4c568b99844c160e2bf7b50">
@@ -690,7 +690,7 @@ Such situations can be resolved by the creation of a user-defined citation chara
   <rdf:Description rdf:about="https://schema.org/sender">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Letter"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     <rdfs:subPropertyOf rdf:resource="https://schema.org/participant"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="n1f16969b49de4c568b99844c160e2bf7b89">
@@ -742,7 +742,7 @@ This property describes works that are intended to be combined with or inserted 
   <rdf:Description rdf:about="https://schema.org/recipient">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Letter"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     <rdfs:subPropertyOf rdf:resource="https://schema.org/participant"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="n1f16969b49de4c568b99844c160e2bf7b39">
@@ -1478,7 +1478,7 @@ Examples of a Publisher include a person, an organization, or a service. Typical
   <rdf:Description rdf:about="https://schema.org/participant">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi#CorrespondenceAggregate"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/Chapter">
