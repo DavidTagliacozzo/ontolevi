@@ -401,8 +401,6 @@ In the abridged expression some content of the previous expression is removed, b
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/hasPart">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <owl:inverseOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/DustJacket">
