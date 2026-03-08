@@ -4863,7 +4863,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_london">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place/>
+    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label>London</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspaper_paese-sera-roma">
