@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xml:base="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_modulo.rdf"
+   xmlns:ontolevi="ontolevi:"
+   xmlns:cito="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:fabio="http://purl.org/spar/fabio/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"
+   xmlns:olm="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Ontolevi_module.rdf#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+  <rdf:Description rdf:nodeID="N5eb7faf4f0224ea2a325633fd6bac9eb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/JournalVolume"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/issn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has ISSN</rdfs:label>
+    <rdfs:comment xml:lang="en">The International Standard Serial Number (ISSN) that identifies a periodical publication.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Journal"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/number">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has number</rdfs:label>
+    <rdfs:comment xml:lang="en">The issue number of a periodical publication within a volume.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/hasPart">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#reconfigurationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is reconfiguration of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the manifestation of a reconfigured one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#reproduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has reproduction</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation/item reproduced in another one.
+
+A reproduction indicates the relationship as it would be drawn from the first manifestation/item in the relationship to the second manifestation/item in the relationship.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="N420d5f1768754b239ba202316218d488"/>
+    <rdfs:range rdf:nodeID="N23493212a7544cef831a01cfb0d8f799"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#reproductionOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Situation</rdfs:label>
+    <rdfs:comment>A view on a set of entities. It can be seen as a 'relational context', reifying a relation.
+For example, a PlanExecution is a context including some actions executed by agents according to certain parameters and expected tasks to be achieved from a Plan; a DiagnosedSituation is a context of observed entities that is interpreted on the basis of a Diagnosis, etc.
+Situation is also able to represent reified n-ary relations, where isSettingFor is the top-level relation for all binary projections of the n-ary relation. If used in a transformation pattern for n-ary relations, the designer should take care of:
+- creating only one situation for each instance of an n-ary relation, otherwise the 'identification constraint' (Calvanese et al., IJCAI 2001) could be violated
+- adding an 'exact cardinality' restriction corresponding to the arity of the n-ary relation, otherwise the designer would actually represent a polymorphic relation.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl"/>
+    <rdfs:subClassOf rdf:nodeID="N2d8ea2671fdf416fb33340fbbad7e04c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/isCitedAsSourceDocumentBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is cited as source document by</rdfs:label>
+    <rdfs:comment xml:lang="en">The cited entity is cited as being the entity from which the citing entity is derived, or about which the citing entity contains metadata.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/cito/isCitedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nee9cb3c19be4422694f77d3ac698954d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplar"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/CollectedWorks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">collected works</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of the literary or scholastic works of a single person.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Anthology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N02ce941978124826949f10ffa1ad1364">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/pageRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has page range</rdfs:label>
+    <rdfs:comment xml:lang="en">Identifies the page range of an entity such as a journal article.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Manifestation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">manifestation</rdfs:label>
+    <rdfs:comment xml:lang="en">The physical embodiment of an expression of a work.
+
+The entity defined as manifestation encompasses a wide range of materials and formats. As an entity, manifestation represents all the physical objects that bear the same characteristics, in respect to both intellectual content and physical form. </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/stores">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">stores</rdfs:label>
+    <rdfs:comment xml:lang="en">This property relates a storage medium to the fabio:Item stored upon it.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/StorageMedium"/>
+    <rdfs:range rdf:resource="http://purl.org/spar/fabio/Item"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Expression">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">expression</rdfs:label>
+    <dc:description xml:lang="en">A fabio:Expression can only have part or be part of another fabio:Expression.  Moreover, it can be a representation only of a fabio:Work, and  it can be embodied only in fabio:Manifestation(s).</dc:description>
+    <rdfs:comment xml:lang="en">A subclass of FRBR expression, restricted to expressions of fabio:Works.  For your latest research paper, the preprint submitted to the publisher, and the final published version to which the publisher assigned a unique digital object identifier, are both expressions of the same work.  </rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N44ec9df423534aa4b48972eb700baa7c"/>
+    <rdfs:subClassOf rdf:nodeID="Nae78817810694e778a06f31270f00364"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#exemplarOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is exemplar of</rdfs:label>
+    <rdfs:comment xml:lang="en">An item that exemplifies a manifestation.</rdfs:comment>
+    <rdfs:comment xml:lang="en">As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#embodimentOf), a property representing a manifestation that is exemplified by an item.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N599de80e3eee4c19954258b419d8267c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#arrangement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has arrangement</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression arranged in another one.
+
+In the arranged expression some content of the previous expression is changed in some way, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#arrangementOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/LinguisticSystem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has issue date</rdfs:label>
+    <rdfs:comment xml:lang="en">Date of formal issuance of a resource (e.g. a publication or a patent).</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/issueIdentifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has issue identifier</rdfs:label>
+    <rdfs:comment xml:lang="en">An identifier used to identify a specific issue of a magazine, a journal or other resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne264bba5bde04fb885b5a9941cef6dd4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/JournalVolume">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">journal volume</rdfs:label>
+    <rdfs:comment xml:lang="en">A particular published volume of a journal, comprising one or more journal issues.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N6c655c2952d04d60b65e7050bdf32f22"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ItemCollection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">item collection</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of items.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N0340f06ec75740f6beb435e6777fbc30"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#alternate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has alternate</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation having another one as alternate.
+
+The alternate relationship involves manifestations that effectively serve as alternates for each other. The alternate relationship obtains, for example, when a publication, sound recording, video, etc. is issued in more than one format or when it is released simultaneously by different publishers in different countries.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#alternateOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ReviewArticle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">review article</rdfs:label>
+    <rdfs:comment xml:lang="en">An article that contains a review.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N1eefd8e9bb2540ad8fc2930630c72a1a"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/DigitalStorageMedium">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">digital storage medium</rdfs:label>
+    <rdfs:comment xml:lang="en">A means of storing information in digital form, involving binary encoding of data in 0s and 1s, e.g. a computer random access memory, hard disc, USB stick, CD, DVD or digital magnetic tape.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N8666e55e977343ddb1718236c5da079c"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/StorageMedium"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1724d4626ce94cc89be16eb4ecd0ce55">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#realizationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is realization of</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression that realizes a work.</rdfs:comment>
+    <rdfs:comment xml:lang="en">As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#realizationOf), a property representing the work that has been realized by an expression.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/AnalogStorageMedium">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">analog storage medium</rdfs:label>
+    <rdfs:comment xml:lang="en">A means of storing information in non-digital form, e.g. paper, film (for analogue photographs or movies), magnetic tape (for analogue sound recordings or video recordings) or vinyl disc.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N6d9a73444cb34cf692b5aa710619ee16"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/StorageMedium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Letter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">letter</rdfs:label>
+    <rdfs:comment xml:lang="en">A written or printed communication of a personal or professional nature between individuals and/or representatives of corporate bodies, usually transmitted by the postal service or published in a periodical.  In the latter case, the letter is typically addressed to the editor and comments on or discussed an item previously published by that periodical, or of interest to its readership.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2996eef9304d4da48e51e4b72fa8c47b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3635bf3104ef4973820ba4855d446e03">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Biography">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">biography</rdfs:label>
+    <rdfs:comment xml:lang="en">An account of the events, works and achievements, both personal and professional, of a person, either living or dead.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Newspaper">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">newspaper</rdfs:label>
+    <rdfs:comment xml:lang="en">A non-peer reviewed periodical, usually published daily or weekly, consisting primarily of editorials and news items concerning current or recent events and matters of public interest.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N861b39c3d6194facac2b418bf62e6cdd"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has title</rdfs:label>
+    <rdfs:comment xml:lang="en">A name given to a resource.  Typically, the title will be the name by which the resource is formally known.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has date</rdfs:label>
+    <rdfs:comment xml:lang="en">A point or period of time associated with an event in the lifecycle of the resource.
+
+Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [http://www.w3.org/TR/NOTE-datetime].</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb3b136706b2044df8421139ad44f4afb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Neafa87c0b33843aab564a66d101324fb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#transformation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has transformation</rdfs:label>
+    <rdfs:comment xml:lang="en">An work/expression transformed in another one.
+
+This property describes the transformation of an original work or expression into another work or expression that is sufficiently different in degree to warrant the product of the transformation being considered as a new work or expression, rather than simply a different expression of the original work. If there exists a frbr:transformation relation between two different expressions, then they always relate to different works.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="N972cbcf397684035910df2f2445353cb"/>
+    <rdfs:range rdf:nodeID="Nb3b136706b2044df8421139ad44f4afb"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#transformationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Expression">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">expression</rdfs:label>
+    <rdfs:comment xml:lang="en">The intellectual or artistic realization of a work in the form of alpha-numeric, musical, or choreographic notation, sound, image, object, movement, etc., or any combination of such forms.
+
+An expression is the specific intellectual or artistic form that a work takes each time it is "realized." Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular sounds, phrasing, etc. resulting from the realization of a musical work.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8666e55e977343ddb1718236c5da079c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/DigitalItem"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/fabio/stores"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/NewsItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">news item</rdfs:label>
+    <rdfs:comment xml:lang="en">A published news report.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Ncfbc2e196c484ea98b43aeb3572a5735"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#producer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has producer</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation linked to its prodecer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#producerOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5ed22e6890345eab22de58674c8bb2f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/ArchivalDocument"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N477c78894e04445690d1240cab53cbc9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/ArchivalDocument"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasShortTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has short title</rdfs:label>
+    <rdfs:comment xml:lang="en">A short version of the title of an entity, typically used to label or refer to a particular entity in an abbreviated form, for example an abbreviated journal title in a reference, or a short title of a document used as the running title in a page header.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#realization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has realization</rdfs:label>
+    <rdfs:comment xml:lang="en">A work realized through an expression.</rdfs:comment>
+    <rdfs:comment xml:lang="en">As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#realization), a property representing an expression that is an intellectual or artistic realization of a work.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/NewspaperArticle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">newspaper article</rdfs:label>
+    <rdfs:comment xml:lang="en">An article written by a journalist and published in a newspaper.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N3635bf3104ef4973820ba4855d446e03"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#adaptionOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is adaption of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the work/expression of an adapted one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ManifestationCollection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">manifestation collection</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of manifestations.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N76ce5e6d01cd4637a0c850e144d83986"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:codiceOpacSbn">
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#abridgement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has abridgement</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression abridged in another one.
+
+In the abridged expression some content of the previous expression is removed, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood). </rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#abridgementOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf5182858944d456384c5b632d46d2674">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://purl.org/spar/cito/hasCitingEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/alternateName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/PeriodicalIssue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">periodical issue</rdfs:label>
+    <rdfs:comment xml:lang="en">A particular issue of a periodical, identified and distinguished from other issues of the same publication by date and/or issue number and/or volume number, and comprising separate periodical items such as editorials, articles and news items.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N02ce941978124826949f10ffa1ad1364"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasSequenceIdentifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has number</rdfs:label>
+    <rdfs:comment xml:lang="en">A literal (for example a number or a letter) that identifies the sequence position of a work within a particular context, for example a book in a book series, a chapter in a document, a volume in a journal.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/birthPlace">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#realizerOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is realizer of</rdfs:label>
+    <rdfs:comment xml:lang="en">The realizer of a particular expression.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/Library">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N401fa420cbeb4172a8010f2a8ab304b3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/InstructionalWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/JournalIssue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">journal issue</rdfs:label>
+    <rdfs:comment xml:lang="en">A particular published issue of a journal, one or more of which will constitute a volume of the journal.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N5eb7faf4f0224ea2a325633fd6bac9eb"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasPublicationYear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has publication year</rdfs:label>
+    <rdfs:comment xml:lang="en">The year in which a resource is published.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/issued"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0bcbed3790fe437f9e3e1cdf206d0ba6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/MagazineIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/editor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#imitation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has imitation</rdfs:label>
+    <rdfs:comment xml:lang="en">An work/expression imitated in another one.
+
+This property describes works that are intended to be an imitation another original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, then they always refer to different works.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="N56ee9c0a5e7e4ea2980d6233974e3bfb"/>
+    <rdfs:range rdf:nodeID="Ndcb3d3e6e99541c79fde5e0a64c0a3d6"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#imitationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7db9cc31d0aa4342b0d682e3cddaf8bb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/WebPage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">web page</rdfs:label>
+    <rdfs:comment xml:lang="en">A Web manifestation usually identified by a Uniform Resource Identifier (URI), and made accessible to a user by means of the Hypertext Transport Protocol (HTTP) in a Web browser window. Several interlinked web pages hosted together on a Web server and accessed through a single domain name or IP address constitute a web site.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Page"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/WebManifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/AnalogItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">analog item</rdfs:label>
+    <dc:description xml:lang="en">An analog item is an exemplar of an analog manifestation only and it is always stored in a storage medium suitable for analog objects, such as paper, vinyl discs and films.</dc:description>
+    <rdfs:comment xml:lang="en">A real object that is an exemplar of a fabio:Manifestation, such as a particular copy of the book 'Alice's adventures in Wonderland', that a person may own.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N9262bf1c4b2146fc968879432493a97c"/>
+    <rdfs:subClassOf rdf:nodeID="Nef614d41334c484688f977fd454ea7cc"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/BookSeries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">book series</rdfs:label>
+    <rdfs:comment xml:lang="en">A sequence of books having certain characteristics in common that are formally identified together as a group - for instance, the books in the Law, Governance and Technology Series published by Springer.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nc4e4dff252a14b59b2d3ab72a1361387"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Series"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/doi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has DOI</rdfs:label>
+    <rdfs:label xml:lang="en">has Digital Object Identifier</rdfs:label>
+    <rdfs:comment xml:lang="en">A Digital Object Identifier for a serial publication item, a dataset or some other entity.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.doi.org/"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/DigitalManifestation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">digital manifestation</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation that represents data in binary form, encoding the data as a series of 0s and 1s.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N83608f4241724d289072cec7c3c6358f"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ComputerFile">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">computer file</rdfs:label>
+    <rdfs:comment xml:lang="en">A digital item containing information in computer-readable form encoded in a particular format.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/DigitalItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0abdef2be957448d8bc2505fcf19fdc1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/SoundRecording"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has creator</rdfs:label>
+    <rdfs:comment xml:lang="en">A work linked to its creator.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#creatorOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasRepresentation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has representation</rdfs:label>
+    <rdfs:comment xml:lang="en">A property linking a particular expression to its items.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/fabio/isRepresentationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasPortrayal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has portrayal</rdfs:label>
+    <rdfs:comment xml:lang="en">A property linking a particular work to its items.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/fabio/isPortrayalOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#part">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:label xml:lang="en">has part</rdfs:label>
+    <rdfs:comment xml:lang="en">A part of an endeavour.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Meaning = has part.  As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#part),  a property indicating that one entity includes another entity.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <skos:note xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/NewspaperNewsItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">newspaper news item</rdfs:label>
+    <rdfs:comment xml:lang="en">A news report published in a newspaper issue.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N33883d9cabb7401bba55fec22aa65a64"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/NewsItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/isbn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has ISBN</rdfs:label>
+    <rdfs:label xml:lang="en">has International Standard Book Number</rdfs:label>
+    <rdfs:comment xml:lang="en">The International Standard Book Number, ISBN, used to identify published books or, more rarely, journal issues.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce1e8973dbfd431f98edae0dd0b1bf21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/MagazineIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasVolumeCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has volume count</rdfs:label>
+    <rdfs:comment xml:lang="en">The count of the number of volumes a work includes.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.onto.bigrafo.it#editorOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>is editor of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ee50471a76b4973870c42289a6bf9d9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/Citation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">citation</rdfs:label>
+    <rdfs:comment xml:lang="en">A citation is a conceptual directional link from a citing entity to a cited entity, created by a human performative act of making a citation, typically instantiated by the inclusion of a bibliographic reference (biro:BibliographicReference) in the reference list of the citing entity, or by the inclusion within the citing entity of a link, in the form of an HTTP Uniform Resource Locator (URL), to a resource on the World Wide Web.
+
+The time span of a citation, i.e. the interval between the publication year of the citing entity and the publication year of the cited entity, can be recorded using the data property cito:hasCitationTimeSpan.
+
+The nature or type of a citation can be characterized by using CiTO object properties, e.g. http://purl.org/spar/cito/citesAsDataSource (definition: “The citing entity cites the cited entity as a source of data”).  
+
+This CiTO class cito:Citation and its accompanying object properties cito:hasCitingEntity, cito:hasCitedEntity and cito:hasCitationCharacterization can be employed to reify direct citation statements made using the CiTO citation object property cito:cites or one of its sub-properties. 
+
+For example, the following RDF statement
+
+     :paperA cito:extends :paperB .
+
+can be alternatively described as follows
+
+     :thisCitation a cito:Citation ; 
+          cito:hasCitingEntity :paperA ;
+          cito:hasCitationCharacterization cito:extends ;
+          cito:hasCitedEntity :paperB .
+
+This usage involved OWL2 punning, whereby a CiTO object property, such as the aforementioned cito:extends, is used as the object of the OWL assertion.
+
+     :thisCitation cito:hasCitationCharacterization cito:extends .
+
+Using such OWL2 punning (described at http://www.w3.org/TR/2009/WD-owl2-new-features-20090611/#F12:_Punning), the CiTO object property is considered as a proper named individual of the class owl:Thing. 
+
+Such reification of citation acts can be very useful, since it permits one to combine these CiTO properties with other vocabularies, or to handle situations in which none of the citation characterizations available in CiTO are applicable.  
+
+Such situations can be resolved by the creation of a user-defined citation characterization, for example by using the Open Annotation Data Model, as explained at http://semanticpublishing.wordpress.com/2013/07/03/extending-cito-for-open-annotations/.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#complement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has complement</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression work/expression having another one as complement.
+
+This property describes works that are intended to be combined with or inserted into the related work. In other words, they are intended to be integrated in some way with the other work, but were not part of the original conception of that prior work. If there exists a relation of this kind among two different expressions, then they always refer to different works.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="N4ab9cd8e9de74d81af739c567087cd08"/>
+    <rdfs:range rdf:nodeID="Nfab5b13754d84e2c9d106f341f278033"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#complementOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1eefd8e9bb2540ad8fc2930630c72a1a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Review"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Periodical">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">periodical</rdfs:label>
+    <rdfs:comment xml:lang="en">A publication issued on a regular and ongoing basis as a series of issues, each issue comprising separate periodical items, for example editorials, articles, news items and/or other writings.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N0a027c08f2964e28982cda6c6470f85e"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/isRepresentationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is representation of</rdfs:label>
+    <rdfs:comment xml:lang="en">A property linking a particular item to the expression it represents.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#revisionOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is revision of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the previous expression of a revised one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/LiteraryArtisticWork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">literary artistic work</rdfs:label>
+    <rdfs:comment xml:lang="en">A literary creative work, such as a novel, play, poem or song.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ArtisticWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Manifestation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">manifestation</rdfs:label>
+    <dc:description xml:lang="en">A fabio:Manifestation can only have part or be part of another fabio:Manifestation.  Moreover, it can be an embodiment only of a fabio:Expression and it can be exemplified only by fabio:Item(s).</dc:description>
+    <rdfs:comment xml:lang="en">A subclass of FRBR manifestation, restricted to manifestations of fabio:Expressions. fabio:Manifestation specifically applies to electronic (digital) as well as to physical manifestations of expressions.  
+
+Examples of different manifestations of a single 'version of record' expression of a scholarly work include an article in a print journal or the on-line version of that article as a web page.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N9de89638b42b44a6840dbba977df5813"/>
+    <rdfs:subClassOf rdf:nodeID="N2fee5808181e463ebddac3b039a7103e"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#reconfiguration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has reconfiguration</rdfs:label>
+    <rdfs:comment xml:lang="en">An item reconfigured in another one.
+
+The reconfiguration relationship is one in which one or more items are changed in such a way that a new item or items result. Most commonly, an item of one manifestation is bound with an item of a different manifestation to make a new item. </rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#reconfigurationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has identifier</rdfs:label>
+    <rdfs:comment xml:lang="en">A unique and unambiguous reference to the resource within a given context.
+
+Recommended best practice is to identify the resource by means of a string conforming to a formal identification system.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#reproductionOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is reproduction of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the manifestation/item of a reproduced one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N972cbcf397684035910df2f2445353cb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N96110e65a71a4e6bbdf5128849577348"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N488159a9620c43408256789401704dfd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nac04e7b980534034854e6d28e9830406"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc4e4dff252a14b59b2d3ab72a1361387">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasElectronicArticleIdentifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has electronic article identifier</rdfs:label>
+    <rdfs:comment xml:lang="en">A local identifier for an article within an electronic (i.e. on line, in HTML format) periodical issue.  Use in preference to prism:startingPage when the article lacks page numbers</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#supplementOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is supplement of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the work/expression of a particular supplement of it.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na9d03015814d4b4d9aa5bcf1596645ce">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/alternateTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">alternate title</rdfs:label>
+    <rdfs:comment xml:lang="en">An alternative title for a resource.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/InstructionalWork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ArchivalRecordSet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">archival record set</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of archival records.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N52d831776420416a8b887d863243d7cf"/>
+    <rdfs:subClassOf rdf:nodeID="N17f2e159d86644178aa76d5074cad757"/>
+    <rdfs:subClassOf rdf:nodeID="Nab36176e579a4ece88f5d2cf41d54689"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/WorkCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38337e804be94d14b78af1ba39281d5c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realization"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N91815c6c8df94ebfa06a896aeebf62f5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Place">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">place</rdfs:label>
+    <rdfs:comment xml:lang="en">A location.
+
+The entity defined as place encompasses a comprehensive range of locations: terrestrial and extra-terrestrial; historical and contemporary; geographic features and geo-political jurisdictions. </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/keyword">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has keyword</rdfs:label>
+    <rdfs:comment xml:lang="en">A property used to tag a resource with a keyword that is likely to be used in search queries.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/AudioDocument">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">audio document</rdfs:label>
+    <rdfs:comment xml:lang="en">The realization of a sound recording.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N0abdef2be957448d8bc2505fcf19fdc1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#summarization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has summarization</rdfs:label>
+    <rdfs:comment xml:lang="en">A work/expression summarized in another one.
+
+This property describe the summarization of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="Na14f4787df1d4b8c847bce6eb4dafa32"/>
+    <rdfs:range rdf:nodeID="N350c89c64f8446a29ca2b23dc1102973"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#summarizationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#exemplar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has exemplar</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation exemplified in an item.</rdfs:comment>
+    <rdfs:comment xml:lang="en">As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#exemplar), a property representing an item that exemplifies a manifestation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#exemplarOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae78817810694e778a06f31270f00364">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Work"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/JournalNewsItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">journal news item</rdfs:label>
+    <rdfs:comment xml:lang="en">A news report published in a journal issue.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N599de80e3eee4c19954258b419d8267c"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/NewsItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/recipient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Letter"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/participant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/cites">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">cites</rdfs:label>
+    <rdfs:comment xml:lang="en">The citing entity cites the cited entity, either directly and explicitly (as in the reference list of a journal article), indirectly (e.g. by citing a more recent paper by the same group on the same topic), or implicitly (e.g. as in artistic quotations or parodies, or in cases of plagiarism).</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/swan/2.0/discourse-relationships/refersTo"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/cito/isCitedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#translationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is translation of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the original expression of a translated one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N173918abcbe548479b33bde8eb0210fd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nccc7bdb84771427d8cf4e33bcd70fd34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/AnalogManifestation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">analog manifestation</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation in an analog form.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nee9cb3c19be4422694f77d3ac698954d"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#realizer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has realizer</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression linked to its realizer.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#realizerOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/SoundRecording">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">sound recording</rdfs:label>
+    <rdfs:comment xml:lang="en">The creative work of making an electrical or mechanical recording of sounds, such as the spoken voice, singing, instrumental music, animal vocalizations or sound effects. </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2fee5808181e463ebddac3b039a7103e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Item"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#imitationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is imitation of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the work/expression of an imitated one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nde0f4578c29344ed830e44645b31b424">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/MagazineIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8c447586f5c3490eb61dfc2bb9ae8e60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6d9a73444cb34cf692b5aa710619ee16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/fabio/stores"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#owner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has owner</rdfs:label>
+    <rdfs:comment xml:lang="en">An item linked to its owner.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#ownerOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/volume">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has volume identifier</rdfs:label>
+    <rdfs:comment xml:lang="en">An identifier for a particular volume of a resource, such as a journal or a multi-volume book.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasSubtitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has subtitle</rdfs:label>
+    <rdfs:comment xml:lang="en">A secondary title that follows the main title of a work.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:CorrespondenceAggregate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
+    <rdfs:subClassOf rdf:nodeID="N0fd94cb14cca45df8829640990538432"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb27e08b3e19c484cb82ba8b18f6052fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasUrl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has URL</rdfs:label>
+    <rdfs:label xml:lang="it">URL della risorsa (OpacSBN)</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:comment xml:lang="en">URL pointing to the resource record. Used for OpacSBN permalink on book Manifestations.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasPlaceOfPublication">
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has place of publication</rdfs:label>
+    <rdfs:comment xml:lang="en">The place (usually, the city) where the publisher of a particular bibliographic resource is located.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf3b84b49f7ce47cba866e963a0d196ff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#partOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:label xml:lang="en">is part of</rdfs:label>
+    <rdfs:comment xml:lang="en">An endeavour incorporating another endeavour.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Meaning = is part of.  As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#partOf), a property indicating that one entity is a part of another entity.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <skos:note xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ReportDocument">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">report document</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression of a report, i.e. a document that presents focused, salient content to a specific audience.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Report">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">report</rdfs:label>
+    <rdfs:comment xml:lang="en">A document made that presents focused, salient content to a specific audience. Reports are often used to display the result of an experiment, investigation, or inquiry.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasURL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has URL</rdfs:label>
+    <rdfs:comment xml:lang="en">An identifier, in form of an HTTP Universal Resource Locator (URL), for a particular resource on the World Wide Web.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/SelfCitation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">self citation</rdfs:label>
+    <rdfs:comment xml:lang="en">A citation in which the citing and the cited entities have something significant in common with one another, over and beyond their subject matter, for example authors, journal, institutional affiliation, or funding agency.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/cito/Citation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/hasUrl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has URL</rdfs:label>
+    <rdfs:label xml:lang="it">URL della risorsa</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:comment xml:lang="en">URL pointing to the resource. Used for ACNP permalink on journal issue Manifestations.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:codiceACNP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">ACNP code</rdfs:label>
+    <rdfs:label xml:lang="it">Codice ACNP</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">ACNP identifier code for a journal issue Manifestation in the Italian Serials Catalogue.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N082f2a435aa14e9bb5ced495d8a9435d">
+    <rdf:first rdf:resource="http://purl.org/spar/fabio/Item"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#transformationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is transformation of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the original work/expression of a trasformed one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/WebManifestation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">web manifestation</rdfs:label>
+    <rdfs:comment xml:lang="en">A digital manifestation on the Web, such as a wiki, a web site, a web page or a blog.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/DigitalManifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/hasCitationCharacterization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has citation characterization</rdfs:label>
+    <rdfs:comment xml:lang="en">A property that links a citation to its characterization made by using a CiTO citation characterization property such as cito:extends. This usage involved OWL2 punning, whenby a CiTO object property, such as the aforementioned cito:extends, is used as the object of an OWL assertion:
+
+     :thisCitation cito:hasCitationCharacterization cito:extends .
+
+In such cases of OWL punning, the CiTO object properties are simultaneously considered both as normal object properties and also as proper named individuals of the class owl:Thing.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/cito/Citation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ArtisticWork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">artistic work</rdfs:label>
+    <rdfs:comment xml:lang="en">It describes any work regarded as art in its widest sense, including works from literature and music, visual art, etc.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/StorageMedium">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">storage medium</rdfs:label>
+    <rdfs:comment xml:lang="en">A device for recording information or storing data.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Person">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">person</rdfs:label>
+    <rdfs:comment xml:lang="en">An individual. The entity defined as person encompasses individuals that are deceased as well as those that are living.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/hasCitingEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has citing entity</rdfs:label>
+    <rdfs:comment xml:lang="en">A property that relates a citation to the citing entity.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/cito/Citation"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N52215361b308485fae5d527a2f170557">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://purl.org/spar/cito/hasCitationCharacterization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasTranslatedSubtitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has translated subtitle</rdfs:label>
+    <rdfs:comment xml:lang="en">A version of the subtitle of an entity translated into another language, which may be specified using the object property dcterms:language.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is setting for</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/BookReview">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">book review</rdfs:label>
+    <rdfs:comment xml:lang="en">A written review and critical analysis of the content, scope and quality of a book or other monographic work.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Review"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.onto.bigrafo.it#authorOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>is author of</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ab9cd8e9de74d81af739c567087cd08">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N558094b9b5354260989b3ba5d718597e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/isStoredOn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is stored on</rdfs:label>
+    <rdfs:comment xml:lang="en">This property relates a fabio:Item to the medium upon which it is stored.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Item"/>
+    <rdfs:range rdf:resource="http://purl.org/spar/fabio/StorageMedium"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/fabio/stores"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33883d9cabb7401bba55fec22aa65a64">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#adaption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has adaption</rdfs:label>
+    <rdfs:comment xml:lang="en">A work/expression adapted in another one.
+
+This property describe the modification of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="N488159a9620c43408256789401704dfd"/>
+    <rdfs:range rdf:nodeID="Nc227da18fbe1441aae3affeda57e4c07"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#adaptionOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/birthDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Series">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">series</rdfs:label>
+    <rdfs:comment xml:lang="en">A sequence of expressions having certain characteristics in common that are formally identified together as a group.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/MagazineNewsItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">magazine news item</rdfs:label>
+    <rdfs:comment xml:lang="en">A news report published in a magazine issue.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nce1e8973dbfd431f98edae0dd0b1bf21"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/NewsItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:interviewee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/contributor"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:label xml:lang="en">interviewee</rdfs:label>
+    <rdfs:label xml:lang="it">intervistato</rdfs:label>
+    <rdfs:comment xml:lang="en">The person being interviewed. Subproperty of dcterms:contributor, as the interviewee contributes their words and thoughts to the published text.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/WorkCollection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">work collection</rdfs:label>
+    <dc:creator xml:lang="en">A collection of works.</dc:creator>
+    <rdfs:subClassOf rdf:nodeID="N1724d4626ce94cc89be16eb4ecd0ce55"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/NewspaperIssue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">newspaper issue</rdfs:label>
+    <rdfs:comment xml:lang="en">A particular published  issue of a newspaper, identified by date, and sometimes also by place or time (e.g. 'Late London Edition').</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N7db9cc31d0aa4342b0d682e3cddaf8bb"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasManifestation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has manifestation</rdfs:label>
+    <rdfs:comment xml:lang="en">A property linking a particular work to its manifestations.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/fabio/isManifestationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/startDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">start date</rdfs:label>
+    <rdfs:comment xml:lang="en">The start date of a publication series or periodical.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Work">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">work</rdfs:label>
+    <dc:description xml:lang="en">A fabio:Work can only have part or be part of another fabio:Work. Moreover, it can be realized only by fabio:Expression(s).</dc:description>
+    <rdfs:comment xml:lang="en">A subclass of FRBR work, restricted to works that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define bibliographic references. FaBiO works, and their expressions and manifestations, are primarily textual publications such as books, magazines, newspapers and journals, and items of their content.  However, they also include datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also bibliographies, reference lists, library catalogues and similar collections. For this reason, fabio:Work is not an equivalent class to frbr:ScholarlyWork.  An example of a fabio:Work is your latest research paper.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N38337e804be94d14b78af1ba39281d5c"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has language</rdfs:label>
+    <rdfs:comment xml:lang="en">A language of the resource. Examples include written, spoken, sign, and computer languages.
+
+Recommended best practice is to use a controlled vocabulary such as RFC 4646 [http://www.ietf.org/rfc/rfc4646.txt].</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Textbook">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">textbook</rdfs:label>
+    <rdfs:comment xml:lang="en">A book containing instructional material relating to a particular topic of academic study, designed to be read by students.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N401fa420cbeb4172a8010f2a8ab304b3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N136a25335f2c469593eaeb7e0400a898">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ncb529eb2a0b84a01b611dd77b9465c07"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N76ce5e6d01cd4637a0c850e144d83986">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/DigitalItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">digital item</rdfs:label>
+    <dc:description xml:lang="en">A digital item is an exemplar of a digital manifestation only and it is always stored in a storage medium suitable for digital objects, such as CDs, DVDs, HDs and the Web.</dc:description>
+    <rdfs:comment xml:lang="en">A digital object, such as a computer file.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nb6ab54e5e4494112beb1fe1560ac1274"/>
+    <rdfs:subClassOf rdf:nodeID="N9f17d5460cf448fcb0ffcb12ccf21960"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Page">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">page</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation that represents pages either in physical (e.g., one side of a sheet of paper) or in digital form (e.g., a page in a PDF, or a web page).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/MagazineArticle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">magazine article</rdfs:label>
+    <rdfs:comment xml:lang="en">An article published in a magazine issue.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N0bcbed3790fe437f9e3e1cdf206d0ba6"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N23493212a7544cef831a01cfb0d8f799">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N6d6997a9c9f04d6892e22dbba424a212"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has publisher</rdfs:label>
+    <rdfs:comment xml:lang="en">An entity responsible for making the resource available.
+
+Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/deathDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#complementOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is complement of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the work/expression of that is a complement of another one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Work">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">work</rdfs:label>
+    <rdfs:comment xml:lang="en">A distinct intellectual or artistic creation.
+
+A work is an abstract entity; there is no single material object one can point to as the work. We recognize the work through individual realizations or expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work. When we speak of Homer's Iliad as a work, our point of reference is not a particular recitation or text of the work, but the intellectual creation that lies behind all the various expressions of the work. </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/translator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Book">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">book</rdfs:label>
+    <rdfs:comment xml:lang="en">A non-serial document that is complete in one volume or a designated finite number of volumes.  A book published by a publisher is usually  identified by an International Standard Book Number (ISBN), and may be manifested as a physical printed publication on paper bound in a hard or soft cover, or in electronic format as an 'e-book'.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2d8ea2671fdf416fb33340fbbad7e04c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d5615d6810a4eb8817b416093f386c7">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasAccessDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has access date</rdfs:label>
+    <rdfs:comment xml:lang="en">The date on which a particular digital item, such as a PDF or an HTML file, has been accessed by somebody.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#revision">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has revision</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression revised in another one.
+
+A revision has the intent to alter or update the content of the prior expression, but without changing the content so much that it becomes a new work.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#revisionOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N420d5f1768754b239ba202316218d488">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb3b6cf3d4d1a489f8cd5d35b9f5ccea2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Journal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">journal</rdfs:label>
+    <rdfs:comment xml:lang="en">A scholarly periodical primarily devoted to the publication of original research papers. [Printed and electronic manifestations of the same journal are usually identified by separate print and electronic International Standard Serial Numbers (ISSN or eISSN, respectively), that identifies the journal as a whole, not to individual issues of it.]</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Ne264bba5bde04fb885b5a9941cef6dd4"/>
+    <rdfs:subClassOf rdf:nodeID="N67875ec6c119445190b5224c0d60b234"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#responsibleEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has responsible entity</rdfs:label>
+    <rdfs:comment xml:lang="en">Any endeavour having a particular entity that is responsible of it.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/contributor">
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ArchivalRecord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">archival record</rdfs:label>
+    <rdfs:comment xml:lang="en">An archival record connotes a material created or received by a person, family, or organization, public or private, in the conduct of their affairs that is preserved because of the enduring value contained in the information it contains or as evidence of the function and the responsibilities of its creator.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N477c78894e04445690d1240cab53cbc9"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/author">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <owl:inverseOf rdf:resource="https://www.onto.bigrafo.it#authorOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/deathPlace">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:codiceAcnp">
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has creator</rdfs:label>
+    <rdfs:comment xml:lang="en">An entity primarily responsible for making the resource.
+
+Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/hasCitationCreationDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has citation creation date</rdfs:label>
+    <rdfs:comment xml:lang="en">The date on which the citation was created. This has the same numerical value as the publication date of the citing bibliographic resource, but is a property of the citation itself.  When combined with the citation time span, it permits that citation to be located in history.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/cito/Citation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Manuscript">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">manuscript</rdfs:label>
+    <rdfs:comment xml:lang="en">A textual work prepared 'by hand', such as a typescript or word-processed pre-publication draft of a research paper or a report, or a work not otherwise reproduced in multiple copies.  [Note: fabio:Manuscript is not intended to describe a handwritten historical document on paper or parchment, for which the FRBR distinctions between work, expression, manifestation and item (individual copy) becomes blurred.].</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/affiliation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ExpressionCollection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">expression collection</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of expressions, for example a periodical or a book series.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N2996eef9304d4da48e51e4b72fa8c47b"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N861b39c3d6194facac2b418bf62e6cdd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/NewsReport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Thesis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">thesis</rdfs:label>
+    <rdfs:comment xml:lang="en">A book authored by a student containing a formal presentations of research outputs submitted for examination in completion of a course of study at an institution of higher education, to fulfil the requirements for an academic degree.  Also know as a dissertation.  [For the alternative meaning of the word 'thesis', namely the formulation of a concept, hypothesis, idea, point of view or theory presented for review and/or discussion, use fabio:Proposition.]</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#supplement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has supplement</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression work/expression having another one as supplement.
+
+The supplement relationship type involves works/expressions that are intended to be used in conjunction with another work/expression. Some of these, such as indices, concordances, teachers' guides, glosses, and instruction manuals for electronic resources will be so closely associated with the content of the related work/expression that they are useless without the other work/expression.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="N136a25335f2c469593eaeb7e0400a898"/>
+    <rdfs:range rdf:nodeID="N5194ba834a0f46ac9e02565aab9e7177"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#supplementOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nab36176e579a4ece88f5d2cf41d54689">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/ArchivalRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Magazine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">magazine</rdfs:label>
+    <rdfs:comment xml:lang="en">A periodical, usually devoted to a particular topic or domain of interest, and usually published weekly or monthly, consisting primarily of  non-peer reviewed editorials, journalistic news items and more substantive articles, reviews, book reviews and discussions concerning current or recent events and publications, and matters of interest to the domain served by the magazine.  [Some scientific journals, notably Science and Nature, also secondarily serve as science magazines by containing substantive editorials and news items on vital or controversial issues].</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nde0f4578c29344ed830e44645b31b424"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Periodical"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Announcement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+    <rdfs:label xml:lang="en">announcement</rdfs:label>
+    <rdfs:comment xml:lang="en">A formal statement about something.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/MagazineIssue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">magazine issue</rdfs:label>
+    <rdfs:comment xml:lang="en">A particular published  issue of a magazine, identified by date, and sometimes also by place (e.g. 'West Coast edition') or language (e.g. 'Spanish edition').</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N19dd8eb2bff44ebd9af1e3410fa6add0"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/DistantCitation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">distant citation</rdfs:label>
+    <dc:description xml:lang="en">Derived from the article 'A Small World of Citations? The Influence of Collaboration Networks on Citation Practices' by Matthew L. Wallace, Vincent Larivière and Yves Gingras, published in PLOS One (https://doi.org/10.1371/journal.pone.0033339).</dc:description>
+    <rdfs:comment xml:lang="en">A citation in which the citing and the cited entities have nothing significant in common with one another (for example authors, journal, institutional affiliation, or funding agency) over and beyond their subject matter.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/cito/Citation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N67875ec6c119445190b5224c0d60b234">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/JournalVolume"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/hasTranslatedTitle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has translated title</rdfs:label>
+    <rdfs:comment xml:lang="en">A version of the title of an entity translated into another language, which may be specified using the object property dcterms:language.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88a1092d191a40b49a36e1df2c4d82b5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ArchivalDocumentSet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">archival document set</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of archival document.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N0e9093bd5065454e930fe07368d45843"/>
+    <rdfs:subClassOf rdf:nodeID="Nd5ed22e6890345eab22de58674c8bb2f"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/participant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="ontolevi:CorrespondenceAggregate"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#ownerOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is owner of</rdfs:label>
+    <rdfs:comment xml:lang="en">The owner of a particular item.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/isManifestationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is manifestation of</rdfs:label>
+    <rdfs:comment xml:lang="en">A property linking a particular manifestation to the work it is manifesting.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Review">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">review</rdfs:label>
+    <rdfs:comment xml:lang="en">A review of others' work.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ShortStory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">short story</rdfs:label>
+    <rdfs:comment xml:lang="en">A work of fiction that is usually written in prose, often in narrative format. This format tends to be more focused and less elaborate than longer works of fiction such as novels.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/LiteraryArtisticWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0340f06ec75740f6beb435e6777fbc30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/ArchivalDocument">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">archival document</rdfs:label>
+    <rdfs:comment xml:lang="en">An archival document is a realization of the content related to an archival record. It can be exemplified as a book, a document, a letter, a database, etc.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#abridgementOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is abridgement of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the entire expression of an abridged one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a027c08f2964e28982cda6c6470f85e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncfbc2e196c484ea98b43aeb3572a5735">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/publicationDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has publication date</rdfs:label>
+    <dc:description xml:lang="en">The date on which a document or entity is published.
+The date can be expressed in three different formats:
+- yyyy-mm-dd (i.e., xsd:date)
+- yyyy-mm (i.e., xsd:gYearMonth)
+- yyyy (i.e., xsd:gYear)</dc:description>
+    <rdfs:comment xml:lang="en">The date on which a resource is published or disclosed.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/issued"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#successor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has successor</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression work/expression having another one as successor.
+
+The successor type of relationship involves a kind of linear progression of content from one work/expression to the other. In some cases, the content of the successor may be closely connected to the content of the preceding work, which would result in a work that is referential. In others, such as with loosely connected parts of a trilogy, the successor will be autonomous. Serial publications that result from the merger or split of their predecessors and stand on their own without requiring reference to the predecessor are also examples of autonomous works that fall within the successor relationship type. If there exists a relation of this kind among two different expressions, then they always refer to different works.</rdfs:comment>
+    <rdfs:domain rdf:nodeID="N173918abcbe548479b33bde8eb0210fd"/>
+    <rdfs:range rdf:nodeID="N1ed8874cb2d348648ada88172de7aefa"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#successorOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/citesAsSourceDocument">
+    <rdfs:label xml:lang="en">cites as source document</rdfs:label>
+    <dc:description xml:lang="en">Example: Several sections of this work are based on our literature review of the topic published as journal article [X].</dc:description>
+    <rdfs:comment xml:lang="en">The citing entity cites the cited entity as being the entity from which the citing entity is derived, or about which the citing entity contains metadata.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/cito/cites"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/cito/isCitedAsSourceDocumentBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Chapter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">chapter</rdfs:label>
+    <rdfs:comment xml:lang="en">A defined document section, forming part of or intended for inclusion within a larger document, usually with its own title or chapter number.  Different chapters within a document such as a book or a report may each be independently authored, or may all be authored by a single individual or group of authors.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/Ontolevi_module_definitivo.rdf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://purl.org/spar/fabio"/>
+    <owl:imports rdf:resource="http://purl.org/spar/cito"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N56ee9c0a5e7e4ea2980d6233974e3bfb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd5becb0f2c084702a17d3f03cc3f952d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/PrintObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">print object</rdfs:label>
+    <rdfs:comment xml:lang="en">An analog manifestation in physical printed form, typically on paper.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/AnalogManifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/BookChapter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">book chapter</rdfs:label>
+    <rdfs:comment xml:lang="en">A defined chapter of a book, usually with a separate title or number.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="Nb382059a57bf416ba870708baaef006e"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Chapter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Item">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">item</rdfs:label>
+    <rdfs:comment xml:lang="en">A single exemplar of a manifestation.
+
+The entity defined as item is a concrete entity. It is in many instances a single physical object (e.g., a copy of a one-volume monograph, a single audio cassette, etc.). There are instances, however, where the entity defined as item comprises more than one physical object (e.g., a monograph issued as two separately bound volumes, a recording issued on three separate compact discs, etc.). </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#producerOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is producer of</rdfs:label>
+    <rdfs:comment xml:lang="en">The producer of a particular manifestation.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N350c89c64f8446a29ca2b23dc1102973">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ncdced395250e46b28984df64998303ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/sender">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Letter"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/participant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#translation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has translation</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression translated in another one.
+
+It allows to refer to a literal translation, in which the intent is to render the intellectual content of the previous expression as accurately as possible.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#translationOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na14f4787df1d4b8c847bce6eb4dafa32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Na31d682a120f4ac89d9b89e9d21910a3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/hasCitationTimeSpan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">has citation time span</rdfs:label>
+    <rdfs:comment xml:lang="en">The temporal characteristic of a citation, namely the interval between the publication date of the cited entity and the publication date of the citing entity. Note that when one or both of the publication dates is given as just 'year', then the citation time span is rounded to the nearest year, and when one or both of the publication dates is given as just 'year and month', then the citation time span is rounded to the nearest month, with the inherent inaccuracies that such rounding involves.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/cito/Citation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#summarizationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is summarization of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the original work/expression of a summarized one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:permalinkACNP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">ACNP permalink</rdfs:label>
+    <rdfs:label xml:lang="it">Permalink ACNP</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Journal"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:comment xml:lang="en">Permalink to the journal's entry in the ACNP Italian Serials Catalogue (Catalogo Italiano dei Periodici).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N44ec9df423534aa4b48972eb700baa7c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#embodiment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:permalinkOpacSbn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/fabio/hasURL"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Item">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">item</rdfs:label>
+    <dc:description xml:lang="en">A fabio:Item can only have part or be part of another fabio:Item. Moreover, it can be an exemplar only of a fabio:Manifestation.</dc:description>
+    <rdfs:comment xml:lang="en">A subclass of FRBR item, restricted to exemplars of fabio:Manifestations.  An example of a fabio:Item is a printed copy of a journal article on your desk, or a PDF file of that article that you purchased from a publisher and that now resides in digital form on your computer hard drive.  </rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N6ff88fcc188b4cdaa505108bcc8d0c9d"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfab5b13754d84e2c9d106f341f278033">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ndf625dcb9f374354af4de054ef281135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Article">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">article</rdfs:label>
+    <rdfs:comment xml:lang="en">The realization of a piece of writing on a particular topic, usually published within a periodical publication (e.g. journal, magazine and newspaper).</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0fd94cb14cca45df8829640990538432">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Letter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naeffe3ff583d4f32a65395cbf15325ae">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:interviewer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/author"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:label xml:lang="en">interviewer</rdfs:label>
+    <rdfs:label xml:lang="it">intervistatore</rdfs:label>
+    <rdfs:comment xml:lang="en">The journalist or researcher who conducts the interview. Subproperty of sdo:author, as the interviewer is the author of the published text.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc227da18fbe1441aae3affeda57e4c07">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N55763b15b14843b29ecd33bee125d4b1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb6ab54e5e4494112beb1fe1560ac1274">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplarOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/DigitalManifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5194ba834a0f46ac9e02565aab9e7177">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nd14f8fe4fe1948caa4d33a5763fd4c52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#creatorOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is creator of</rdfs:label>
+    <rdfs:comment xml:lang="en">The creator of a particular work.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Entry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">entry</rdfs:label>
+    <rdfs:comment xml:lang="en">An item written or printed in a diary, list, account book, reference book, or database.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N23dd978854e4456f812bb6ca6744425f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6c655c2952d04d60b65e7050bdf32f22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Journal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#embodiment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has embodiment</rdfs:label>
+    <rdfs:comment xml:lang="en">An expression embodied in a manifestation.</rdfs:comment>
+    <rdfs:comment xml:lang="en">As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#embodiment), a property representing a manifestation that embodies an expression.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/PeriodicalVolume">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">periodical volume</rdfs:label>
+    <rdfs:comment xml:lang="en">A particular published volume of a periodical.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N0ee50471a76b4973870c42289a6bf9d9"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N360819fcfe244fddba50efcbfa5181fe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://purl.org/spar/cito/hasCitedEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#embodimentOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is embodiment of</rdfs:label>
+    <rdfs:comment xml:lang="en">A manifestation that embodies an expression.</rdfs:comment>
+    <rdfs:comment xml:lang="en">As defined by FRBR (http://www.ifla.org/VII/s13/frbr/frbr1.htm; http://purl.org/vocab/frbr/core#embodimentOf), a property representing an expression that is embodied by a manifestation.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Collection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#alternateOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is alternate of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the manifestation of an alternative one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Novel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">novel</rdfs:label>
+    <rdfs:comment xml:lang="en">A long fictitious narrative written in literary prose.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/LiteraryArtisticWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#relatedEndeavour">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has related endeavour</rdfs:label>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#ResponsibleEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">responsible entity</rdfs:label>
+    <rdfs:comment xml:lang="en">It represents those responsible for the intellectual or artistic content, the physical production and dissemination, or the custodianship of any endeavour.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3e80ced587fa4c6a9f6380587b50a50e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ff88fcc188b4cdaa505108bcc8d0c9d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplarOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndcb3d3e6e99541c79fde5e0a64c0a3d6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N91290507c5964f748a2f9382287c139f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/DustJacket">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">dust jacket</rdfs:label>
+    <rdfs:comment xml:lang="en">A detachable outer cover, usually made of paper and printed with text and illustrations. This outer cover has folded flaps that hold it to the cover of a document.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ed8874cb2d348648ada88172de7aefa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N291a2cb033784e89b46ad8f94800b521"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Publisher">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Subject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/PeriodicalItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">periodical item</rdfs:label>
+    <rdfs:comment xml:lang="en">A piece of writing published in a periodical issue, typically accompanied by other items by different authors.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#successorOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is successor of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the previous work/expression of a succeeded one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:permalinkAcnp">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/fabio/hasURL"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/hasCitedEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has cited entity</rdfs:label>
+    <rdfs:comment xml:lang="en">A property that relates a citation to the cited entity.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/spar/cito/Citation"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N19dd8eb2bff44ebd9af1e3410fa6add0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Magazine"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N17f2e159d86644178aa76d5074cad757">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/ArchivalRecord"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N52d831776420416a8b887d863243d7cf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/ArchivalDocumentSet"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realization"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N83608f4241724d289072cec7c3c6358f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplar"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/DigitalItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#note">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/endDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">end date</rdfs:label>
+    <rdfs:comment xml:lang="en">The end date of a publication series or periodical.</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfda092639c914446a97578950caa7ba6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Neee79c346b604e1c9a55fb70271718bd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Anthology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">anthology</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of selected literary or scholastics works, for example poems, short stories, plays or research papers.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N472615000d3c4139b661c751481be37e">
+    <rdf:first rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:rest rdf:nodeID="N6615109d1ccb4306bf289090570c20c8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:codiceEditore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef614d41334c484688f977fd454ea7cc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplarOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/AnalogManifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9de89638b42b44a6840dbba977df5813">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#embodimentOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N520c448859694591990d75b2e384297f">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:rest rdf:nodeID="N68642f541b2c4d70985ac5f6d9b9dea6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#responsibleEntityOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is responsible entity of</rdfs:label>
+    <rdfs:comment xml:lang="en">An entity that is resposible for a particular endeavour.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6615109d1ccb4306bf289090570c20c8">
+    <rdf:first rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+    <rdf:rest rdf:nodeID="N082f2a435aa14e9bb5ced495d8a9435d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9262bf1c4b2146fc968879432493a97c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/fabio/isStoredOn"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/AnalogStorageMedium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/JournalArticle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">journal article</rdfs:label>
+    <rdfs:comment xml:lang="en">An article, typically the realization of a research paper reporting original research findings, published in a journal issue.  </rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N23dd978854e4456f812bb6ca6744425f"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e9093bd5065454e930fe07368d45843">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/ArchivalDocument"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#CorporateBody">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">corporate body</rdfs:label>
+    <rdfs:comment xml:lang="en">An organization or group of individuals and/or organizations acting as a unit.
+
+The entity defined as corporate body encompasses organizations and groups of individuals and/or organizations that are identified by a particular name, including occasional groups and groups that are constituted as meetings, conferences, congresses, expeditions, exhibitions, festivals, fairs, etc.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9f17d5460cf448fcb0ffcb12ccf21960">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/fabio/isStoredOn"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/DigitalStorageMedium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/isPortrayalOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is portrayal of</rdfs:label>
+    <rdfs:comment xml:lang="en">A property linking a particular item to the work it portrays.  This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/cito/isCitedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is cited by</rdfs:label>
+    <rdfs:comment xml:lang="en">The cited entity (the subject of the RDF triple) is cited by the citing entity (the object of the triple).</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb382059a57bf416ba870708baaef006e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/fabio/Poem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">poem</rdfs:label>
+    <rdfs:comment xml:lang="en">An artistic work written with an intensity or beauty of language more characteristic of poetry than of prose.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/LiteraryArtisticWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neee79c346b604e1c9a55fb70271718bd">
+    <rdf:first rdf:resource="http://purl.org/spar/fabio/Work"/>
+    <rdf:rest rdf:nodeID="N472615000d3c4139b661c751481be37e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#arrangementOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">is arrangement of</rdfs:label>
+    <rdfs:comment xml:lang="en">It identifies the original expression of an arranged one.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:codiceIccu">
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://schema.org/Library"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Endeavour">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">endeavour</rdfs:label>
+    <rdfs:comment xml:lang="en">It describes different aspects of user interests in the products of intellectual or artistic artifact.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68642f541b2c4d70985ac5f6d9b9dea6">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdf:rest rdf:nodeID="N4d5615d6810a4eb8817b416093f386c7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/swan/2.0/discourse-relationships/refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+</rdf:RDF>
