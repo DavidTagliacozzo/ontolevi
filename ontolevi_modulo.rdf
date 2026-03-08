@@ -1177,7 +1177,7 @@ This property describe the modification of an original work that is sufficient i
   <rdf:Description rdf:about="https://www.onto.bigrafo.it#authorOf">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label>is author of</rdfs:label>
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
     <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
   </rdf:Description>
