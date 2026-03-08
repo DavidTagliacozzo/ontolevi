@@ -6255,7 +6255,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_macerata">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place/>
+    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label>Macerata</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1953-ST-SCINTILL">
