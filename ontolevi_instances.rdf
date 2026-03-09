@@ -17,6 +17,7 @@
    xmlns:schema="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:viaf="https://viaf.org/viaf/"
+   xmlns:cdec="http://dati.cdec.it/lod/shoah/"
    xmlns:wikidata="https://www.wikidata.org/entity/"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 >
