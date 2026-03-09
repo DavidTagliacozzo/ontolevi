@@ -3421,7 +3421,9 @@
   <rdf:Description rdf:about="ontolevi:place_lyon">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-    <rdfs:label>Lyon</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q456"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/2996944/"/>
+    <rdfs:label>Lione</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1963-ST-TREGUA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4798,6 +4800,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="it">Cagliari</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1897"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/6540125"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_domenica-il-sole-24-ore-2013">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4954,7 +4958,9 @@
   <rdf:Description rdf:about="ontolevi:place_london">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-    <rdfs:label>London</rdfs:label>
+    <rdfs:label>Londra</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/2643743"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspaper_paese-sera-roma">
     <rdfs:label xml:lang="it">«Paese Sera» [Roma]</rdfs:label>
