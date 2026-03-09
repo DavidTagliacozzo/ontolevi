@@ -95,7 +95,8 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Liceo Classico D'Azeglio</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_torino"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1543279"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/126895912"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3268994"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1947-ST-VIAGGIO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -180,15 +181,15 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Pescina</rdfs:label>
     <schema:name xml:lang="it">Pescina</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3170099"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q391459"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/6697170"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q50122"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_firenze">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Firenze</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/3176959"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q2044"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2044"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1946-ST-LAQUE_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -317,8 +318,7 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">De Silva</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_torino"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3688083"/>
-  </rdf:Description>
+   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:cit_scarpa-cfa-barabas">
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
     <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
@@ -620,7 +620,9 @@
     <schema:name xml:lang="it">Leonardo De Benedetti</schema:name>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1898-09-15</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1983-10-16</schema:deathDate>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3826998"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6526123"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/11735082"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/2356/html"/>
     <schema:birthPlace rdf:resource="ontolevi:place_torino"/>
     <schema:deathPlace rdf:resource="ontolevi:place_torino"/>
   </rdf:Description>
@@ -1572,7 +1574,8 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">La Nuova Italia</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_firenze"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3820490"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3821015"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/217065164"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1965-AL-FORNI">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1588,7 +1591,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Domenico Scarpa</rdfs:label>
     <schema:name xml:lang="it">Domenico Scarpa</schema:name>
-    <owl:sameAs rdf:resource="https://viaf.org/viaf/66628180"/>
+    <owl:sameAs rdf:resource="https://viaf.org/viaf/46942386"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q50144343"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_cavaglion-memoria-1995">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1930,7 +1934,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Fabio Levi</rdfs:label>
     <schema:name xml:lang="it">Fabio Levi</schema:name>
-    <owl:sameAs rdf:resource="https://viaf.org/viaf/51698295"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/98000946"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q116266918"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-AL-BUNAMO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1967,8 +1972,8 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">San Salvatore Monferrato</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3166756"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q21974"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3167753"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q17663"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journal_lunita-edizione-piemontese">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2084,7 +2089,7 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Mondadori</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_milano"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q182693"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q119942453"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_barabas_1945-ante">
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
@@ -2301,7 +2306,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Vladimiro Scatturin</rdfs:label>
     <schema:name xml:lang="it">Vladimiro Scatturin</schema:name>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q61482023"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/50155767367627760794"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q61482023"/>
     <schema:birthDate>1922</schema:birthDate>
     <schema:deathDate>2008</schema:deathDate>
   </rdf:Description>
@@ -2518,8 +2524,8 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Vercelli</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3164529"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q13380"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3164565"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5990"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1953-ST-SCINTILL_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2542,8 +2548,9 @@
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1987-04-11</schema:deathDate>
     <schema:birthPlace rdf:resource="ontolevi:place_torino"/>
     <schema:deathPlace rdf:resource="ontolevi:place_torino"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q152452"/>
-    <owl:sameAs rdf:resource="https://viaf.org/viaf/46783622"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q153670"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/76319000"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/5002/html"/>
     <schema:alternateName xml:lang="it">Damiano Malabaila</schema:alternateName>
     <schema:alternateName xml:lang="it">Primo Michele Levi</schema:alternateName>
   </rdf:Description>
@@ -2570,8 +2577,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Casale Monferrato</rdfs:label>
     <schema:name xml:lang="it">Casale Monferrato</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3179684"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q13402"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3180208"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16333"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_journalissue-stampa-1967-09-01">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2733,8 +2740,8 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Recklinghausen</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.geonames.org/2848715"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q6501"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/2849646"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3050"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-SEQUEM_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2778,8 +2785,8 @@
     <rdfs:label xml:lang="it">Einaudi</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_torino"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-06</dcterms:identifier>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q510853"/>
-    <owl:sameAs rdf:resource="https://viaf.org/viaf/131512160"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1305980"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/145988121"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1948-ST-ALDIQUA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2966,8 +2973,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Ravenna</rdfs:label>
     <schema:name xml:lang="it">Ravenna</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3169689"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q13697"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3169561"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q13364"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_ernesto-ferrero">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2979,7 +2986,7 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Istituto Nazionale per la Storia del Movimento di Liberazione in Italia</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_milano"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3805793"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3803655"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-SEQUEM_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3286,6 +3293,7 @@
     <rdfs:label xml:lang="it">Guido Fubini</rdfs:label>
     <schema:name xml:lang="it">Guido Fubini</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q21542110"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/90134626"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-10-20</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-22</schema:deathDate>
     <schema:birthPlace rdf:resource="ontolevi:place_torino"/>
@@ -3350,6 +3358,7 @@
     <rdfs:label xml:lang="it">Silvio Ortona</rdfs:label>
     <schema:name xml:lang="it">Silvio Ortona</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q19727853"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/2016161392910358480009"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1916-05-24</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-06</schema:deathDate>
     <schema:birthPlace rdf:resource="ontolevi:place_casale-monferrato"/>
@@ -3660,8 +3669,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Dolo</rdfs:label>
     <schema:name xml:lang="it">Dolo</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3176808"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q56455"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3177547"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q47505"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_brescia">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3686,7 +3695,7 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Edizioni Minerva Medica</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_torino"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q65032710"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q98658381"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_CFA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3829,6 +3838,7 @@
     <schema:name xml:lang="it">Giuseppe Morpurgo</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3771055"/>
     <owl:sameAs rdf:resource="https://viaf.org/viaf/27440023"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/CDEC201-1378/html"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-07-16</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-01-07</schema:deathDate>
     <schema:deathPlace rdf:resource="ontolevi:place_torino"/>
@@ -4539,15 +4549,14 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Codogno</rdfs:label>
     <schema:name xml:lang="it">Codogno</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3178470"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q85358"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q42298"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_cuneo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Cuneo</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3177838"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q17160"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3177700"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q5968"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_journalissue-stampa-1959-12-03">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4839,7 +4848,7 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Georg Bitter Verlag</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_recklinghausen"/>
-    <owl:sameAs rdf:resource="https://viaf.org/viaf/125289462"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/313445493"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_giorgio-olivetti">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5135,7 +5144,7 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Giovanni Falaschi</rdfs:label>
     <schema:name xml:lang="it">Giovanni Falaschi</schema:name>
-    <owl:sameAs rdf:resource="https://viaf.org/viaf/32157705"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/54256177"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1955-ST-RISVOLTO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5402,8 +5411,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Varese</rdfs:label>
     <schema:name xml:lang="it">Varese</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3164526"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q6727"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3164699"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6285"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journalissue_lamico-del-popolo-settimanale-della-federazione-comunista-vercellese_III_20_1947-05-24">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5650,8 +5659,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Voghera</rdfs:label>
     <schema:name xml:lang="it">Voghera</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/3164244"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q55695"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3163995"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q39981"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_edizioni-scientifiche-einaudi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5851,8 +5860,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Luserna</rdfs:label>
     <schema:name xml:lang="it">Luserna</schema:name>
-    <owl:sameAs rdf:resource="https://www.geonames.org/6535740"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q4002437"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/6540098"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q120272"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_squ-nuovi-coralli-1979">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6213,7 +6222,8 @@
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Anna Bravo</rdfs:label>
     <schema:name xml:lang="it">Anna Bravo</schema:name>
-    <owl:sameAs rdf:resource="https://viaf.org/viaf/39414406"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/68955794"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q58838660"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_silvano-arieti">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
