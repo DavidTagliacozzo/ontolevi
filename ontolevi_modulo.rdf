@@ -1144,6 +1144,7 @@ Recommended best practice is to use a controlled vocabulary such as RFC 4646 [ht
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
     <rdfs:subClassOf rdf:nodeID="N8b58039c50ce43edb153aad43d69210d"/>
+    <rdfs:label xml:lang="en">Correspondence Aggregate</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#adaption">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
