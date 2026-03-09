@@ -514,7 +514,7 @@ This property describes the transformation of an original work or expression int
     <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:codiceAcnp">
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -523,7 +523,7 @@ This property describes the transformation of an original work or expression int
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en">ACNP code</rdfs:label>
     <rdfs:label xml:lang="it">Codice ACNP</rdfs:label>
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:comment xml:lang="en">ACNP identifier code for a journal issue Manifestation in the Italian Serials Catalogue.</rdfs:comment>
   </rdf:Description>
