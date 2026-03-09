@@ -3988,6 +3988,7 @@
     <rdfs:label xml:lang="it">Marisa Diena</rdfs:label>
     <schema:name xml:lang="it">Marisa Diena</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q125202510"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/IT-CDEC-EACCPF0001-000160/html"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1916-09-29</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-05-08</schema:deathDate>
     <schema:birthPlace rdf:resource="ontolevi:place_torino"/>
