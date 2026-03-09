@@ -35,13 +35,18 @@
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_thomson-2002">
     <dcterms:description>Ian Thomson</dcterms:description>
-    <rdfs:label>Thomson 2002</rdfs:label>
+    <rdfs:label>Primo Levi, Hutchinson, London 2002</rdfs:label>
+    <dcterms:title xml:lang="it">Primo Levi</dcterms:title>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_london"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_hutchinson"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2002</prism:publicationDate>
     <schema:author rdf:resource="ontolevi:agent_ian-thomson"/>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/TO01096415</ontolevi:permalinkOpacSbn>
+    <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\TO0\1096415</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_squ-la-tregua-1972">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -51,6 +56,10 @@
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+   <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/SBL0462439</ontolevi:permalinkOpacSbn>
+    <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\SBL\0462439</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1984-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -63,6 +72,10 @@
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_poesie-garzanti"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/CFI0050173</ontolevi:permalinkOpacSbn>
+    <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\CFI\0050173</ontolevi:codiceOpacSbn>
     <dcterms:description>Sovracoperta grafica. Risvolto siglato «P.L.». Dedica «A Lucia». Due sezioni: Ad ora incerta e Traduzioni. Data esatta: 10 ottobre 1984.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_franco-antonicelli">
@@ -112,13 +125,18 @@
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_amsallem-2001">
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_lyon"/>
-    <rdfs:label>Amsallem 2001</rdfs:label>
+    <rdfs:label>Daniela Amsallem, Primo Levi au miroir de son oeuvre. Le témoin. L’écrivain.
+Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
+<dcterms:title>Primo Levi au miroir de son oeuvre. Le témoin. L’écrivain. Le chimiste,</dcterms:title>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</prism:publicationDate>
-    <dcterms:description>Daniela Amsallem. Éditions du Cosmogone</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_cosmogone"/>
     <schema:author rdf:resource="ontolevi:agent_daniela-amsallem"/>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/TO01377822</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\TO0\1377822</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_newspissue_gente-milano_VII_38_1963-09-20">
     <rdfs:label xml:lang="it">«Gente [Milano] - VII - n. 38 - 1963-09-20»</rdfs:label>
@@ -262,18 +280,26 @@
   <rdf:Description rdf:about="ontolevi:m_leggere-parlare-scrivere-1980">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+    <dcterms:title xml:lang="it">Leggere parlare scrivere : letture per il 2. ciclo<dcterms:title>
     <rdfs:label xml:lang="it">Salucci–Favero, Leggere parlare scrivere [1980]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</prism:publicationDate>
     <schema:author rdf:resource="ontolevi:agent_sergio-salucci"/>
     <schema:author rdf:resource="ontolevi:agent_luigi-favero"/>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/PUV1446753</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\PUV\1446753</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journal_minerva-medica-gazzetta-settimanale-per-il-medico-pratico-torino">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Journal"/>
     <rdfs:label xml:lang="it">Minerva Medica. Gazzetta settimanale per il medico pratico [Torino]</rdfs:label>
     <dcterms:title xml:lang="it">Minerva Medica. Gazzetta settimanale per il medico pratico [Torino]</dcterms:title>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1909</schema:startDate>
     <schema:location rdf:resource="ontolevi:place_torino"/>
+    <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/2626</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >2626</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1948-ST-TITANIO_6">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -307,12 +333,17 @@
   <rdf:Description rdf:about="ontolevi:m_cavaglion-ritorno-1993">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+    <dcterms:title xml:lang="it"> Il ritorno dai Lager</dcterms:title>
     <rdfs:label xml:lang="it">Cavaglion, Il ritorno dai Lager [FrancoAngeli, Milano 1993]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</prism:publicationDate>
     <dcterms:creator rdf:resource="ontolevi:agent_alberto-cavaglion"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_francoangeli"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_milano"/>
     <rdfs:comment xml:lang="it">Alberto Cavaglion (a cura di), Il ritorno dai Lager, introduzione di Guido Quazza, FrancoAngeli, Milano 1993 (Atti del convegno internazionale, Torino, 23 novembre 1991). Contiene appendice con materiale leviano alle pp. 223-40.</rdfs:comment>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/CFI0215327</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\CFI\0215327</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_de-silva">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -354,7 +385,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label>Il sistema periodico [Narratori Einaudi, Einaudi 1975]</rdfs:label>
-    <dcterms:title>Il sistema periodico</dcterms:title>
+    <dcterms:title xml:lang="it">Il sistema periodico</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1975-ST-SP_1"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
@@ -363,7 +394,11 @@
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <fabio:hasSequenceIdentifier>2</fabio:hasSequenceIdentifier>
     <dcterms:description>Copertina: Maurits C. Escher, Cascata perpetua. Quarta di copertina non firmata ma di Ernesto Ferrero. Contiene 21 racconti. Data esatta: 12 aprile 1975.</dcterms:description>
-  </rdf:Description>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/LIA0168072</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\LIA\0168072</ontolevi:codiceOpacSbn> 
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_azzolini-amodeo_1981">
     <frbr:partOf rdf:resource="ontolevi:corr_azzolini-amodeo"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -378,15 +413,20 @@
   <rdf:Description rdf:about="ontolevi:m_donne-piemontesi-1953">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Donne piemontesi nella lotta di liberazione [1953]</rdfs:label>
+    <rdfs:label xml:lang="it">Donne piemontesi nella lotta di liberazione: 99 partigiane cadute, 185 deportate, 38 cadute civili / prefazione di Ada Marchesini Gobetti [1953]</rdfs:label>
+    <dcterms:title xml:lang="it">Donne piemontesi nella lotta di liberazione : 99 partigiane cadute, 185 deportate, 38 cadute civili</dcterms:title>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</prism:publicationDate>
-    <schema:author rdf:resource="ontolevi:agent_commissione-femminile-anpi-prov-torino"/>
+    <schema:editor rdf:resource="ontolevi:agent_commissione-femminile-anpi-prov-torino"/>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/VIA0045765</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\VIA\0045765</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1948-ST-TITANIO_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Maria e il cerchio</dcterms:title>
-    <rdfs:label xml:lang="it">Maria e il cerchio [14 racconti [Mondadori 1971]]</rdfs:label>
+    <rdfs:label xml:lang="it">Maria e il cerchio [quattordici racconti [Mondadori 1971]]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_quattordici-racconti-1971"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_mondadori"/>
     <dcterms:isPartOf rdf:resource="ontolevi:series_contemporanea"/>
@@ -433,6 +473,10 @@
     <rdfs:label xml:lang="it">La Chimica e L'Industria [Milano]</rdfs:label>
     <dcterms:title xml:lang="it">La Chimica e L'Industria [Milano]</dcterms:title>
     <schema:location rdf:resource="ontolevi:place_milano"/>
+    <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/1196</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >1196</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspissue_il-giorno-milano_nodate_nodate_1963-08-07">
     <rdfs:label xml:lang="it">«Il Giorno [Milano] - 1963-08-07»</rdfs:label>
@@ -547,17 +591,6 @@
     <schema:name xml:lang="it">Bruno Erber</schema:name>
     <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/CDEC201-2504/html"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_1947-ST-SQU_8">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
-    <rdfs:label xml:lang="it">Se questo è un uomo [Se questo è un uomo [Einaudi ed. riveduta 2012]]</rdfs:label>
-    <frbr:partOf rdf:resource="ontolevi:m_squ-riveduta-2012"/>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</prism:publicationDate>
-    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-    <dcterms:description xml:lang="it">edizione riveduta a cura di Alberto Cavaglion</dcterms:description>
-    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1947-ST-OTTOB">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -632,9 +665,13 @@
   <rdf:Description rdf:about="ontolevi:m_P-1970">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>L'osteria di Brema [Scheiwiller 1975]</rdfs:label>
+    <rdfs:label>[Poesie] [opuscolo privato 1970]</rdfs:label>
+    <dcterms:title xml:lang="it">[Poesie]</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1970-ST-POESIE"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</prism:publicationDate>
+    <dcterms:description>s.l. s.d. (ma Torino, dicembre 1970). Opuscolo privo di titolo e senza
+indicazione dell’autore, 23 testi dattiloscritti, edizione privata in 300
+copie, pp. 25 non numerate.</dcterms:description>
+    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
   </rdf:Description>
@@ -671,7 +708,11 @@
     <dcterms:isPartOf rdf:resource="ontolevi:series_i-coralli"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <fabio:hasSequenceIdentifier>234</fabio:hasSequenceIdentifier>
-    <dcterms:description>Sovracoperta: collage di Arno Waldschmidt. Risvolto non firmato ma di Italo Calvino, con brani da lettera dell'autore. Fascetta: «Fantascienza?». Contiene 15 racconti.</dcterms:description>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/SBL0421202</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\SBL\0421202</ontolevi:codiceOpacSbn>    
+<dcterms:description>Pubblicato sotto lo pseudonimo «Damiano Malabaila». Sovracoperta: collage di Arno Waldschmidt. Risvolto non firmato ma di Italo Calvino, con brani da lettera dell'autore. Fascetta: «Fantascienza?». Contiene 15 racconti.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1953-ST-PRIGION_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -844,7 +885,11 @@
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="it">«Terra nostra. Settimanale dei socialisti mantovani»</rdfs:label>
-  </rdf:Description>
+<ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/921965</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >921965</ontolevi:codiceAcnp>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_2016-ST-OPCOMP_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -860,6 +905,10 @@
     <dcterms:contributor rdf:resource="ontolevi:agent_ernesto-ferrero"/>
     <dcterms:description>Vol. I. A cura di Marco Belpoliti, introduzione di Daniele Del Giudice, cronologia di Ernesto Ferrero. Data: novembre 2016.</dcterms:description>
     <frbr:partOf rdf:resource="ontolevi:m_2016-ST-OPCOMP"/>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/TSA1498150</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\TSA\1498150</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1949-ST-MARINES">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -963,8 +1012,8 @@
   <rdf:Description rdf:about="ontolevi:m_1948-ST-TITANIO_5">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:title xml:lang="it">Lia und der Kreis</dcterms:title>
-    <rdfs:label xml:lang="it">Lia und der Kreis [Die Katze die aus Rom kam [Bitter 1969]]</rdfs:label>
+    <dcterms:title>Lia und der Kreis</dcterms:title>
+    <rdfs:label>Lia und der Kreis [Die Katze die aus Rom kam [Bitter 1969]]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_katze-die-aus-rom-kam-1969"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_MarlisIngenmey"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_georg-bitter-verlag"/>
@@ -1021,6 +1070,11 @@
     <dcterms:title xml:lang="it">Torino. Rivista mensile della Città e del Piemonte</dcterms:title>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1921</schema:startDate>
     <schema:location rdf:resource="ontolevi:place_torino"/>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/TO00749298</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\TO0\0749298</ontolevi:codiceOpacSbn>
+<dcterms:description>numero monografico per il decennale della Liberazione</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:corr_langbein">
     <dcterms:isPartOf rdf:resource="ontolevi:col_Corrispondenza"/>
@@ -1061,13 +1115,22 @@
     <frbr:realization rdf:resource="ontolevi:e_1970-AL-DICHIARAZ"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_squ-riveduta-2012">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi ed. riveduta 2012]</rdfs:label>
-    <frbr:embodimentOf rdf:resource="ontolevi:e_1947-ST-SQU_7"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</prism:publicationDate>
-    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi ed. riveduta 2012]</rdfs:label>
+  <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
+  <frbr:embodimentOf rdf:resource="ontolevi:e_1947-ST-SQU_7"/>
+  <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
+  <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</prism:publicationDate>
+  <dcterms:description xml:lang="it">edizione riveduta a cura di Alberto Cavaglion</dcterms:description>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+  <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+  <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >http://id.sbn.it/bid/UTO1267071</ontolevi:permalinkOpacSbn>
+  <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IT\ICCU\UTO\1267071</ontolevi:codiceOpacSbn>
+</rdf:Description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_arieti_1979-02-21">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1268,6 +1331,10 @@
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
     <rdfs:label xml:lang="it">«Stasera» [Milano]</rdfs:label>
     <dcterms:title xml:lang="it">Stasera</dcterms:title>
+    <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/1087783</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >1087783</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_aldo-garosci">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1286,7 +1353,6 @@
     <frbr:embodimentOf rdf:resource="ontolevi:journalissue_leco-delleducazione-ebraica-bollettino-milano_IX_7_nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1955-04</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_milano"/>
-    <dcterms:description xml:lang="it">numero speciale nel decennale della Liberazione</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_journalissue-avanti-1968-09-10">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1381,7 +1447,8 @@
     <dcterms:description>Martina Mengoni. Lezioni Primo Levi, 8</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2017</prism:publicationDate>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
-    <rdfs:label>Mengoni 2017</rdfs:label>
+    <rdfs:label>Primo Levi e i tedeschi / Primo Levi and the Germans, Einaudi, Torino [aprile] 2017</rdfs:label>
+    <dcterms:title>Primo Levi e i tedeschi / Primo Levi and the Germans</dcterms:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <schema:author rdf:resource="ontolevi:agent_martina-mengoni"/>
@@ -1932,7 +1999,6 @@
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</schema:startDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SQU_7">
-    <frbr:embodiment rdf:resource="ontolevi:m_1947-ST-SQU_8"/>
     <frbr:embodiment rdf:resource="ontolevi:m_squ-riveduta-2012"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
