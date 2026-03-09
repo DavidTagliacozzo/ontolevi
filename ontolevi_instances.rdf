@@ -5720,7 +5720,7 @@
   <rdf:Description rdf:about="ontolevi:m_anissimov-primo-levi-tragedie-1996">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="fr">Primo Levi ou la tragédie d'un optimiste [Lattès 1996]</rdfs:label>
+    <rdfs:label>Primo Levi ou la tragédie d'un optimiste [Lattès 1996]</rdfs:label>
     <dcterms:title xml:lang="fr">Primo Levi ou la tragédie d'un optimiste</dcterms:title>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1996</prism:publicationDate>
     <rdfs:comment xml:lang="it">Myriam Anissimov, Jean-Claude Lattès, Paris 1996. Pp. 473-75 riportano il testo della dichiarazione.</rdfs:comment>
