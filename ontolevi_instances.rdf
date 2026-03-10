@@ -4906,8 +4906,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="it">Enzo Fabiani</rdfs:label>
-    <owl:sameAs rde:resource ="http://viaf.org/viaf/7540069"/>
-    <owl:sameAs rde:resource ="https://www.wikidata.org/wiki/Q93268778"/>
+    <owl:sameAs rdf:resource ="http://viaf.org/viaf/7540069"/>
+    <owl:sameAs rdf:resource ="https://www.wikidata.org/wiki/Q93268778"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</schema:deathDate>
   </rdf:Description>
@@ -4933,8 +4933,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Paolo Spriano</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-    <owl:sameAs rde:resource ="http://viaf.org/viaf/66473761"/>
-    <owl:sameAs rde:resource ="https://www.wikidata.org/wiki/Q3894503"/>
+    <owl:sameAs rdf:resource ="http://viaf.org/viaf/66473761"/>
+    <owl:sameAs rdf:resource ="https://www.wikidata.org/wiki/Q3894503"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</schema:deathDate>
   </rdf:Description>
@@ -5001,8 +5001,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Giorgio Olivetti</rdfs:label>
     <schema:name xml:lang="it">Giorgio Olivetti</schema:name>
-    <owl:sameAs rde:resource ="http://viaf.org/viaf/7962155286628987180007"/>
-    <owl:sameAs rde:resource ="https://www.wikidata.org/wiki/Q133736915"/>
+    <owl:sameAs rdf:resource ="http://viaf.org/viaf/7962155286628987180007"/>
+    <owl:sameAs rdf:resource ="https://www.wikidata.org/wiki/Q133736915"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1929</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2016</schema:deathDate>
   </rdf:Description>
