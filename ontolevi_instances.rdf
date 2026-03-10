@@ -591,7 +591,6 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <schema:name xml:lang="it">Bruno Erber</schema:name>
     <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/CDEC201-2504/html"/>
   </rdf:Description>
-  </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1947-ST-OTTOB">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/ShortStory"/>
@@ -1130,7 +1129,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     >http://id.sbn.it/bid/UTO1267071</ontolevi:permalinkOpacSbn>
   <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >IT\ICCU\UTO\1267071</ontolevi:codiceOpacSbn>
-</rdf:Description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_arieti_1979-02-21">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
