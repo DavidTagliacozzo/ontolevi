@@ -48,19 +48,23 @@
     <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
   >IT\ICCU\TO0\1096415</ontolevi:codiceOpacSbn>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_squ-la-tregua-1972">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo. La tregua [Einaudi 1972]</rdfs:label>
-    <frbr:embodimentOf rdf:resource="ontolevi:e_1947-ST-SQU_3"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</prism:publicationDate>
-    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
-   <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
-  >http://id.sbn.it/bid/SBL0462439</ontolevi:permalinkOpacSbn>
-    <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-  >IT\ICCU\SBL\0462439</ontolevi:codiceOpacSbn>
-  </rdf:Description>
+ <rdf:Description rdf:about="ontolevi:m_squ-la-tregua-1972">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Se questo è un uomo. La tregua [Einaudi 1972]</rdfs:label>
+  <dcterms:title xml:lang="it">Se questo è un uomo. La tregua</dcterms:title>
+  <frbr:embodimentOf rdf:resource="ontolevi:e_1947-ST-SQU_3"/>
+  <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
+  <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</prism:publicationDate>
+  <dcterms:description xml:lang="it">Edizione congiunta con La tregua.</dcterms:description>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+  <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+  <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >http://id.sbn.it/bid/SBL0462439</ontolevi:permalinkOpacSbn>
+  <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IT\ICCU\SBL\0462439</ontolevi:codiceOpacSbn>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1984-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -1702,6 +1706,10 @@ copie, pp. 25 non numerate.</dcterms:description>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</prism:publicationDate>
   <dcterms:description xml:lang="it">Atti del convegno internazionale, San Salvatore Monferrato, 26-27-28 settembre 1991.</dcterms:description>
   <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/BVE0125286</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\BVE\0125286</ontolevi:codiceOpacSbn>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_newspissue_resistenza-giustizia-e-liberta-torino_XVII_5_1963-05">
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1963-05</prism:publicationDate>
@@ -1795,6 +1803,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <dcterms:description xml:lang="it">sovracoperta Bruno Munari. Risvolto Italo Calvino. Edizione aumentata</dcterms:description>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/SBL0485399</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\SBL\0485399</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1959-AL-LETTERA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1821,19 +1833,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://viaf.org/viaf/67854581"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</schema:birthDate>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_1947-ST-SQU_4">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:title xml:lang="it">Se questo è un uomo. La tregua</dcterms:title>
-    <rdfs:label xml:lang="it">Se questo è un uomo. La tregua [Se questo è un uomo. La tregua [Einaudi 1972]]</rdfs:label>
-    <frbr:partOf rdf:resource="ontolevi:m_squ-la-tregua-1972"/>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</prism:publicationDate>
-    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-    <dcterms:description xml:lang="it">edizione congiunta con La tregua</dcterms:description>
-    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_let_bassani_1949-05-10_album">
+    <rdf:Description rdf:about="ontolevi:m_let_bassani_1949-05-10_album">
     <rdfs:label>Lettera Levi–Bassani 10 maggio 1949 [in: Album]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_album"/>
     <frbr:embodimentOf rdf:resource="ontolevi:let_bassani_1949-05-10"/>
@@ -5558,7 +5558,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Un tatuaggio rivela il dramma dello scrittore</dcterms:title>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SQU_3">
-    <frbr:embodiment rdf:resource="ontolevi:m_1947-ST-SQU_4"/>
     <frbr:embodiment rdf:resource="ontolevi:m_squ-la-tregua-1972"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
