@@ -330,21 +330,34 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <frbr:embodimentOf rdf:resource="ontolevi:journalissue_unita-mi-1969-01-28"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-01-28</prism:publicationDate>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_cavaglion-ritorno-1993">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:title xml:lang="it"> Il ritorno dai Lager</dcterms:title>
-    <rdfs:label xml:lang="it">Cavaglion, Il ritorno dai Lager [FrancoAngeli, Milano 1993]</rdfs:label>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</prism:publicationDate>
-    <dcterms:creator rdf:resource="ontolevi:agent_alberto-cavaglion"/>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_francoangeli"/>
-    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_milano"/>
-    <rdfs:comment xml:lang="it">Alberto Cavaglion (a cura di), Il ritorno dai Lager, introduzione di Guido Quazza, FrancoAngeli, Milano 1993 (Atti del convegno internazionale, Torino, 23 novembre 1991). Contiene appendice con materiale leviano alle pp. 223-40.</rdfs:comment>
-    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
-  >http://id.sbn.it/bid/CFI0215327</ontolevi:permalinkOpacSbn>
-<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-  >IT\ICCU\CFI\0215327</ontolevi:codiceOpacSbn>
-  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:m_cavaglion-ritorno-1993-contributo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Cavaglion, Il ritorno di Primo Levi… [in: Il ritorno dai Lager, 1993]</rdfs:label>
+  <dcterms:title xml:lang="it">Il ritorno di Primo Levi e il memoriale per la «Minerva Medica»</dcterms:title>
+  <frbr:partOf rdf:resource="ontolevi:m_cavaglion-ritorno-lager-1993"/>
+  <schema:author rdf:resource="ontolevi:agent_alberto-cavaglion"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</prism:publicationDate>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">223-240</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:m_cavaglion-ritorno-lager-1993">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Cavaglion (a cura di), Il ritorno dai Lager [FrancoAngeli, Milano 1993]</rdfs:label>
+  <dcterms:title xml:lang="it">Il ritorno dai Lager</dcterms:title>
+  <schema:editor rdf:resource="ontolevi:agent_alberto-cavaglion"/>
+  <dcterms:contributor rdf:resource="ontolevi:agent_guido-quazza"/>
+  <dcterms:publisher rdf:resource="ontolevi:publisher_francoangeli"/>
+  <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_milano"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</prism:publicationDate>
+  <dcterms:description xml:lang="it">Atti del convegno internazionale, Torino, 23 novembre 1991. Introduzione di Guido Quazza.</dcterms:description>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+  <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >http://id.sbn.it/bid/CFI0215327</ontolevi:permalinkOpacSbn>
+  <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IT\ICCU\CFI\0215327</ontolevi:codiceOpacSbn>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_de-silva">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
@@ -1668,15 +1681,28 @@ copie, pp. 25 non numerate.</dcterms:description>
    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_cavaglion-memoria-1995">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Cavaglion, Primo Levi: memoria e invenzione [Biennale Piemonte e Letteratura, 1995]</rdfs:label>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</prism:publicationDate>
-    <dcterms:creator rdf:resource="ontolevi:agent_alberto-cavaglion"/>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_biennale-piemonte-letteratura"/>
-    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_san-salvatore-monferrato"/>
-    <rdfs:comment xml:lang="it">Giovanna Ioli (a cura di), Primo Levi: memoria e invenzione, Edizioni della Biennale «Piemonte e Letteratura», San Salvatore Monferrato 1995 (Atti del convegno internazionale, 26-27-28 settembre 1991). Contiene appendice con materiale leviano alle pp. 69-84.</rdfs:comment>
-  </rdf:Description>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Cavaglion, «Leonardo ed io…» [in: Ioli (a cura di), Primo Levi: memoria e invenzione, 1995]</rdfs:label>
+  <dcterms:title xml:lang="it">«Leonardo ed io, in un silenzio gremito di memoria». Sopra una fonte dimenticata di «Se questo è un uomo»</dcterms:title>
+  <frbr:partOf rdf:resource="ontolevi:m_ioli-primolevi-memoria-1995"/>
+  <schema:author rdf:resource="ontolevi:agent_alberto-cavaglion"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</prism:publicationDate>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69-84</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:m_ioli-primolevi-memoria-1995">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Ioli (a cura di), Primo Levi: memoria e invenzione [Biennale Piemonte e Letteratura, 1995]</rdfs:label>
+  <dcterms:title xml:lang="it">Primo Levi: memoria e invenzione</dcterms:title>
+  <schema:editor rdf:resource="ontolevi:agent_giovanna-ioli"/>
+  <dcterms:publisher rdf:resource="ontolevi:publisher_biennale-piemonte-letteratura"/>
+  <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_san-salvatore-monferrato"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</prism:publicationDate>
+  <dcterms:description xml:lang="it">Atti del convegno internazionale, San Salvatore Monferrato, 26-27-28 settembre 1991.</dcterms:description>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_newspissue_resistenza-giustizia-e-liberta-torino_XVII_5_1963-05">
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1963-05</prism:publicationDate>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2563,7 +2589,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)</dcterms:title>
     <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Cavaglion, Il ritorno… [Milano 1993]]</rdfs:label>
-    <frbr:partOf rdf:resource="ontolevi:m_cavaglion-ritorno-1993"/>
+    <frbr:partOf rdf:resource="ontolevi:m_cavaglion-ritorno-1993-contributo"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_LeonardoDeBenedetti"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_milano"/>
@@ -6595,13 +6621,36 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Bice Azzali</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_fadini-filologia-italiana-2009">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Fadini, Filologia italiana 2009</rdfs:label>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2009</prism:publicationDate>
-    <schema:author rdf:resource="ontolevi:agent_matteo-fadini"/>
-  </rdf:Description>
+ <rdf:Description rdf:about="ontolevi:m_fadini-filologia-italiana-2009">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Fadini, Su un avantesto di «Se questo è un uomo» [Filologia Italiana, 2008]</rdfs:label>
+  <dcterms:title xml:lang="it">Su un avantesto di «Se questo è un uomo» (con una nuova edizione del «Rapporto» sul Lager di Monowitz del 1946)</dcterms:title>
+  <frbr:partOf rdf:resource="ontolevi:journalissue_filologia-italiana_5_2008"/>
+  <schema:author rdf:resource="ontolevi:agent_matteo-fadini"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2009</prism:publicationDate>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">222-235</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:journalissue_filologia-italiana_5_2008">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+  <rdfs:label xml:lang="it">«Filologia Italiana», n. 5, 2008 [ma 2009]</rdfs:label>
+  <frbr:partOf rdf:resource="ontolevi:journal_filologia-italiana"/>
+  <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</fabio:hasSequenceIdentifier>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</prism:publicationDate>
+  <dcterms:description xml:lang="it">Datato 2008, pubblicato nel 2009.</dcterms:description>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:journal_filologia-italiana">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Journal"/>
+  <rdfs:label xml:lang="it">«Filologia Italiana»</rdfs:label>
+  <dcterms:title xml:lang="it">Filologia Italiana</dcterms:title>
+<ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/2289772</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >2289772</ontolevi:codiceAcnp>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_journalissue-sigma-I-2-1964-08">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
