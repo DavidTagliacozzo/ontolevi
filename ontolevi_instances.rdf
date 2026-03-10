@@ -5179,7 +5179,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15969"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/44315657"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-10-31</schema:birthDate>
-    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-10-17</schema:deaththDate>
+    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-10-17</schema:deathDate>
     <schema:birthPlace rdf:resource="ontolevi:place_Vienna"/>
     <schema:deathPlace rdf:resource="ontolevi:place_Salisburgo"/>
  </rdf:Description>
