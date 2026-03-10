@@ -280,7 +280,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="ontolevi:m_leggere-parlare-scrivere-1980">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:title xml:lang="it">Leggere parlare scrivere : letture per il 2. ciclo<dcterms:title>
+    <dcterms:title xml:lang="it">Leggere parlare scrivere : letture per il 2. ciclo</dcterms:title>
     <rdfs:label xml:lang="it">Salucci–Favero, Leggere parlare scrivere [1980]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</prism:publicationDate>
     <schema:author rdf:resource="ontolevi:agent_sergio-salucci"/>
