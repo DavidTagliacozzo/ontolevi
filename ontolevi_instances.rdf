@@ -263,7 +263,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdfs:label xml:lang="it">[Lettera] [1959]</rdfs:label>
     <dcterms:title xml:lang="it">[Lettera]</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1959-AL-LETTERA"/>
-    <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-stampa-1959-12-03"/>
+    <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1959-12-03"/>
     <prism:pageRange>2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -1586,7 +1586,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">«Non lavoreremo per l'Unesco» [1974]</rdfs:label>
     <dcterms:title xml:lang="it">«Non lavoreremo per l'Unesco»</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1974-AL-UNESCO"/>
-    <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-stampa-1974-12-07"/>
+    <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1974-12-07"/>
     <prism:pageRange>3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -2007,7 +2007,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Risposta di Primo Levi [1967]</rdfs:label>
     <dcterms:title xml:lang="it">Risposta di Primo Levi</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1967-AL-RISPOSTA"/>
-    <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-stampa-1967-09-01"/>
+    <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1967-09-01"/>
     <prism:pageRange>2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -2063,14 +2063,14 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:partOf rdf:resource="ontolevi:w_1947-ST-SQU"/>
     <frbr:partOf rdf:resource="ontolevi:w_ST-POESIE"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:journalissue_stampa-1959-12-03">
+  <rdf:Description rdf:about="ontolevi:newspaperissue_stampa-1959-12-03">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1959-12-03</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1959-12-03</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:journal_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-12-03</prism:publicationDate>
-    <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-stampa-1959-12-03"/>
+    <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1959-12-03"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_san-salvatore-monferrato">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2317,13 +2317,29 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1919-11-17</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1977-05-25</schema:deathDate>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:journalissue_domenica-sole24ore-2013-11-10">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
-    <rdfs:label>«Domenica. Il Sole 24 Ore», 10 novembre 2013</rdfs:label>
-    <frbr:partOf rdf:resource="ontolevi:journal_il-sole-24-ore"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-10</prism:publicationDate>
-  </rdf:Description>
+<rdf:Description rdf:about="ontolevi:newspaper_domenica-sole24ore">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
+  <rdfs:label xml:lang="it">«Domenica. Il Sole 24 Ore» [Milano]</rdfs:label>
+  <dcterms:title xml:lang="it">Domenica : Il Sole 24 Ore</dcterms:title>
+  <schema:location rdf:resource="ontolevi:place_milano"/>
+  <frbr:partOf rdf:resource="ontolevi:newspaper_il-sole-24-ore"/>
+  <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</schema:startDate>
+  <dcterms:language rdf:resource="ontolevi:lang_it"/>
+  <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://acnpsearch.unibo.it/journal/2338431</ontolevi:permalinkAcnp>
+  <ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >2338431</ontolevi:codiceAcnp>
+</rdf:Description>
+  <rdf:Description rdf:about="ontolevi:newspissue_domenica-sole24ore-2013-11-10">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+  <rdfs:label xml:lang="it">«Domenica. Il Sole 24 Ore», 2013-11-10</rdfs:label>
+  <dcterms:title xml:lang="it">«Domenica. Il Sole 24 Ore», 2013-11-10</dcterms:title>
+  <frbr:partOf rdf:resource="ontolevi:newspaper_domenica-sole24ore"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-10</prism:publicationDate>
+  <frbr:embodiment rdf:resource="ontolevi:manifestation_newspissue-domenica-sole24ore-2013-11-10"/>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_mengoni-2021">
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</prism:publicationDate>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2705,11 +2721,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.geonames.org/3180208"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16333"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:manifestation_journalissue-stampa-1967-09-01">
+  <rdf:Description rdf:about="ontolevi:manifestation_newspaperissue-stampa-1967-09-01">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1967-09-01</rdfs:label>
-    <frbr:embodimentOf rdf:resource="ontolevi:journalissue_stampa-1967-09-01"/>
+    <frbr:embodimentOf rdf:resource="ontolevi:newspaperissue_stampa-1967-09-01"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-09-01</prism:publicationDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1974-AL-CILE">
@@ -3804,14 +3820,14 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
     <schema:author rdf:resource="ontolevi:agent_alfredo-todisco"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:journalissue_stampa-1967-09-01">
+  <rdf:Description rdf:about="ontolevi:newspaperissue_stampa-1967-09-01">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1967-09-01</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1967-09-01</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:journal_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-09-01</prism:publicationDate>
-    <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-stampa-1967-09-01"/>
+    <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1967-09-01"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1987-ST-OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3910,7 +3926,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Senza titolo]</dcterms:title>
     <rdfs:label xml:lang="it">[Senza titolo] [Domenica. Il Sole 24 Ore [2013]]</rdfs:label>
-    <frbr:partOf rdf:resource="ontolevi:m_domenica-il-sole-24-ore-2013"/>
+    <frbr:partOf rdf:resource="ontolevi:manifestation_newspissue-domenica-sole24ore-2013-11-10"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_domenico-scarpa"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</prism:publicationDate>
     <dcterms:description xml:lang="it">Al principio fu il Lager</dcterms:description>
@@ -4095,6 +4111,8 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdfs:label xml:lang="it">«allegoria. per uno studio materialistico della letteratura» [Siena]</rdfs:label>
   <dcterms:title xml:lang="it">allegoria. per uno studio materialistico della letteratura</dcterms:title>
   <schema:location rdf:resource="ontolevi:place_siena"/>
+<dcterms:description xml:lang="it">Direzione e redazione a Siena; editore G.B. Palumbo &amp; C., Palermo.</dcterms:description>
+<fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_palermo"/>
   <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >https://acnpsearch.unibo.it/journal/42986</ontolevi:permalinkAcnp>
 <ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4117,9 +4135,17 @@ copie, pp. 25 non numerate.</dcterms:description>
   <frbr:embodimentOf rdf:resource="ontolevi:journalissue_allegoria-siena_XIII_38_2001"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2001-05</prism:publicationDate>
 </rdf:Description>
+<rdf:Description rdf:about="ontolevi:place_palermo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+  <rdfs:label xml:lang="it">Palermo</rdfs:label>
+  <owl:sameAs rdf:resource="https://www.geonames.org/2523920"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q2656"/>
+</rdf:Description>
 <rdf:Description rdf:about="ontolevi:publisher_zamorani">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+    <schema:location rdf:resource="ontolevi:place_torino"/>
     <rdfs:label>Zamorani</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1955-ST-ANNIV_5">
@@ -4438,6 +4464,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
     <dcterms:description xml:lang="it">Quotidiano milanese fondato nel 1956.</dcterms:description>
+<ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/66044</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >66044</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_CFA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4509,6 +4539,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <dcterms:title xml:lang="it">Il Secolo XIX</dcterms:title>
+   <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/74345</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >74345</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1948-ST-TITANIO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4548,20 +4582,31 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:participant rdf:resource="ontolevi:agent_PrimoLevi"/>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</schema:endDate>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:journal_il-sole-24-ore">
+  <rdf:Description rdf:about="ontolevi:newspaper_il-sole-24-ore">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Journal"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
     <rdfs:label>Il Sole 24 Ore</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_milano"/>
+    <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/28976</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >28976</ontolevi:codiceAcnp>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:journalissue_stampa-1974-12-07">
+<rdf:Description rdf:about="ontolevi:publisher_gb-palumbo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+  <rdfs:label xml:lang="it">G.B. Palumbo &amp; C.</rdfs:label>
+  <schema:name xml:lang="it">G.B. Palumbo &amp; C.</schema:name>
+  <schema:location rdf:resource="ontolevi:place_palermo"/>
+</rdf:Description>
+  <rdf:Description rdf:about="ontolevi:newspaperissue_stampa-1974-12-07">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1974-12-07</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1974-12-07</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:journal_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-12-07</prism:publicationDate>
-    <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-stampa-1974-12-07"/>
+    <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1974-12-07"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1952-ST-10GIORNI_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4631,16 +4676,34 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1901</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</schema:deathDate>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_panella-2021">
-    <dcterms:description>Claudio Panella, in Scarpa (a cura di), Primo Levi al plurale. pp. 49-79</dcterms:description>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_zamorani"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</prism:publicationDate>
-    <rdfs:label>Panella 2021</rdfs:label>
-    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-    <schema:author rdf:resource="ontolevi:agent_domenico-scarpa"/>
-  </rdf:Description>
+ <rdf:Description rdf:about="ontolevi:m_panella-2021">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Panella, Primo Levi e Franco Antonicelli… [in: Scarpa (a cura di), Primo Levi al plurale, 2021]</rdfs:label>
+  <dcterms:title xml:lang="it">Primo Levi e Franco Antonicelli: frammenti di un dialogo ininterrotto</dcterms:title>
+  <frbr:partOf rdf:resource="ontolevi:m_scarpa-primo-levi-al-plurale-2021"/>
+  <schema:author rdf:resource="ontolevi:agent_claudio-panella"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</prism:publicationDate>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49-79</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:m_scarpa-primo-levi-al-plurale-2021">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Scarpa (a cura di), Primo Levi al plurale [Zamorani, Torino 2021]</rdfs:label>
+  <dcterms:title xml:lang="it">Primo Levi al plurale</dcterms:title>
+  <schema:editor rdf:resource="ontolevi:agent_domenico-scarpa"/>
+  <dcterms:publisher rdf:resource="ontolevi:publisher_zamorani"/>
+  <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</prism:publicationDate>
+  <dcterms:description xml:lang="it">Atti del convegno, Torino, 3 ottobre 2019. («questo», n. 1).</dcterms:description>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:agent_claudio-panella">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Claudio Panella</rdfs:label>
+  <schema:name xml:lang="it">Claudio Panella</schema:name>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1949-ST-MARINES_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -4744,6 +4807,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:series_nuovi-coralli"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <fabio:hasSequenceIdentifier>236</fabio:hasSequenceIdentifier>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/RAV0001633</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\RAV\0001633</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:cit_thomson-andreocci">
     <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
@@ -4807,11 +4874,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.geonames.org/3177700"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q5968"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:manifestation_journalissue-stampa-1959-12-03">
+  <rdf:Description rdf:about="ontolevi:manifestation_newspaperissue-stampa-1959-12-03">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1959-12-03</rdfs:label>
-    <frbr:embodimentOf rdf:resource="ontolevi:journalissue_stampa-1959-12-03"/>
+    <frbr:embodimentOf rdf:resource="ontolevi:newspaperissue_stampa-1959-12-03"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-12-03</prism:publicationDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1969-AL-NEFASTA_1">
@@ -4947,6 +5014,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:contributor rdf:resource="ontolevi:agent_ernesto-ferrero"/>
     <dcterms:title>Opere complete. Volume II</dcterms:title>
     <frbr:partOf rdf:resource="ontolevi:m_2016-ST-OPCOMP"/>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/UTO1253016</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\UTO\1253016</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_guido-ortona">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4988,12 +5059,12 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1897"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/6540125"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_domenica-il-sole-24-ore-2013">
+  <rdf:Description rdf:about="ontolevi:ontolevi:manifestation_newspissue-domenica-sole24ore-2013-11-10">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>«Domenica. Il Sole 24 Ore», 10 novembre 2013</rdfs:label>
+    <rdfs:label xml:lang="it">«Domenica. Il Sole 24 Ore», 10 novembre 2013</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-10</prism:publicationDate>
-    <frbr:embodimentOf rdf:resource="ontolevi:journalissue_domenica-sole24ore-2013-11-10"/>
+    <frbr:embodimentOf rdf:resource="ontolevi:newspissue_domenica-sole24ore-2013-11-10"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1968-AL-SOLIDAR">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5049,6 +5120,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">L'eco dell'educazione ebraica. Bollettino d'informazione professionale e didattica per gli insegnanti ebrei [Milano]</rdfs:label>
     <dcterms:title xml:lang="it">L'eco dell'educazione ebraica. Bollettino d'informazione professionale e didattica per gli insegnanti ebrei [Milano]</dcterms:title>
     <schema:location rdf:resource="ontolevi:place_milano"/>
+    <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/65283</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >65283</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_paolo-spriano">
     <rdfs:label xml:lang="it">Paolo Spriano</rdfs:label>
@@ -5458,11 +5533,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</prism:number>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-torino-rivista-mensile-della-citta-e-del-piemonte-xxxi-4-nodate"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:manifestation_journalissue-stampa-1965-10-19">
+  <rdf:Description rdf:about="ontolevi:manifestation_newspaperissue-stampa-1965-10-19">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1965-10-19</rdfs:label>
-    <frbr:embodimentOf rdf:resource="ontolevi:journalissue_stampa-1965-10-19"/>
+    <frbr:embodimentOf rdf:resource="ontolevi:newspaperissue_stampa-1965-10-19"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-10-19</prism:publicationDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1964-INT-DELCOLLE">
@@ -5945,11 +6020,11 @@ copie, pp. 25 non numerate.</dcterms:description>
   <schema:name xml:lang="it">Luciano Colombo</schema:name>
   <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q59912498"/>
 </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:manifestation_journalissue-stampa-1974-12-07">
+  <rdf:Description rdf:about="ontolevi:manifestation_newspaperissue-stampa-1974-12-07">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1974-12-07</rdfs:label>
-    <frbr:embodimentOf rdf:resource="ontolevi:journalissue_stampa-1974-12-07"/>
+    <frbr:embodimentOf rdf:resource="ontolevi:newspaperissue_stampa-1974-12-07"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-12-07</prism:publicationDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1952-ST-PERVERS">
@@ -6238,9 +6313,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:journal_la-stampa--torino">
+  <rdf:Description rdf:about="ontolevi:newspapel_la-stampa--torino">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Journal"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
     <rdfs:label xml:lang="it">La Stampa [Torino]</rdfs:label>
     <dcterms:title xml:lang="it">La Stampa [Torino]</dcterms:title>
     <schema:location rdf:resource="ontolevi:place_torino"/>
@@ -6260,7 +6335,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori [1965]</rdfs:label>
     <dcterms:title xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1965-AL-FORNI"/>
-    <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-stampa-1965-10-19"/>
+    <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1965-10-19"/>
     <prism:pageRange>3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -6527,14 +6602,14 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/39404595"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</schema:birthDate>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:journalissue_stampa-1965-10-19">
+  <rdf:Description rdf:about="ontolevi:newspaperissue_stampa-1965-10-19">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1965-10-19</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1965-10-19</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:journal_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-10-19</prism:publicationDate>
-    <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-stampa-1965-10-19"/>
+    <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1965-10-19"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_sn">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
