@@ -2534,7 +2534,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label>Hety Schmitt-Maass</rdfs:label>
     <owl:sameAs rdf:resource="https://viaf.org/en/viaf/20726465"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</schema:birthDate>
-    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983/schema:deathDate>
+    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</schema:deathDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journalissue_chimica-industria-xxix-12-1947-12">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
