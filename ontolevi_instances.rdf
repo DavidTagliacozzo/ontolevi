@@ -404,7 +404,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_narratori-einaudi"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier>2</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</fabio:hasSequenceIdentifier>
     <dcterms:description>Copertina: Maurits C. Escher, Cascata perpetua. Quarta di copertina non firmata ma di Ernesto Ferrero. Contiene 21 racconti. Data esatta: 12 aprile 1975.</dcterms:description>
 <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/LIA0168072</ontolevi:permalinkOpacSbn>
@@ -717,7 +717,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_i-coralli"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier>234</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">234</fabio:hasSequenceIdentifier>
 <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/SBL0421202</ontolevi:permalinkOpacSbn>
 <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -776,7 +776,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2018</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-    <fabio:hasSequenceIdentifier>I</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</fabio:hasSequenceIdentifier>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-OTTOB_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1865,7 +1865,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">I mnemagoghi</dcterms:title>
     <rdfs:label xml:lang="it">I mnemagoghi [Storie naturali [Einaudi 1966]]</rdfs:label>
-    <frbr:partOf rdf:resource="ontolevi:m_sn"/>
+    <frbr:partOf rdf:resource="m_1966-ST-SN_1"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <dcterms:description xml:lang="it">ripreso in →</dcterms:description>
@@ -2061,7 +2061,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1959-12-03</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1959-12-03</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa-torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-12-03</prism:publicationDate>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1959-12-03"/>
   </rdf:Description>
@@ -2235,6 +2235,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-SULFO_4">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <dcterms:title xml:lang="it">Sul fondo</dcterms:title>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">Sul fondo [Sturani, Antologia della Resistenza 1951]</rdfs:label>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1947-ST-SULFO_4"/>
@@ -2514,6 +2515,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-unita-mi-1969-01-28"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-ULTIMO_1">
+    <dcterms:title xml:lang="it">L'ultimo</dcterms:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">L'ultimo [Sturani, Antologia della Resistenza 1951]</rdfs:label>
@@ -2755,6 +2757,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_squ-desilva-1947">
+    <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">Se questo è un uomo [De Silva 1947]</rdfs:label>
@@ -2846,7 +2849,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:partOf rdf:resource="ontolevi:journal_sigma"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1964-08</prism:publicationDate>
     <prism:volume>I</prism:volume>
-    <fabio:hasSequenceIdentifier>2</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</fabio:hasSequenceIdentifier>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-sigma-I-2-1964-08"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1948-ST-TITANIO_2">
@@ -2971,7 +2974,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_biblioteca-dell-orsa"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier>6</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</fabio:hasSequenceIdentifier>
     <dcterms:contributor rdf:resource="ontolevi:agent_cesare-segre"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_ernesto-ferrero"/>
     <frbr:partOf rdf:resource="ontolevi:m_1987-ST-OP"/>
@@ -3295,7 +3298,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_biblioteca-dell-orsa"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier>8</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</fabio:hasSequenceIdentifier>
     <dcterms:contributor rdf:resource="ontolevi:agent_pier-vincenzo-mengaldo"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_ernesto-ferrero"/>
     <frbr:partOf rdf:resource="ontolevi:m_1987-ST-OP"/>
@@ -3648,12 +3651,13 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">Opere [Einaudi 1997]</rdfs:label>
+    <dcterms:title xml:lang="it">Opere</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1997-ST-OP"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</prism:publicationDate>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <dcterms:isPartOf rdf:resource="ontolevi:series_nue"/>
-    <fabio:hasSequenceIdentifier>225</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">225</fabio:hasSequenceIdentifier>
     <dcterms:description>2 voll.: pp. cxxvi-1473 e xv-1605. A cura di Marco Belpoliti, introduzione di Daniele Del Giudice, cronologia di Ernesto Ferrero. Data: ottobre 1997.</dcterms:description>
     <dcterms:contributor rdf:resource="ontolevi:agent_marco-belpoliti"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_daniele-del-giudice"/>
@@ -3824,7 +3828,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1967-09-01</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1967-09-01</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa-torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-09-01</prism:publicationDate>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1967-09-01"/>
   </rdf:Description>
@@ -3852,7 +3856,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1977-01-15</schema:deathDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SQU_2">
-    <frbr:embodiment rdf:resource="ontolevi:m_1947-ST-SQU_3"/>
+    <frbr:embodiment rdf:resource="ontolevi:m_squ-einaudi-1958"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
     <rdfs:label xml:lang="it">Se questo è un uomo 1958 [edizione aumentata]</rdfs:label>
@@ -3999,7 +4003,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1963</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_i-coralli"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier>176</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">176</fabio:hasSequenceIdentifier>
     <dcterms:description>Sovracoperta: disegno di Marc Chagall. Risvolto non firmato ma di Italo Calvino. In epigrafe poesia senza titolo (11 gennaio 1946), poi nota come Alzarsi. Datazione finale: Torino, dicembre 1961 - novembre 1962. A fine volume cartina del percorso da Auschwitz a Torino. Data esatta: 23 marzo 1963.</dcterms:description>
     <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/SBL0252983</ontolevi:permalinkOpacSbn>
@@ -4598,7 +4602,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1974-12-07</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1974-12-07</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa-torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-12-07</prism:publicationDate>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1974-12-07"/>
   </rdf:Description>
@@ -4806,7 +4810,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_nuovi-coralli"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier>236</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">236</fabio:hasSequenceIdentifier>
     <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/RAV0001633</ontolevi:permalinkOpacSbn>
 <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -5188,6 +5192,16 @@ copie, pp. 25 non numerate.</dcterms:description>
   >http://id.sbn.it/bid/BA10080528</ontolevi:permalinkOpacSbn>
 <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
   >IT\ICCU\BA1\0080528</ontolevi:codiceOpacSbn>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:e_1947-ST-SQU_6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
+  <rdfs:label xml:lang="it">Se questo è un uomo 1979 [edizione aumentata con Appendice]</rdfs:label>
+  <frbr:realizationOf rdf:resource="ontolevi:w_1947-ST-SQU"/>
+  <frbr:embodiment rdf:resource="ontolevi:m_squ-nuovi-coralli-1979"/>
+  <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+  <dcterms:language rdf:resource="ontolevi:lang_it"/>
+  <dcterms:description xml:lang="it">Prima edizione non scolastica con l'Appendice incorporata nel testo. L'Appendice era entrata nell'edizione scolastica Einaudi del 1976 (e_1947-ST-SQU_5).</dcterms:description>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_georg-bitter-verlag">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5753,6 +5767,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   >2326238</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-ULTIMO_2">
+    <dcterms:title xml:lang="it">L'ultimo</dcterms:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">L'ultimo [Se questo è un uomo]</rdfs:label>
@@ -5837,7 +5852,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:series_biblioteca-dell-orsa"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier>4</fabio:hasSequenceIdentifier>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</fabio:hasSequenceIdentifier>
     <dcterms:contributor rdf:resource="ontolevi:agent_cesare-cases"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_ernesto-ferrero"/>
     <frbr:partOf rdf:resource="ontolevi:m_1987-ST-OP"/>
@@ -6425,19 +6440,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.geonames.org/6540098"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q120272"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_squ-nuovi-coralli-1979">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi Nuovi coralli 1979]</rdfs:label>
-    <frbr:embodimentOf rdf:resource="ontolevi:e_1947-ST-SQU_6"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</prism:publicationDate>
-    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
-   <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
-<fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-<dcterms:isPartOf rdf:resource="ontolevi:series_nuovi-coralli"/>
-<fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</fabio:hasSequenceIdentifier>
-  </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_carole-angier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -6713,7 +6715,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdfs:label xml:lang="it">«La Stampa [Torino]», 1965-10-19</rdfs:label>
     <dcterms:title xml:lang="it">«La Stampa [Torino]», 1965-10-19</dcterms:title>
-    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa--torino"/>
+    <frbr:partOf rdf:resource="ontolevi:newspaper_la-stampa-torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1965-10-19</prism:publicationDate>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1965-10-19"/>
   </rdf:Description>
