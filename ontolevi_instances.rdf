@@ -6098,7 +6098,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1945</schema:startDate>
     <schema:location rdf:resource="ontolevi:place_milano"/>
 <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</schema:endDate>
-<frbr:successor rdf:resource="ontolevi:journal_pitture-e-vernici-europe-milano"/>
 <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >https://acnpsearch.unibo.it/journal/53621</ontolevi:permalinkAcnp>
 <ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -6112,7 +6111,6 @@ copie, pp. 25 non numerate.</dcterms:description>
   <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</schema:startDate>
   <schema:location rdf:resource="ontolevi:place_milano"/>
   <dcterms:publisher rdf:resource="ontolevi:publisher_onedit"/>
-  <frbr:successorOf rdf:resource="ontolevi:journal_pitture-e-vernici-rivista-mensile-tecnico-economica-dei-prodotti-vernicianti-e-delle-materie-prime-milano"/>
   <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/CFI0170130</ontolevi:permalinkOpacSbn>
 <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
