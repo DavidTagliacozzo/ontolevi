@@ -9,7 +9,6 @@
    xmlns:fabio="http://purl.org/spar/fabio/"
    xmlns:frbr="http://purl.org/vocab/frbr/core#"
    xmlns:geonames="https://www.geonames.org/"
-   xmlns:olm="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_modulo.rdf#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -1252,8 +1251,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">a Primo Levi</dcterms:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
-    <olm:interviewer rdf:resource="ontolevi:agent_luigi-silori"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_luigi-silori"/>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-SILORI"/>
     <dcterms:description xml:lang="it">Rubrica «Le domande di Silori». Levi intervistato da Silori il 27 settembre per la trasmissione tv L'Approdo (canale Nazionale Rai).</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
@@ -2493,10 +2492,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
     <dcterms:description xml:lang="it">Occhiello: «Letteratura e arte nel mondo». → 1997 Conversazioni e interviste; → 2018 Opere complete III, pp. 9-12. Titolo nelle ristampe: Sono un chimico, scrittore per caso.</dcterms:description>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <rdfs:label xml:lang="it">Sono un chimico scrittore per caso</rdfs:label>
     <dcterms:title xml:lang="it">Sono un chimico scrittore per caso</dcterms:title>
-    <olm:interviewer rdf:resource="ontolevi:agent_pier-maria-paoletti"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_pier-maria-paoletti"/>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-PAOLETTI"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journalissue_hatikwa-xxi-2-1969-02">
@@ -3026,10 +3025,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:description xml:lang="it">Firma: g.d.c. [Giuseppe Del Colle]. Sommario: «L'autore de La tregua ha parlato delle reazioni dei giovani tedeschi alla sua opera». Presentato da Stefano Jacomuzzi, cinema-teatro Romano, Torino.</dcterms:description>
     <rdfs:label xml:lang="it">Vivace incontro al Romano con lo scrittore Primo Levi</rdfs:label>
     <dcterms:title xml:lang="it">Vivace incontro al Romano con lo scrittore Primo Levi</dcterms:title>
-    <olm:interviewer rdf:resource="ontolevi:agent_giuseppe-del-colle"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_giuseppe-del-colle"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_bassani_1949-11-04">
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-11-04</dcterms:date>
@@ -3283,9 +3282,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <rdfs:label xml:lang="it">L'avventura di Primo Levi</rdfs:label>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:title xml:lang="it">L'avventura di Primo Levi</dcterms:title>
-    <olm:interviewer rdf:resource="ontolevi:agent_paolo-spriano"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_paolo-spriano"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
     <dcterms:description xml:lang="it">Ritratto scritto dopo l'uscita della Tregua e la partecipazione al Premio Strega. Contiene alcune battute di Levi.</dcterms:description>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-SPRIANO"/>
@@ -3608,7 +3607,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:realization rdf:resource="ontolevi:e_1961-INT-ASSOLTO"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:title xml:lang="it">Assolto dalle accuse di vilipendio e di diffamazione il giudice torinese querelato da un gruppo di ebrei</dcterms:title>
     <rdfs:label xml:lang="it">Assolto dalle accuse di vilipendio e di diffamazione il giudice torinese querelato da un gruppo di ebrei</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
@@ -3954,8 +3953,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:description xml:lang="it">Supplemento «Leggiamo», pp. I-II.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
-    <olm:interviewer rdf:resource="ontolevi:agent_giancarlo-meloni"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_giancarlo-meloni"/>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-MELONI"/>
     <rdfs:label xml:lang="it">Si chiama Primo ma ha l'aria di arrivare sempre ultimo</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
@@ -4036,9 +4035,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
     <dcterms:title xml:lang="it">È tatuato sul braccio con un numero di cinque cifre</dcterms:title>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:description xml:lang="it">Inserto «Paese Sera libri».</dcterms:description>
-    <olm:interviewer rdf:resource="ontolevi:agent_adolfo-chiesa"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_adolfo-chiesa"/>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-CHIESA"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_giuseppe-morpurgo">
@@ -5110,12 +5109,12 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1964-INT-TODISCO">
     <rdfs:label xml:lang="it">La «chimica» di due scrittori</rdfs:label>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <frbr:realization rdf:resource="ontolevi:e_1964-INT-TODISCO"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <dcterms:description xml:lang="it">Quinta puntata dell'inchiesta «Viaggio nell'Italia delle lettere». Interpellati Primo Levi ed Edoardo Sanguineti; discorsi in forma indiretta. Rubrica «Corriere Letterario».</dcterms:description>
-    <olm:interviewer rdf:resource="ontolevi:agent_alfredo-todisco"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_alfredo-todisco"/>
     <dcterms:title xml:lang="it">La «chimica» di due scrittori</dcterms:title>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
   </rdf:Description>
@@ -5857,9 +5856,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
-    <olm:interviewer rdf:resource="ontolevi:agent_enzo-fabiani"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_enzo-fabiani"/>
     <rdfs:label xml:lang="it">Un tatuaggio rivela il dramma dello scrittore</rdfs:label>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:title xml:lang="it">Un tatuaggio rivela il dramma dello scrittore</dcterms:title>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SQU_3">
