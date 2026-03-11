@@ -976,14 +976,6 @@ The alternate relationship involves manifestations that effectively serve as alt
   <rdf:Description rdf:about="https://schema.org/birthDate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-    <rdfs:range>
-      <rdfs:Datatype>
-           <owl:unionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
-            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
-           </owl:unionOf>
-        </rdfs:Datatype>
-    </rdfs:range>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
     <rdfs:label xml:lang="en">birth date</rdfs:label>
     <rdfs:label xml:lang="it">data di nascita</rdfs:label>
@@ -2012,14 +2004,6 @@ The entity defined as place encompasses a comprehensive range of locations: terr
   <rdf:Description rdf:about="https://schema.org/deathDate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-    <rdfs:range>
-      <rdfs:Datatype>
-        <owl:unionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
-            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
-        </owl:unionOf>
-     </rdfs:Datatype>
-</rdfs:range>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
     <rdfs:label xml:lang="en">death date</rdfs:label>
     <rdfs:label xml:lang="it">data di morte</rdfs:label>
