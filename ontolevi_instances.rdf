@@ -698,10 +698,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-07-11</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_roma"/>
     <dcterms:identifier>A.R.C.31.IV</dcterms:identifier>
-    <dc:format>lettera ms.</dc:format>
     <rdfs:label>Lettera Levi–Bellonci 11 luglio 1963 [BNCR]</rdfs:label>
-    <fabio:hasURL rdf:resource="https://manus.iccu.sbn.it/opac_SchedaScheda.php?ID=214479"/>
-    <dcterms:description>Biblioteca nazionale centrale Vittorio Emanuele II, Roma. Fondo A.R.C.31.Carteggio Bellonci</dcterms:description>
+    <fabio:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://manus.iccu.sbn.it/opac_SchedaScheda.php?ID=214479</fabio:hasURL>
+    <dcterms:description>lettera ms., Biblioteca nazionale centrale Vittorio Emanuele II, Roma. Fondo A.R.C.31.Carteggio Bellonci</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:corr_azzali">
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</schema:startDate>
@@ -1057,12 +1056,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_roma"/>
-    <dcterms:description>Lettera di presentazione al Premio Strega. Biblioteca nazionale centrale Vittorio Emanuele II, Roma. Fondo A.R.C.31.Carteggio Bellonci</dcterms:description>
-    <fabio:hasURL rdf:resource="https://manus.iccu.sbn.it/opac_SchedaScheda.php?ID=214479"/>
+    <dcterms:description>lettera ms., Lettera di presentazione al Premio Strega. Biblioteca nazionale centrale Vittorio Emanuele II, Roma. Fondo A.R.C.31.Carteggio Bellonci</dcterms:description>
+    <fabio:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://manus.iccu.sbn.it/opac_SchedaScheda.php?ID=214479</fabio:hasURL>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-05-11</prism:publicationDate>
     <rdfs:label>Lettera Levi–Bellonci 11 maggio 1966 [BNCR]</rdfs:label>
     <dcterms:identifier>A.R.C.31.IV</dcterms:identifier>
-    <dc:format>lettera ms.</dc:format>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1968-AL-SOLIDAR">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1420,7 +1418,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
     <rdfs:label xml:lang="it">italiano</rdfs:label>
-    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">it</rdf:value>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#language">it</skos:notation>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1949-ST-ZOLFO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2266,6 +2264,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-SHEMA_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -2831,7 +2830,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label>«Sigma» - I - n. 2 - agosto 1964</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:journal_sigma"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1964-08</prism:publicationDate>
-    <fabio:volume>I</fabio:volume>
+    <prism:volume>I</prism:volume>
     <fabio:hasSequenceIdentifier>2</fabio:hasSequenceIdentifier>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-sigma-I-2-1964-08"/>
   </rdf:Description>
@@ -6482,7 +6481,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
     <rdfs:label xml:lang="it">tedesco</rdfs:label>
-    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de</rdf:value>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#language">de</skos:notation>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journalissue_lunita-edizione-piemontese_novol_noissue_nodate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
