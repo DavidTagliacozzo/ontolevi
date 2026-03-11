@@ -5317,7 +5317,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsDataSource"/>
   <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">313</prism:pageRange>
 <dcterms:description xml:lang="it">Notizia di lettera.</dcterms:description>
-</rdf:Discussion>
+</rdf:Description>
 <rdf:Description rdf:about="ontolevi:agent_roberta-passione">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -6240,11 +6240,11 @@ copie, pp. 25 non numerate.</dcterms:description>
   <dcterms:title xml:lang="it">La Stampa</dcterms:title>
   <schema:location rdf:resource="ontolevi:place_torino"/>
   <dcterms:description xml:lang="it">Quotidiano torinese fondato nel 1867.</dcterms:description>
-</rdf:Discussion>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_martina-mengoni">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-    <rdfs:label>Maritina Mengoni</rdfs:label>
+    <rdfs:label>Martina Mengoni</rdfs:label>
     <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q110086657"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/53147602723757642596"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</schema:birthDate>
