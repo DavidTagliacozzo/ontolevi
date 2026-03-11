@@ -1552,8 +1552,8 @@ Situation is also able to represent reified n-ary relations, where isSettingFor 
     <rdfs:comment xml:lang="en">An expression work/expression having another one as successor.
 
 The successor type of relationship involves a kind of linear progression of content from one work/expression to the other. In some cases, the content of the successor may be closely connected to the content of the preceding work, which would result in a work that is referential. In others, such as with loosely connected parts of a trilogy, the successor will be autonomous. Serial publications that result from the merger or split of their predecessors and stand on their own without requiring reference to the predecessor are also examples of autonomous works that fall within the successor relationship type. If there exists a relation of this kind among two different expressions, then they always refer to different works.</rdfs:comment>
-    <rdfs:domain rdf:nodeID="N70d0352d173946078d3ecf2f95ee6924"/>
-    <rdfs:range rdf:nodeID="N7032c901fb94479491c37f97a3b44056"/>
+    <rdfs:domain rdf:nodeID="N3633bfd8fc2e4ce396dcecd4d078c4b4"/>
+    <rdfs:range rdf:nodeID="N15b719bd0666434e88e8377bcd171fe8"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
     <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#successorOf"/>
   </rdf:Description>
@@ -1572,6 +1572,14 @@ The successor type of relationship involves a kind of linear progression of cont
   <rdf:Description rdf:nodeID="Nsuccessor_range_rest">
     <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+<rdf:Description rdf:nodeID="N3633bfd8fc2e4ce396dcecd4d078c4b4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N0c71ed7e2c5e403d97ccb64cf56f86a1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N15b719bd0666434e88e8377bcd171fe8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ne096bf129ba2437f994907501f1a5bee"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#realizerOf">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
