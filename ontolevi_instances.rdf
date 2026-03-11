@@ -1920,7 +1920,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1969-AL-NEFASTA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
     <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</rdfs:label>
     <dcterms:title xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</dcterms:title>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
