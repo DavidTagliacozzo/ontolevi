@@ -1557,6 +1557,22 @@ The successor type of relationship involves a kind of linear progression of cont
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
     <owl:inverseOf rdf:resource="http://purl.org/vocab/frbr/core#successorOf"/>
   </rdf:Description>
+<rdf:Description rdf:nodeID="N15d2e5a1af1d4dd19cb72a59df25e01c">
+    <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdf:rest rdf:nodeID="Nsuccessor_domain_rest"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nsuccessor_domain_rest">
+    <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N23dba091624e458b9f9d9bb7b7176373">
+    <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdf:rest rdf:nodeID="Nsuccessor_range_rest"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nsuccessor_range_rest">
+    <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#realizerOf">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">is realizer of</rdfs:label>
