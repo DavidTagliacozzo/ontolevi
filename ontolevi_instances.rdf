@@ -5058,7 +5058,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1897"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/6540125"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:ontolevi:manifestation_newspissue-domenica-sole24ore-2013-11-10">
+  <rdf:Description rdf:about="ontolevi:manifestation_newspissue-domenica-sole24ore-2013-11-10">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label xml:lang="it">«Domenica. Il Sole 24 Ore», 10 novembre 2013</rdfs:label>
