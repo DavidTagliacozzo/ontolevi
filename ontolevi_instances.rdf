@@ -6586,7 +6586,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
    <rdf:Description rdf:about="ontolevi:m_1947-ST-OTTOB_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Ottobre 1944</dcterms:title>
     <rdfs:label xml:lang="it">Ottobre 1944 [SQU]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_squ-desilva-1947"/>
