@@ -2831,8 +2831,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label>«Sigma» - I - n. 2 - agosto 1964</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:journal_sigma"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1964-08</prism:publicationDate>
-    <fabio:hasVolume>I</fabio:hasVolume>
-    <fabio:hasIssueNumber>2</fabio:hasIssueNumber>
+    <fabio:volume>I</fabio:volume>
+    <fabio:hasSequenceIdentifier>2</fabio:hasSequenceIdentifier>
     <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-sigma-I-2-1964-08"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1948-ST-TITANIO_2">
@@ -3409,8 +3409,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Opere [Einaudi 1997]]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_op-1997"/>
     <frbr:partOf rdf:resource="ontolevi:m_2016-ST-OPCOMP_1"/>
-    <dcterms:author rdf:resource="ontolevi:agent_LeonardoDeBenedetti"/>
-<dcterms:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <schema:author rdf:resource="ontolevi:agent_LeonardoDeBenedetti"/>
+<schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</fabio:hasSequenceIdentifier>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</prism:pageRange>
@@ -6459,7 +6459,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Vanni Scheiwiller</rdfs:label>
-    <skos:altLabel xml:lang="it">All'insegna del pesce d'oro</skos:altLabel>
+    <schema:alternateName xml:lang="it">All'insegna del pesce d'oro</schema:alternateName>
     <schema:name xml:lang="it">Vanni Scheiwiller</schema:name>
     <schema:location rdf:resource="ontolevi:place_milano"/>
   </rdf:Description>
