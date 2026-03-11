@@ -1458,6 +1458,7 @@ The entity defined as item is a concrete entity. It is in many instances a singl
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <owl:imports rdf:resource="http://purl.org/spar/fabio"/>
     <owl:imports rdf:resource="http://purl.org/spar/cito"/>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#translationOf">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
