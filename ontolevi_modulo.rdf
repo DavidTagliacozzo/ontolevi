@@ -1030,6 +1030,22 @@ Examples of different manifestations of a single 'version of record' expression 
     <rdfs:subClassOf rdf:nodeID="Nd22cf461575c4d6a80f68b238e581be8"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
   </rdf:Description>
+<rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/startingPage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:label xml:lang="en">has starting page</rdfs:label>
+  <rdfs:comment xml:lang="en">Identifies the starting page of an entity such as a journal article.</rdfs:comment>
+  <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/endingPage">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:label xml:lang="en">has ending page</rdfs:label>
+  <rdfs:comment xml:lang="en">Identifies the ending page of an entity such as a journal article.</rdfs:comment>
+  <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+</rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/hasElectronicArticleIdentifier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en">has electronic article identifier</rdfs:label>
@@ -1513,7 +1529,6 @@ The entity defined as item is a concrete entity. It is in many instances a singl
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <owl:imports rdf:resource="http://purl.org/spar/fabio"/>
     <owl:imports rdf:resource="http://purl.org/spar/cito"/>
-    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#translationOf">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
