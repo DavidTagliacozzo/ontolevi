@@ -5777,7 +5777,6 @@ copie, pp. 25 non numerate.</dcterms:description>
   <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_milano"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</prism:publicationDate>
   <dcterms:isPartOf rdf:resource="ontolevi:series_contemporanea"/>
-  <dcterms:language rdf:resource="ontolevi:lang_it"/>
   <frbr:translationOf rdf:resource="ontolevi:m_katze-die-aus-rom-kam-1969"/>
   <dcterms:description xml:lang="it">Antologia di Giovanni Arpino, Elio Bartolini, Arrigo Benedetti, Carlo Bernari, Luciano Bianciardi, Italo Calvino, Primo Levi, Marianello Marianelli, Silvio Micheli, Carlo Montella, Anna Maria Ortese, Leone Sbrana, Bonaventura Tecchi, Donatella Ziliotto. Illustrazioni di Günther Stiller. Versione italiana di «Die Katze die aus Rom kam» (Bitter, Recklinghausen 1969), a cura e nella traduzione tedesca di Marlis Ingenmey. Il controfrontespizio indica erroneamente 1959 come anno dell'edizione tedesca.</dcterms:description>
 <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
