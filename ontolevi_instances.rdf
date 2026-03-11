@@ -258,7 +258,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <dcterms:title xml:lang="it">[Lettera]</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1959-AL-LETTERA"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1959-12-03"/>
-    <prism:pageRange rdf:datatype="xsd:string">2</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -366,7 +366,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
     <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <prism:pageRange rdf:datatype="xsd:string">210-11</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-11</prism:pageRange>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_barabas_1945-12-20"/>
     <rdfs:label>cit_scarpa-cfa-barabas</rdfs:label>
     <dcterms:description>Notizia di lettera Levi a Barabas ante 20 dic 1945; info da lettera Barabas a Levi 20 dic 1945</dcterms:description>
@@ -465,7 +465,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>cit_album-bassani-cart</rdfs:label>
     <dcterms:description>Riproduzione a colori della cartolina</dcterms:description>
-    <prism:pageRange rdf:datatype="xsd:string">195</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">195</prism:pageRange>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_bassani_1949-11-04"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1947-ST-KABE">
@@ -590,7 +590,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
-    <prism:pageRange rdf:datatype="xsd:string">195</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">195</prism:pageRange>
     <frbr:embodimentOf rdf:resource="ontolevi:let_bassani_1949-11-04"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <dcterms:description>Riproduzione a colori</dcterms:description>
@@ -1214,7 +1214,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_angier-2004"/>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_azzali_1981-03-18"/>
-    <prism:pageRange rdf:datatype="xsd:string">634; 804</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">634; 804</prism:pageRange>
     <rdfs:label>cit_angier-azzali</rdfs:label>
     <dcterms:description>Informazioni</dcterms:description>
   </rdf:Description>
@@ -1279,7 +1279,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Quelli da ricusare</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1971-AL-RICUSARE"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-espresso-xvii-25-1971-06-20"/>
-    <prism:pageRange rdf:datatype="xsd:string">9</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1577,7 +1577,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">«Non lavoreremo per l'Unesco»</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1974-AL-UNESCO"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1974-12-07"/>
-    <prism:pageRange rdf:datatype="xsd:string">3</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1824,7 +1824,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:embodimentOf rdf:resource="ontolevi:let_bassani_1949-05-10"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <prism:pageRange rdf:datatype="xsd:string">26; 194-95</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26; 194-95</prism:pageRange>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
   </rdf:Description>
@@ -1927,7 +1927,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:publisher rdf:resource="ontolevi:publisher_silva"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</prism:publicationDate>
-    <prism:pageRange rdf:datatype="xsd:string">62-67</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62-67</prism:pageRange>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:description>«Sigma. Rivista trimestrale di letteratura», I (agosto 1964), n. 2. Contiene: Epigrafe; Shemà; Cantare; Avigliana; Crescenzago. 5 testi.</dcterms:description>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-sigma-I-2-1964-08"/>
@@ -1996,7 +1996,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Risposta di Primo Levi</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1967-AL-RISPOSTA"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1967-09-01"/>
-    <prism:pageRange rdf:datatype="xsd:string">2</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -2255,7 +2255,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Un gruppo di ebrei torinesi</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1967-AL-TORINES"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-ponte-xxiii-7-8-1967"/>
-    <prism:pageRange rdf:datatype="xsd:string">1036-1038</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1036-1038</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -2392,7 +2392,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Solidarietà degli scrittori agli intellettuali cechi</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1968-AL-SOLIDAR"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-avanti-1968-09-10"/>
-    <prism:pageRange rdf:datatype="xsd:string">2</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -2727,7 +2727,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Per il Cile telegramma a De Martino</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1974-AL-CILE"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-avanti-1974-01-15"/>
-    <prism:pageRange rdf:datatype="xsd:string">4</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -3005,7 +3005,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>cit_angier-barabas</rdfs:label>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_barabas_1945-12-20"/>
-    <prism:pageRange rdf:datatype="xsd:string">362; 432-33; 770; 775</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">362; 432-33; 770; 775</prism:pageRange>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1964-INT-DELCOLLE">
@@ -3220,7 +3220,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1947-AL-BUNAMO"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-chimica-industria-xxix-12-1947-12"/>
-    <prism:pageRange rdf:datatype="xsd:string">299</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">299</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -3241,7 +3241,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_austerlitz_s.d."/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_thomson-2002"/>
     <rdfs:label>cit_thomson-austerlitz</rdfs:label>
-    <prism:pageRange rdf:datatype="xsd:string">206; 568</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206; 568</prism:pageRange>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_journalissue-chimica-industria-xxix-12-1947-12">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3955,7 +3955,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Documento degli «ebrei di sinistra» di Torino</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1969-AL-NEFASTA_2"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-hatikwa-xxi-2-1969-02"/>
-    <prism:pageRange rdf:datatype="xsd:string">10</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -4380,7 +4380,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_let_amici-cristiani_in_lilit">
-    <prism:pageRange rdf:datatype="xsd:string">35-38</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35-38</prism:pageRange>
     <rdfs:label>Lettera agli amici cristiani [in: Lilít 1981]</rdfs:label>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</prism:publicationDate>
@@ -4809,7 +4809,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_andreocci_1986-07-21"/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_thomson-2002"/>
     <dcterms:description>Brevissima citazione e brano dalla lettera del 21 luglio 1986</dcterms:description>
-    <prism:pageRange rdf:datatype="xsd:string">412; 511; 579; 584</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412; 511; 579; 584</prism:pageRange>
     <rdfs:label>cit_thomson-andreocci</rdfs:label>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
   </rdf:Description>
@@ -4879,7 +4879,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1969-AL-NEFASTA_1"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-unita-mi-1969-01-28"/>
-    <prism:pageRange rdf:datatype="xsd:string">7</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -4953,7 +4953,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitedEntity rdf:resource="ontolevi:corr_amery"/>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_mengoni-2017"/>
-    <prism:pageRange rdf:datatype="xsd:string">91</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91</prism:pageRange>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_umberto-olobardi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5714,7 +5714,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:name xml:lang="it">Davide Terracini</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_let_barabas_1945-12-20_cfa">
-    <prism:pageRange rdf:datatype="xsd:string">210-11</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-11</prism:pageRange>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>Lettera Barabas–Levi 20 dicembre 1945 [in: CfA]</rdfs:label>
@@ -5878,7 +5878,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <dcterms:description>Possibile inizio del carteggio collocato tra 22 dicembre 1966 e 28 febbraio 1967</dcterms:description>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_mengoni-2021"/>
-    <prism:pageRange rdf:datatype="xsd:string">75</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</prism:pageRange>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_ada-luzzati">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6229,7 +6229,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Le forche di Bagdad e la questione israeliana</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1969-AL-BAGDAD"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspissue-resistenza-gl-xxii-2-1969-02"/>
-    <prism:pageRange rdf:datatype="xsd:string">13</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -6438,7 +6438,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1965-AL-FORNI"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1965-10-19"/>
-    <prism:pageRange rdf:datatype="xsd:string">3</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
