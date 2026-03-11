@@ -155,7 +155,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1967-AL-TORINES">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Un gruppo di ebrei torinesi</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1967-AL-TORINES"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_nuriella-cannaruto"/>
@@ -264,7 +264,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <dcterms:title xml:lang="it">[Lettera]</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1959-AL-LETTERA"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1959-12-03"/>
-    <prism:pageRange>2</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -372,7 +372,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
     <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <prism:pageRange>pp. 210-11</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">210-11</prism:pageRange>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_barabas_1945-12-20"/>
     <rdfs:label>cit_scarpa-cfa-barabas</rdfs:label>
     <dcterms:description>Notizia di lettera Levi a Barabas ante 20 dic 1945; info da lettera Barabas a Levi 20 dic 1945</dcterms:description>
@@ -471,7 +471,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>cit_album-bassani-cart</rdfs:label>
     <dcterms:description>Riproduzione a colori della cartolina</dcterms:description>
-    <prism:pageRange>p. 195</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">195</prism:pageRange>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_bassani_1949-11-04"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1947-ST-KABE">
@@ -544,7 +544,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1969-AL-NEFASTA_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1969-AL-NEFASTA"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_eva-arian-erber"/>
@@ -596,7 +596,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
-    <prism:pageRange>p. 195</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">195</prism:pageRange>
     <frbr:embodimentOf rdf:resource="ontolevi:let_bassani_1949-11-04"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <dcterms:description>Riproduzione a colori</dcterms:description>
@@ -809,7 +809,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1955-ST-ANNIV">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Opinion"/>
     <rdfs:label xml:lang="it">Anniversario</rdfs:label>
     <dcterms:title xml:lang="it">Anniversario</dcterms:title>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
@@ -1064,7 +1064,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1968-AL-SOLIDAR">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Solidarietà degli scrittori agli intellettuali cechi</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1968-AL-SOLIDAR"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1097,7 +1097,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-NOTTI_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Le nostre notti [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -1116,7 +1116,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1970-AL-DICHIARAZ">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">[Dichiarazione, 25 gennaio 1970]</rdfs:label>
     <dcterms:title xml:lang="it">[Dichiarazione, 25 gennaio 1970]</dcterms:title>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -1160,7 +1160,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1969-AL-NEFASTA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Documento degli «ebrei di sinistra» di Torino</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1969-AL-NEFASTA"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_eva-arian-erber"/>
@@ -1209,7 +1209,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1967-AL-RISPOSTA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Risposta di Primo Levi</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1967-AL-RISPOSTA"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1967-AL-RISPOSTA"/>
@@ -1222,7 +1222,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_angier-2004"/>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_azzali_1981-03-18"/>
-    <prism:pageRange>pp. 634; 804</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">634; 804</prism:pageRange>
     <rdfs:label>cit_angier-azzali</rdfs:label>
     <dcterms:description>Informazioni</dcterms:description>
   </rdf:Description>
@@ -1251,7 +1251,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:w_1963-INT-SILORI">
     <dcterms:title xml:lang="it">a Primo Levi</dcterms:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
     <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <olm:interviewer rdf:resource="ontolevi:agent_luigi-silori"/>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-SILORI"/>
@@ -1287,7 +1287,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Quelli da ricusare</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1971-AL-RICUSARE"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-espresso-xvii-25-1971-06-20"/>
-    <prism:pageRange>9</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">9</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1325,7 +1325,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1997-ST-OPCOMP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
     <rdfs:label>Opere [Einaudi 1997]</rdfs:label>
     <dcterms:title>Opere</dcterms:title>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1388,8 +1388,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
     <dcterms:description xml:lang="it">Pubblicato anche come «L'odissea di Primo Levi» su L'Unione Sarda [Cagliari], 15 settembre 1963, p. 3.</dcterms:description>
-    <olm:interviewer rdf:resource="ontolevi:agent_ernesto-ferrero"/>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_ernesto-ferrero"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <rdfs:label xml:lang="it">Un «Campiello» a furor di popolo</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1946-ST-RAPPO_1">
@@ -1407,7 +1407,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1955-ST-GILMAN">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
     <rdfs:label xml:lang="it">[Traduzione di] Henry Gilman, Chimica organica superiore [I]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -1422,7 +1422,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1949-ST-ZOLFO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Zolfo [SP]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -1492,7 +1492,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1948-ST-TITANIO_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Titanio [SP]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -1516,6 +1516,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Garzanti</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3758568"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/148937343"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-11</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspissue_lunita-roma_nodate_nodate_1963-07-14">
     <frbr:partOf rdf:resource="ontolevi:newspaper_lunita-roma"/>
@@ -1582,7 +1585,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">«Non lavoreremo per l'Unesco»</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1974-AL-UNESCO"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1974-12-07"/>
-    <prism:pageRange>3</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1624,13 +1627,13 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Sono un chimico scrittore per caso [Il Giorno - 1963]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperNewsItem"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Article"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1963-INT-PAOLETTI_1"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_2016-ST-OPCOMP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
     <rdfs:label>Opere complete [Einaudi 2016-18]</rdfs:label>
     <dcterms:title>Opere complete</dcterms:title>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1656,10 +1659,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:location rdf:resource="ontolevi:place_firenze"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3821015"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/217065164"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-21</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1965-AL-FORNI">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1965-AL-FORNI"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1965-AL-FORNI"/>
@@ -1767,7 +1771,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1955-ST-ANNIV_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Article"/>
     <rdfs:label xml:lang="it">Deportati. Anniversario</rdfs:label>
     <dcterms:title xml:lang="it">Deportati. Anniversario</dcterms:title>
     <frbr:realizationOf rdf:resource="ontolevi:w_1955-ST-ANNIV"/>
@@ -1802,7 +1806,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1959-AL-LETTERA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">[Lettera]</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1959-AL-LETTERA"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1959-AL-LETTERA"/>
@@ -1831,7 +1835,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:embodimentOf rdf:resource="ontolevi:let_bassani_1949-05-10"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <prism:pageRange>pp. 26; 194-95</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">26; 194-95</prism:pageRange>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
   </rdf:Description>
@@ -1909,7 +1913,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1970-AL-DICHIARAZ">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">[Dichiarazione, 25 gennaio 1970]</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1970-AL-DICHIARAZ"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -1918,7 +1922,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1969-AL-NEFASTA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</rdfs:label>
     <dcterms:title xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</dcterms:title>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -1934,7 +1938,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:publisher rdf:resource="ontolevi:publisher_silva"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</prism:publicationDate>
-    <prism:pageRange>62-67</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">62-67</prism:pageRange>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:description>«Sigma. Rivista trimestrale di letteratura», I (agosto 1964), n. 2. Contiene: Epigrafe; Shemà; Cantare; Avigliana; Crescenzago. 5 testi.</dcterms:description>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-sigma-I-2-1964-08"/>
@@ -2003,7 +2007,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Risposta di Primo Levi</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1967-AL-RISPOSTA"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1967-09-01"/>
-    <prism:pageRange>2</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -2038,7 +2042,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-AL-BUNAMO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1947-AL-BUNAMO"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1947-AL-BUNAMO"/>
@@ -2099,10 +2103,10 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:cit_segre2008-azzolini">
     <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <prism:pageRange>p. 39</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</prism:pageRange>
     <rdfs:label>cit_segre2008-azzolini</rdfs:label>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
-    <dcterms:description>Riporta il testo della lettera</dcterms:description>
+    <rdfs:label xml:lang="it">Segre 2008 cita lettera Azzolini Amodeo 1981</rdfs:label>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_segre-anna-2008"/>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_azzolini-amodeo_1981"/>
   </rdf:Description>
@@ -2190,7 +2194,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Mondadori</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_milano"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/127831750"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q119942453"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-04</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_barabas_1945-ante">
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
@@ -2260,7 +2266,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Un gruppo di ebrei torinesi</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1967-AL-TORINES"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-ponte-xxiii-7-8-1967"/>
-    <prism:pageRange>1036-1038</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">1036-1038</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -2278,7 +2284,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1952-ST-10GIORNI_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Storia di dieci giorni [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -2385,7 +2391,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_bassani_1949-05-10"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
-    <prism:pageRange>pp. 26; 194-95</prism:pageRange>
+    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26; 194-195</prism:pageRange>
     <dcterms:description>Brano dalla lettera</dcterms:description>
     <rdfs:label>cit_album-bassani</rdfs:label>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_album"/>
@@ -2398,7 +2404,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Solidarietà degli scrittori agli intellettuali cechi</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1968-AL-SOLIDAR"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-avanti-1968-09-10"/>
-    <prism:pageRange>2</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">2</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -2536,7 +2542,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-ULTIMO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">L'ultimo [SQU]</rdfs:label>
     <dcterms:title xml:lang="it">L'ultimo</dcterms:title>
     <frbr:realizationOf rdf:resource="ontolevi:w_1947-ST-ULTIMO"/>
@@ -2698,6 +2704,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1945</schema:startDate>
     <dcterms:description xml:lang="it">Rivista culturale fondata da Piero Calamandrei nel 1945.</dcterms:description>
     <schema:location rdf:resource="ontolevi:place_firenze"/>
+    <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/39112</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >39112</ontolevi:codiceAcnp>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1949-ST-ZOLFO_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2730,14 +2740,14 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Per il Cile telegramma a De Martino</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1974-AL-CILE"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-avanti-1974-01-15"/>
-    <prism:pageRange>4</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">4</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1974</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1974-AL-UNESCO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">«Non lavoreremo per l'Unesco»</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1974-AL-UNESCO"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_giulio-carlo-argan"/>
@@ -2757,8 +2767,17 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1947-ST-SQU_1"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+    <dcterms:publisher rdf:resource="ontolevi:publisher_de-silva"/>
+    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
+    <dcterms:isPartOf rdf:resource="ontolevi:series_biblioteca-leone-ginzburg"/>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</fabio:hasSequenceIdentifier>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
-  </rdf:Description>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/LO10092623</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\LO1\0092623</ontolevi:codiceOpacSbn>
+    <dcterms:description xml:lang="it">sovracoperta disegno di Goya (attr. rielab. Carlo Levi)</dcterms:description>
+    </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_laura-colombo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -2785,6 +2804,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Mimesis</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3858183"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/134127496"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1949-ST-ZOLFO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2849,7 +2870,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1971-AL-RICUSARE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Quelli da ricusare</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1971-AL-RICUSARE"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -2861,6 +2882,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Giuseppe Del Colle</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <schema:name xml:lang="it">Giuseppe Del Colle</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journal_il-movimento-di-liberazione-in-italia-rassegna-bimestrale-di-studi-e-documenti-milano">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2929,6 +2951,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-06</dcterms:identifier>
     <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1305980"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/145988121"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-06</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1948-ST-ALDIQUA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2994,7 +3017,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>cit_angier-barabas</rdfs:label>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_barabas_1945-12-20"/>
-    <prism:pageRange>pp. 362; 432-33; 770; 775</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">362; 432-33; 770; 775</prism:pageRange>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1964-INT-DELCOLLE">
@@ -3209,7 +3232,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1947-AL-BUNAMO"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-chimica-industria-xxix-12-1947-12"/>
-    <prism:pageRange>299</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">299</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -3230,7 +3253,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_austerlitz_s.d."/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_thomson-2002"/>
     <rdfs:label>cit_thomson-austerlitz</rdfs:label>
-    <prism:pageRange>pp. 206; 568</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">206; 568</prism:pageRange>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_journalissue-chimica-industria-xxix-12-1947-12">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3267,26 +3290,12 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:description xml:lang="it">Ritratto scritto dopo l'uscita della Tregua e la partecipazione al Premio Strega. Contiene alcune battute di Levi.</dcterms:description>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-SPRIANO"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_1947-ST-SQU_1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
-    <rdfs:label xml:lang="it">Se questo è un uomo [Se questo è un uomo [De Silva 1947]]</rdfs:label>
-    <frbr:partOf rdf:resource="ontolevi:m_squ-desilva-1947"/>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_de-silva"/>
-    <dcterms:isPartOf rdf:resource="ontolevi:series_biblioteca-leone-ginzburg"/>
-    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
-    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</fabio:hasSequenceIdentifier>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
-    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-    <dcterms:description xml:lang="it">sovracoperta disegno di Goya (attr. rielab. Carlo Levi)</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1987-ST-OP_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label>Opere. Volume terzo [Biblioteca dell'Orsa, Einaudi 1990]</rdfs:label>
-    <dcterms:title>Opere. Volume terzo</dcterms:title>
-    <dcterms:description>Racconti e saggi. Introduzione di Pier Vincenzo Mengaldo. Data: maggio 1990.</dcterms:description>
+    <dcterms:title>Opere. Volume terzo<: Racconti e saggi/dcterms:title>
+    <dcterms:description>Introduzione di Pier Vincenzo Mengaldo. Data: maggio 1990.</dcterms:description>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</prism:publicationDate>
@@ -3296,6 +3305,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:contributor rdf:resource="ontolevi:agent_pier-vincenzo-mengaldo"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_ernesto-ferrero"/>
     <frbr:partOf rdf:resource="ontolevi:m_1987-ST-OP"/>
+<ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/CFI0164899</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\CFI\0164899</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1963-INT-SPRIANO_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3327,18 +3340,17 @@ copie, pp. 25 non numerate.</dcterms:description>
   >IT\ICCU\RAV\0143767</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_let_barabas_1945-12-20_cdec">
-    <dcterms:description>Centro documentazione ebraica contemporanea, Milano</dcterms:description>
+    <dcterms:description>lettera ms., conservata dalla Fondazione Centro documentazione ebraica contemporanea CDEC), Milano</dcterms:description>
     <frbr:embodimentOf rdf:resource="ontolevi:let_barabas_1945-12-20"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-12-20</prism:publicationDate>
-    <dc:format>lettera ms.</dc:format>
     <rdfs:label>Lettera Barabas–Levi 20 dicembre 1945 [CDEC]</rdfs:label>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_milano"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-OTTOB_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">La selezione [La via. Prose e poesie…]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -3391,7 +3403,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1956-04-24</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SQU_1">
-    <frbr:embodiment rdf:resource="ontolevi:m_1947-ST-SQU_1"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1947-ST-SQU_2"/>
     <frbr:embodiment rdf:resource="ontolevi:m_squ-desilva-1947"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3409,7 +3420,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:partOf rdf:resource="ontolevi:m_op-1997"/>
     <frbr:partOf rdf:resource="ontolevi:m_2016-ST-OPCOMP_1"/>
     <schema:author rdf:resource="ontolevi:agent_LeonardoDeBenedetti"/>
-<schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</fabio:hasSequenceIdentifier>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</prism:pageRange>
@@ -3436,7 +3447,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1948-ST-ALDIQUA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Al di qua del bene e del male [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -3492,8 +3503,8 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:w_1974-AL-UNESCO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
-    <rdfs:label xml:lang="it">«Non lavoreremo per l'Unesco»</rdfs:label>
-    <dcterms:title xml:lang="it">«Non lavoreremo per l'Unesco»</dcterms:title>
+    <rdfs:label xml:lang="it">Non lavoreremo per l'Unesco</rdfs:label>
+    <dcterms:title xml:lang="it">Non lavoreremo per l'Unesco</dcterms:title>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <frbr:realization rdf:resource="ontolevi:e_1974-AL-UNESCO"/>
   </rdf:Description>
@@ -3550,6 +3561,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_bellonci_1963-07-11">
+    <frbr:embodiment rdf:resource="ontolevi:m_let_bellonci_1963-07-11"/>
     <frbr:partOf rdf:resource="ontolevi:corr_bellonci"/>
     <schema:recipient rdf:resource="ontolevi:agent_maria-bellonci"/>
     <dcterms:description>Comunicazione privata</dcterms:description>
@@ -3695,7 +3707,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1969-AL-BAGDAD">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Le forche di Bagdad e la questione israeliana</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1969-AL-BAGDAD"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_laura-colombo"/>
@@ -3956,7 +3968,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Documento degli «ebrei di sinistra» di Torino</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1969-AL-NEFASTA_2"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-hatikwa-xxi-2-1969-02"/>
-    <prism:pageRange>10</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">10</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -4328,7 +4340,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1974-AL-CILE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Per il Cile telegramma a De Martino</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1974-AL-CILE"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -4381,7 +4393,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_let_amici-cristiani_in_lilit">
-    <prism:pageRange>pp. 35-38</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">35-38</prism:pageRange>
     <rdfs:label>Lettera agli amici cristiani [in: Lilít 1981]</rdfs:label>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</prism:publicationDate>
@@ -4418,7 +4430,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1970-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
     <rdfs:label>[Senza titolo] [opuscolo privato 1970]</rdfs:label>
     <dcterms:title>[Senza titolo]</dcterms:title>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -4534,7 +4546,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1948-ST-TITANIO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
-    <rdfs:label xml:lang="it">Lia und der Kreis [traduzione tedesca]</rdfs:label>
+    <rdfs:label xml:lang="it">Lia und der Kreis [traduzione tedesca di Maria e il cerchio]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_de"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_1948-ST-TITANIO"/>
@@ -4585,6 +4597,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdfs:label xml:lang="it">G.B. Palumbo &amp; C.</rdfs:label>
   <schema:name xml:lang="it">G.B. Palumbo &amp; C.</schema:name>
   <schema:location rdf:resource="ontolevi:place_palermo"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3892850"/>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspaperissue_stampa-1974-12-07">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4609,7 +4622,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1987-ST-OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
     <rdfs:label>Opere [Einaudi 1987-90]</rdfs:label>
     <dcterms:title>Opere</dcterms:title>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -4684,6 +4697,10 @@ copie, pp. 25 non numerate.</dcterms:description>
   <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</prism:publicationDate>
   <dcterms:description xml:lang="it">Atti del convegno, Torino, 3 ottobre 2019. («questo», n. 1).</dcterms:description>
+ <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/BCT0064265</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\BCT\0064265</ontolevi:codiceOpacSbn>
 </rdf:Description>
 <rdf:Description rdf:about="ontolevi:agent_claudio-panella">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4757,9 +4774,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Quodlibet</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2123612"/>
+    <schema:location rdf:resource="ontolevi:place_macerata"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1963-INT-MAYDA">
-    <olm:interviewer rdf:resource="ontolevi:agent_giuseppe-mayda"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_giuseppe-mayda"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_InterventOrali"/>
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-MAYDA"/>
     <dcterms:description xml:lang="it">Recensione di La tregua che contiene alcune dichiarazioni di Levi.</dcterms:description>
@@ -4767,7 +4786,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <rdfs:label xml:lang="it">Il poeta triste dei lager</rdfs:label>
     <dcterms:title xml:lang="it">Il poeta triste dei lager</dcterms:title>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_amalia-viterbo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4805,7 +4824,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitedEntity rdf:resource="ontolevi:let_andreocci_1986-07-21"/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_thomson-2002"/>
     <dcterms:description>Brevissima citazione e brano dalla lettera del 21 luglio 1986</dcterms:description>
-    <prism:pageRange>pp. 412; 511; 579; 584</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">412; 511; 579; 584</prism:pageRange>
     <rdfs:label>cit_thomson-andreocci</rdfs:label>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
   </rdf:Description>
@@ -4875,7 +4894,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1969-AL-NEFASTA_1"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-unita-mi-1969-01-28"/>
-    <prism:pageRange>7</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">7</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -4925,7 +4944,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SEQUEM_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Prefazione [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -4950,7 +4969,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitedEntity rdf:resource="ontolevi:corr_amery"/>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_mengoni-2017"/>
-    <prism:pageRange>p. 91</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">91</prism:pageRange>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_umberto-olobardi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5182,6 +5201,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Georg Bitter Verlag</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_recklinghausen"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/313445493"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q59245790"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_giorgio-olivetti">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5679,7 +5699,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947_ST-VIAGGIO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Il viaggio [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -5702,7 +5722,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:name xml:lang="it">Davide Terracini</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_let_barabas_1945-12-20_cfa">
-    <prism:pageRange>pp. 210-11</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">210-11</prism:pageRange>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>Lettera Barabas–Levi 20 dicembre 1945 [in: CfA]</rdfs:label>
@@ -5827,6 +5847,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:contributor rdf:resource="ontolevi:agent_cesare-cases"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_ernesto-ferrero"/>
     <frbr:partOf rdf:resource="ontolevi:m_1987-ST-OP"/>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/MOD0039760</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\MOD\0039760</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1963-INT-FABIANI">
     <frbr:realization rdf:resource="ontolevi:e_1963-INT-FABIANI"/>
@@ -5861,7 +5885,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <dcterms:description>Possibile inizio del carteggio collocato tra 22 dicembre 1966 e 28 febbraio 1967</dcterms:description>
     <cito:hasCitingEntity rdf:resource="ontolevi:m_mengoni-2021"/>
-    <prism:pageRange>p. 75</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">75</prism:pageRange>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_ada-luzzati">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5881,7 +5905,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-OTTOB_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Ottobre 1944 [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -5942,7 +5966,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SULFO_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Sul fondo [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -6053,9 +6077,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <frbr:realization rdf:resource="ontolevi:e_1961-INT-FAUSSONE"/>
-    <olm:interviewer rdf:resource="ontolevi:agent_bruno-faussone"/>
+    <ontolevi:interviewer rdf:resource="ontolevi:agent_bruno-faussone"/>
     <rdfs:label xml:lang="it">Se questo è un uomo [intervista Faussone 1961]</rdfs:label>
-    <olm:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <ontolevi:interviewee rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_journalissue-lamico-del-popolo-settimanale-della-federazione-comunista-vercellese-ii-26-1946-06-22">
@@ -6191,6 +6215,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q39981"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_edizioni-scientifiche-einaudi">
+    <frbr:partOf rdf:resource="ontolevi:publisher_einaudi"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Edizioni Scientifiche Einaudi</rdfs:label>
@@ -6199,7 +6224,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-KABE_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">Ka-Be [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -6213,7 +6238,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Le forche di Bagdad e la questione israeliana</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1969-AL-BAGDAD"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspissue-resistenza-gl-xxii-2-1969-02"/>
-    <prism:pageRange>13</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">13</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -6263,6 +6288,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Hutchinson</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q378809"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/144550791"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_anissimov-primo-levi-tragedie-1996">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6412,6 +6439,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1979</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+   <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
+<fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
+<dcterms:isPartOf rdf:resource="ontolevi:series_nuovi-coralli"/>
+<fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</fabio:hasSequenceIdentifier>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_carole-angier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6429,7 +6460,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1965-AL-FORNI"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1965-10-19"/>
-    <prism:pageRange>3</prism:pageRange>
+    <prism:pageRange rdf:datatype="xsd:string">3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
@@ -6461,6 +6492,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:alternateName xml:lang="it">All'insegna del pesce d'oro</schema:alternateName>
     <schema:name xml:lang="it">Vanni Scheiwiller</schema:name>
     <schema:location rdf:resource="ontolevi:place_milano"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q65499861"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/134873972"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_carmela-mayo-levi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6501,7 +6534,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SHEMA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <rdfs:label xml:lang="it">[Senza titolo] poesia-epigrafe SQU</rdfs:label>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
@@ -6569,9 +6602,9 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
    <rdf:Description rdf:about="ontolevi:m_1947-ST-OTTOB_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
     <dcterms:title xml:lang="it">Ottobre 1944</dcterms:title>
-    <rdfs:label xml:lang="it">Ottobre 1944 [Se questo è un uomo [De Silva 1947]]</rdfs:label>
+    <rdfs:label xml:lang="it">Ottobre 1944 [SQU]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_squ-desilva-1947"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -6740,16 +6773,29 @@ copie, pp. 25 non numerate.</dcterms:description>
 <ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
   >920208</ontolevi:codiceAcnp>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_segre-anna-2008">
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</prism:publicationDate>
-    <rdfs:label>Segre 2008</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_zamorani"/>
-    <dcterms:description>Anna Segre</dcterms:description>
-    <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-    <schema:author rdf:resource="ontolevi:agent_cesare-segre"/>
-  </rdf:Description>
+ <rdf:Description rdf:about="ontolevi:m_segre-anna-2008">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Segre, Un coraggio silenzioso [Zamorani, Torino 2008]</rdfs:label>
+  <dcterms:title xml:lang="it">Un coraggio silenzioso. Leonardo De Benedetti, medico, sopravvissuto ad Auschwitz</dcterms:title>
+  <schema:author rdf:resource="ontolevi:agent_anna-segre"/>
+  <dcterms:publisher rdf:resource="ontolevi:publisher_zamorani"/>
+  <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</prism:publicationDate>
+  <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >http://id.sbn.it/bid/TO01637632</ontolevi:permalinkOpacSbn>
+<ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >IT\ICCU\TO0\1637632</ontolevi:codiceOpacSbn>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:agent_anna-segre">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Anna Segre</rdfs:label>
+  <schema:name xml:lang="it">Anna Segre</schema:name>
+  <owl:sameAs rdf:resource="http://viaf.org/viaf/71196070"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q93232106"/>
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</schema:birthDate>
+ </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_matteo-fadini">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -7015,6 +7061,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>FrancoAngeli</rdfs:label>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3751097"/>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/124344146"/>
+    <schema:location rdf:resource="ontolevi:place_milano"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_bice-azzali">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
