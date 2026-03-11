@@ -8,7 +8,6 @@
    xmlns:dbo="http://dbpedia.org/ontology/"
    xmlns:fabio="http://purl.org/spar/fabio/"
    xmlns:frbr="http://purl.org/vocab/frbr/core#"
-   xmlns:olm="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_modulo.rdf#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -16,8 +15,7 @@
    xmlns:schema="https://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-   xmlns:cdec="https://dati.cdec.it/lod/shoah/"
->
+   >
   <rdf:Description rdf:about="http://purl.org/dc/terms/title">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en">has title</rdfs:label>
