@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xml:base="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_modulo.rdf"
-   xmlns:ontolevi="ontolevi:"
+   xml:base="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_modulo.rdf#"
+   xmlns:ontolevi="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_modulo.rdf#"
    xmlns:cito="http://purl.org/spar/cito/"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:dcterms="http://purl.org/dc/terms/"
