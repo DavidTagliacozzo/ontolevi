@@ -3834,7 +3834,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1987-ST-OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>Opere [Einaudi 1987-90]</rdfs:label>
+    <rdfs:label>Opere [1987-90]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_1987-ST-OP"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
@@ -4914,7 +4914,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1987-ST-OP_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>Opere. Volume terzo [Biblioteca dell'Orsa, Einaudi 1990]</rdfs:label>
+    <rdfs:label>Opere. Volume terzo [1990]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
@@ -5358,7 +5358,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1987-ST-OP_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>Opere. Volume secondo [Biblioteca dell'Orsa, Einaudi 1988]</rdfs:label>
+    <rdfs:label>Opere. Volume secondo [1988]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
@@ -6163,7 +6163,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1987-ST-OP_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>Opere. Volume primo [Biblioteca dell'Orsa, Einaudi 1987]</rdfs:label>
+    <rdfs:label>Opere. Volume primo [1987]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
