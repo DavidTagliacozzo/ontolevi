@@ -1159,7 +1159,6 @@ Examples of different manifestations of a single 'version of record' expression 
     <rdfs:comment xml:lang="en">A language of the resource. Examples include written, spoken, sign, and computer languages.
 
 Recommended best practice is to use a controlled vocabulary such as RFC 4646 [http://www.ietf.org/rfc/rfc4646.txt].</rdfs:comment>
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
     <rdfs:range rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
     <rdfs:label xml:lang="en">linguistic system</rdfs:label>
     <rdfs:label xml:lang="it">sistema linguistico</rdfs:label>
