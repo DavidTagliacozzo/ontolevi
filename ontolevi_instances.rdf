@@ -113,7 +113,7 @@
     <rdfs:label xml:lang="it">Liceo Classico D'Azeglio</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_torino"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/126895912"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3268994"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3268994"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1947-ST-VIAGGIO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -204,14 +204,14 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdfs:label xml:lang="it">Pescina</rdfs:label>
     <schema:name xml:lang="it">Pescina</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/6697170"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q50122"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q50122"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_firenze">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Firenze</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/3176959"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2044"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q2044"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1946-ST-LAQUE_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -672,7 +672,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <schema:name xml:lang="it">Leonardo De Benedetti</schema:name>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1898-09-15</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1983-10-16</schema:deathDate>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6526123"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q6526123"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/11735082"/>
     <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/2356/html"/>
     <schema:birthPlace rdf:resource="ontolevi:place_torino"/>
@@ -1515,7 +1515,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Garzanti</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3758568"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3758568"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/148937343"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-11</dcterms:identifier>
   </rdf:Description>
@@ -1534,7 +1534,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Giuseppe Mayda</rdfs:label>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/49302987"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q113804285"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q113804285"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</schema:deathDate>
   </rdf:Description>
@@ -1656,7 +1656,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">La Nuova Italia</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_firenze"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3821015"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3821015"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/217065164"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-21</dcterms:identifier>
   </rdf:Description>
@@ -1675,7 +1675,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Domenico Scarpa</rdfs:label>
     <schema:name xml:lang="it">Domenico Scarpa</schema:name>
     <owl:sameAs rdf:resource="https://viaf.org/viaf/46942386"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q50144343"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q50144343"/>
    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_cavaglion-memoria-1995">
@@ -1861,7 +1861,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Marco Belpoliti</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1679055"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1679055"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/113260538"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1954</schema:birthDate>
   </rdf:Description>
@@ -2036,7 +2036,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Fabio Levi</rdfs:label>
     <schema:name xml:lang="it">Fabio Levi</schema:name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/98000946"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q116266918"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q116266918"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1949</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-AL-BUNAMO">
@@ -2075,7 +2075,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">San Salvatore Monferrato</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/3167753"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q17663"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q17663"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journal_lunita-edizione-piemontese">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2181,7 +2181,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <dcterms:description>Sopravvissuto ad Auschwitz, storico e attivista austriaco (1912-1995)</dcterms:description>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1267643"/> 
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1267643"/> 
     <owl:sameAs rdf:resource="http://viaf.org/viaf/110012698"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-05-18</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-10-24</schema:deathDate>
@@ -2194,7 +2194,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Mondadori</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_milano"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/127831750"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q119942453"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q119942453"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-04</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_barabas_1945-ante">
@@ -2430,7 +2430,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Vladimiro Scatturin</rdfs:label>
     <schema:name xml:lang="it">Vladimiro Scatturin</schema:name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/50155767367627760794"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q61482023"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q61482023"/>
     <schema:birthDate>1922</schema:birthDate>
     <schema:deathDate>2008</schema:deathDate>
   </rdf:Description>
@@ -2565,7 +2565,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Venezia</rdfs:label>
     <schema:name xml:lang="it">Venezia</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3164603"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q641"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q641"/>
   </rdf:Description>
 <rdf:Description rdf:about="ontolevi:place_Vienna">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2667,7 +2667,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Vercelli</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/3164565"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5990"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q5990"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1953-ST-SCINTILL_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2689,7 +2689,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1987-04-11</schema:deathDate>
     <schema:birthPlace rdf:resource="ontolevi:place_torino"/>
     <schema:deathPlace rdf:resource="ontolevi:place_torino"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q153670"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q153670"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/76319000"/>
     <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/5002/html"/>
     <schema:alternateName xml:lang="it">Damiano Malabaila</schema:alternateName>
@@ -2723,7 +2723,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Casale Monferrato</rdfs:label>
     <schema:name xml:lang="it">Casale Monferrato</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3180208"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16333"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q16333"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_newspaperissue-stampa-1967-09-01">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2803,7 +2803,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Mimesis</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3858183"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3858183"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/134127496"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1949-ST-ZOLFO_2">
@@ -2898,7 +2898,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Recklinghausen</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/2849646"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3050"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3050"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-SEQUEM_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2940,7 +2940,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:birthPlace rdf:resource="ontolevi:place_roma"/>
     <schema:deathPlace rdf:resource="ontolevi:place_venezia"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/90662180"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1169248"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1169248"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_einaudi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2948,7 +2948,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Einaudi</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_torino"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-06</dcterms:identifier>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1305980"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1305980"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/145988121"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-06</dcterms:identifier>
   </rdf:Description>
@@ -3068,7 +3068,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Henry Gilman</rdfs:label>
     <owl:sameAs rdf:resource="https://viaf.org/en/viaf/79089086"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q905030"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q905030"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</schema:deathDate>
   </rdf:Description>
@@ -3138,13 +3138,13 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Ravenna</rdfs:label>
     <schema:name xml:lang="it">Ravenna</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3169561"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q13364"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q13364"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_ernesto-ferrero">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Ernesto Ferrero</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q728534"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q728534"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/39419605"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1938-05-06</schema:birthDate>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-10-31</schema:birthDate>
@@ -3154,7 +3154,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Istituto Nazionale per la Storia del Movimento di Liberazione in Italia</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_milano"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3803655"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3803655"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_1947-ST-SEQUEM_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3398,7 +3398,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Alberto Cavaglion</rdfs:label>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/56621967"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q16524796"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q16524796"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1956-04-24</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SQU_1">
@@ -3541,7 +3541,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:place_lyon">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q456"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q456"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/2996944"/>
     <rdfs:label>Lione</rdfs:label>
   </rdf:Description>
@@ -3772,7 +3772,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Alfredo Todisco</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3611514"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3611514"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/61602792"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</schema:deathDate>
@@ -3871,7 +3871,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Dolo</rdfs:label>
     <schema:name xml:lang="it">Dolo</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3177547"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q47505"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q47505"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:place_brescia">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4111,7 +4111,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
   <rdfs:label xml:lang="it">Siena</rdfs:label>
   <schema:name xml:lang="it">Siena</schema:name>
-  <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2751"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q2751"/>
   <owl:sameAs rdf:resource="https://www.geonames.org/6541466"/>                                        
 </rdf:Description>                                        
   <rdf:Description rdf:about="ontolevi:journal_allegoria-siena">
@@ -4365,7 +4365,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Daniela Amsallem</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q131772513"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q131772513"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/73944475"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</schema:birthDate>
   </rdf:Description>
@@ -4596,7 +4596,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdfs:label xml:lang="it">G.B. Palumbo &amp; C.</rdfs:label>
   <schema:name xml:lang="it">G.B. Palumbo &amp; C.</schema:name>
   <schema:location rdf:resource="ontolevi:place_palermo"/>
-  <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3892850"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3892850"/>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspaperissue_stampa-1974-12-07">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4671,7 +4671,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Carmelo Cappuccio</rdfs:label>
     <schema:name xml:lang="it">Carmelo Cappuccio</schema:name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/27130186"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q52150958"/>  
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q52150958"/>  
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1901</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</schema:deathDate>
   </rdf:Description>
@@ -4773,7 +4773,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Quodlibet</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2123612"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q2123612"/>
     <schema:location rdf:resource="ontolevi:place_macerata"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1963-INT-MAYDA">
@@ -4956,7 +4956,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label>Maria Bellonci</rdfs:label>
     <dcterms:description>Scrittrice italiana (1902-1986), fondatrice del Premio Strega</dcterms:description>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/17218867"/>  
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1080026"/>  
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1080026"/>  
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1902</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</schema:deathDate>
 </rdf:Description>
@@ -5060,7 +5060,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="it">Cagliari</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1897"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1897"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/6540125"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:ontolevi:manifestation_newspissue-domenica-sole24ore-2013-11-10">
@@ -5103,7 +5103,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="it">Enzo Fabiani</rdfs:label>
     <owl:sameAs rdf:resource ="http://viaf.org/viaf/7540069"/>
-    <owl:sameAs rdf:resource ="https://www.wikidata.org/wiki/Q93268778"/>
+    <owl:sameAs rdf:resource ="https://www.wikidata.org/entity/Q93268778"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1924</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</schema:deathDate>
   </rdf:Description>
@@ -5134,7 +5134,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <owl:sameAs rdf:resource ="http://viaf.org/viaf/66473761"/>
-    <owl:sameAs rdf:resource ="https://www.wikidata.org/wiki/Q3894503"/>
+    <owl:sameAs rdf:resource ="https://www.wikidata.org/entity/Q3894503"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1925</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1988</schema:deathDate>
   </rdf:Description>
@@ -5200,7 +5200,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Georg Bitter Verlag</rdfs:label>
     <schema:location rdf:resource="ontolevi:place_recklinghausen"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/313445493"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q59245790"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q59245790"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_giorgio-olivetti">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5208,7 +5208,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Giorgio Olivetti</rdfs:label>
     <schema:name xml:lang="it">Giorgio Olivetti</schema:name>
     <owl:sameAs rdf:resource ="http://viaf.org/viaf/7962155286628987180007"/>
-    <owl:sameAs rdf:resource ="https://www.wikidata.org/wiki/Q133736915"/>
+    <owl:sameAs rdf:resource ="https://www.wikidata.org/entity/Q133736915"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1929</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2016</schema:deathDate>
   </rdf:Description>
@@ -5250,7 +5250,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label>Londra</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q84"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/2643743"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspaper_paese-sera-roma">
@@ -5341,7 +5341,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
   <rdfs:label xml:lang="it">Roberta Passione</rdfs:label>
   <schema:name xml:lang="it">Roberta Passione</schema:name>
-  <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q133627438"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q133627438"/>
 <owl:sameAs rdf:resource="http://viaf.org/viaf/215124194"/>
 </rdf:Description>
 <rdf:Description rdf:about="ontolevi:place_udine">
@@ -5397,7 +5397,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Cesare Cases</rdfs:label>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/7410147"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3665376"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3665376"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</schema:deathDate>
   </rdf:Description>
@@ -5430,14 +5430,14 @@ copie, pp. 25 non numerate.</dcterms:description>
 <schema:name>Valentina Ricci</schema:name>
 <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</schema:birthDate>
 <owl:sameAs rdf:resource="https://viaf.org/en/viaf/308763468"/>
-<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q132943224"/>
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q132943224"/>
   </rdf:Description>
     <rdf:Description rdf:about="ontolevi:agent_jean-amery">
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <dcterms:description>Scrittore e filosofo belga (1912-1978), internato ad Auschwitz</dcterms:description>
     <rdfs:label>Jean Améry</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15969"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q15969"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/44315657"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-10-31</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-10-17</schema:deathDate>
@@ -5449,7 +5449,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Salisburgo</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/2766824"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q34713"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q34713"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_2018-ST-OPCOMP_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5528,7 +5528,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdfs:label xml:lang="it">Roberta Mori</rdfs:label>
   <schema:name xml:lang="it">Roberta Mori</schema:name>
 <owl:sameAs rdf:resource="http://viaf.org/viaf/56947684"/>
-<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q133710463"/>
+<owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q133710463"/>
 <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</schema:birthDate>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journal_ha-tikw---organo-della-federazione-giovanile-ebrai">
@@ -5625,7 +5625,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Giovanni Falaschi</rdfs:label>
     <schema:name xml:lang="it">Giovanni Falaschi</schema:name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/54256177"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q112554610"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q112554610"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1940</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1955-ST-RISVOLTO">
@@ -5791,7 +5791,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Cesare Segre</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1085799"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1085799"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/44312560"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1928</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</schema:deathDate>
@@ -5802,14 +5802,14 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Mantova</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6247"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q6247"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/6541855"/>
   </rdf:Description>
  <rdf:Description rdf:about="ontolevi:place_verzuolo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Verzuolo</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20545"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q20545"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/6538165"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_newspissue_il-giorno-milano_nodate_nodate_1963-08-07">
@@ -5917,7 +5917,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Varese</rdfs:label>
     <schema:name xml:lang="it">Varese</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3164699"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6285"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q6285"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journalissue_lamico-del-popolo-settimanale-della-federazione-comunista-vercellese_III_20_1947-05-24">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6141,7 +6141,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
   <rdfs:label xml:lang="it">Luciano Colombo</rdfs:label>
   <schema:name xml:lang="it">Luciano Colombo</schema:name>
-  <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q59912498"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q59912498"/>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:manifestation_newspaperissue-stampa-1974-12-07">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6268,7 +6268,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Martina Mengoni</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q110086657"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q110086657"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/53147602723757642596"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</schema:birthDate>
   </rdf:Description>
@@ -6276,7 +6276,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Luigi Silori</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q765350"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q765350"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/244839459"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1921</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</schema:deathDate>
@@ -6287,7 +6287,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Hutchinson</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q378809"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q378809"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/144550791"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:m_anissimov-primo-levi-tragedie-1996">
@@ -6366,7 +6366,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:Description rdf:about="ontolevi:agent_guri-schwarz">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q57782437"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q57782437"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/76546890"/>
     <rdfs:label>Guri Schwarz</rdfs:label>
     <schema:birthPlace rdf:resource="ontolevi:place_milano"/>
@@ -6447,7 +6447,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/108235012"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15711160"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q15711160"/>
     <rdfs:label>Carole Angier</rdfs:label>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</schema:birthDate>
     <schema:birthPlace rdf:resource="ontolevi:place_london"/>
@@ -6491,7 +6491,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:alternateName xml:lang="it">All'insegna del pesce d'oro</schema:alternateName>
     <schema:name xml:lang="it">Vanni Scheiwiller</schema:name>
     <schema:location rdf:resource="ontolevi:place_milano"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q65499861"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q65499861"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/134873972"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_carmela-mayo-levi">
@@ -6614,7 +6614,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:name xml:lang="it">Ada Della Torre</schema:name>
     <schema:alternateName xml:lang="it">Ada Della Torre Ortona</schema:alternateName>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/72972891"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q63107209"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q63107209"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1914</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1986</schema:deathDate>
  </rdf:Description>
@@ -6625,7 +6625,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:name xml:lang="it">Franco Lattes</schema:name>
     <schema:alternateName xml:lang="it">Franco Fortini</schema:alternateName>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/4929984"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q509504"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q509504"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1917</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</schema:deathDate>
   </rdf:Description>
@@ -6692,7 +6692,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Luisa Sturani</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q107677337"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q107677337"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/27231647"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1911</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2002</schema:deathDate>
@@ -6709,7 +6709,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Giovanna Ioli</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q121220633"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q121220633"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/39404595"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</schema:birthDate>
   </rdf:Description>
@@ -6792,7 +6792,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdfs:label xml:lang="it">Anna Segre</rdfs:label>
   <schema:name xml:lang="it">Anna Segre</schema:name>
   <owl:sameAs rdf:resource="http://viaf.org/viaf/71196070"/>
-  <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q93232106"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q93232106"/>
   <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</schema:birthDate>
  </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_matteo-fadini">
@@ -6801,7 +6801,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Matteo Fadini</rdfs:label>
     <schema:name xml:lang="it">Matteo Fadini</schema:name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/22155343864606311322"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q58622729"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q58622729"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1984</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_anna-bravo">
@@ -6810,7 +6810,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Anna Bravo</rdfs:label>
     <schema:name xml:lang="it">Anna Bravo</schema:name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/68955794"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q58838660"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q58838660"/>
    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1938</schema:birthDate>
    <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</schema:deathDate>
   </rdf:Description>
@@ -6819,7 +6819,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Silvano Arieti</rdfs:label>
     <dcterms:description>Psichiatra italiano naturalizzato statunitense (1914-1981)</dcterms:description>
-    <owl:sameAs rdf:resource="hhttps://www.wikidata.org/wiki/Q2259896"/>
+    <owl:sameAs rdf:resource="hhttps://www.wikidata.org/entity/Q2259896"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/52234716"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1914</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</schema:deathDate>
@@ -6844,7 +6844,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <dcterms:description>Scrittore italiano (1916-2000)</dcterms:description>
     <rdfs:label>Giorgio Bassani</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q318309"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q318309"/>
     <owl:sameAs rdf:resource="https://viaf.org/en/viaf/108729325"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1916</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</schema:deathDate>
@@ -6853,7 +6853,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Pier Vincenzo Mengaldo</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3902954"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3902954"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/110309997"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1936</schema:birthDate>
   </rdf:Description>
@@ -6867,7 +6867,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label>Macerata</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q13135"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q13135"/>
     <owl:sameAs rdf:resource="https://www.geonames.org/6540106"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1953-ST-SCINTILL">
@@ -7060,7 +7060,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>FrancoAngeli</rdfs:label>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3751097"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3751097"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/124344146"/>
     <schema:location rdf:resource="ontolevi:place_milano"/>
   </rdf:Description>
@@ -7110,7 +7110,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Myriam Anissimov</rdfs:label>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/19673253"/>
-    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3331497"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3331497"/>
    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</schema:birthDate>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_federazione-comunista-vercellese">
