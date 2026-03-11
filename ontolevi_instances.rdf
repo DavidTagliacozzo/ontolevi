@@ -3294,7 +3294,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdfs:label>Opere. Volume terzo [Biblioteca dell'Orsa, Einaudi 1990]</rdfs:label>
-    <dcterms:title>Opere. Volume terzo<: Racconti e saggi/dcterms:title>
+    <dcterms:title>Opere. Volume terzo: Racconti e saggi</dcterms:title>
     <dcterms:description>Introduzione di Pier Vincenzo Mengaldo. Data: maggio 1990.</dcterms:description>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
