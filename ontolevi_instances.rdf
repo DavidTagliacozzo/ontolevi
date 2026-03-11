@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xml:base="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_instances.rdf#"
-   xmlns:ontolevi="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_instances.rdf#"
+   xml:base="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi#"
+   xmlns:ontolevi="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi#"
    xmlns:cito="http://purl.org/spar/cito/"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:dbo="http://dbpedia.org/ontology/"
@@ -254,7 +254,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="ontolevi:m_1959-AL-LETTERA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">[Lettera] [1959]</rdfs:label>
+    <rdfs:label xml:lang="it">[Lettera] [La Stampa - 1959]</rdfs:label>
     <dcterms:title xml:lang="it">[Lettera]</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_1959-AL-LETTERA"/>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspaperissue-stampa-1959-12-03"/>
@@ -388,7 +388,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperNewsItem"/>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
-    <rdfs:label xml:lang="it">a Primo Levi [Settimo Giorno - 1963]</rdfs:label>
+    <rdfs:label xml:lang="it">a Primo Levi [Settimo Giorno]</rdfs:label>
     <frbr:embodiment rdf:resource="ontolevi:m_1963-INT-SILORI_1"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_1963-INT-SILORI"/>
   </rdf:Description>
@@ -1108,7 +1108,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1970-AL-DICHIARAZ">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
     <rdfs:label xml:lang="it">[Dichiarazione, 25 gennaio 1970]</rdfs:label>
     <dcterms:title xml:lang="it">[Dichiarazione, 25 gennaio 1970]</dcterms:title>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -1586,7 +1586,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Senza titolo]</dcterms:title>
-    <rdfs:label xml:lang="it">[Senza titolo] [«Volantino», 15]</rdfs:label>
+    <rdfs:label xml:lang="it">[Senza titolo] [«Volantino» n. 15 De Silva]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
     <dcterms:description xml:lang="it">quartino pubblicitario a colori per SQU. s.d. [ma ottobre 1947]</dcterms:description>
@@ -1796,7 +1796,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1959-AL-LETTERA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">[Lettera]</rdfs:label>
+    <rdfs:label xml:lang="it">[Lettera] [1959]</rdfs:label>
     <frbr:realizationOf rdf:resource="ontolevi:w_1959-AL-LETTERA"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1959-AL-LETTERA"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_AppellieLettereAperte"/>
@@ -2159,7 +2159,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Senza titolo]</dcterms:title>
-    <rdfs:label xml:lang="it">[Senza titolo] [Album [Einaudi]]</rdfs:label>
+    <rdfs:label xml:lang="it">[Senza titolo] [Volantino - Album, Einaudi]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_album"/>
     <dcterms:description xml:lang="it">riproduzione a colori e trascrizione</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">125</prism:pageRange>
@@ -2405,7 +2405,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-VOLANT_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
-    <rdfs:label>[Senza titolo] [Volantino De Silva]</rdfs:label>
+    <rdfs:label>[Senza titolo] [Volantino - De Silva]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_1947-ST-VOLANT"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
@@ -3194,7 +3194,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Senza titolo]</dcterms:title>
-    <rdfs:label xml:lang="it">[Senza titolo] [Se questo è un uomo [De Silva 1947]]</rdfs:label>
+    <rdfs:label xml:lang="it">[Senza titolo] [Poesia - epigrafe SQU]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:m_squ-desilva-1947"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -3611,7 +3611,7 @@ copie, pp. 25 non numerate.</dcterms:description>
  <rdf:Description rdf:about="ontolevi:m_katze-die-aus-rom-kam-1969">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="de">Die Katze die aus Rom kam [Georg Bitter Verlag, Recklinghausen 1969]</rdfs:label>
+  <rdfs:label>Die Katze die aus Rom kam [Georg Bitter Verlag, Recklinghausen 1969]</rdfs:label>
   <dcterms:title xml:lang="de">Die Katze die aus Rom kam: Geschichten aus Italien für Kinder und Erwachsene</dcterms:title>
   <schema:editor rdf:resource="ontolevi:agent_MarlisIngenmey"/>
   <schema:translator rdf:resource="ontolevi:agent_MarlisIngenmey"/>
@@ -3916,7 +3916,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Senza titolo]</dcterms:title>
-    <rdfs:label xml:lang="it">[Senza titolo] [Domenica. Il Sole 24 Ore [2013]]</rdfs:label>
+    <rdfs:label xml:lang="it">[Senza titolo] [Volantino - Domenica. Il Sole 24 Ore]</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:manifestation_newspissue-domenica-sole24ore-2013-11-10"/>
     <dcterms:contributor rdf:resource="ontolevi:agent_domenico-scarpa"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</prism:publicationDate>
@@ -4418,7 +4418,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1970-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>[Senza titolo] [opuscolo privato 1970]</rdfs:label>
+    <rdfs:label>[Poesie] [opuscolo privato]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_ST-POESIE"/>
     <frbr:embodiment rdf:resource="ontolevi:m_P-1970"/>
@@ -6884,7 +6884,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:m_amsallem-1992">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="fr">Amsallem, Images littéraires… [Chroniques italiennes, 1992]</rdfs:label>
+  <rdfs:label>Amsallem, Images littéraires… [Chroniques italiennes, 1992]</rdfs:label>
   <dcterms:title xml:lang="fr">Images littéraires et figures mythiques dans l'oeuvre de Primo Levi, ou l'expérience sublimée par l'écriture</dcterms:title>
   <schema:author rdf:resource="ontolevi:agent_daniela-amsallem"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</prism:publicationDate>
@@ -6894,7 +6894,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 <rdf:Description rdf:about="ontolevi:place_paris">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-  <rdfs:label xml:lang="fr">Paris</rdfs:label>
+  <rdfs:label xml:lang="it">Parigi</rdfs:label>
   <owl:sameAs rdf:resource="https://www.geonames.org/2988507"/>
   <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q90"/>
 </rdf:Description>
@@ -6912,7 +6912,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 <rdf:Description rdf:about="ontolevi:journalissue_chroniques-italiennes-paris_31-32_1992">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
-  <rdfs:label xml:lang="fr">«Chroniques italiennes [Paris]», n. 31-32, 1992</rdfs:label>
+  <rdfs:label>«Chroniques italiennes [Paris]», n. 31-32, 1992</rdfs:label>
   <dcterms:title xml:lang="fr">Chroniques italiennes [Paris] - n. 31-32</dcterms:title>
   <frbr:partOf rdf:resource="ontolevi:journal_chroniques-italiennes-paris"/>
   <prism:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31-32</prism:number>
@@ -6922,7 +6922,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 <rdf:Description rdf:about="ontolevi:manifestation_journalissue-chroniques-italiennes-paris-31-32-1992">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="fr">«Chroniques italiennes [Paris]», n. 31-32, 1992</rdfs:label>
+  <rdfs:label>«Chroniques italiennes [Paris]», n. 31-32, 1992</rdfs:label>
   <frbr:embodimentOf rdf:resource="ontolevi:journalissue_chroniques-italiennes-paris_31-32_1992"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1992</prism:publicationDate>
 </rdf:Description>
