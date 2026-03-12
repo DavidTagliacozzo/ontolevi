@@ -33,7 +33,7 @@
     <rdfs:label xml:lang="it">Permalink OPAC SBN</rdfs:label>
     <rdfs:comment xml:lang="en">Permanent URI linking to the OPAC SBN catalogue record for a Manifestation.</rdfs:comment>
     <rdfs:comment xml:lang="it">URI permanente alla scheda del catalogo OPAC SBN (Servizio Bibliotecario Nazionale).</rdfs:comment>
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/fabio/hasURL"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
   </rdf:Description>
