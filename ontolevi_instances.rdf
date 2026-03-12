@@ -5237,7 +5237,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdfs:label xml:lang="it">Edizioni Scolastiche Mondadori</rdfs:label>
   <schema:name xml:lang="it">Edizioni Scolastiche Mondadori</schema:name>
   <schema:location rdf:resource="ontolevi:place_milano"/>
-   <frbr:partOf rdf:resource="ontolevi:publisher_mondadori"/>
+   <dcterms:isPartOf rdf:resource="ontolevi:publisher_mondadori"/>
 </rdf:Description>
   <rdf:Description rdf:about="ontolevi:journal_avanti--quotidiano-del-psi--milano">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6211,7 +6211,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q39981"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:publisher_edizioni-scientifiche-einaudi">
-    <frbr:partOf rdf:resource="ontolevi:publisher_einaudi"/>
+    <dcterms:isPartOf rdf:resource="ontolevi:publisher_einaudi"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Edizioni Scientifiche Einaudi</rdfs:label>
