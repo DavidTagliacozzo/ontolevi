@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xml:base="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi#"
+   xmlns:ontolevi="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi#"
+   xmlns:cito="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:fabio="http://purl.org/spar/fabio/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+   >
+
+  <!-- ================================================================
+       ONTOLOGIA
+       ================================================================ -->
+
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/DavidTagliacozzo/ontolevi/refs/heads/main/ontolevi_modulo.rdf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://purl.org/spar/fabio"/>
+    <owl:imports rdf:resource="http://purl.org/spar/cito"/>
+  </rdf:Description>
+
+  <!-- ================================================================
+       CLASSI ESTERNE NON COPERTE DAGLI IMPORT
+       ================================================================ -->
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/LinguisticSystem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">linguistic system</rdfs:label>
+    <rdfs:label xml:lang="it">sistema linguistico</rdfs:label>
+    <rdfs:comment xml:lang="en">A system of signs, symbols, sounds, gestures, or rules used in communication, including natural and constructed languages.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un sistema di segni, simboli, suoni, gesti o regole usati nella comunicazione, incluse le lingue naturali e artificiali.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Collection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">collection</rdfs:label>
+    <rdfs:label xml:lang="it">collezione</rdfs:label>
+    <rdfs:comment xml:lang="en">An aggregation of resources. A collection is described as a group; its parts may also be separately described.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un'aggregazione di risorse. Una collezione è descritta come gruppo; le sue parti possono essere descritte separatamente.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Publisher">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    <rdfs:label xml:lang="en">publisher</rdfs:label>
+    <rdfs:label xml:lang="it">editore</rdfs:label>
+    <rdfs:comment xml:lang="en">An organization or person responsible for publishing and distributing bibliographic resources.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un'organizzazione o persona responsabile della pubblicazione e distribuzione di risorse bibliografiche.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/Library">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    <rdfs:label xml:lang="en">library</rdfs:label>
+    <rdfs:label xml:lang="it">biblioteca</rdfs:label>
+    <rdfs:comment xml:lang="en">A library institution holding collections of books, periodicals, and other materials.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un'istituzione bibliotecaria che conserva raccolte di libri, periodici e altri materiali.</rdfs:comment>
+  </rdf:Description>
+
+  <!-- ================================================================
+       PROPRIETÀ OBJECT ESTERNE NON COPERTE DAGLI IMPORT
+       ================================================================ -->
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/contributor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:label xml:lang="en">contributor</rdfs:label>
+    <rdfs:label xml:lang="it">contributore</rdfs:label>
+    <rdfs:comment xml:lang="en">An entity responsible for making contributions to the resource.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un'entità responsabile di contributi alla risorsa.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">description</rdfs:label>
+    <rdfs:label xml:lang="it">descrizione</rdfs:label>
+    <rdfs:comment xml:lang="en">An account of the resource, including abstract, table of contents, or free-text.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una descrizione della risorsa, inclusi abstract, indice o testo libero.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/author">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <owl:inverseOf rdf:resource="ontolevi:isAuthorOf"/>
+    <rdfs:label xml:lang="en">author</rdfs:label>
+    <rdfs:label xml:lang="it">autore</rdfs:label>
+    <rdfs:comment xml:lang="en">The author of a creative work or other endeavour.</rdfs:comment>
+    <rdfs:comment xml:lang="it">L'autore di un'opera creativa o di un altro endeavour.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/editor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <owl:inverseOf rdf:resource="ontolevi:isEditorOf"/>
+    <rdfs:label xml:lang="en">editor</rdfs:label>
+    <rdfs:label xml:lang="it">curatore</rdfs:label>
+    <rdfs:comment xml:lang="en">The editor or curator responsible for a publication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il curatore responsabile di una pubblicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/translator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:label xml:lang="en">translator</rdfs:label>
+    <rdfs:label xml:lang="it">traduttore</rdfs:label>
+    <rdfs:comment xml:lang="en">The translator of a work into another language.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il traduttore di un'opera in un'altra lingua.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/participant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    <rdfs:domain rdf:resource="ontolevi:CorrespondenceAggregate"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:label xml:lang="en">participant</rdfs:label>
+    <rdfs:label xml:lang="it">partecipante</rdfs:label>
+    <rdfs:comment xml:lang="en">A participant in an event or communication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un partecipante a un evento o comunicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/sender">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/participant"/>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Letter"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:label xml:lang="en">sender</rdfs:label>
+    <rdfs:label xml:lang="it">mittente</rdfs:label>
+    <rdfs:comment xml:lang="en">The sender of a letter or other communication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il mittente di una lettera o altra comunicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/recipient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/participant"/>
+    <rdfs:domain rdf:resource="http://purl.org/spar/fabio/Letter"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:label xml:lang="en">recipient</rdfs:label>
+    <rdfs:label xml:lang="it">destinatario</rdfs:label>
+    <rdfs:comment xml:lang="en">The recipient of a letter or other communication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il destinatario di una lettera o altra comunicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/affiliation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    <rdfs:label xml:lang="en">affiliation</rdfs:label>
+    <rdfs:label xml:lang="it">affiliazione</rdfs:label>
+    <rdfs:comment xml:lang="en">The organization to which a person is affiliated.</rdfs:comment>
+    <rdfs:comment xml:lang="it">L'organizzazione a cui una persona è affiliata.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+    <rdfs:label xml:lang="en">location</rdfs:label>
+    <rdfs:label xml:lang="it">luogo</rdfs:label>
+    <rdfs:comment xml:lang="en">The location of an organization or event.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il luogo di un'organizzazione o evento.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/birthPlace">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+    <rdfs:label xml:lang="en">birth place</rdfs:label>
+    <rdfs:label xml:lang="it">luogo di nascita</rdfs:label>
+    <rdfs:comment xml:lang="en">The place of birth of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il luogo di nascita di una persona.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/deathPlace">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+    <rdfs:label xml:lang="en">death place</rdfs:label>
+    <rdfs:label xml:lang="it">luogo di morte</rdfs:label>
+    <rdfs:comment xml:lang="en">The place of death of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il luogo di morte di una persona.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/dc/terms/hasPart"/>
+    <rdfs:label xml:lang="en">is part of</rdfs:label>
+    <rdfs:label xml:lang="it">è parte di</rdfs:label>
+    <rdfs:comment xml:lang="en">A related resource in which the described resource is physically or logically included.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una risorsa correlata in cui la risorsa descritta è inclusa fisicamente o logicamente.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/dc/terms/hasPart">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+    <rdfs:label xml:lang="en">has part</rdfs:label>
+    <rdfs:label xml:lang="it">ha parte</rdfs:label>
+    <rdfs:comment xml:lang="en">A related resource that is included either physically or logically in the described resource.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una risorsa correlata inclusa fisicamente o logicamente nella risorsa descritta.</rdfs:comment>
+  </rdf:Description>
+
+  <!-- ================================================================
+       PROPRIETÀ DATATYPE ESTERNE NON COPERTE DAGLI IMPORT
+       ================================================================ -->
+
+  <rdf:Description rdf:about="https://schema.org/name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">name</rdfs:label>
+    <rdfs:label xml:lang="it">nome</rdfs:label>
+    <rdfs:comment xml:lang="en">The name of an entity.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il nome di un'entità.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/alternateName">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/name"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:label xml:lang="en">alternate name</rdfs:label>
+    <rdfs:label xml:lang="it">nome alternativo</rdfs:label>
+    <rdfs:comment xml:lang="en">An alias or alternative name for an entity.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un alias o nome alternativo per un'entità.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/birthDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:label xml:lang="en">birth date</rdfs:label>
+    <rdfs:label xml:lang="it">data di nascita</rdfs:label>
+    <rdfs:comment xml:lang="en">The date of birth of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="it">La data di nascita di una persona.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/deathDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:label xml:lang="en">death date</rdfs:label>
+    <rdfs:label xml:lang="it">data di morte</rdfs:label>
+    <rdfs:comment xml:lang="en">The date of death of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="it">La data di morte di una persona.</rdfs:comment>
+  </rdf:Description>
+
+
+  <!-- ================================================================
+       CLASSE CUSTOM
+       ================================================================ -->
+
+  <rdf:Description rdf:about="ontolevi:CorrespondenceAggregate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
+    <rdfs:label xml:lang="en">Correspondence Aggregate</rdfs:label>
+    <rdfs:label xml:lang="it">Corrispondenza</rdfs:label>
+    <rdfs:comment xml:lang="en">A collection of letters and other correspondence items by or addressed to a person.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una raccolta di lettere e altri elementi di corrispondenza di o indirizzati a una persona.</rdfs:comment>
+  </rdf:Description>
+
+  <!-- ================================================================
+       PROPRIETÀ OBJECT CUSTOM
+       ================================================================ -->
+
+  <rdf:Description rdf:about="ontolevi:interviewer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="https://schema.org/author"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:label xml:lang="en">interviewer</rdfs:label>
+    <rdfs:label xml:lang="it">intervistatore</rdfs:label>
+    <rdfs:comment xml:lang="en">The journalist or researcher who conducts the interview. Subproperty of sdo:author, as the interviewer is the author of the published text.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il giornalista o ricercatore che conduce l'intervista. Sottoproprietà di sdo:author, in quanto l'intervistatore è l'autore del testo pubblicato.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:interviewee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/contributor"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:label xml:lang="en">interviewee</rdfs:label>
+    <rdfs:label xml:lang="it">intervistato</rdfs:label>
+    <rdfs:comment xml:lang="en">The person being interviewed. Subproperty of dcterms:contributor, as the interviewee contributes their words and thoughts to the published text.</rdfs:comment>
+    <rdfs:comment xml:lang="it">La persona intervistata. Sottoproprietà di dcterms:contributor, in quanto l'intervistato contribuisce le proprie parole e idee al testo pubblicato.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isAuthorOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <owl:inverseOf rdf:resource="https://schema.org/author"/>
+    <rdfs:label xml:lang="en">is author of</rdfs:label>
+    <rdfs:label xml:lang="it">è autore di</rdfs:label>
+    <rdfs:comment xml:lang="en">A person or organization that is the author of a creative work or other endeavour.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una persona o organizzazione che è autrice di un'opera creativa o di un altro endeavour.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isEditorOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    <owl:inverseOf rdf:resource="https://schema.org/editor"/>
+    <rdfs:label xml:lang="en">is editor of</rdfs:label>
+    <rdfs:label xml:lang="it">è curatore di</rdfs:label>
+    <rdfs:comment xml:lang="en">A person or organization that is the editor or curator of a publication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una persona o organizzazione che è curatrice di una pubblicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isPublisherOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/dc/terms/publisher"/>
+    <rdfs:label xml:lang="en">is publisher of</rdfs:label>
+    <rdfs:label xml:lang="it">è editore di</rdfs:label>
+    <rdfs:comment xml:lang="en">A publisher or organization responsible for making a resource available.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un editore o organizzazione responsabile della messa a disposizione di una risorsa.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isPlaceOfPublicationOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/spar/fabio/hasPlaceOfPublication"/>
+    <rdfs:label xml:lang="en">is place of publication of</rdfs:label>
+    <rdfs:label xml:lang="it">è luogo di pubblicazione di</rdfs:label>
+    <rdfs:comment xml:lang="en">A place that is the location of publication of a bibliographic resource.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un luogo che è sede di pubblicazione di una risorsa bibliografica.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isLanguageOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://purl.org/dc/terms/language"/>
+    <rdfs:label xml:lang="en">is language of</rdfs:label>
+    <rdfs:label xml:lang="it">è lingua di</rdfs:label>
+    <rdfs:comment xml:lang="en">A linguistic system that is the language of a resource.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Un sistema linguistico che è la lingua di una risorsa.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isParticipantOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    <owl:inverseOf rdf:resource="https://schema.org/participant"/>
+    <rdfs:label xml:lang="en">is participant of</rdfs:label>
+    <rdfs:label xml:lang="it">è partecipante di</rdfs:label>
+    <rdfs:comment xml:lang="en">A person or organization that participates in an event or communication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una persona o organizzazione che partecipa a un evento o comunicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isSenderOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="ontolevi:isParticipantOf"/>
+    <owl:inverseOf rdf:resource="https://schema.org/sender"/>
+    <rdfs:label xml:lang="en">is sender of</rdfs:label>
+    <rdfs:label xml:lang="it">è mittente di</rdfs:label>
+    <rdfs:comment xml:lang="en">A person or organization that is the sender of a letter or other communication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una persona o organizzazione che è mittente di una lettera o altra comunicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:isRecipientOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="ontolevi:isParticipantOf"/>
+    <owl:inverseOf rdf:resource="https://schema.org/recipient"/>
+    <rdfs:label xml:lang="en">is recipient of</rdfs:label>
+    <rdfs:label xml:lang="it">è destinatario di</rdfs:label>
+    <rdfs:comment xml:lang="en">A person or organization that is the recipient of a letter or other communication.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Una persona o organizzazione che è destinataria di una lettera o altra comunicazione.</rdfs:comment>
+  </rdf:Description>
+
+  <!-- ================================================================
+       PROPRIETÀ DATATYPE CUSTOM
+       ================================================================ -->
+
+  <rdf:Description rdf:about="ontolevi:codiceOpacSbn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">OPAC SBN code</rdfs:label>
+    <rdfs:label xml:lang="it">Codice OPAC SBN</rdfs:label>
+    <rdfs:comment xml:lang="en">The identifier string of a Manifestation in the OPAC SBN catalogue (e.g. IT\ICCU\LIA\0168072).</rdfs:comment>
+    <rdfs:comment xml:lang="it">Codice identificativo della risorsa nel catalogo OPAC SBN, nel formato IT\ICCU\XXX\0000000.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:permalinkOpacSbn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/fabio/hasURL"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:label xml:lang="en">OPAC SBN permalink</rdfs:label>
+    <rdfs:label xml:lang="it">Permalink OPAC SBN</rdfs:label>
+    <rdfs:comment xml:lang="en">Permanent URI linking to the OPAC SBN catalogue record for a Manifestation.</rdfs:comment>
+    <rdfs:comment xml:lang="it">URI permanente alla scheda del catalogo OPAC SBN (Servizio Bibliotecario Nazionale).</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:codiceAcnp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">ACNP code</rdfs:label>
+    <rdfs:label xml:lang="it">Codice ACNP</rdfs:label>
+    <rdfs:comment xml:lang="en">The identifier assigned to a periodical in the ACNP Italian Serials Catalogue (Catalogo Italiano dei Periodici).</rdfs:comment>
+    <rdfs:comment xml:lang="it">Codice identificativo assegnato a un periodico nel Catalogo Italiano dei Periodici (ACNP).</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:permalinkAcnp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/spar/fabio/hasURL"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:label xml:lang="en">ACNP permalink</rdfs:label>
+    <rdfs:label xml:lang="it">Permalink ACNP</rdfs:label>
+    <rdfs:comment xml:lang="en">Permalink to the journal's entry in the ACNP Italian Serials Catalogue (Catalogo Italiano dei Periodici).</rdfs:comment>
+    <rdfs:comment xml:lang="it">Permalink alla scheda del periodico nel Catalogo Italiano dei Periodici (ACNP).</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:codiceIccu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <rdfs:domain rdf:resource="https://schema.org/Library"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">ICCU code</rdfs:label>
+    <rdfs:label xml:lang="it">Codice ICCU</rdfs:label>
+    <rdfs:comment xml:lang="en">The identifier assigned to a library by ICCU (Istituto Centrale per il Catalogo Unico).</rdfs:comment>
+    <rdfs:comment xml:lang="it">Codice identificativo assegnato dall'Istituto Centrale per il Catalogo Unico delle biblioteche italiane.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="ontolevi:codiceEditore">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="en">publisher code</rdfs:label>
+    <rdfs:label xml:lang="it">Codice editore</rdfs:label>
+    <rdfs:comment xml:lang="en">The publisher's identifier code, for example the ISBN prefix.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Codice identificativo dell'editore, ad esempio il prefisso ISBN.</rdfs:comment>
+  </rdf:Description>
+
+</rdf:RDF>
