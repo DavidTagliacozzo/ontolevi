@@ -7049,11 +7049,17 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
   <rdfs:label xml:lang="it">Fadini, Su un avantesto di «Se questo è un uomo» [Filologia Italiana, 2008]</rdfs:label>
   <dcterms:title xml:lang="it">Su un avantesto di «Se questo è un uomo» (con una nuova edizione del «Rapporto» sul Lager di Monowitz del 1946)</dcterms:title>
-  <frbr:partOf rdf:resource="ontolevi:journalissue_filologia-italiana_5_2008"/>
+  <frbr:partOf rdf:resource="ontolevi:manifestation_journalissue-filologia-italiana-5-2008"/>
   <schema:author rdf:resource="ontolevi:agent_matteo-fadini"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2009</prism:publicationDate>
   <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">222-235</prism:pageRange>
   <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:manifestation_journalissue-filologia-italiana-5-2008">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">«Filologia Italiana», n. 5, 2008 [ma 2009] [manifestation]</rdfs:label>
+  <frbr:embodimentOf rdf:resource="ontolevi:journalissue_filologia-italiana_5_2008"/>
 </rdf:Description>
 <rdf:Description rdf:about="ontolevi:journalissue_filologia-italiana_5_2008">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
