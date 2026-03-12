@@ -4922,6 +4922,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_1987-ST-OP"/>
+    <frbr:embodiment rdf:resource="ontolevi:m_1987-ST-OP_3"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_giuseppe-tedesco">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5366,6 +5367,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_1987-ST-OP"/>
+    <frbr:embodiment rdf:resource="ontolevi:m_1987-ST-OP_2"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SULFO_4">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6170,6 +6172,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_1987-ST-OP"/>
+    <frbr:embodiment rdf:resource="ontolevi:m_1987-ST-OP_1"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12">
     <frbr:embodiment rdf:resource="ontolevi:manifestation_newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12"/>
