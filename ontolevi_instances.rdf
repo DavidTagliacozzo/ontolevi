@@ -1617,7 +1617,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
     <rdfs:label>Opere complete. Volume III [Einaudi 2018]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
-    <frbr:realizationOf rdf:resource="ontolevi:w_2016-ST-OPCOMP"/>
+    <frbr:partOf rdf:resource="ontolevi:e_2016-ST-OP"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:embodiment rdf:resource="ontolevi:m_2018-ST-OPCOMP_3"/>
   </rdf:Description>
@@ -1638,7 +1638,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:realization rdf:resource="ontolevi:e_2016-ST-OP"/>
-    <frbr:realization rdf:resource="ontolevi:e_2018-ST-OPCOMP_3"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:let_amsallem_1986-09-05">
     <schema:recipient rdf:resource="ontolevi:agent_daniela-amsallem"/>
@@ -1980,7 +1979,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:m_2016-ST-OPCOMP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Opere complete [Einaudi 2016]</rdfs:label>
+    <rdfs:label>Opere complete [Einaudi 2016-18]</rdfs:label>
     <dcterms:title>Opere complete</dcterms:title>
     <frbr:embodimentOf rdf:resource="ontolevi:e_2016-ST-OP"/>
     <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
@@ -1993,6 +1992,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:description>2 voll. A cura di Marco Belpoliti, introduzione di Daniele Del Giudice, cronologia di Ernesto Ferrero. Data: novembre 2016.</dcterms:description>
     <frbr:part rdf:resource="ontolevi:m_2016-ST-OPCOMP_1"/>
     <frbr:part rdf:resource="ontolevi:m_2016-ST-OPCOMP_2"/>
+    <frbr:part rdf:resource="ontolevi:m_2018-ST-OPCOMP_3"/>
     <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/UTO1253007</ontolevi:permalinkOpacSbn>
 <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -4623,9 +4623,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP"/>
-    <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP_1"/>
-    <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP_2"/>
-    <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP_3"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1946-ST-LAQUE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4921,7 +4918,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
-    <frbr:realizationOf rdf:resource="ontolevi:w_1987-ST-OP"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1987-ST-OP_3"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_giuseppe-tedesco">
@@ -5362,11 +5358,10 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="ontolevi:e_1987-ST-OP_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>Opere. Volume secondo [1988]</rdfs:label>
+   <rdfs:label>Opere. Volume secondo [1988]</rdfs:label>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
-    <frbr:realizationOf rdf:resource="ontolevi:w_1987-ST-OP"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1987-ST-OP_2"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SULFO_4">
@@ -5967,6 +5962,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <frbr:realizationOf rdf:resource="ontolevi:w_2016-ST-OPCOMP"/>
     <frbr:embodiment rdf:resource="ontolevi:m_2016-ST-OPCOMP"/>
+    <frbr:part rdf:resource="ontolevi:e_2018-ST-OPCOMP_3"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:e_1947-ST-SULFO_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6171,7 +6167,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:language rdf:resource="ontolevi:lang_it"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:partOf rdf:resource="ontolevi:e_1987-ST-OP"/>
-    <frbr:realizationOf rdf:resource="ontolevi:w_1987-ST-OP"/>
     <frbr:embodiment rdf:resource="ontolevi:m_1987-ST-OP_1"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12">
