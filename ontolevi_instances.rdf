@@ -4623,6 +4623,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
     <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP"/>
+    <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP_1"/>
+    <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP_2"/>
+    <frbr:realization rdf:resource="ontolevi:e_1987-ST-OP_3"/>
   </rdf:Description>
   <rdf:Description rdf:about="ontolevi:w_1946-ST-LAQUE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -7069,6 +7072,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</fabio:hasSequenceIdentifier>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</prism:publicationDate>
   <dcterms:description xml:lang="it">Datato 2008, pubblicato nel 2009.</dcterms:description>
+  <frbr:embodiment rdf:resource="ontolevi:manifestation_journalissue-filologia-italiana-5-2008"/>
 </rdf:Description>
 <rdf:Description rdf:about="ontolevi:journal_filologia-italiana">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
