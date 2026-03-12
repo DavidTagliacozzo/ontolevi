@@ -1481,7 +1481,7 @@ The entity defined as item is a concrete entity. It is in many instances a singl
   <rdf:Description rdf:about="ontolevi:codiceOpacSbn">
     <rdfs:label xml:lang="en">OPAC SBN code</rdfs:label>
     <rdfs:label xml:lang="it">Codice OPAC SBN</rdfs:label>
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
