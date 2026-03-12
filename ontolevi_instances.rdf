@@ -463,7 +463,6 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <frbr:partOf rdf:resource="ontolevi:corr_amici-cristiani"/>
     <rdfs:label>Lettera di Levi agli amici cristiani [s.d., Auschwitz]</rdfs:label>
     <dcterms:description>Scritta in tedesco ad Auschwitz; non giunse a destinazione. Citata in Lo zingaro (Lilít 1981)</dcterms:description>
-    <frbr:embodiment rdf:resource="ontolevi:m_let_amici-cristiani_in_lilit"/>
     <schema:sender rdf:resource="ontolevi:agent_PrimoLevi"/>
     <dcterms:language rdf:resource="ontolevi:lang_de"/>
   </rdf:Description>
@@ -4388,17 +4387,48 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="ontolevi:m_let_amici-cristiani_in_lilit">
-    <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35-38</prism:pageRange>
-    <rdfs:label>Lettera agli amici cristiani [in: Lilít 1981]</rdfs:label>
-    <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</prism:publicationDate>
+  <rdf:Description rdf:about="ontolevi:cit_lilit-zingaro-cites-let-amici-cristiani">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
+    <cito:hasCitingEntity rdf:resource="ontolevi:m_1981-ST-LILIT"/>
+    <cito:hasCitedEntity rdf:resource="ontolevi:let_amici-cristiani_s.d."/>
+    <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
+    <dcterms:description xml:lang="it">Notizia di una lettera, scritta in tedesco dietro autorizzazione della direzione del Lager di Auschwitz, che Levi decide di indirizzare non alla famiglia bensí ad «amici cristiani», probabilmente a Bianca Guidetti Serra. La lettera non giunse a destinazione.</dcterms:description> 
+  </rdf:Description>
+  <rdf:Description rdf:about="ontolevi:w_1981-ST-LILIT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/LiteraryArtisticWork"/>
+    <rdfs:label xml:lang="it">Lilít e altri racconti</rdfs:label>
+    <dcterms:title xml:lang="it">Lilít e altri racconti</dcterms:title>
+    <schema:author rdf:resource="ontolevi:agent_PrimoLevi"/>
+    <frbr:realization rdf:resource="ontolevi:e_1981-ST-LILIT"/>
+    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:e_1981-ST-LILIT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
+    <rdfs:label xml:lang="it">Lilít e altri racconti [1981]</rdfs:label>
+    <frbr:realizationOf rdf:resource="ontolevi:w_1981-ST-LILIT"/>
+    <frbr:embodiment rdf:resource="ontolevi:m_lilit-nuovi-coralli-1981"/>
+    <dcterms:language rdf:resource="ontolevi:lang_it"/>
+    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+</rdf:Description>
+<rdf:Description rdf:about="ontolevi:m_lilit-nuovi-coralli-1981">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <frbr:embodimentOf rdf:resource="ontolevi:let_amici-cristiani_s.d."/>
+    <rdfs:label xml:lang="it">Lilít e altri racconti [Einaudi, Nuovi coralli 1981]</rdfs:label>
+    <dcterms:title xml:lang="it">Lilít e altri racconti</dcterms:title>
+    <frbr:embodimentOf rdf:resource="ontolevi:e_1981-ST-LILIT"/>
+    <dcterms:publisher rdf:resource="ontolevi:publisher_einaudi"/>
     <fabio:hasPlaceOfPublication rdf:resource="ontolevi:place_torino"/>
-    <dcterms:description>Citata in Lo zingaro, in Lilít e altri racconti, Einaudi 1981</dcterms:description>
-  </rdf:Description>
+    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-10-24</prism:publicationDate>
+    <dcterms:isPartOf rdf:resource="ontolevi:series_nuovi-coralli"/>
+    <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</fabio:hasSequenceIdentifier>
+    <dcterms:description xml:lang="it">Comprende 36 racconti divisi in tre sezioni: 12 in Passato prossimo, 15 in Futuro anteriore, 9 in Presente indicativo. In copertina un particolare dalla vetrata dello Hadassah Medical Center di Gerusalemme di Marc Chagall; in quarta di copertina un testo di presentazione firmato dall'autore.</dcterms:description>
+    <dcterms:isPartOf rdf:resource="ontolevi:col_ScrittieTraduzioni"/>
+    <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT\ICCU\RAV\0053808</ontolevi:codiceOpacSbn>
+    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.sbn.it/bid/RAV0053808</ontolevi:permalinkOpacSbn>
+</rdf:Description>
   <rdf:Description rdf:about="ontolevi:agent_tiziana-cerrato">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
