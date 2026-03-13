@@ -1966,6 +1966,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
     <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</rdfs:label>
     <dcterms:title xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</dcterms:title>
+    <prism:alternateTitle xml:lang="it">Documento degli «ebrei di sinistra» di Torino</prism:alternateTitle>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <frbr:realization rdf:resource="#e_1969-AL-NEFASTA_1"/>
     <frbr:realization rdf:resource="#e_1969-AL-NEFASTA_2"/>
@@ -2592,7 +2593,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">I mnemagoghi</dcterms:title>
-    <rdfs:label xml:lang="it">I mnemagoghi [L'Italia Socialista - 1948]</rdfs:label>
+    <rdfs:label xml:lang="it">I mnemagoghi [L'Italia Socialista 1948]</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_journalissue-litalia-socialista-roma-novol-noissue-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1948</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_roma"/>
@@ -2616,6 +2617,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1979-11-22</dcterms:date>
     <rdfs:label>Lettera di Levi ad Arieti, 22 novembre 1979</rdfs:label>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <schema:recipient rdf:resource="#agent_silvano-arieti"/>
   </rdf:Description>
   <rdf:Description rdf:about="#place_venezia">
@@ -2669,7 +2671,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)</dcterms:title>
-    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Cavaglion, Il ritorno… [Milano 1993]]</rdfs:label>
+    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Cavaglion 1993]</rdfs:label>
     <frbr:partOf rdf:resource="#m_cavaglion-ritorno-1993-contributo"/>
     <dcterms:contributor rdf:resource="#agent_LeonardoDeBenedetti"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</prism:publicationDate>
@@ -2700,11 +2702,12 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:recipient rdf:resource="#agent_bice-azzali"/>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
     <frbr:partOf rdf:resource="#corr_azzali"/>
+   <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
   </rdf:Description>
   <rdf:Description rdf:about="#manifestation_journalissue-pitture-e-vernici-rivista-mensile-tecnico-economica-dei-prodotti-vernicianti-e-delle-materie-prime-milano-ii-11-nodate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«Pitture e Vernici. Rivista mensile tecnico economica dei prodotti vernicianti e delle materie prime [Milano]», II, 11</rdfs:label>
+    <rdfs:label xml:lang="it">«Pitture e Vernici. Rivista mensile tecnico economica dei prodotti vernicianti e delle materie prime [Milano]», II, 11 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_pitture-e-vernici-rivista-mensile-tecnico-economica-dei-prodotti-vernicianti-e-delle-materie-prime-milano_II_11_nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1946-11</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
@@ -2717,7 +2720,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-09-15</prism:publicationDate>
     <dcterms:title xml:lang="it">L'odissea di Primo Levi</dcterms:title>
-    <rdfs:label xml:lang="it">L'odissea di Primo Levi [L'Unione Sarda - 1963-09-15]</rdfs:label>
+    <rdfs:label xml:lang="it">L'odissea di Primo Levi [L'Unione Sarda 1963]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
     <schema:author rdf:resource="#agent_ernesto-ferrero"/>
   </rdf:Description>
@@ -2725,6 +2728,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Vercelli</rdfs:label>
+    <schema:name xml:lang="it">Vercelli</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3164565"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q5990"/>
   </rdf:Description>
@@ -2732,7 +2736,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Recensione di] E. M. Remarque L'ultima scintilla</dcterms:title>
-    <rdfs:label xml:lang="it">[Recensione di] E. M. Remarque L'ultima scintilla [Opere [Einaudi 2016-18]]</rdfs:label>
+    <rdfs:label xml:lang="it">[Recensione di] E. M. Remarque L'ultima scintilla [Opere 2016-18]</rdfs:label>
     <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP_2"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
@@ -2770,7 +2774,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1950-ST-ZOLFO_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsItem"/>
-    <rdfs:label xml:lang="it">Turno di notte [l'Unità]</rdfs:label>
+    <rdfs:label xml:lang="it">Turno di notte [1950]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1950-ST-ZOLFO"/>
@@ -2787,14 +2791,14 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_newspaperissue-stampa-1967-09-01">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«La Stampa [Torino]», 1967-09-01</rdfs:label>
+    <rdfs:label xml:lang="it">«La Stampa [Torino]», 1967-09-01 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#newspaperissue_stampa-1967-09-01"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-09-01</prism:publicationDate>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1974-AL-CILE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Per il Cile telegramma a De Martino [1974]</rdfs:label>
+    <rdfs:label xml:lang="it">Per il Cile telegramma a De Martino [Avanti! 1974]</rdfs:label>
     <dcterms:title xml:lang="it">Per il Cile telegramma a De Martino</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1974-AL-CILE"/>
     <frbr:partOf rdf:resource="#manifestation_journalissue-avanti-1974-01-15"/>
@@ -2806,7 +2810,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1974-AL-UNESCO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">«Non lavoreremo per l'Unesco»</rdfs:label>
+    <rdfs:label xml:lang="it">«Non lavoreremo per l'Unesco» [1974]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1974-AL-UNESCO"/>
     <dcterms:contributor rdf:resource="#agent_giulio-carlo-argan"/>
     <dcterms:contributor rdf:resource="#agent_aldo-garosci"/>
@@ -2844,6 +2848,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:name xml:lang="it">Laura Colombo</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="#let_arieti_1979-01-25">
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
@@ -2865,12 +2870,13 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label>Mimesis</rdfs:label>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3858183"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/134127496"/>
+    <schema:name xml:lang="it">Mimesis</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1950-ST-ZOLFO_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Zolfo</dcterms:title>
-    <rdfs:label xml:lang="it">Zolfo [Il sistema periodico [Einaudi 1975]]</rdfs:label>
+    <rdfs:label xml:lang="it">Zolfo [SP 1975]</rdfs:label>
     <frbr:partOf rdf:resource="#m_1975-ST-SP_1"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
@@ -2880,7 +2886,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1987-ST-OP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Opere [Biblioteca dell'Orsa, Einaudi 1987-90]</rdfs:label>
+    <rdfs:label>Opere [Einaudi 1987-90]</rdfs:label>
     <dcterms:title>Opere</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1987-ST-OP"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -2918,7 +2924,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Maria e il cerchio</dcterms:title>
-    <rdfs:label xml:lang="it">Maria e il cerchio [Morpurgo, Le più belle novelle [Mondadori 1949]]</rdfs:label>
+    <rdfs:label xml:lang="it">Maria e il cerchio [Le più belle novelle 1949]</rdfs:label>
     <frbr:partOf rdf:resource="#m_piu-belle-novelle-1949"/>
     <dcterms:contributor rdf:resource="#agent_giuseppe-morpurgo"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1949</prism:publicationDate>
@@ -2930,7 +2936,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1971-AL-RICUSARE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Quelli da ricusare</rdfs:label>
+    <rdfs:label xml:lang="it">Quelli da ricusare [1971]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1971-AL-RICUSARE"/>
     <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
     <frbr:embodiment rdf:resource="#m_1971-AL-RICUSARE"/>
@@ -2957,6 +2963,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Recklinghausen</rdfs:label>
+    <schema:name xml:lang="it">Recklinghausen</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/2849646"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3050"/>
   </rdf:Description>
@@ -2964,7 +2971,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Se questo è un mondo</dcterms:title>
-    <rdfs:label xml:lang="it">Se questo è un mondo [L'Italia che scrive - 1947]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un mondo [L'Italia che scrive 1947]</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_journalissue-litalia-che-scrive-rassegna-per-il-mondo-che-legge-roma-xxx-10-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_roma"/>
@@ -2987,14 +2994,15 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#series_i-coralli">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
-    <rdfs:label>I coralli</rdfs:label>
-    <dcterms:title>I coralli</dcterms:title>
+    <rdfs:label xml:lang="it">I coralli</rdfs:label>
+    <dcterms:title xml:lang="it">I coralli</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_daniele-del-giudice">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Daniele Del Giudice</rdfs:label>
+    <schema:name xml:lang="it">Daniele Del Giudice</schema:name>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-07-11</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-02</schema:deathDate>
     <schema:birthPlace rdf:resource="#place_roma"/>
@@ -3006,6 +3014,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Einaudi</rdfs:label>
+    <schema:name xml:lang="it">Einaudi</schema:name>
     <schema:location rdf:resource="#place_torino"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-06</dcterms:identifier>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1305980"/>
@@ -3016,7 +3025,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Al di qua del bene e del male</dcterms:title>
-    <rdfs:label xml:lang="it">Al di qua del bene e del male [Se questo è un uomo [De Silva 1947]]</rdfs:label>
+    <rdfs:label xml:lang="it">Al di qua del bene e del male [SQU 1947]</rdfs:label>
     <frbr:partOf rdf:resource="#m_squ-desilva-1947"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -3028,7 +3037,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1987-ST-OP_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Opere. Volume secondo [Biblioteca dell'Orsa, Einaudi 1988]</rdfs:label>
+    <rdfs:label>Opere. Volume secondo [Einaudi 1988]</rdfs:label>
     <dcterms:title>Opere. Volume secondo</dcterms:title>
     <dcterms:description>Romanzi e poesie. Introduzione di Cesare Segre. Data: luglio 1988.</dcterms:description>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -3057,7 +3066,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Traduzione di] Henry Gilman Chimica organica superiore [I]</dcterms:title>
-    <rdfs:label xml:lang="it">[Traduzione di] Henry Gilman Chimica organica superiore [I] [Gilman, Chimica organica superiore I [ESE 1955]]</rdfs:label>
+    <rdfs:label xml:lang="it">[Traduzione di] Henry Gilman Chimica organica superiore I [ESE 1955]]</rdfs:label>
     <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
     <dcterms:contributor rdf:resource="#agent_giorgio-anglesio"/>
     <dcterms:contributor rdf:resource="#agent_giovanni-battista-bonino"/>
@@ -3082,17 +3091,16 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#w_1964-INT-DELCOLLE">
     <frbr:realization rdf:resource="#e_1964-INT-DELCOLLE"/>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
-    <dcterms:description xml:lang="it">Firma: g.d.c. [Giuseppe Del Colle]. Sommario: «L'autore de La tregua ha parlato delle reazioni dei giovani tedeschi alla sua opera». Presentato da Stefano Jacomuzzi, cinema-teatro Romano, Torino.</dcterms:description>
     <rdfs:label xml:lang="it">Vivace incontro al Romano con lo scrittore Primo Levi</rdfs:label>
     <dcterms:title xml:lang="it">Vivace incontro al Romano con lo scrittore Primo Levi</dcterms:title>
-    <ontolevi:interviewer rdf:resource="#agent_giuseppe-del-colle"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
-    <ontolevi:interviewee rdf:resource="#agent_PrimoLevi"/>
+    <schema:author rdf:resource="#agent_giuseppe-del-colle"/>
   </rdf:Description>
   <rdf:Description rdf:about="#let_bassani_1949-11-04">
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-11-04</dcterms:date>
     <frbr:partOf rdf:resource="#corr_bassani"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdfs:label>Cartolina di Levi a Bassani, 4 novembre 1949</rdfs:label>
     <dcterms:description>Riproduzione a colori in Album p. 195. Cartolina.</dcterms:description>
     <schema:recipient rdf:resource="#agent_giorgio-bassani"/>
@@ -3106,6 +3114,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/ShortStory"/>
     <rdfs:label xml:lang="it">Titanio</rdfs:label>
+    <prism:alternateTitle xml:lang="it">Maria e il cerchio</prism:alternateTitle>
     <dcterms:title xml:lang="it">Titanio</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
@@ -3127,6 +3136,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Henry Gilman</rdfs:label>
+    <schema:name xml:lang="it">Henry Gilman</schema:name>
     <owl:sameAs rdf:resource="https://viaf.org/en/viaf/79089086"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q905030"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</schema:birthDate>
@@ -3136,7 +3146,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Voi non sapete studiare!</dcterms:title>
-    <rdfs:label xml:lang="it">Voi non sapete studiare! [Brandone–Cerrato, Dazeglio ieri e oggi [2008]]</rdfs:label>
+    <rdfs:label xml:lang="it">Voi non sapete studiare! [Dazeglio ieri e oggi 2008]</rdfs:label>
     <frbr:partOf rdf:resource="#m_brandone-cerrato-2008"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2008</prism:publicationDate>
     <dcterms:description xml:lang="it">riprodotto in →</dcterms:description>
@@ -3167,13 +3177,14 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:description xml:lang="it">occhiello: 25 aprile 1945. La resistenza continua. Titolo libro indicato erroneamente come Se fossi un uomo</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
+    <rdfs:label xml:lang="it">Dal Lager [l'Unità 1948]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1963-INT-FERRERO-A_1">
     <frbr:partOf rdf:resource="#manifestation_newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
-    <rdfs:label xml:lang="it">Un «Campiello» a furor di popolo [Terra nostra - 1963-09-12]</rdfs:label>
+    <rdfs:label xml:lang="it">Un «Campiello» a furor di popolo [Terra nostra 1963]</rdfs:label>
     <dcterms:title xml:lang="it">Un «Campiello» a furor di popolo</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1963-INT-FERRERO-A"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-09-12</prism:publicationDate>
@@ -3204,6 +3215,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Ernesto Ferrero</rdfs:label>
+    <schema:name xml:lang="it">Ernesto Ferrero</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q728534"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/39419605"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1938-05-06</schema:birthDate>
@@ -3214,13 +3226,15 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Istituto Nazionale per la Storia del Movimento di Liberazione in Italia</rdfs:label>
     <schema:location rdf:resource="#place_milano"/>
+    <schema:name xml:lang="it">Istituto Nazionale per la Storia del Movimento di Liberazione in Italia</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3803655"/>
+    <schema:alternateName xml:lang="it">Istituto nazionale Ferruccio Parri</schema:alternateName>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1947-ST-SEQUEM_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Se questo è un mondo</dcterms:title>
-    <rdfs:label xml:lang="it">Se questo è un mondo [Opere [Einaudi 1997]]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un mondo [Opere 1997]</rdfs:label>
     <frbr:partOf rdf:resource="#m_op-1997"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
@@ -3230,7 +3244,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_journalissue-ponte-xxiii-7-8-1967">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«Il Ponte [Firenze]», XXIII, 7-8, 1967</rdfs:label>
+    <rdfs:label xml:lang="it">«Il Ponte [Firenze]», XXIII, 7-8, 1967 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_ponte-xxiii-7-8-1967"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
   </rdf:Description>
@@ -3253,7 +3267,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Anniversario</dcterms:title>
-    <rdfs:label xml:lang="it">Anniversario [L'eco dell'educazione ebraica - 1955]</rdfs:label>
+    <rdfs:label xml:lang="it">Anniversario [L'eco dell'educazione ebraica 1955]</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_journalissue-leco-delleducazione-ebraica-bollettino-milano-ix-7-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1955</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
@@ -3273,7 +3287,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">La perversione razionale nei campi di sterminio</dcterms:title>
-    <rdfs:label xml:lang="it">La perversione razionale nei campi di sterminio [Raccontare per la storia [Einaudi 2014]]</rdfs:label>
+    <rdfs:label xml:lang="it">La perversione razionale nei campi di sterminio [Raccontare per la storia 2014]</rdfs:label>
     <frbr:partOf rdf:resource="#m_raccontare-per-la-storia-2014"/>
     <dcterms:contributor rdf:resource="#agent_anna-bravo"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -3287,7 +3301,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1947-AL-BUNAMO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia [1947]</rdfs:label>
+    <rdfs:label xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia [La Chimica e L'Industria 1947]</rdfs:label>
     <dcterms:title xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1947-AL-BUNAMO"/>
     <frbr:partOf rdf:resource="#manifestation_journalissue-chimica-industria-xxix-12-1947-12"/>
@@ -3300,7 +3314,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_journalissue-avanti-1974-01-15">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«Avanti! [Milano]», 1974-01-15</rdfs:label>
+    <rdfs:label xml:lang="it">«Avanti! [Milano]», 1974-01-15 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_avanti-1974-01-15"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-01-15</prism:publicationDate>
   </rdf:Description>
@@ -3317,7 +3331,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_journalissue-chimica-industria-xxix-12-1947-12">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«La Chimica e L'Industria [Milano]», XXIX, 12, 1947-12</rdfs:label>
+    <rdfs:label xml:lang="it">«La Chimica e L'Industria [Milano]», XXIX, 12, 1947-12 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_chimica-industria-xxix-12-1947-12"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1947-12</prism:publicationDate>
   </rdf:Description>
@@ -3334,7 +3348,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Shemà</dcterms:title>
-    <rdfs:label xml:lang="it">Shemà [L'osteria di Brema [Scheiwiller 1975]]</rdfs:label>
+    <rdfs:label xml:lang="it">Shemà [Poesie 1975]</rdfs:label>
     <frbr:partOf rdf:resource="#m_P-1970"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -3352,7 +3366,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1987-ST-OP_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Opere. Volume terzo [Biblioteca dell'Orsa, Einaudi 1990]</rdfs:label>
+    <rdfs:label>Opere. Volume terzo [Einaudi 1990]</rdfs:label>
     <dcterms:title>Opere. Volume terzo: Racconti e saggi</dcterms:title>
     <dcterms:description>Introduzione di Pier Vincenzo Mengaldo. Data: maggio 1990.</dcterms:description>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -3376,7 +3390,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</prism:pageRange>
     <dcterms:title xml:lang="it">L'avventura di Primo Levi</dcterms:title>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-07-14</prism:publicationDate>
-    <rdfs:label xml:lang="it">L'avventura di Primo Levi [l'Unità - 1963-07-14]</rdfs:label>
+    <rdfs:label xml:lang="it">L'avventura di Primo Levi [l'Unità 1963]</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_newspissue_lunita-roma_nodate_nodate_1963-07-14"/>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
     <schema:author rdf:resource="#agent_paolo-spriano"/>
@@ -3384,13 +3398,14 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_squ-scolastica-1973">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi ed. scolastica 1973]</rdfs:label>
+  <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi 1973]</rdfs:label>
   <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
   <frbr:embodimentOf rdf:resource="#e_1947-ST-SQU_4"/>
   <dcterms:publisher rdf:resource="#publisher_einaudi"/>
   <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</prism:publicationDate>
-  <dcterms:description xml:lang="it">Edizione scolastica.</dcterms:description>
+  <dcterms:description xml:lang="it">Edizione scolastica</dcterms:description>
+  <dcterms:description xml:lang="it">Presentazione e note a cura dell’autore, Einaudi, Torino [22 settembre] 1973, pp. 232 («Letture per la scuola media», n. 24), in sovracoperta un dettaglio della stessa foto adoperata nel 1966 per la copertina della versione drammatica. Il volume si apre con una Prefazione 1972 ai giovani, alle pp. 5-7, cui seguono due cartine che mostrano rispettivamente «La Germania nazista e i suoi campi di concentramento» (pp. 8-9) e «La regione di Auschwitz e i campi che dipendevano amministrativamente da quest’ultimo» (p. 10), e infine una Bibliografia (p. 11). Come risulta da una lettera del 29 marzo 1975 alla cugina Anna Foa Yona, Levi aveva ricavato la prima mappa, introducendovi qualche variante, da un volume polacco in lingua francese: Jan Sehn, Le Camp de concentration d’Oświęcim-Brzezinka (Auschwitz-Birkenau), Wydawnictwo Prawnicze, Warszawa 1957; la mappa verrà riproposta nel 1975 a corredo dell’editoriale Cosí fu Auschwitz (si veda sotto, p. 38). Questa edizione scolastica comprenderà stabilmente, a partire dalla settima ristampa del 13 novembre 1976, una Appendice datata «Novembre 1976», pp. 229-60.</dcterms:description>
   <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   <schema:author rdf:resource="#agent_PrimoLevi"/>
   <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
@@ -3399,6 +3414,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   >IT\ICCU\RAV\0143767</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="#m_let_barabas_1945-12-20_cdec">
+  <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <dcterms:description>lettera ms., conservata dalla Fondazione Centro documentazione ebraica contemporanea CDEC), Milano</dcterms:description>
     <frbr:embodimentOf rdf:resource="#let_barabas_1945-12-20"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -3410,7 +3426,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1947-ST-OTTOB_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
-    <rdfs:label xml:lang="it">La selezione [La via. Prose e poesie…]</rdfs:label>
+    <rdfs:label xml:lang="it">La selezione [1951]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-OTTOB"/>
@@ -3425,7 +3441,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Voi non sapete studiare!</dcterms:title>
-    <rdfs:label xml:lang="it">Voi non sapete studiare! [Album [Einaudi]]</rdfs:label>
+    <rdfs:label xml:lang="it">Voi non sapete studiare! [Album 2017]</rdfs:label>
     <frbr:partOf rdf:resource="#m_album"/>
     <dcterms:description xml:lang="it">riprodotto in →</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</prism:pageRange>
@@ -3444,7 +3460,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1948-ST-TITANIO_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Article"/>
-    <rdfs:label xml:lang="it">Maria e il cerchio [L'Italia Socialista]</rdfs:label>
+    <rdfs:label xml:lang="it">Maria e il cerchio [1948]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1948-ST-TITANIO"/>
@@ -3457,7 +3473,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <schema:name xml:lang="it">Alberto Cavaglion</schema:name>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-    <rdfs:label>Alberto Cavaglion</rdfs:label>
+    <rdfs:label xml:lang="it">Alberto Cavaglion</rdfs:label>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/56621967"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q16524796"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1956-04-24</schema:birthDate>
@@ -3476,7 +3492,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)</dcterms:title>
-    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Opere [Einaudi 1997]]</rdfs:label>
+    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Opere 1997]</rdfs:label>
     <frbr:partOf rdf:resource="#m_op-1997"/>
     <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP_1"/>
     <schema:author rdf:resource="#agent_LeonardoDeBenedetti"/>
@@ -3498,7 +3514,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1964-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
-    <rdfs:label xml:lang="it">Poesie [«Sigma» 1964]</rdfs:label>
+    <rdfs:label xml:lang="it">Poesie [1964]</rdfs:label>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_ST-POESIE"/>
     <frbr:embodiment rdf:resource="#m_1964-ST-POESIE"/>
@@ -3555,8 +3571,8 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#series_nue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
-    <rdfs:label>Nuova Universale Einaudi</rdfs:label>
-    <dcterms:title>Nuova Universale Einaudi</dcterms:title>
+    <rdfs:label xml:lang="it">Nuova Universale Einaudi</rdfs:label>
+    <dcterms:title xml:lang="it">Nuova Universale Einaudi</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
   </rdf:Description>
   <rdf:Description rdf:about="#w_1974-AL-UNESCO">
@@ -3572,6 +3588,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/ShortStory"/>
     <rdfs:label xml:lang="it">Zolfo</rdfs:label>
     <dcterms:title xml:lang="it">Zolfo</dcterms:title>
+    <prism:alternateTitle xml:lang="it">Turno di notte</prism:alternateTitle>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
     <frbr:realization rdf:resource="#e_1950-ST-ZOLFO_1"/>
@@ -3594,11 +3611,12 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Sul fondo</dcterms:title>
-    <rdfs:label xml:lang="it">Sul fondo [Se questo è un uomo [De Silva 1947]]</rdfs:label>
+    <rdfs:label xml:lang="it">Sul fondo [SQU 1947]</rdfs:label>
     <frbr:partOf rdf:resource="#m_squ-desilva-1947"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
   <rdf:Description rdf:about="#place_lyon">
+    <schema:name xml:lang="it">Lione</schema:name>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q456"/>
@@ -3615,9 +3633,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_giancarlo-meloni">
+    <schema:name xml:lang="it">Giancarlo Meloni</schema:name>
     <rdfs:label xml:lang="it">Giancarlo Meloni</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <schema:name xml:lang="it">Giancarlo Meloni</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="#let_bellonci_1963-07-11">
     <frbr:embodiment rdf:resource="#m_let_bellonci_1963-07-11"/>
@@ -3625,6 +3645,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:recipient rdf:resource="#agent_maria-bellonci"/>
     <dcterms:description>Comunicazione privata</dcterms:description>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3634,7 +3655,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_brandone-cerrato-2008">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">Brandone–Cerrato (a cura di), I luoghi di Levi tra letteratura e memoria [Liceo D'Azeglio, Torino 2008]</rdfs:label>
+  <rdfs:label xml:lang="it">I luoghi di Levi tra letteratura e memoria [2008]</rdfs:label>
   <dcterms:title xml:lang="it">I luoghi di Levi tra letteratura e memoria</dcterms:title>
   <schema:editor rdf:resource="#agent_giorgio-brandone"/>
   <schema:editor rdf:resource="#agent_tiziana-cerrato"/>
@@ -3653,6 +3674,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)</rdfs:label>
     <dcterms:title xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
+    <prism:alternateTitle xml:lang="it">Rapporto su Auschwitz</prism:alternateTitle>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
     <schema:author rdf:resource="#agent_LeonardoDeBenedetti"/>
     <frbr:realization rdf:resource="#e_1946-ST-RAPPO"/>
@@ -3683,7 +3705,7 @@ copie, pp. 25 non numerate.</dcterms:description>
  <rdf:Description rdf:about="#m_katze-die-aus-rom-kam-1969">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label>Die Katze die aus Rom kam [Georg Bitter Verlag, Recklinghausen 1969]</rdfs:label>
+  <rdfs:label xml:lang="de">Die Katze die aus Rom kam [Georg Bitter Verlag 1969]</rdfs:label>
   <dcterms:title xml:lang="de">Die Katze die aus Rom kam: Geschichten aus Italien für Kinder und Erwachsene</dcterms:title>
   <schema:editor rdf:resource="#agent_MarlisIngenmey"/>
   <schema:translator rdf:resource="#agent_MarlisIngenmey"/>
@@ -3706,6 +3728,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Roma</rdfs:label>
+    <schema:name xml:lang="it">Roma</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3169070"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q220"/>
   </rdf:Description>
@@ -3738,7 +3761,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <frbr:partOf rdf:resource="#manifestation_newspissue_stasera-milano_nodate_nodate_1961-12-13"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo [Stasera - 1961-12-13]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un uomo [Stasera 1961]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
     <schema:author rdf:resource="#agent_bruno-faussone"/>
   </rdf:Description>
@@ -3768,7 +3791,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1969-AL-BAGDAD">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Le forche di Bagdad e la questione israeliana</rdfs:label>
+    <rdfs:label xml:lang="it">Le forche di Bagdad e la questione israeliana [1969]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1969-AL-BAGDAD"/>
     <dcterms:contributor rdf:resource="#agent_laura-colombo"/>
     <dcterms:contributor rdf:resource="#agent_lia-corinaldi"/>
@@ -3798,6 +3821,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
   <rdf:Description rdf:about="#let_amsallem_1985-02-16">
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdfs:label>Lettera di Levi ad Amsallem, 16 febbraio 1985</rdfs:label>
     <frbr:partOf rdf:resource="#corr_amsallem"/>
     <schema:recipient rdf:resource="#agent_daniela-amsallem"/>
@@ -3823,6 +3847,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/ShortStory"/>
     <rdfs:label xml:lang="it">Storia di dieci giorni</rdfs:label>
     <dcterms:title xml:lang="it">Storia di dieci giorni</dcterms:title>
+    <prism:alternateTitle xml:lang="it">Auschwitz, cimitero dei vivi</prism:alternateTitle>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
     <frbr:realization rdf:resource="#e_1952-ST-10GIORNI_1"/>
@@ -3835,6 +3860,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Alfredo Todisco</rdfs:label>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3611514"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/61602792"/>
+    <schema:name xml:lang="it">Alfredo Todisco</schema:name>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2010</schema:deathDate>
   </rdf:Description>
@@ -3877,7 +3903,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">La «chimica» di due scrittori</dcterms:title>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">La «chimica» di due scrittori [CdS - 1964-03-01]</rdfs:label>
+    <rdfs:label xml:lang="it">La «chimica» di due scrittori [Corriere della sera 1964]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#e_1964-INT-TODISCO"/>
     <frbr:partOf rdf:resource="#manifestation_newspissue_corriere-della-sera-milano_nodate_nodate_1964-03-01"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-03-01</prism:publicationDate>
@@ -3920,7 +3946,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:embodiment rdf:resource="#m_squ-einaudi-1958"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo 1958 [edizione aumentata]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi 1958]</rdfs:label>
+    <dcterms:description xml:lang="it">Einaudi, Torino [9 maggio] 1958, pp. 196 («Saggi», n. 232), sovracoperta originale di Bruno Munari, risvolto di sovracoperta non firmato ma di Italo Calvino, il quale riprende in massima parte la sua recensione all’edizione De Silva 1947 (Se questo è un uomo, in «l’Unità. Edizione piemontese», 6 maggio 1948). A partire dalla ristampa del 23 giugno 1979 («Nuovi coralli», n. 2), l’edizione di Se questo è un uomo comprenderà stabilmente una Appendice, datata «Novembre 1976».</dcterms:description>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-SQU"/>
@@ -3938,6 +3965,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Brescia</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/3181554"/>
+    <schema:name xml:lang="it">Brescia</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q6221"/>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_ignazio-silone">
@@ -3956,6 +3984,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Edizioni Minerva Medica</rdfs:label>
     <schema:location rdf:resource="#place_torino"/>
+    <schema:name xml:lang="it">Edizioni Minerva Medica</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q98658381"/>
   </rdf:Description>
   <rdf:Description rdf:about="#e_CFA">
@@ -3972,7 +4001,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1946-ST-RAPPO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/ReportDocument"/>
-    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Minerva Medica]</rdfs:label>
+    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [1946]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1946-ST-RAPPO"/>
@@ -3988,7 +4017,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Senza titolo]</dcterms:title>
-    <rdfs:label xml:lang="it">[Senza titolo] [Volantino - Domenica. Il Sole 24 Ore]</rdfs:label>
+    <rdfs:label xml:lang="it">[Senza titolo] [Volantino - Domenica. Il Sole 24 Ore 2013]</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_newspissue-domenica-sole24ore-2013-11-10"/>
     <dcterms:contributor rdf:resource="#agent_domenico-scarpa"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</prism:publicationDate>
@@ -4023,7 +4052,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1969-AL-NEFASTA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Documento degli «ebrei di sinistra» di Torino [1969]</rdfs:label>
+    <rdfs:label xml:lang="it">Documento degli «ebrei di sinistra» di Torino [Ha-Tikwà 1969]</rdfs:label>
     <dcterms:title xml:lang="it">Documento degli «ebrei di sinistra» di Torino</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1969-AL-NEFASTA_2"/>
     <frbr:partOf rdf:resource="#manifestation_journalissue-hatikwa-xxi-2-1969-02"/>
@@ -4056,7 +4085,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1963-ST-TREGUA_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>La tregua [I coralli, Einaudi 1963]</rdfs:label>
+    <rdfs:label>La tregua [Einaudi 1963]</rdfs:label>
     <dcterms:title>La tregua</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1963-ST-TREGUA_1"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -4135,11 +4164,12 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Città di Torino</rdfs:label>
     <schema:location rdf:resource="#place_torino"/>
+    <schema:name xml:lang="it">Città di Torino</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1946-ST-RAPPO_5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">Rapporto su Auschwitz [Einaudi, Torino 2013]</rdfs:label>
+  <rdfs:label xml:lang="it">Rapporto su Auschwitz [Einaudi 2013]</rdfs:label>
   <dcterms:title xml:lang="it">Rapporto su Auschwitz</dcterms:title>
   <frbr:embodimentOf rdf:resource="#e_1946-ST-RAPPO"/>
   <schema:author rdf:resource="#agent_PrimoLevi"/>
@@ -4200,7 +4230,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_journalissue-allegoria-siena-xiii-38-2001">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">«allegoria» [Siena], XIII, 38, maggio-agosto 2001</rdfs:label>
+  <rdfs:label xml:lang="it">«allegoria» [Siena], XIII, 38, maggio-agosto 2001 [fasc.]</rdfs:label>
   <frbr:embodimentOf rdf:resource="#journalissue_allegoria-siena_XIII_38_2001"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2001-05</prism:publicationDate>
 </rdf:Description>
@@ -4208,10 +4238,12 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
   <rdfs:label xml:lang="it">Palermo</rdfs:label>
+  <schema:name xml:lang="it">Palermo</schema:name>
   <owl:sameAs rdf:resource="https://www.geonames.org/2523920"/>
   <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q2656"/>
 </rdf:Description>
 <rdf:Description rdf:about="#publisher_zamorani">
+    <schema:name xml:lang="it">Zamorani</schema:name>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <schema:location rdf:resource="#place_torino"/>
@@ -4220,7 +4252,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1955-ST-ANNIV_5">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Anniversario [Opere complete - 2016-18]</rdfs:label>
+    <rdfs:label xml:lang="it">Anniversario [Opere - 2016-18]</rdfs:label>
     <dcterms:title xml:lang="it">Anniversario</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1955-ST-ANNIV_2"/>
     <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP_2"/>
@@ -4233,7 +4265,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">La questione del fiammeggiamento</dcterms:title>
-    <rdfs:label xml:lang="it">La questione del fiammeggiamento [Opere [Einaudi 1997]]</rdfs:label>
+    <rdfs:label xml:lang="it">La questione del fiammeggiamento [Opere 1997]</rdfs:label>
     <frbr:partOf rdf:resource="#m_op-1997"/>
     <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP_2"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -4286,7 +4318,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperNewsItem"/>
     <dcterms:language rdf:resource="#lang_it"/>
-    <rdfs:label xml:lang="it">Assolto dalle accuse… [Il Secolo XIX - 1961]</rdfs:label>
+    <rdfs:label xml:lang="it">Assolto dalle accuse… [1961]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1961-INT-ASSOLTO"/>
     <frbr:embodiment rdf:resource="#m_1961-INT-ASSOLTO_1"/>
   </rdf:Description>
@@ -4294,20 +4326,20 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Adolfo Chiesa</rdfs:label>
+    <schema:name xml:lang="it">Adolfo Chiesa</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1949-ST-MARINES_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Fine del Marinese</dcterms:title>
-    <rdfs:label xml:lang="it">Fine del Marinese [Opere [Einaudi 1997]]</rdfs:label>
+    <rdfs:label xml:lang="it">Fine del Marinese [Opere 1997]</rdfs:label>
     <frbr:partOf rdf:resource="#m_op-1997"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
-   <dcterms:description xml:lang="it">Nel vol. II. Riprodotto in →</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#manifestation_journalissue-lamico-del-popolo-settimanale-della-federazione-comunista-vercellese-iii-13-1947-04-05">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«L’amico del popolo. Settimanale della Federazione Comunista Vercellese», III, 13, 1947-04-05</rdfs:label>
+    <rdfs:label xml:lang="it">«L’amico del popolo. Settimanale della Federazione Comunista Vercellese», III, 13, 1947-04-05 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_lamico-del-popolo-settimanale-della-federazione-comunista-vercellese_III_13_1947-04-05"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1947-04-05</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_vercelli"/>
@@ -4316,6 +4348,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Partito Comunista Italiano</rdfs:label>
+    <schema:name xml:lang="it">Partito Comunista Italiano</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="#journal_litalia-che-scrive-rassegna-per-il-mondo-che-legge-roma">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4335,6 +4368,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Cosmogone</rdfs:label>
+    <schema:name xml:lang="it">Cosmogone</schema:name>   
   </rdf:Description>
   <rdf:Description rdf:about="#newspaper_resistenza-giustizia-e-liberta-torino">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4362,7 +4396,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Deportati. Anniversario</dcterms:title>
-    <rdfs:label xml:lang="it">Deportati. Anniversario [Opere - 1997]</rdfs:label>
+    <rdfs:label xml:lang="it">Deportati. Anniversario [Opere 1997]</rdfs:label>
     <frbr:partOf rdf:resource="#m_op-1997"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
@@ -4380,7 +4414,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <frbr:embodimentOf rdf:resource="#e_1963-INT-CHIESA"/>
     <dcterms:description xml:lang="it">Inserto «Paese Sera libri».</dcterms:description>
-    <rdfs:label xml:lang="it">È tatuato sul braccio… [Paese Sera - 1963-07-12]</rdfs:label>
+    <rdfs:label xml:lang="it">È tatuato sul braccio… [Paese Sera 1963]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-07-12</prism:publicationDate>
     <frbr:partOf rdf:resource="#manifestation_newspissue_paese-sera-roma_nodate_nodate_1963-07-12"/>
     <dcterms:title xml:lang="it">È tatuato sul braccio con un numero di cinque cifre</dcterms:title>
@@ -4389,7 +4423,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:author rdf:resource="#agent_adolfo-chiesa"/>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1961-INT-FAUSSONE">
-    <rdfs:label xml:lang="it">Se questo è un uomo [Stasera - 1961]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un uomo [1961]</rdfs:label>
     <frbr:embodiment rdf:resource="#m_1961-INT-FAUSSONE_1"/>
     <frbr:realizationOf rdf:resource="#w_1961-INT-FAUSSONE"/>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
@@ -4400,7 +4434,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1974-AL-CILE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Per il Cile telegramma a De Martino</rdfs:label>
+    <rdfs:label xml:lang="it">Per il Cile telegramma a De Martino [1974]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1974-AL-CILE"/>
     <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
     <dcterms:contributor rdf:resource="#agent_franco-antonicelli"/>
@@ -4412,6 +4446,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#let_austerlitz_s.d.">
     <schema:recipient rdf:resource="#agent_PrimoLevi"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <frbr:partOf rdf:resource="#corr_austerlitz"/>
@@ -4421,6 +4456,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label>Lettera di Austerlitz a Levi [ante 1974]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_daniela-amsallem">
+    <schema:name xml:lang="it">Daniela Amsallem</schema:name>
     <dcterms:description>Studiosa francese di letteratura italiana</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -4432,7 +4468,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_journalissue-espresso-xvii-25-1971-06-20">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«L'Espresso [Roma]», XVII, 25, 1971-06-20</rdfs:label>
+    <rdfs:label xml:lang="it">«L'Espresso [Roma]», XVII, 25, 1971-06-20 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_espresso-xvii-25-1971-06-20"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1971-06-20</prism:publicationDate>
   </rdf:Description>
@@ -4445,7 +4481,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_newspissue_lunita-roma_nodate_nodate_1963-07-14">
     <fabio:hasPlaceOfPublication rdf:resource="#place_roma"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-07-14</prism:publicationDate>
-    <rdfs:label xml:lang="it">«l'Unità [Roma] - 1963-07-14»</rdfs:label>
+    <rdfs:label xml:lang="it">«l'Unità [Roma] - 1963-07-14» [fasc.]</rdfs:label>
     <dcterms:title xml:lang="it">l'Unità [Roma] - 1963-07-14</dcterms:title>
     <frbr:embodimentOf rdf:resource="#newspissue_lunita-roma_nodate_nodate_1963-07-14"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4480,7 +4516,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 <rdf:Description rdf:about="#m_lilit-nuovi-coralli-1981">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Lilít e altri racconti [Einaudi, Nuovi coralli 1981]</rdfs:label>
+    <rdfs:label xml:lang="it">Lilít e altri racconti [Einaudi 1981]</rdfs:label>
     <dcterms:title xml:lang="it">Lilít e altri racconti</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1981-ST-LILIT"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -4521,7 +4557,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1970-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>[Poesie] [opuscolo privato]</rdfs:label>
+    <rdfs:label>[Poesie] [1970]</rdfs:label>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_ST-POESIE"/>
     <frbr:embodiment rdf:resource="#m_P-1970"/>
@@ -4530,7 +4566,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1948-ST-ALDIQUA_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsItem"/>
-    <rdfs:label xml:lang="it">Dal Lager [l'Unità]</rdfs:label>
+    <rdfs:label xml:lang="it">Dal Lager [1948]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1948-ST-ALDIQUA"/>
@@ -4581,14 +4617,14 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Storia di dieci giorni</dcterms:title>
-    <rdfs:label xml:lang="it">Storia di dieci giorni [Se questo è un uomo [De Silva 1947]]</rdfs:label>
+    <rdfs:label xml:lang="it">Storia di dieci giorni [SQU 1947]</rdfs:label>
     <frbr:partOf rdf:resource="#m_squ-desilva-1947"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1947-ST-SHEMA_3">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
-    <rdfs:label xml:lang="it">Shemà [P]</rdfs:label>
+    <rdfs:label xml:lang="it">Shemà [Poesie]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-SHEMA"/>
@@ -4653,6 +4689,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
   <rdf:Description rdf:about="#publisher_centro-libro-popolare">
+    <schema:name xml:lang="it">Centro del Libro Popolare</schema:name>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Centro del Libro Popolare</rdfs:label>
@@ -4701,7 +4738,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Auschwitz cimitero dei vivi</dcterms:title>
-    <rdfs:label xml:lang="it">Auschwitz cimitero dei vivi [Lotte Nuove - 1952]</rdfs:label>
+    <rdfs:label xml:lang="it">Auschwitz cimitero dei vivi [Lotte Nuove 1952]</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_journalissue-lotte-nuove-ii-22-1952-11-09"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1952</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_cuneo"/>
@@ -4749,6 +4786,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
     <rdfs:label xml:lang="it">Se questo è un mondo</rdfs:label>
     <dcterms:title xml:lang="it">Se questo è un mondo</dcterms:title>
+    <prism:alternateTitle xml:lang="it">«Prefazione»</prism:alternateTitle>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
     <frbr:realization rdf:resource="#e_1947-ST-SEQUEM_1"/>
@@ -4768,7 +4806,7 @@ copie, pp. 25 non numerate.</dcterms:description>
  <rdf:Description rdf:about="#m_panella-2021">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">Panella, Primo Levi e Franco Antonicelli… [in: Scarpa (a cura di), Primo Levi al plurale, 2021]</rdfs:label>
+  <rdfs:label xml:lang="it">Primo Levi e Franco Antonicelli… [2021]</rdfs:label>
   <dcterms:title xml:lang="it">Primo Levi e Franco Antonicelli: frammenti di un dialogo ininterrotto</dcterms:title>
   <frbr:partOf rdf:resource="#m_scarpa-primo-levi-al-plurale-2021"/>
   <schema:author rdf:resource="#agent_claudio-panella"/>
@@ -4779,7 +4817,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 <rdf:Description rdf:about="#m_scarpa-primo-levi-al-plurale-2021">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">Scarpa (a cura di), Primo Levi al plurale [Zamorani, Torino 2021]</rdfs:label>
+  <rdfs:label xml:lang="it">Scarpa (a cura di), Primo Levi al plurale [Zamorani 2021]</rdfs:label>
   <dcterms:title xml:lang="it">Primo Levi al plurale</dcterms:title>
   <schema:editor rdf:resource="#agent_domenico-scarpa"/>
   <dcterms:publisher rdf:resource="#publisher_zamorani"/>
@@ -4801,7 +4839,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Fine del Marinese</dcterms:title>
-    <rdfs:label xml:lang="it">Fine del Marinese [Il Ponte - 1949]</rdfs:label>
+    <rdfs:label xml:lang="it">Fine del Marinese [Il Ponte 1949]</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_journalissue-il-ponte-v-8-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1949</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_firenze"/>
@@ -4812,7 +4850,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1947-ST-OTTOB_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Article"/>
-    <rdfs:label xml:lang="it">Ottobre 1944 [Il Ponte]</rdfs:label>
+    <rdfs:label xml:lang="it">Ottobre 1944 [1947]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-OTTOB"/>
@@ -4821,7 +4859,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1975-ST-SP_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>Il sistema periodico [Narratori Einaudi 1975]</rdfs:label>
+    <rdfs:label>Il sistema periodico [Einaudi 1975]</rdfs:label>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1975-ST-SP"/>
     <frbr:embodiment rdf:resource="#m_1975-ST-SP_1"/>
@@ -4859,6 +4897,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
   </rdf:Description>
   <rdf:Description rdf:about="#publisher_quodlibet">
+    <schema:name xml:lang="it">Quodlibet</schema:name>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label>Quodlibet</rdfs:label>
@@ -4866,7 +4905,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:location rdf:resource="#place_macerata"/>
   </rdf:Description>
   <rdf:Description rdf:about="#w_1963-INT-MAYDA">
-    <ontolevi:interviewer rdf:resource="#agent_giuseppe-mayda"/>
+    <schema:author rdf:resource="#agent_giuseppe-mayda"/>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
     <frbr:realization rdf:resource="#e_1963-INT-MAYDA"/>
     <dcterms:description xml:lang="it">Recensione di La tregua che contiene alcune dichiarazioni di Levi.</dcterms:description>
@@ -4874,7 +4913,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <rdfs:label xml:lang="it">Il poeta triste dei lager</rdfs:label>
     <dcterms:title xml:lang="it">Il poeta triste dei lager</dcterms:title>
-    <ontolevi:interviewee rdf:resource="#agent_PrimoLevi"/>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_amalia-viterbo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4885,14 +4923,14 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_newspissue-resistenza-gl-xxii-2-1969-02">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">«resistenza. Giustizia e Libertà [Torino]», XXII, 2, 1969-02</rdfs:label>
+  <rdfs:label xml:lang="it">«resistenza. Giustizia e Libertà [Torino]», XXII, 2, 1969-02 [fasc.]</rdfs:label>
   <frbr:embodimentOf rdf:resource="#newspissue_resistenza-gl-xxii-2-1969-02"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1969-02</prism:publicationDate>
 </rdf:Description>
   <rdf:Description rdf:about="#m_1966-ST-SN_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Storie naturali [Nuovi coralli, Einaudi 1979]</rdfs:label>
+    <rdfs:label>Storie naturali [Einaudi 1979]</rdfs:label>
     <dcterms:title>Storie naturali</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1966-ST-SN_2"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -4967,18 +5005,19 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Cuneo</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/3177700"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q5968"/>
+    <schema:name xml:lang="it">Cuneo</schema:name>
   </rdf:Description>
   <rdf:Description rdf:about="#manifestation_newspaperissue-stampa-1959-12-03">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«La Stampa [Torino]», 1959-12-03</rdfs:label>
+    <rdfs:label xml:lang="it">«La Stampa [Torino]», 1959-12-03 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#newspaperissue_stampa-1959-12-03"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-12-03</prism:publicationDate>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1969-AL-NEFASTA_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele [1969]</rdfs:label>
+    <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele [L'unità 1969]</rdfs:label>
     <dcterms:title xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1969-AL-NEFASTA_1"/>
     <frbr:partOf rdf:resource="#manifestation_journalissue-unita-mi-1969-01-28"/>
@@ -5002,7 +5041,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">La Stampa [Torino] - 1964-03-10</dcterms:title>
     <frbr:embodimentOf rdf:resource="#newspissue_la-stampa-torino_nodate_nodate_1964-03-10"/>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
-    <rdfs:label xml:lang="it">«La Stampa [Torino] - 1964-03-10»</rdfs:label>
+    <rdfs:label xml:lang="it">«La Stampa [Torino] - 1964-03-10» [fasc.]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-03-10</prism:publicationDate>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1987-ST-OP_3">
@@ -5032,7 +5071,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1947-ST-SEQUEM_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/BookChapter"/>
-    <rdfs:label xml:lang="it">Prefazione [SQU]</rdfs:label>
+    <rdfs:label xml:lang="it">«Prefazione» [SQU]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-SEQUEM"/>
@@ -5042,6 +5081,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>Maria Bellonci</rdfs:label>
+    <schema:name xml:lang="it">Maria Bellonci</schema:name>
     <dcterms:description>Scrittrice italiana (1902-1986), fondatrice del Premio Strega</dcterms:description>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/17218867"/>  
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q1080026"/>  
@@ -5071,7 +5111,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">La selezione</dcterms:title>
-    <rdfs:label xml:lang="it">La selezione [Cappuccio–Olobardi, La via. Prose e poesie… [1951]]</rdfs:label>
+    <rdfs:label xml:lang="it">La selezione [La via. Prose e poesie… 1951]</rdfs:label>
     <frbr:partOf rdf:resource="#m_la-via-1951"/>
     <dcterms:contributor rdf:resource="#agent_carmelo-cappuccio"/>
     <dcterms:contributor rdf:resource="#agent_umberto-olobardi"/>
@@ -5129,7 +5169,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_journalissue-lotte-nuove-ii-22-1952-11-09">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«Lotte Nuove», II, 22, 1952-11-09</rdfs:label>
+    <rdfs:label xml:lang="it">«Lotte Nuove», II, 22, 1952-11-09 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_lotte-nuove_II_22_1952-11-09"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1952-11-09</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_cuneo"/>
@@ -5182,9 +5222,10 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</prism:pageRange>
     <frbr:embodimentOf rdf:resource="#e_1964-INT-DELCOLLE"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-03-10</prism:publicationDate>
-    <rdfs:label xml:lang="it">Vivace incontro al Romano… [La Stampa - 1964-03-10]</rdfs:label>
+    <rdfs:label xml:lang="it">Vivace incontro al Romano… [La Stampa 1964]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
     <schema:author rdf:resource="#agent_giuseppe-del-colle"/>
+    <dcterms:description xml:lang="it">Firma: g.d.c. [Giuseppe Del Colle]. Sommario: «L'autore de La tregua ha parlato delle reazioni dei giovani tedeschi alla sua opera». Presentato da Stefano Jacomuzzi, cinema-teatro Romano, Torino.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_enzo-fabiani">
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -5758,7 +5799,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperNewsItem"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:embodiment rdf:resource="#m_1964-INT-DELCOLLE_1"/>
-    <rdfs:label xml:lang="it">Vivace incontro al Romano… [La Stampa - 1964]</rdfs:label>
+    <rdfs:label xml:lang="it">Vivace incontro al Romano… [1964]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#w_1947-ST-SULFO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
