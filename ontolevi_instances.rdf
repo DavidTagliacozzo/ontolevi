@@ -28,7 +28,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Testimonianza di un compagno di prigionia</dcterms:title>
-    <rdfs:label xml:lang="it">Testimonianza di un compagno di prigionia [Falaschi, L'offesa insanabile [2001]]</rdfs:label>
+    <rdfs:label xml:lang="it">Testimonianza di un compagno di prigionia [Falaschi, 2001]</rdfs:label>
     <frbr:partOf rdf:resource="#m_falaschi-allegoria-2001"/>
     <dcterms:contributor rdf:resource="#agent_giovanni-falaschi"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</prism:publicationDate>
@@ -71,7 +71,7 @@
   <rdf:Description rdf:about="#m_1984-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Ad ora incerta [Garzanti 1984]</rdfs:label>
+    <rdfs:label>Ad ora incerta [Garzanti, 1984]</rdfs:label>
     <dcterms:title>Ad ora incerta</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1984-ST-POESIE"/>
     <dcterms:publisher rdf:resource="#publisher_garzanti"/>
@@ -100,7 +100,7 @@
   <rdf:Description rdf:about="#m_1946-ST-RAPPO_4">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <dcterms:title xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)</dcterms:title>
+    <dcterms:title xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)[Fadini 2009]</dcterms:title>
     <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [Fadini, Filologia italiana 2009]</rdfs:label>
     <frbr:partOf rdf:resource="#m_fadini-filologia-italiana-2009"/>
     <dcterms:contributor rdf:resource="#agent_LeonardoDeBenedetti"/>
@@ -116,6 +116,7 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Liceo Classico D'Azeglio</rdfs:label>
     <schema:location rdf:resource="#place_torino"/>
+    <schema:name xml:lang="it">Liceo Classico D'Azeglio</name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/126895912"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3268994"/>
   </rdf:Description>
@@ -133,7 +134,7 @@
   <rdf:Description rdf:about="#m_amsallem-2001">
     <fabio:hasPlaceOfPublication rdf:resource="#place_lyon"/>
     <rdfs:label>Daniela Amsallem, Primo Levi au miroir de son oeuvre. Le témoin. L’écrivain.
-Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
+Le chimiste, Éditions du Cosmogone</rdfs:label>
 <dcterms:title>Primo Levi au miroir de son oeuvre. Le témoin. L’écrivain. Le chimiste</dcterms:title>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</prism:publicationDate>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -146,7 +147,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   >IT\ICCU\TO0\1377822</ontolevi:codiceOpacSbn>
   </rdf:Description>
   <rdf:Description rdf:about="#manifestation_newspissue_gente-milano_VII_38_1963-09-20">
-    <rdfs:label xml:lang="it">«Gente [Milano] - VII - n. 38 - 1963-09-20»</rdfs:label>
+    <rdfs:label xml:lang="it">«Gente [Milano] - VII - n. 38 - 1963-09-20» [fasc.]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-09-20</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
     <frbr:embodimentOf rdf:resource="#newspissue_gente-milano_VII_38_1963-09-20"/>
@@ -159,7 +160,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#e_1967-AL-TORINES">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Un gruppo di ebrei torinesi</rdfs:label>
+    <rdfs:label xml:lang="it">Un gruppo di ebrei torinesi [1967]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1967-AL-TORINES"/>
     <dcterms:contributor rdf:resource="#agent_nuriella-cannaruto"/>
     <dcterms:contributor rdf:resource="#agent_dino-colombo"/>
@@ -191,7 +192,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#let_langbein_1970-01-15">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
-    <rdfs:label xml:lang="it">[Lettera a Hermann Langbein, 15 gennaio 1970]</rdfs:label>
+    <rdfs:label xml:lang="it">Lettera a Hermann Langbein, 15 gennaio 1970</rdfs:label>
     <rdfs:label>Lettera di Levi a Langbein, 15 gennaio 1970</rdfs:label>
     <rdfs:comment xml:lang="it">Da catalogare nella sezione Corrispondenza. Levinet: https://www.levinet.eu/lettere/024-primo-levi-a-hermann-langbein-15-gennaio-1970/</rdfs:comment>
     <frbr:embodiment rdf:resource="#m_1970-CORR-LANGBEIN-15GEN"/>
@@ -200,6 +201,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <schema:recipient rdf:resource="#agent_hermann-langbein"/>
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-15</dcterms:date>
     <frbr:partOf rdf:resource="#corr_langbein"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <dcterms:description>Discute la Dichiarazione del 25 gennaio 1970 (AL). Pubblicata su Levinet.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#place_pescina">
@@ -214,6 +216,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Firenze</rdfs:label>
+    <schema:name xml:lang="it">Firenze</schema:name>
     <owl:sameAs rdf:resource="https://www.geonames.org/3176959"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q2044"/>
   </rdf:Description>
@@ -233,7 +236,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia)</dcterms:title>
-    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [[C'era una volta] / Calendario del Popolo]</rdfs:label>
+    <rdfs:label xml:lang="it">Rapporto sulla organizzazione igienico-sanitaria del campo di concentramento per Ebrei di Monowitz (Auschwitz - Alta Slesia) [CfA]</rdfs:label>
     <frbr:partOf rdf:resource="#m_CFA"/>
     <dcterms:contributor rdf:resource="#agent_LeonardoDeBenedetti"/>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-30</prism:pageRange>
@@ -257,6 +260,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <dcterms:language rdf:resource="#lang_it"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
     <frbr:partOf rdf:resource="#corr_antonicelli"/>
   </rdf:Description>
@@ -288,7 +292,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Leggere parlare scrivere : letture per il 2. ciclo</dcterms:title>
-    <rdfs:label xml:lang="it">Salucci–Favero, Leggere parlare scrivere [1980]</rdfs:label>
+    <rdfs:label xml:lang="it">Salucci–Favero, Leggere parlare scrivere</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</prism:publicationDate>
     <schema:author rdf:resource="#agent_sergio-salucci"/>
     <schema:author rdf:resource="#agent_luigi-favero"/>
@@ -312,7 +316,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Titanio</dcterms:title>
-    <rdfs:label xml:lang="it">Titanio [Il sistema periodico [Einaudi 1975]]</rdfs:label>
+    <rdfs:label xml:lang="it">Titanio [SP - 1975]</rdfs:label>
     <frbr:partOf rdf:resource="#m_1975-ST-SP_1"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
@@ -333,7 +337,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#manifestation_journalissue-unita-mi-1969-01-28">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«l'Unità [Milano]», 1969-01-28</rdfs:label>
+    <rdfs:label xml:lang="it">«l'Unità [Milano]», 1969-01-28 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_unita-mi-1969-01-28"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-01-28</prism:publicationDate>
   </rdf:Description>
@@ -368,8 +372,9 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#publisher_de-silva">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
-    <rdfs:label xml:lang="it">De Silva</rdfs:label>
+    <rdfs:label xml:lang="it">Francesco De Silva</rdfs:label>
     <schema:location rdf:resource="#place_torino"/>
+    <schema:name xml:lang="it">Francesco De Silva</schema:name>
    </rdf:Description>
   <rdf:Description rdf:about="#cit_scarpa-cfa-barabas">
     <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
@@ -404,7 +409,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#m_1975-ST-SP_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Il sistema periodico [Narratori Einaudi, Einaudi 1975]</rdfs:label>
+    <rdfs:label>Il sistema periodico [Einaudi 1975]</rdfs:label>
     <dcterms:title xml:lang="it">Il sistema periodico</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1975-ST-SP_1"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -422,6 +427,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
 </rdf:Description>
   <rdf:Description rdf:about="#let_azzolini-amodeo_1981">
     <frbr:partOf rdf:resource="#corr_azzolini-amodeo"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1981</dcterms:date>
@@ -434,7 +440,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#m_donne-piemontesi-1953">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">Donne piemontesi nella lotta di liberazione: 99 partigiane cadute, 185 deportate, 38 cadute civili / prefazione di Ada Marchesini Gobetti [1953]</rdfs:label>
+    <rdfs:label xml:lang="it">Donne piemontesi nella lotta di liberazione: 99 partigiane cadute, 185 deportate, 38 cadute civili</rdfs:label>
     <dcterms:title xml:lang="it">Donne piemontesi nella lotta di liberazione : 99 partigiane cadute, 185 deportate, 38 cadute civili</dcterms:title>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</prism:publicationDate>
     <schema:editor rdf:resource="#agent_commissione-femminile-anpi-prov-torino"/>
@@ -447,7 +453,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Maria e il cerchio</dcterms:title>
-    <rdfs:label xml:lang="it">Maria e il cerchio [quattordici racconti [Mondadori 1971]]</rdfs:label>
+    <rdfs:label xml:lang="it">Maria e il cerchio [quattordici racconti 1971]</rdfs:label>
     <frbr:partOf rdf:resource="#m_quattordici-racconti-1971"/>
     <dcterms:publisher rdf:resource="#publisher_mondadori"/>
     <dcterms:isPartOf rdf:resource="#series_contemporanea"/>
@@ -461,6 +467,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <frbr:partOf rdf:resource="#corr_amici-cristiani"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdfs:label>Lettera di Levi agli amici cristiani [s.d., Auschwitz]</rdfs:label>
     <dcterms:description>Scritta in tedesco ad Auschwitz; non giunse a destinazione. Citata in Lo zingaro (Lilít 1981)</dcterms:description>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
@@ -536,6 +543,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#let_amsallem_1984-04-11">
     <rdfs:label>Lettera di Levi ad Amsallem, 11 aprile 1984</rdfs:label>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <schema:recipient rdf:resource="#agent_daniela-amsallem"/>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
@@ -547,7 +555,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#e_1969-AL-NEFASTA_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele</rdfs:label>
+    <rdfs:label xml:lang="it">Severo giudizio di un gruppo di ebrei di sinistra sulla politica «nefasta» del governo di Israele [1969]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1969-AL-NEFASTA"/>
     <dcterms:contributor rdf:resource="#agent_eva-arian-erber"/>
     <dcterms:contributor rdf:resource="#agent_laura-colombo"/>
@@ -585,7 +593,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#e_1937-ST-VOINON">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Expression"/>
-    <rdfs:label xml:lang="it">Voi non sapete studiare! [Dazeglio sotto spirito]</rdfs:label>
+    <rdfs:label xml:lang="it">Voi non sapete studiare! [1937]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1937-ST-VOINON"/>
@@ -595,6 +603,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#m_let_bassani_1949-11-04_album">
     <frbr:partOf rdf:resource="#m_album"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -626,7 +635,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#manifestation_newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12">
     <frbr:embodimentOf rdf:resource="#newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-09-12</prism:publicationDate>
-    <rdfs:label xml:lang="it">«Terra nostra [Mantova] - XIX - n. 34 - 1963-09-12»</rdfs:label>
+    <rdfs:label xml:lang="it">«Terra nostra [Mantova] - XIX - n. 34 - 1963-09-12» [fasc.]</rdfs:label>
     <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</fabio:hasSequenceIdentifier>
     <fabio:hasPlaceOfPublication rdf:resource="#place_mantova"/>
     <dcterms:title xml:lang="it">Terra nostra [Mantova] - XIX - n. 34 - 1963-09-12</dcterms:title>
@@ -637,15 +646,18 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#agent_laura-austerlitz">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <schema:name xml:lang="it">Laura Austerlitz</schema:name>
     <dcterms:description>«Frau Vita» in La tregua</dcterms:description>
     <rdfs:label>Laura Austerlitz</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#publisher_federazione-piemontese-del-partito-dazione-gl">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+    <schema:name xml:lang="it">Federazione Piemontese del Partito d'Azione / GL</schema:name>
     <rdfs:label xml:lang="it">Federazione Piemontese del Partito d'Azione / GL</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#let_bassani_1949-05-10">
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-05-10</dcterms:date>
     <frbr:partOf rdf:resource="#corr_bassani"/>
     <schema:recipient rdf:resource="#agent_giorgio-bassani"/>
@@ -684,7 +696,7 @@ Le chimiste, Éditions du Cosmogone, Lyon [ottobre] 2001</rdfs:label>
   <rdf:Description rdf:about="#m_P-1970">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>[Poesie] [opuscolo privato 1970]</rdfs:label>
+    <rdfs:label>[Poesie] [opuscolo privato - 1970]</rdfs:label>
     <dcterms:title xml:lang="it">[Poesie]</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1970-ST-POESIE"/>
     <dcterms:description>s.l. s.d. (ma Torino, dicembre 1970). Opuscolo privo di titolo e senza
@@ -696,6 +708,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#m_let_bellonci_1963-07-11">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <dcterms:isPartOf rdf:resource="ontolevi:col_Corrispondenza"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-07-11</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_roma"/>
@@ -717,7 +730,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_1966-ST-SN_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label>Storie naturali [I coralli, Einaudi 1966]</rdfs:label>
+    <rdfs:label>Storie naturali [Einaudi 1966]</rdfs:label>
     <dcterms:title>Storie naturali</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1966-ST-SN_1"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -736,7 +749,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Testimonianza di un compagno di prigionia</dcterms:title>
-    <rdfs:label xml:lang="it">Testimonianza di un compagno di prigionia [Donne piemontesi nella lotta di liberazione [1953]]</rdfs:label>
+    <rdfs:label xml:lang="it">Testimonianza di un compagno di prigionia [Donne piemontesi nella lotta... 1953</rdfs:label>
     <frbr:partOf rdf:resource="#m_donne-piemontesi-1953"/>
     <dcterms:contributor rdf:resource="#agent_commissione-femminile-anpi-prov-torino"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</prism:publicationDate>
@@ -772,13 +785,13 @@ copie, pp. 25 non numerate.</dcterms:description>
     <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
     <frbr:embodimentOf rdf:resource="#newspissue_stasera-milano_nodate_nodate_1961-12-13"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1961-12-13</prism:publicationDate>
-    <rdfs:label xml:lang="it">«Stasera [Milano] - 1961-12-13»</rdfs:label>
+    <rdfs:label xml:lang="it">«Stasera [Milano] - 1961-12-13» [fasc.]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1947-ST-SQU_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
-    <rdfs:label xml:lang="it">Se questo è un uomo [Opere [Einaudi 2016-18]]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un uomo [Opere 2016-18]</rdfs:label>
     <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP_1"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
@@ -802,7 +815,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Vanda Maestro. Testimonianza di un compagno di prigionia</dcterms:title>
-    <rdfs:label xml:lang="it">Vanda Maestro. Testimonianza di un compagno di prigionia [Opere [Einaudi 2016-18]]</rdfs:label>
+    <rdfs:label xml:lang="it">Vanda Maestro. Testimonianza di un compagno di prigionia [Opere 2016-18]]</rdfs:label>
     <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP_2"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
@@ -853,7 +866,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1975-ST-POESIE">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>L'osteria di Brema [Scheiwiller 1975]</rdfs:label>
+    <rdfs:label>L'osteria di Brema [1975]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_ST-POESIE"/>
@@ -886,13 +899,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:realizationOf rdf:resource="#w_1947-ST-SHEMA"/>
     <frbr:embodiment rdf:resource="#m_1947-ST-SHEMA_1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="#manifestation_journalissue-lunita-edizione-piemontese-novol-noissue-nodate">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«l’Unità. Edizione piemontese»</rdfs:label>
-    <frbr:embodimentOf rdf:resource="#journalissue_lunita-edizione-piemontese_novol_noissue_nodate"/>
-    <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
-  </rdf:Description>
   <rdf:Description rdf:about="#newspaper_terra-nostra-settimanale-dei-socialisti-mantovani">
     <dcterms:title xml:lang="it">Terra nostra</dcterms:title>
     <dcterms:description xml:lang="it">Settimanale del PSI mantovano.</dcterms:description>
@@ -903,6 +909,36 @@ copie, pp. 25 non numerate.</dcterms:description>
   >https://acnpsearch.unibo.it/journal/921965</ontolevi:permalinkAcnp>
 <ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
   >921965</ontolevi:codiceAcnp>
+</rdf:Description>
+<rdf:Description rdf:about="#newspissue_lunita-edizione-piemontese_nodate_nodate_1948-04-25">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+  <rdfs:label xml:lang="it">«l'Unità. Edizione piemontese», 25 aprile 1948</rdfs:label>
+  <frbr:partOf rdf:resource="#journal_lunita-edizione-piemontese"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1948-04-25</prism:publicationDate>
+  <frbr:embodiment rdf:resource="#manifestation_newspissue_lunita-edizione-piemontese_nodate_nodate_1948-04-25"/>
+</rdf:Description>
+<rdf:Description rdf:about="#manifestation_newspissue_lunita-edizione-piemontese_nodate_nodate_1948-04-25">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">«l'Unità. Edizione piemontese», 25 aprile 1948 [fasc.]</rdfs:label>
+  <frbr:embodimentOf rdf:resource="#newspissue_lunita-edizione-piemontese_nodate_nodate_1948-04-25"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
+</rdf:Description>
+<rdf:Description rdf:about="#newspissue_lunita-edizione-piemontese_nodate_nodate_1950-08-31">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+  <rdfs:label xml:lang="it">«l'Unità. Edizione piemontese», 31 agosto 1950</rdfs:label>
+  <frbr:partOf rdf:resource="#journal_lunita-edizione-piemontese"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-08-31</prism:publicationDate>
+  <frbr:embodiment rdf:resource="#manifestation_newspissue_lunita-edizione-piemontese_nodate_nodate_1950-08-31"/>
+</rdf:Description>
+<rdf:Description rdf:about="#manifestation_newspissue_lunita-edizione-piemontese_nodate_nodate_1950-08-31">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">«l'Unità. Edizione piemontese», 31 agosto 1950 [fasc.]</rdfs:label>
+  <frbr:embodimentOf rdf:resource="#newspissue_lunita-edizione-piemontese_nodate_nodate_1950-08-31"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
 </rdf:Description>
   <rdf:Description rdf:about="#m_2016-ST-OPCOMP_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -926,7 +962,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1949-ST-MARINES">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Article"/>
-    <rdfs:label xml:lang="it">Fine del Marinese [Il Ponte]</rdfs:label>
+    <rdfs:label xml:lang="it">Fine del Marinese [1949]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1949-ST-MARINES"/>
@@ -937,7 +973,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Prefazione</dcterms:title>
-    <rdfs:label xml:lang="it">Prefazione [Se questo è un uomo [De Silva 1947]]</rdfs:label>
+    <rdfs:label xml:lang="it">Prefazione [SQU 1947]]</rdfs:label>
     <frbr:partOf rdf:resource="#m_squ-desilva-1947"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -956,7 +992,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#manifestation_journalissue-il-ponte-v-8-nodate">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-    <rdfs:label xml:lang="it">«Il Ponte», V, 8</rdfs:label>
+    <rdfs:label xml:lang="it">«Il Ponte», V, 8 [fasc.]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#journalissue_il-ponte_V_8_nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1949-08</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_firenze"/>
@@ -966,7 +1002,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Corriere della Sera [Milano] - 1964-03-01</dcterms:title>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdfs:label xml:lang="it">«Corriere della Sera [Milano] - 1964-03-01»</rdfs:label>
+    <rdfs:label xml:lang="it">«Corriere della Sera [Milano] - 1964-03-01»[fasc.]</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1964-03-01</prism:publicationDate>
     <frbr:embodimentOf rdf:resource="#newspissue_corriere-della-sera-milano_nodate_nodate_1964-03-01"/>
     <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
@@ -975,7 +1011,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Buna</dcterms:title>
-    <rdfs:label xml:lang="it">Buna [L'osteria di Brema [Scheiwiller 1975]]</rdfs:label>
+    <rdfs:label xml:lang="it">Buna [L'osteria di Brema 1975]</rdfs:label>
     <frbr:partOf rdf:resource="#m_P-1970"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -1026,7 +1062,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title>Lia und der Kreis</dcterms:title>
-    <rdfs:label>Lia und der Kreis [Die Katze die aus Rom kam [Bitter 1969]]</rdfs:label>
+    <rdfs:label>Lia und der Kreis [Die Katze die aus Rom kam 1969]</rdfs:label>
     <frbr:partOf rdf:resource="#m_katze-die-aus-rom-kam-1969"/>
     <schema:translator rdf:resource="#agent_MarlisIngenmey"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1969</prism:publicationDate>
@@ -1048,7 +1084,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Le nostre notti</dcterms:title>
-    <rdfs:label xml:lang="it">Le nostre notti [Se questo è un uomo [De Silva 1947]]</rdfs:label>
+    <rdfs:label xml:lang="it">Le nostre notti [SQU 1947]]</rdfs:label>
     <frbr:partOf rdf:resource="#m_squ-desilva-1947"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -1056,6 +1092,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <fabio:hasPlaceOfPublication rdf:resource="#place_roma"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <dcterms:description>lettera ms., Lettera di presentazione al Premio Strega. Biblioteca nazionale centrale Vittorio Emanuele II, Roma. Fondo A.R.C.31.Carteggio Bellonci</dcterms:description>
     <fabio:hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://manus.iccu.sbn.it/opac_SchedaScheda.php?ID=214479</fabio:hasURL>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-05-11</prism:publicationDate>
@@ -1065,7 +1102,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1968-AL-SOLIDAR">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Solidarietà degli scrittori agli intellettuali cechi</rdfs:label>
+    <rdfs:label xml:lang="it">Solidarietà degli scrittori agli intellettuali cechi [1968]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1968-AL-SOLIDAR"/>
     <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
     <frbr:embodiment rdf:resource="#m_1968-AL-SOLIDAR"/>
@@ -1126,7 +1163,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_squ-riveduta-2012">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi ed. riveduta 2012]</rdfs:label>
+  <rdfs:label xml:lang="it">Se questo è un uomo [ed. riveduta 2012]</rdfs:label>
   <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
   <frbr:embodimentOf rdf:resource="#e_1947-ST-SQU_7"/>
   <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -2914,8 +2951,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Turno di notte</dcterms:title>
     <rdfs:label xml:lang="it">Turno di notte [l'Unità - 1950]</rdfs:label>
-    <frbr:partOf rdf:resource="#manifestation_journalissue-lunita-edizione-piemontese-novol-noissue-nodate"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1950</prism:publicationDate>
+    <frbr:partOf rdf:resource="#manifestation_newspissue_lunita-edizione-piemontese_nodate_nodate_1950-08-31"/>
+    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1950-08-31</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
     <dcterms:description xml:lang="it">titolo originale</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
@@ -3097,9 +3134,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Dal Lager</dcterms:title>
-    <rdfs:label xml:lang="it">Dal Lager [l'Unità - 1948]</rdfs:label>
+    <frbr:partOf rdf:resource="#manifestation_newspissue_lunita-edizione-piemontese_nodate_nodate_1948-04-25"/>
+    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1948-04-25</prism:publicationDate>
     <frbr:partOf rdf:resource="#manifestation_journalissue-lunita-edizione-piemontese-novol-noissue-nodate"/>
-    <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1948</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
     <dcterms:description xml:lang="it">occhiello: 25 aprile 1945. La resistenza continua. Titolo libro indicato erroneamente come Se fossi un uomo</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
@@ -6529,14 +6566,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
     <rdfs:label xml:lang="it">tedesco</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#language">de</skos:notation>
-  </rdf:Description>
-  <rdf:Description rdf:about="#journalissue_lunita-edizione-piemontese_novol_noissue_nodate">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
-    <rdfs:label xml:lang="it">«l'Unità. Edizione piemontese»</rdfs:label>
-    <dcterms:title xml:lang="it">l’Unità. Edizione piemontese</dcterms:title>
-    <frbr:partOf rdf:resource="#journal_lunita-edizione-piemontese"/>
-    <frbr:embodiment rdf:resource="#manifestation_journalissue-lunita-edizione-piemontese-novol-noissue-nodate"/>
   </rdf:Description>
   <rdf:Description rdf:about="#place_genova">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
