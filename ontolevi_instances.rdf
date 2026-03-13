@@ -1163,7 +1163,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#m_squ-riveduta-2012">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
-  <rdfs:label xml:lang="it">Se questo è un uomo [ed. riveduta 2012]</rdfs:label>
+  <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi 2012]</rdfs:label>
   <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
   <frbr:embodimentOf rdf:resource="#e_1947-ST-SQU_7"/>
   <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -1198,7 +1198,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1969-AL-NEFASTA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Documento degli «ebrei di sinistra» di Torino</rdfs:label>
+    <rdfs:label xml:lang="it">Documento degli «ebrei di sinistra» di Torino [1969]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1969-AL-NEFASTA"/>
     <dcterms:contributor rdf:resource="#agent_eva-arian-erber"/>
     <dcterms:contributor rdf:resource="#agent_laura-colombo"/>
@@ -1247,7 +1247,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#e_1967-AL-RISPOSTA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">Risposta di Primo Levi</rdfs:label>
+    <rdfs:label xml:lang="it">Risposta di Primo Levi [1967]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1967-AL-RISPOSTA"/>
     <frbr:embodiment rdf:resource="#m_1967-AL-RISPOSTA"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
@@ -1282,6 +1282,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-05-11</dcterms:date>
     <dcterms:description>Lettera di presentazione al Premio Strega; esposta nella mostra per i 50 anni del Premio Strega</dcterms:description>
     <dcterms:language rdf:resource="#lang_it"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdfs:label>Lettera di Levi a Bellonci, 11 maggio 1966</rdfs:label>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
   </rdf:Description>
@@ -1294,7 +1295,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:realization rdf:resource="#e_1963-INT-SILORI"/>
     <dcterms:description xml:lang="it">Rubrica «Le domande di Silori». Levi intervistato da Silori il 27 settembre per la trasmissione tv L'Approdo (canale Nazionale Rai).</dcterms:description>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
-    <rdfs:label xml:lang="it">a Primo Levi [Silori 1963]</rdfs:label>
+    <rdfs:label xml:lang="it">a Primo Levi [intervista]</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1946-ST-BUNA_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2058,12 +2059,21 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1947-ST-SQU_7">
     <frbr:embodiment rdf:resource="#m_squ-riveduta-2012"/>
+    <schema:editor rdf:resource="#agent_alberto-cavaglion"/>
+    <dcterms:contributor rdf:resource="#agent_daniela-muraca"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo 2012 [edizione riveduta]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un uomo [edizione riveduta]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-SQU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#agent_daniela-muraca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <rdfs:label xml:lang="it">Daniela Muraca</rdfs:label>
+    <schema:name xml:lang="it">Daniela Muraca</schema:name>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/53957588"/>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_fabio-levi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -3429,6 +3439,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_alberto-cavaglion">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <schema:name xml:lang="it">Alberto Cavaglion</schema:name>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label>Alberto Cavaglion</rdfs:label>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/56621967"/>
