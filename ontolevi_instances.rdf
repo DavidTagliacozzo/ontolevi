@@ -6165,7 +6165,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#col_Corrispondenza">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
-    <rdfs:label>Corrispondenza</rdfs:label>
+    <rdfs:label xml:lang="it">Corrispondenza</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_arturo-carlo-jemolo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
