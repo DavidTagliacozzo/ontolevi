@@ -6819,7 +6819,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:recipient rdf:resource="#agent_PrimoLevi"/>
     <schema:sender rdf:resource="#agent_silvio-barabas"/>
     <dcterms:language rdf:resource="#lang_it"/>
-    <dcterms:isPartOf rdf:resource="#col_Corrisponenza"/>
   </rdf:Description>
   <rdf:Description rdf:about="#manifestation_newspissue_la-notte-milano_nodate_nodate_1963-09-19">
     <dcterms:title xml:lang="it">La Notte [Milano] - 1963-09-19</dcterms:title>
