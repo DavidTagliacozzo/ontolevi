@@ -116,7 +116,7 @@
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">Liceo Classico D'Azeglio</rdfs:label>
     <schema:location rdf:resource="#place_torino"/>
-    <schema:name xml:lang="it">Liceo Classico D'Azeglio</name>
+    <schema:name xml:lang="it">Liceo Classico D'Azeglio</schema:name>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/126895912"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3268994"/>
   </rdf:Description>
