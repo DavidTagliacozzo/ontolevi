@@ -1697,7 +1697,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
     <rdfs:label xml:lang="it">La Nuova Italia</rdfs:label>
     <schema:location rdf:resource="#place_firenze"/>
-    <schem:name xml:lang="it">La Nuova Italia</schema:name>
+    <schema:name xml:lang="it">La Nuova Italia</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3821015"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/217065164"/>
     <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:978-88-21</dcterms:identifier>
