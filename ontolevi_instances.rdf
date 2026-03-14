@@ -7031,7 +7031,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#agent_silvio-barabas">
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdfs:labe xml:lang="it"l>Silvio Barabas</rdfs:label>
+    <rdfs:label xml:lang="it"l>Silvio Barabas</rdfs:label>
     <schema:name xml:lang="it">Silvio Barabas</schema:name>
     <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/968/html"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</schema:birthDate>
