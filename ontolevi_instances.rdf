@@ -1182,6 +1182,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
     <schema:recipient rdf:resource="#agent_silvano-arieti"/>
     <rdfs:label>Lettera di Levi ad Arieti, 21 febbraio 1979</rdfs:label>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <frbr:partOf rdf:resource="#corr_arieti"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
@@ -2641,6 +2642,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <dcterms:description>Amica comune di Levi e Améry, tramite del loro carteggio</dcterms:description>
     <rdfs:label>Hety Schmitt-Maass</rdfs:label>
+    <schema:name>Hety Schmitt-Maass</schema:name>
     <owl:sameAs rdf:resource="https://viaf.org/en/viaf/20726465"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1983</schema:deathDate>
@@ -5591,6 +5593,7 @@ copie, pp. 25 non numerate.</dcterms:description>
  </rdf:Description>
 <rdf:Description rdf:about="#place_Salisburgo">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <schema:name xml:lang="it">Salisburgo</schema:name>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
     <rdfs:label xml:lang="it">Salisburgo</rdfs:label>
     <owl:sameAs rdf:resource="https://www.geonames.org/2766824"/>
@@ -5873,6 +5876,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label>Lettera Barabas–Levi 20 dicembre 1945 [in: CfA]</rdfs:label>
     <frbr:embodimentOf rdf:resource="#let_barabas_1945-12-20"/>
     <frbr:partOf rdf:resource="#m_CFA"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
   </rdf:Description>
@@ -6804,6 +6808,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#let_barabas_1945-12-20">
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
+    <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-12-20</dcterms:date>
     <frbr:partOf rdf:resource="#corr_barabas"/>
@@ -7183,6 +7188,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <rdf:Description rdf:about="#agent_ian-thomson">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+    <schema:name>Ian Thomson</schema:name>
     <rdfs:label>Ian Thomson</rdfs:label>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/117277223"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</schema:birthDate>
