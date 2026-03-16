@@ -2442,6 +2442,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Un gruppo di ebrei torinesi [Il Ponte 1967]</rdfs:label>
     <dcterms:title xml:lang="it">Un gruppo di ebrei torinesi</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1967-AL-TORINES"/>
+     <dcterms:description xml:lang="it">Appello in occasione della guerra dei Sei giorni.</dcterms:description>
     <frbr:partOf rdf:resource="#manifestation_journalissue-ponte-xxiii-7-8-1967"/>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1036-1038</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1967</prism:publicationDate>
@@ -5958,7 +5959,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Risposta di Primo Levi</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
-    <rdfs:comment xml:lang="it">Titolo in Riga è redazionale</rdfs:comment>
     <frbr:realization rdf:resource="#e_1967-AL-RISPOSTA"/>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1947_ST-VIAGGIO_2">
