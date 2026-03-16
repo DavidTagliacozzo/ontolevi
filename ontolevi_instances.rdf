@@ -162,30 +162,9 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Un gruppo di ebrei torinesi [1967]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1967-AL-TORINES"/>
-    <dcterms:contributor rdf:resource="#agent_nuriella-cannaruto"/>
-    <dcterms:contributor rdf:resource="#agent_dino-colombo"/>
-    <dcterms:contributor rdf:resource="#agent_paola-colombo"/>
-    <dcterms:contributor rdf:resource="#agent_lia-corinaldi"/>
-    <dcterms:contributor rdf:resource="#agent_paola-debenedetti"/>
-    <dcterms:contributor rdf:resource="#agent_ada-della-torre"/>
-    <dcterms:contributor rdf:resource="#agent_ugo-fo"/>
-    <dcterms:contributor rdf:resource="#agent_guido-fubini"/>
-    <dcterms:contributor rdf:resource="#agent_maria-ginzburg"/>
-    <dcterms:contributor rdf:resource="#agent_sergio-jona"/>
-    <dcterms:contributor rdf:resource="#agent_giorgina-levi-arian"/>
-    <dcterms:contributor rdf:resource="#agent_paolo-levi"/>
-    <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
-    <dcterms:contributor rdf:resource="#agent_ada-luzzati"/>
-    <dcterms:contributor rdf:resource="#agent_giorgio-luzzati"/>
-    <dcterms:contributor rdf:resource="#agent_pia-luzzatto"/>
-    <dcterms:contributor rdf:resource="#agent_carmela-mayo-levi"/>
-    <dcterms:contributor rdf:resource="#agent_silvio-ortona"/>
-    <dcterms:contributor rdf:resource="#agent_elena-ottolenghi-vita-finzi"/>
-    <dcterms:contributor rdf:resource="#agent_giuseppe-tedesco"/>
-    <dcterms:contributor rdf:resource="#agent_emilio-vita-finzi"/>
-    <dcterms:contributor rdf:resource="#agent_aldo-zargani"/>
-    <dcterms:contributor rdf:resource="#agent_roberto-zargani"/>
     <frbr:embodiment rdf:resource="#m_1967-AL-TORINES"/>
+    <frbr:embodiment rdf:resource="#m_1967-AL-TORINES_2"/>
+    <frbr:embodiment rdf:resource="#m_1967-AL-TORINES_3"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
@@ -1254,6 +1233,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Risposta di Primo Levi [1967]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1967-AL-RISPOSTA"/>
     <frbr:embodiment rdf:resource="#m_1967-AL-RISPOSTA"/>
+    <frbr:embodiment rdf:resource="#m_1967-AL-RISPOSTA_2"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
@@ -1715,12 +1695,71 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
+<rdf:Description rdf:about="#agent_andrea-rondini">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Andrea Rondini</rdfs:label>
+  <schema:name xml:lang="it">Andrea Rondini</schema:name>
+</rdf:Description>
+<rdf:Description rdf:about="#series_quodlibet-studio-lettere">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
+  <rdfs:label xml:lang="it">Quodlibet Studio. Lettere</rdfs:label>
+  <dcterms:title xml:lang="it">Quodlibet Studio. Lettere</dcterms:title>
+  <dcterms:publisher rdf:resource="#publisher_quodlibet"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_rondini-2012">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Rondini, Anche il cielo brucia. Primo Levi e il giornalismo [Quodlibet 2012]</rdfs:label>
+  <dcterms:title xml:lang="it">Anche il cielo brucia. Primo Levi e il giornalismo</dcterms:title>
+  <schema:author rdf:resource="#agent_andrea-rondini"/>
+  <dcterms:publisher rdf:resource="#publisher_quodlibet"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_macerata"/>
+  <dcterms:isPartOf rdf:resource="#series_quodlibet-studio-lettere"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</prism:publicationDate>
+  <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT\ICCU\UBO\3956526</ontolevi:codiceOpacSbn>
+  <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.sbn.it/bid/UBO3956526</ontolevi:permalinkOpacSbn>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1967-AL-TORINES_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Un gruppo di ebrei torinesi [Rondini 2012]</rdfs:label>
+  <dcterms:title xml:lang="it">Un gruppo di ebrei torinesi</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1967-AL-TORINES"/>
+  <frbr:partOf rdf:resource="#m_rondini-2012"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80-81</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1967-AL-TORINES_3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Un gruppo di ebrei torinesi [Riga 38, 2017]</rdfs:label>
+  <dcterms:title xml:lang="it">Un gruppo di ebrei torinesi</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1967-AL-TORINES"/>
+  <frbr:partOf rdf:resource="#manifestation_journalissue-riga-38-2017"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">309-310</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1967-AL-RISPOSTA_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">[senza titolo] [Riga 38, 2017]</rdfs:label>
+  <dcterms:title xml:lang="it">[senza titolo]</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1967-AL-RISPOSTA"/>
+  <frbr:partOf rdf:resource="#manifestation_journalissue-riga-38-2017"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+  <dcterms:description xml:lang="it">Pubblicato senza titolo e senza indicazione della destinataria.</dcterms:description>
+</rdf:Description>
 <rdf:Description rdf:about="#journal_riga">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Journal"/>
   <rdfs:label xml:lang="it">Riga</rdfs:label>
   <dcterms:publisher rdf:resource="#publisher_marcos-y-marcos"/>
   <schema:location rdf:resource="#place_milano"/>
+  <ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2350497</ontolevi:codiceAcnp>
+  <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://acnpsearch.unibo.it/journal/2350497</ontolevi:permalinkAcnp>
 </rdf:Description>
 <rdf:Description rdf:about="#journalissue_riga_38_2017">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -6736,6 +6775,29 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Un gruppo di ebrei torinesi</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <frbr:realization rdf:resource="#e_1967-AL-TORINES"/>
+    <dcterms:contributor rdf:resource="#agent_nuriella-cannaruto"/>
+    <dcterms:contributor rdf:resource="#agent_dino-colombo"/>
+    <dcterms:contributor rdf:resource="#agent_paola-colombo"/>
+    <dcterms:contributor rdf:resource="#agent_lia-corinaldi"/>
+    <dcterms:contributor rdf:resource="#agent_paola-debenedetti"/>
+    <dcterms:contributor rdf:resource="#agent_ada-della-torre"/>
+    <dcterms:contributor rdf:resource="#agent_ugo-fo"/>
+    <dcterms:contributor rdf:resource="#agent_guido-fubini"/>
+    <dcterms:contributor rdf:resource="#agent_maria-ginzburg"/>
+    <dcterms:contributor rdf:resource="#agent_sergio-jona"/>
+    <dcterms:contributor rdf:resource="#agent_giorgina-levi-arian"/>
+    <dcterms:contributor rdf:resource="#agent_paolo-levi"/>
+    <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
+    <dcterms:contributor rdf:resource="#agent_ada-luzzati"/>
+    <dcterms:contributor rdf:resource="#agent_giorgio-luzzati"/>
+    <dcterms:contributor rdf:resource="#agent_pia-luzzatto"/>
+    <dcterms:contributor rdf:resource="#agent_carmela-mayo-levi"/>
+    <dcterms:contributor rdf:resource="#agent_silvio-ortona"/>
+    <dcterms:contributor rdf:resource="#agent_elena-ottolenghi-vita-finzi"/>
+    <dcterms:contributor rdf:resource="#agent_giuseppe-tedesco"/>
+    <dcterms:contributor rdf:resource="#agent_emilio-vita-finzi"/>
+    <dcterms:contributor rdf:resource="#agent_aldo-zargani"/>
+    <dcterms:contributor rdf:resource="#agent_roberto-zargani"/>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1963-INT-MAYDA_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
