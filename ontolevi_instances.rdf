@@ -530,7 +530,7 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Pia Luzzatto</rdfs:label>
     <schema:name xml:lang="it">Pia Luzzatto</schema:name>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/IT-CDEC-EACCPF0001-000321/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/IT-CDEC-EACCPF0001-000321"/>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1946-ST-BUNA_2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -618,7 +618,7 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Bruno Erber</rdfs:label>
     <schema:name xml:lang="it">Bruno Erber</schema:name>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/CDEC201-2504/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/CDEC201-2504"/>
   </rdf:Description>
   <rdf:Description rdf:about="#w_1947-ST-OTTOB">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -689,7 +689,7 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1983-10-16</schema:deathDate>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q6526123"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/11735082"/>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/2356/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/2356"/>
     <schema:birthPlace rdf:resource="#place_torino"/>
     <schema:deathPlace rdf:resource="#place_torino"/>
   </rdf:Description>
@@ -2756,7 +2756,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:deathPlace rdf:resource="#place_torino"/>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q153670"/>
     <owl:sameAs rdf:resource="http://viaf.org/viaf/76319000"/>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/5002/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/5002"/>
     <schema:alternateName xml:lang="it">Damiano Malabaila</schema:alternateName>
     <schema:alternateName xml:lang="it">Primo Michele Levi</schema:alternateName>
   </rdf:Description>
@@ -3786,7 +3786,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
     <rdfs:label xml:lang="it">Roberto Zargani</rdfs:label>
     <schema:name xml:lang="it">Roberto Zargani</schema:name>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/IT-CDEC-EACCPF0001-017736/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/IT-CDEC-EACCPF0001-017736"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1933</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2020</schema:deathDate>
   </rdf:Description>
@@ -4138,7 +4138,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:name xml:lang="it">Giuseppe Morpurgo</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3771055"/>
     <owl:sameAs rdf:resource="https://viaf.org/viaf/27440023"/>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/CDEC201-1378/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/CDEC201-1378"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-07-16</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1967-01-07</schema:deathDate>
     <schema:deathPlace rdf:resource="#place_torino"/>
@@ -4293,7 +4293,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Marisa Diena</rdfs:label>
     <schema:name xml:lang="it">Marisa Diena</schema:name>
     <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q125202510"/>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/IT-CDEC-EACCPF0001-000160/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/IT-CDEC-EACCPF0001-000160"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1916-09-29</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-05-08</schema:deathDate>
     <schema:birthPlace rdf:resource="#place_torino"/>
@@ -7032,7 +7032,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="it">Silvio Barabas</rdfs:label>
     <schema:name xml:lang="it">Silvio Barabas</schema:name>
-    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/968/html"/>
+    <owl:sameAs rdf:resource="https://dati.cdec.it/lod/shoah/person/968"/>
     <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</schema:birthDate>
     <schema:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2006</schema:deathDate>
   </rdf:Description>
