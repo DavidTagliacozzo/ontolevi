@@ -3973,7 +3973,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#series_manuali-serie-di-chimica">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Series"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
     <rdfs:label xml:lang="it">Manuali. Serie di chimica</rdfs:label>
     <dcterms:title xml:lang="it">Manuali. Serie di chimica</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_edizioni-scientifiche-einaudi"/>
@@ -4050,7 +4050,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#series_contemporanea">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Series"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
     <rdfs:label xml:lang="it">Contemporanea</rdfs:label>
     <dcterms:title xml:lang="it">Contemporanea</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_mondadori"/>
@@ -4812,7 +4812,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#series_biblioteca-leone-ginzburg">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Series"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
     <rdfs:label xml:lang="it">Biblioteca Leone Ginzburg</rdfs:label>
     <dcterms:title xml:lang="it">Biblioteca Leone Ginzburg</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_de-silva"/>
@@ -5040,7 +5040,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#series_lezioni-primo-levi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Series"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
     <rdfs:label xml:lang="it">Lezioni Primo Levi</rdfs:label>
     <dcterms:title xml:lang="it">Lezioni Primo Levi</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
@@ -5240,7 +5240,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#series_saggi">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Series"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
     <rdfs:label xml:lang="it">Saggi</rdfs:label>
     <dcterms:title xml:lang="it">Saggi</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
