@@ -228,7 +228,7 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <frbr:partOf rdf:resource="#manifestation_journalissue-pitture-e-vernici-rivista-mensile-tecnico-economica-dei-prodotti-vernicianti-e-delle-materie-prime-milano-ii-11-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1946</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
-    <dcterms:description xml:lang="it">firmato Dott. Primo Levi</dcterms:description>
+    <dcterms:description xml:lang="it">Sommario: «La Montecatini ci ha gentilmente fornito queste note ricavate da esperimenti eseguiti nel laboratorio dello stabilimento Duco di Avigliana». Firmato Dott. Primo Levi</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">393-394</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -275,6 +275,7 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
+    <dcterms:description xml:lang="it">Risposta alla lettera di una lettrice pubblicata nella stessa rubrica il 29 novembre.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1947-ST-KABE_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -444,6 +445,7 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <dcterms:title xml:lang="it">Donne piemontesi nella lotta di liberazione : 99 partigiane cadute, 185 deportate, 38 cadute civili</dcterms:title>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</prism:publicationDate>
     <schema:editor rdf:resource="#agent_commissione-femminile-anpi-prov-torino"/>
+    <dcterms:description xml:lang="it">prefazione di Ada Marchesini Gobetti, Torino s.d. (ma dicembre 1953), pp. 87-88. Non firmato. Oltre che della prefazione, Ada Marchesini Gobetti si era incaricata della cura del volume, che prese a circolare negli ultimi giorni del 1953, come risulta dalle sue agende personali, conservate a Torino presso il Centro Studi Piero Gobetti</dcterms:description>
 <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/VIA0045765</ontolevi:permalinkOpacSbn>
 <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -493,6 +495,7 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <frbr:realization rdf:resource="#e_1947-ST-KABE_1"/>
     <frbr:realization rdf:resource="#e_1947-ST-KABE_2"/>
     <frbr:partOf rdf:resource="#w_1947-ST-SQU"/>
+    <prism:alternateTitle xml:lang="it">Un incidente</prism:alternateTitle>
   </rdf:Description>
   <rdf:Description rdf:about="#journal_la-chimica-e-l-industria--milano">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1349,7 +1352,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:partOf rdf:resource="#manifestation_journalissue-resistenza-notiziario-gielle-torino-vi-4-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1952</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
-    <dcterms:description xml:lang="it">occhiello: Rivelazione di Rousset sul nazismo. Recensione di David Rousset Le Pitre ne rit pas Paris 1948</dcterms:description>
+    <dcterms:description xml:lang="it">occhiello: Rivelazione di Rousset sul nazismo. Recensione di David Rousset, Le Pitre ne rit pas, Paris 1948</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -1440,7 +1443,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:contributor rdf:resource="#agent_LeonardoDeBenedetti"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1946</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
-    <dcterms:description xml:lang="it">firmato Dott. Leonardo De-Benedetti e Dott. Primo Levi. Sezione Parte Scientifica — Lavori originali</dcterms:description>
+    <dcterms:description xml:lang="it">Firmato «Dott. Leonardo De-Benedetti, medico-chirurgo | Dott. Primo Levi, chimico». «Minerva Medica», omologo italiano dell’inglese «Lancet», aveva cadenza settimanale e si presentava divisa in «Parte Varia» e «Parte Scientifica», ciascuna con numerazione distinta; il Rapporto è incluso nella «Parte Scientifica», sezione Lavori originali.</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">535-544</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -1708,9 +1711,71 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori [1965]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1965-AL-FORNI"/>
     <frbr:embodiment rdf:resource="#m_1965-AL-FORNI"/>
+    <frbr:embodiment rdf:resource="#m_1965-AL-FORNI_2"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
+<rdf:Description rdf:about="#journal_riga">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Journal"/>
+  <rdfs:label xml:lang="it">Riga</rdfs:label>
+  <dcterms:publisher rdf:resource="#publisher_marcos-y-marcos"/>
+  <schema:location rdf:resource="#place_milano"/>
+</rdf:Description>
+<rdf:Description rdf:about="#journalissue_riga_38_2017">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
+  <rdfs:label xml:lang="it">«Riga», n. 38, 2017. Primo Levi</rdfs:label>
+  <frbr:partOf rdf:resource="#journal_riga"/>
+  <frbr:embodiment rdf:resource="#manifestation_journalissue-riga-38-2017"/>
+  <prism:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38</prism:number>
+  <schema:editor rdf:resource="#agent_mario-barenghi"/>
+  <schema:editor rdf:resource="#agent_marco-belpoliti"/>
+  <schema:editor rdf:resource="#agent_anna-stefi"/>
+</rdf:Description>
+<rdf:Description rdf:about="#manifestation_journalissue-riga-38-2017">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">«Riga», n. 38, 2017 [fasc.]</rdfs:label>
+  <frbr:embodimentOf rdf:resource="#journalissue_riga_38_2017"/>
+  <dcterms:publisher rdf:resource="#publisher_marcos-y-marcos"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2017</prism:publicationDate>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1965-AL-FORNI_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Furono i deportati a distruggere i forni [Riga 38, 2017]</rdfs:label>
+  <dcterms:title xml:lang="it">Furono i deportati a distruggere i forni</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1965-AL-FORNI"/>
+  <frbr:partOf rdf:resource="#manifestation_journalissue-riga-38-2017"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
+<rdf:Description rdf:about="#agent_mario-barenghi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Mario Barenghi</rdfs:label>
+  <schema:name xml:lang="it">Mario Barenghi</schema:name>
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1956</schema:birthDate>
+  <schema:birthPlace rdf:resource="#place_milano"/>
+  <owl:sameAs rdf:resource="https://viaf.org/viaf/61619584"/>
+</rdf:Description>
+<rdf:Description rdf:about="#agent_anna-stefi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Anna Stefi</rdfs:label>
+  <schema:name xml:lang="it">Anna Stefi</schema:name>
+</rdf:Description>
+<rdf:Description rdf:about="#publisher_marcos-y-marcos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+  <rdfs:label xml:lang="it">Marcos y Marcos</rdfs:label>
+  <schema:name xml:lang="it">Marcos y Marcos</schema:name>
+  <schema:location rdf:resource="#place_milano"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q3846661"/>
+  <owl:sameAs rdf:resource="https://viaf.org/viaf/126834809"/>
+</rdf:Description>
   <rdf:Description rdf:about="#agent_domenico-scarpa">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -1791,13 +1856,12 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">[Risvolto di sovracoperta in] Henry Gilman Chimica organica superiore [I] [ESE 1955]</rdfs:label>
     <frbr:partOf rdf:resource="#m_1955-ST-GILMAN_1"/>
     <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
-    <dcterms:contributor rdf:resource="#agent_giorgio-anglesio"/>
     <dcterms:publisher rdf:resource="#publisher_edizioni-scientifiche-einaudi"/>
     <dcterms:isPartOf rdf:resource="#series_manuali-serie-di-chimica"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1955</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
-    <dcterms:description xml:lang="it">non firmato. attribuito a Levi da carteggio con ESE e Boringhieri</dcterms:description>
+    <dcterms:description xml:lang="it">Non firmato, il testo è attribuibile a Levi sulla base del suo carteggio, inedito, con le Edizioni Scientifiche Einaudi e con Boringhieri Editore. La paternità risulta in particolare dalla velina di una lettera di Lodovico Terzi a Levi, 4 settembre 1958.</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xiii-938</prism:pageRange>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_giovanni-battista-bonino">
@@ -1850,9 +1914,60 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">[Lettera] [1959]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1959-AL-LETTERA"/>
     <frbr:embodiment rdf:resource="#m_1959-AL-LETTERA"/>
+    <frbr:embodiment rdf:resource="#m_1959-AL-LETTERA_2"/>
+    <frbr:embodiment rdf:resource="#m_1959-AL-LETTERA_3"/>
+    <frbr:embodiment rdf:resource="#m_1959-AL-LETTERA_4"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
+<rdf:Description rdf:about="#newspissue_la-stampa-torino_nodate_nodate_2005-01-20">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+  <rdfs:label xml:lang="it">«La Stampa [Torino]» - 2005-01-20</rdfs:label>
+  <dcterms:title xml:lang="it">La Stampa [Torino] - 2005-01-20</dcterms:title>
+  <frbr:partOf rdf:resource="#newspaper_la-stampa-torino"/>
+  <frbr:embodiment rdf:resource="#manifestation_newspissue_la-stampa-torino_nodate_nodate_2005-01-20"/>
+  <dcterms:language rdf:resource="#lang_it"/>
+</rdf:Description>
+<rdf:Description rdf:about="#manifestation_newspissue_la-stampa-torino_nodate_nodate_2005-01-20">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">«La Stampa [Torino]» - 2005-01-20 [fasc.]</rdfs:label>
+  <frbr:embodimentOf rdf:resource="#newspissue_la-stampa-torino_nodate_nodate_2005-01-20"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1959-AL-LETTERA_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">[Lettera] [La Stampa 2005]</rdfs:label>
+  <dcterms:title xml:lang="it">[Lettera]</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1959-AL-LETTERA"/>
+  <frbr:partOf rdf:resource="#manifestation_newspissue_la-stampa-torino_nodate_nodate_2005-01-20"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</prism:pageRange>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-20</prism:publicationDate>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+  <dcterms:description xml:lang="it">Riprodotta in Alberto Cavaglion, «1959, Levi risponde alla figlia d'un fascista che chiede la verità».</dcterms:description>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1959-AL-LETTERA_3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">[Lettera] [CfA 2015]</rdfs:label>
+  <dcterms:title xml:lang="it">[Lettera]</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1959-AL-LETTERA"/>
+  <frbr:partOf rdf:resource="#m_CFA"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">59-60</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1959-AL-LETTERA_4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">[Lettera] [Opere complete II, 2016]</rdfs:label>
+  <dcterms:title xml:lang="it">[Lettera]</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1959-AL-LETTERA"/>
+  <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP_2"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1299-1300</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
   <rdf:Description rdf:about="#series_acquario">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
@@ -2020,6 +2135,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1947-08</prism:publicationDate>
     <prism:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">III</prism:volume>
     <prism:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-9</prism:number>
+    <dcterms:description xml:lang="it">Fascicolo monografico «Sulla Germania». Contributi di Oddone Beltrami, Giuseppe Antonio Borgese, Piero Calamandrei, Guido Calogero, Arturo Carlo Jemolo, Waldemar Jollos, Wilhelm Külz, Primo Levi, Lavinia Mazzucchetti, Nicolae Petrescu Comnène, Gustav Radbruch, Luigi Salvatorelli e Sylvia Sprigge.</dcterms:description>
     <frbr:embodiment rdf:resource="#manifestation_journalissue-il-ponte-firenze-iii-8-nodate"/>
   </rdf:Description>
   <rdf:Description rdf:about="#m_2016-ST-OPCOMP">
@@ -2173,7 +2289,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">L'Italia Socialista [Roma]</dcterms:title>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1946</schema:startDate>
     <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1949</schema:endDate>
-    <dcterms:description xml:lang="it">cfr. L'Italia Socialista — stesso periodico, IRI con disambiguazione luogo.</dcterms:description>
+    <dcterms:description xml:lang="it">Il quotidiano «L’Italia Socialista» nasce il 10 giugno 1947 come prosecuzione di «L’Italia libera», organo del Partito d’azione ormai disciolto. È finanziato da Adriano Olivetti e diretto da Aldo Garosci, vicedirettore Paolo Vittorelli; cesserà le pubblicazioni il 22 febbraio 1949. Nella pagina culturale compaiono le firme di Rosario Assunto, Gabriele Baldini, Giorgio Bassani, Norberto Bobbio, Andrea Camilleri, Aldo Capitini, Giorgio Caproni, Carlo Cassola, Fedele d’Amico, Augusto Frassineti, Franco Lucentini, Muzio Mazzocchi, Massimo Mila, Umberto Morra, Giacomo Noventa, Geno Pampaloni, Giorgio Pasquali, Carlo Ludovico Ragghianti, Luigi Russo, Mario Soldati e Ferruccio Ulivi. Carlo Levi pubblica regolarmente in prima pagina i suoi disegni di satira politica.</dcterms:description>
     <schema:location rdf:resource="#place_roma"/>
 <ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >https://acnpsearch.unibo.it/journal/26353</ontolevi:permalinkAcnp>
@@ -2664,6 +2780,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">«Il Ponte [Firenze]», V, 8-9, 1949-08</rdfs:label>
     <dcterms:title xml:lang="it">Il Ponte - V - n. 8</dcterms:title>
     <frbr:partOf rdf:resource="#journal_il-ponte-firenze"/>
+    <dcterms:description xml:lang="it">Questo fascicolo, che reca in sovracoperta un notturno torinese di Felice Casorati, è fra le più importanti iniziative della rivista fondata da Piero Calamandrei. Si apre con scritti di Luigi Einaudi e Augusto Monti e presenta, con testi firmati da loro o con studi biografico-critici che li riguardano, i nomi più notevoli della cultura piemontese nella prima metà del Novecento, giungendo infine ad accogliere autori esordienti come lo stesso Primo Levi e come Carlo Fruttero</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1949-08</prism:publicationDate>
     <prism:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V</prism:volume>
     <prism:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8-9</prism:number>
@@ -2977,7 +3094,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:partOf rdf:resource="#manifestation_journalissue-litalia-che-scrive-rassegna-per-il-mondo-che-legge-roma-xxx-10-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_roma"/>
-    <dcterms:description xml:lang="it">rubrica Presento il mio libro. Titolo errato per svista tipografica</dcterms:description>
+    <dcterms:description xml:lang="it">Il titolo, frutto di una svista, doveva essere Se questo è un uomo. Nel fascicolo successivo (n. 11, novembre 1947, p. 245), la pagina di varietà letterarie Bosco Parrasio, a firma Filostrato, si conclude con la seguente annotazione: «Per uno degli inesplicabili e misteriosi errori che capitano in Tipografia, il titolo del libro di Primo Levi Se questo è un uomo s’è trasformato nel “Presento il mio libro”, apparso nel precedente numero, in “Se questo è un mondo” che è tutt’altra cosa. Ne chiediamo venia all’Autore e all’Editore».</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -3060,7 +3177,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:partOf rdf:resource="#manifestation_journalissue-il-movimento-di-liberazione-in-italia-rassegna-bimestrale-di-studi-e-documenti-milano-v-22-nodate"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1953</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_milano"/>
-    <dcterms:description xml:lang="it">recensione di E. M. Remarque L'ultima scintilla Mondadori Milano 1952</dcterms:description>
+    <dcterms:description xml:lang="it">recensione di E. M. Remarque, L'ultima scintilla, Mondadori Milano 1952</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -3076,7 +3193,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="#series_manuali-serie-di-chimica"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1955</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
-    <dcterms:description xml:lang="it">traduzione italiana di Organic Chemistry. An Advanced Treatise John Wiley and Sons New York 1938-1953</dcterms:description>
+    <dcterms:description xml:lang="it">Traduzione italiana dei dottori in Chimica Primo Levi e Giorgio Anglesio, prefazione di Giovanni Battista Bonino, professore di Chimica Fisica nell’Università di Bologna, vol. I, Edizioni Scientifiche Einaudi, Torino [9 febbraio] 1955 («Manuali. Serie di chimica»), pp. xiii-938 [edizione originale Organic Chemistry. An Advanced Treatise, John Wiley and Sons, New York 1938-1953].</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xiii-938</prism:pageRange>
     <schema:author rdf:resource="#agent_henry-gilman"/>
   </rdf:Description>
@@ -3176,7 +3293,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1948-04-25</prism:publicationDate>
     <frbr:partOf rdf:resource="#manifestation_journalissue-lunita-edizione-piemontese-novol-noissue-nodate"/>
     <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
-    <dcterms:description xml:lang="it">occhiello: 25 aprile 1945. La resistenza continua. Titolo libro indicato erroneamente come Se fossi un uomo</dcterms:description>
+    <dcterms:description xml:lang="it">(occhiello di pagina: «25 aprile 1945. La resistenza continua. 25 aprile 1948»). In calce al brano, ripreso dal capitolo «Al di qua del bene e del male» in Se questo è un uomo, il titolo del libro figura erroneamente come «Se fossi un uomo». Nella redazione dell’«Unità» torinese, il responsabile di terza pagina è nella primavera del 1948 Italo Calvino, che di lì a pochi giorni recensirà l’opera prima di Levi nella stessa sede: Se questo è un uomo, 6 maggio 1948, occhiello: «Un libro sui campi della morte».</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <rdfs:label xml:lang="it">Dal Lager [l'Unità 1948]</rdfs:label>
@@ -3306,12 +3423,12 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia [La Chimica e L'Industria 1947]</rdfs:label>
     <dcterms:title xml:lang="it">Il campo di Buna-Monowitz in Alta Slesia</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1947-AL-BUNAMO"/>
+    <dcterms:description xml:lang="it">«Lettere alla Direzione».</dcterms:description>
     <frbr:partOf rdf:resource="#manifestation_journalissue-chimica-industria-xxix-12-1947-12"/>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">299</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
-    <schema:author rdf:resource="#agent_LeonardoDeBenedetti"/>
   </rdf:Description>
   <rdf:Description rdf:about="#manifestation_journalissue-avanti-1974-01-15">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -5640,7 +5757,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">L'amico del popolo. Settimanale della Federazione Comunista Vercellese</rdfs:label>
     <dcterms:title xml:lang="it">L'amico del popolo. Settimanale della Federazione Comunista Vercellese</dcterms:title>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1945</schema:startDate>
-    <dcterms:description xml:lang="it">Organo della Federazione Comunista Vercellese. Anni noti: 1945-1948 ca.</dcterms:description>
+    <dcterms:description xml:lang="it">Organo della Federazione Comunista Vercellese. Anni noti: 1945-1948 ca. Dirigeva la testata Silvio Ortona, amico di Levi fra i più cari e marito di sua cugina Ada Della Torre.</dcterms:description>
     <schema:location rdf:resource="#place_vercelli"/>
   </rdf:Description>
    <rdf:Description rdf:about="#e_1963-INT-MELONI">
@@ -6605,6 +6722,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori [La Stampa 1965]</rdfs:label>
     <dcterms:title xml:lang="it">Furono i deportati di Birkenau a distruggere i forni crematori</dcterms:title>
     <frbr:embodimentOf rdf:resource="#e_1965-AL-FORNI"/>
+    <dcterms:description xml:lang="it">Lettera al Direttore, a commento di Gaetano Tumiati, Un Lager di 170 ettari, in «La Stampa», 17 ottobre 1965, p. 1. </dcterms:description>
     <frbr:partOf rdf:resource="#manifestation_newspaperissue-stampa-1965-10-19"/>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</prism:pageRange>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</prism:publicationDate>
