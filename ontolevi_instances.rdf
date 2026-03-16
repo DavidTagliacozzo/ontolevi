@@ -826,7 +826,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</prism:pageRange>
     <dcterms:title xml:lang="it">Assolto dalle accuse di vilipendio e di diffamazione il giudice torinese querelato da un gruppo di ebrei</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
-    <schema:author rdf:resource="#agent_bruno-faussone"/>
   </rdf:Description>
   <rdf:Description rdf:about="#journalissue_lamico-del-popolo-settimanale-della-federazione-comunista-vercellese_III_12_1947-03-29">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1139,7 +1138,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">[Dichiarazione, 25 gennaio 1970]</rdfs:label>
     <dcterms:title xml:lang="it">[Dichiarazione, 25 gennaio 1970]</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
-    <rdfs:comment xml:lang="it">Dichiarazione redatta per manifestazione a Bruxelles contro le politiche antisemite del governo polacco.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Dichiarazione redatta per manifestazione a Bruxelles contro le politiche antisemite del governo polacco presieduto da Władisław Gomułka. Invitato da Hermann Langbein a partecipare alla manifestazione di Bruxelles, Levi aveva declinato.</rdfs:comment>
     <frbr:realization rdf:resource="#e_1970-AL-DICHIARAZ"/>
   </rdf:Description>
   <rdf:Description rdf:about="#m_squ-riveduta-2012">
@@ -1678,7 +1677,9 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Article"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:embodiment rdf:resource="#m_1963-INT-PAOLETTI_1"/>
-    <prism:alternateTitle xml:lang="it">Titolo alternativo</prism:alternateTitle>
+    <frbr:embodiment rdf:resource="#m_1963-INT-PAOLETTI_2"/>
+    <frbr:embodiment rdf:resource="#m_1963-INT-PAOLETTI_3"/>
+    <prism:alternateTitle xml:lang="it">Sono un chimico scrittore per caso</prism:alternateTitle>
   </rdf:Description>
   <rdf:Description rdf:about="#w_2016-ST-OPCOMP">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2619,6 +2620,11 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Per il Cile telegramma a De Martino</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <frbr:realization rdf:resource="#e_1974-AL-CILE"/>
+    <dcterms:contributor rdf:resource="#agent_franco-antonicelli"/>
+    <dcterms:contributor rdf:resource="#agent_norberto-bobbio"/>
+    <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
+    <dcterms:contributor rdf:resource="#agent_guido-quazza"/>
+    <dcterms:description xml:lang="it">Il giornale cita fra i firmatari Franco Antonicelli, Norberto Bobbio, Primo Levi e Guido Quazza. Lista completa non disponibile.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#e_1963-INT-FERRERO-B">
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
@@ -2741,6 +2747,46 @@ copie, pp. 25 non numerate.</dcterms:description>
     <ontolevi:interviewer rdf:resource="#agent_pier-maria-paoletti"/>
     <frbr:realization rdf:resource="#e_1963-INT-PAOLETTI"/>
   </rdf:Description>
+<rdf:Description rdf:about="#m_1997-ST-CONVINT">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Conversazioni e interviste 1963-1987 [Einaudi 1997]</rdfs:label>
+  <dcterms:title xml:lang="it">Conversazioni e interviste 1963-1987</dcterms:title>
+  <schema:editor rdf:resource="#agent_marco-belpoliti"/>
+  <dcterms:publisher rdf:resource="#publisher_einaudi"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_torino"/>
+  <dcterms:isPartOf rdf:resource="#series_gli-struzzi"/>
+  <prism:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">486</prism:number>
+  <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT\ICCU\MOD\0245098</ontolevi:codiceOpacSbn>
+  <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.sbn.it/bid/MOD0245098</ontolevi:permalinkOpacSbn>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</prism:publicationDate>
+</rdf:Description>
+<rdf:Description rdf:about="#series_gli-struzzi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
+  <rdfs:label xml:lang="it">Gli struzzi</rdfs:label>
+  <dcterms:title xml:lang="it">Gli struzzi</dcterms:title>
+  <dcterms:publisher rdf:resource="#publisher_einaudi"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1963-INT-PAOLETTI_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Sono un chimico, scrittore per caso [Conversazioni e interviste 1997]</rdfs:label>
+  <dcterms:title xml:lang="it">Sono un chimico, scrittore per caso</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1963-INT-PAOLETTI"/>
+  <frbr:partOf rdf:resource="#m_1997-ST-CONVINT"/>
+  <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1963-INT-PAOLETTI_3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Sono un chimico, scrittore per caso [Opere complete III 2018]</rdfs:label>
+  <dcterms:title xml:lang="it">Sono un chimico, scrittore per caso</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1963-INT-PAOLETTI"/>
+  <frbr:partOf rdf:resource="#m_2018-ST-OPCOMP_3"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-12</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
+</rdf:Description>
   <rdf:Description rdf:about="#journalissue_hatikwa-xxi-2-1969-02">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalIssue"/>
@@ -3277,6 +3323,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <schema:author rdf:resource="#agent_giuseppe-del-colle"/>
+    <dcterms:description xml:lang="it">Presentato da Stefano Jacomuzzi, Levi parla a Torino nel ridotto del cinema-teatro «Romano» dopo una lettura di brani da Se questo è un uomo e da La tregua, eseguita dalla compagnia «Teatro delle Dieci». L’articolo contiene una battuta di Levi e altre ne riporta in forma indiretta.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#let_bassani_1949-11-04">
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-11-04</dcterms:date>
@@ -3537,9 +3584,8 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <rdfs:label xml:lang="it">L'avventura di Primo Levi</rdfs:label>
-    <ontolevi:interviewee rdf:resource="#agent_PrimoLevi"/>
     <dcterms:title xml:lang="it">L'avventura di Primo Levi</dcterms:title>
-    <ontolevi:interviewer rdf:resource="#agent_paolo-spriano"/>
+    <schema:author rdf:resource="#agent_paolo-spriano"/>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
     <dcterms:description xml:lang="it">Ritratto scritto dopo l'uscita della Tregua e la partecipazione al Premio Strega. Contiene alcune battute di Levi.</dcterms:description>
     <frbr:realization rdf:resource="#e_1963-INT-SPRIANO"/>
@@ -3916,7 +3962,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:title xml:lang="it">Assolto dalle accuse di vilipendio e di diffamazione il giudice torinese querelato da un gruppo di ebrei</dcterms:title>
     <rdfs:label xml:lang="it">Assolto dalle accuse di vilipendio e di diffamazione il giudice torinese querelato da un gruppo di ebrei</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
-    <dcterms:description xml:lang="it">Cronaca non firmata. Riporta intervento di Primo Levi al processo contro il magistrato Giovanni Durando, accusato di vilipendio di culto ammesso dallo Stato. Levi tra le 47 persone della Comunità ebraica di Torino costituitesi parte civile.</dcterms:description>
+    <dcterms:description xml:lang="it">intervento di Primo Levi nel processo di primo grado, appena concluso al Tribunale di Genova, contro il magistrato Giovanni Durando, direttore de «La voce della giustizia», accusato di «vilipendio di culto ammesso dallo Stato»; Levi era tra le 47 persone della Comunità ebraica di Torino costituitesi parte civile, assistite da Bianca Guidetti Serra e Vittorio Negro, mentre a sporgere la denunzia contro Durando era stato Guido Fubini, il suo avvocato difensore fu Alfredo Biondi</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#series_manuali-serie-di-chimica">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -4261,7 +4307,6 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
   <rdf:Description rdf:about="#w_1963-INT-MELONI">
-    <dcterms:description xml:lang="it">Supplemento «Leggiamo», pp. I-II.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <ontolevi:interviewee rdf:resource="#agent_PrimoLevi"/>
@@ -5448,7 +5493,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdfs:label xml:lang="it">Vivace incontro al Romano… [La Stampa 1964]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_InterventOrali"/>
     <schema:author rdf:resource="#agent_giuseppe-del-colle"/>
-    <dcterms:description xml:lang="it">Firma: g.d.c. [Giuseppe Del Colle]. Sommario: «L'autore de La tregua ha parlato delle reazioni dei giovani tedeschi alla sua opera». Presentato da Stefano Jacomuzzi, cinema-teatro Romano, Torino.</dcterms:description>
+    <dcterms:description xml:lang="it">Firma: g.d.c. [Giuseppe Del Colle]. Sommario: «L'autore de La tregua ha parlato delle reazioni dei giovani tedeschi alla sua opera».</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#agent_enzo-fabiani">
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -5526,7 +5571,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:author rdf:resource="#agent_carlo-salinari"/>
     <schema:author rdf:resource="#agent_vladimiro-scatturin"/>
     <schema:author rdf:resource="#agent_mario-spinella"/>
-    <dcterms:description xml:lang="it">Lettera aperta. Estensori e primi firmatari: Berengo, Brizio, Fachinelli, Gambi, Maccacaro, Musatti, Paci, Salinari, Scatturin, Spinella. Riguarda il caso Pinelli. Nell'Espresso del 20 giugno Levi figura fra i 309 nuovi firmatari; totale 743.</dcterms:description>
+    <dcterms:description xml:lang="it">Lettera aperta, di cui Berengo, Brizio, Fachinelli, Gambi, Maccacaro, Musatti, Paci, Salinari, Scatturin, Spinella sono stati gli estensori e primi firmatari. Seguito dall’avvertenza «La lettera è aperta alla pubblica sottoscrizione», il testo è comparso per la prima volta nel precedente fascicolo del settimanale (n. 24, 13 giugno, p. 6), in calce all’articolo Colpi di scena e colpi di karatè, di Camilla Cederna (occhiello: «Gli ultimi incredibili sviluppi del caso Pinelli»). Lettera e articolo riguardano il caso di Giuseppe Pinelli, accusato della strage di Piazza Fontana a Milano (12 dicembre 1969) e morto pochi minuti dopo la mezzanotte tra il 15 e il 16 dicembre precipitando in circostanze controverse da una stanza della Questura di Milano, dove si trovava sotto interrogatorio. Le indagini sull’accaduto, e le successive vicende giudiziarie e processuali, sollevarono interrogativi e polemiche destinati a durare decenni. Nell’«Espresso» del 20 giugno Levi figura fra i 309 nuovi firmatari della lettera. Nel fascicolo del 27 giugno (n. 26, p. 6; il titolo è nuovamente Quelli da ricusare, con occhiello «Il caso  Pinelli») se ne aggiungono ancora 424, per un totale di 743. Malgrado «L’Espresso» n. 26 annunci la pubblicazione di ulteriori firme, non ne stamperà altre nei fascicoli successivi.</dcterms:description>
     <frbr:realization rdf:resource="#e_1971-AL-RICUSARE"/>
   </rdf:Description>
  <rdf:Description rdf:about="#m_squ-nuovi-coralli-1979">
@@ -6717,7 +6762,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
   <rdf:Description rdf:about="#m_1963-INT-MELONI_1">
-    <dcterms:description xml:lang="it">Supplemento «Leggiamo».</dcterms:description>
+    <dcterms:description xml:lang="it">Supplemento «Leggiamo»</dcterms:description>
     <rdfs:label xml:lang="it">Si chiama Primo… [La Notte 1963]</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
