@@ -265,8 +265,17 @@
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
     <rdfs:label xml:lang="en">Correspondence Aggregate</rdfs:label>
     <rdfs:label xml:lang="it">Corrispondenza</rdfs:label>
+    <rdfs:label xml:lang="en">Availability Status</rdfs:label>
     <rdfs:comment xml:lang="en">A collection of letters and other correspondence items by or addressed to a person.</rdfs:comment>
     <rdfs:comment xml:lang="it">Una raccolta di lettere e altri elementi di corrispondenza di o indirizzati a una persona.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#StatoDisponibilita">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:label xml:lang="it">Stato di disponibilità</rdfs:label>
+    <rdfs:comment xml:lang="it">Stato di disponibilità di un esemplare presso l'istituzione depositaria.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Availability status of an item held by the depositary institution.</rdfs:comment>
   </rdf:Description>
 
   <!-- ================================================================
@@ -282,6 +291,16 @@
     <rdfs:label xml:lang="it">intervistatore</rdfs:label>
     <rdfs:comment xml:lang="en">The journalist or researcher who conducts the interview. Subproperty of sdo:author, as the interviewer is the author of the published text.</rdfs:comment>
     <rdfs:comment xml:lang="it">Il giornalista o ricercatore che conduce l'intervista. Sottoproprietà di sdo:author, in quanto l'intervistatore è l'autore del testo pubblicato.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#statoDisponibilita">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="it">stato di disponibilità</rdfs:label>
+    <rdfs:label xml:lang="en">availability status</rdfs:label>
+    <rdfs:comment xml:lang="it">Indica lo stato di disponibilità di un esemplare (es. disponibile, solo consultazione).</rdfs:comment>
+    <rdfs:comment xml:lang="en">Indicates the availability status of an item (e.g. available, reference only).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:range rdf:resource="#StatoDisponibilita"/>
   </rdf:Description>
 
   <rdf:Description rdf:about="#interviewee">
@@ -442,6 +461,36 @@
     <rdfs:label xml:lang="it">Codice editore</rdfs:label>
     <rdfs:comment xml:lang="en">The publisher's identifier code, for example the ISBN prefix.</rdfs:comment>
     <rdfs:comment xml:lang="it">Codice identificativo dell'editore, ad esempio il prefisso ISBN.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#segnatura">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="it">segnatura</rdfs:label>
+    <rdfs:label xml:lang="en">shelf mark</rdfs:label>
+    <rdfs:comment xml:lang="it">Segnatura bibliotecaria dell'esemplare (collocazione fisica sullo scaffale).</rdfs:comment>
+    <rdfs:comment xml:lang="en">Library shelf mark indicating the physical location of the item.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#inventario">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="it">numero di inventario</rdfs:label>
+    <rdfs:label xml:lang="en">inventory number</rdfs:label>
+    <rdfs:comment xml:lang="it">Numero di inventario assegnato dall'istituzione depositaria all'esemplare.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Inventory number assigned to the item by the depositary institution.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#idTitoloLocale">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="it">identificativo titolo catalogo locale</rdfs:label>
+    <rdfs:label xml:lang="en">local catalogue title identifier</rdfs:label>
+    <rdfs:comment xml:lang="it">Identificativo del titolo nel catalogo gestionale locale dell'istituzione (es. LV-1424).</rdfs:comment>
+    <rdfs:comment xml:lang="en">Title identifier in the local management catalogue of the institution (e.g. LV-1424).</rdfs:comment>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
 
 </rdf:RDF>
