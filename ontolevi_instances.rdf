@@ -5400,7 +5400,6 @@
     <rdfs:label xml:lang="it">[Senza titolo] [Volantino - Domenica. Il Sole 24 Ore 2013]</rdfs:label>
     <frbr:partOf rdf:resource="#m_scarpa-principio-2013"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</prism:publicationDate>
-    <dcterms:description xml:lang="it">Al principio fu il Lager</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <frbr:embodimentOf rdf:resource="#e_1947-ST-VOLANT_1"/>
