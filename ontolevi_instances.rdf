@@ -243,6 +243,13 @@ Le chimiste, Éditions du Cosmogone</rdfs:label>
     <schema:sender rdf:resource="#agent_PrimoLevi"/>
     <frbr:partOf rdf:resource="#corr_antonicelli"/>
   </rdf:Description>
+<rdf:Description rdf:about="#cit_panella2021-cites-let-antonicelli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
+  <cito:hasCitingEntity rdf:resource="#m_panella-2021"/>
+  <cito:hasCitedEntity rdf:resource="#let_antonicelli_1963-03-21"/>
+  <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/citesAsSourceDocument"/>
+</rdf:Description>
   <rdf:Description rdf:about="#m_1959-AL-LETTERA">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -1022,7 +1029,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#series_nuovi-coralli">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://purl.org/spar/fabio/Series"/>
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
     <rdfs:label xml:lang="it">Nuovi coralli</rdfs:label>
     <dcterms:title xml:lang="it">Nuovi coralli</dcterms:title>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
