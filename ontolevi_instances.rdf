@@ -1313,6 +1313,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</prism:publicationDate>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
+    <dcterms:description xml:lang="it">Prima pubblicazione nel fasc. n. 24 (13 giugno, p. 6), in calce all'articolo di Camilla Cederna «Colpi di scena e colpi di karatè».</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="#newspissue_paese-sera-roma_nodate_nodate_1963-07-12">
     <frbr:partOf rdf:resource="#newspaper_paese-sera-roma"/>
@@ -1324,6 +1325,31 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:embodiment rdf:resource="#manifestation_newspissue_paese-sera-roma_nodate_nodate_1963-07-12"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
+<rdf:Description rdf:about="#m_sofri-2009">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Sofri, La notte che Pinelli [Sellerio 2009]</rdfs:label>
+  <dcterms:title xml:lang="it">La notte che Pinelli</dcterms:title>
+  <schema:author rdf:resource="#agent_adriano-sofri"/>
+  <dcterms:publisher rdf:resource="#publisher_sellerio"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_palermo"/>
+  <dcterms:isPartOf rdf:resource="#series_la-memoria-sellerio"/>
+  <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT\ICCU\RMS\2113452</ontolevi:codiceOpacSbn>
+  <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.sbn.it/bid/RMS2113452</ontolevi:permalinkOpacSbn>
+  <prism:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">772</prism:number>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2009</prism:publicationDate>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1971-AL-RICUSARE_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Quelli da ricusare [Sofri 2009]</rdfs:label>
+  <dcterms:title xml:lang="it">Quelli da ricusare</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1971-AL-RICUSARE"/>
+  <frbr:partOf rdf:resource="#m_sofri-2009"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">267-275</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+  <dcterms:description xml:lang="it">Riporta il testo della lettera con l'elenco completo e in ordine alfabetico dei firmatari.</dcterms:description>
+</rdf:Description>
   <rdf:Description rdf:about="#m_1952-ST-PERVERS_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -2971,12 +2997,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">«Non lavoreremo per l'Unesco» [1974]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1974-AL-UNESCO"/>
-    <dcterms:contributor rdf:resource="#agent_giulio-carlo-argan"/>
-    <dcterms:contributor rdf:resource="#agent_aldo-garosci"/>
-    <dcterms:contributor rdf:resource="#agent_arturo-carlo-jemolo"/>
-    <dcterms:contributor rdf:resource="#agent_ignazio-silone"/>
-    <dcterms:contributor rdf:resource="#agent_bruno-zevi"/>
-    <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
+    <frbr:embodiment rdf:resource="#m_1974-AL-UNESCO_2"/>
     <frbr:embodiment rdf:resource="#m_1974-AL-UNESCO"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
@@ -3099,6 +3120,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <frbr:realizationOf rdf:resource="#w_1971-AL-RICUSARE"/>
     <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
     <frbr:embodiment rdf:resource="#m_1971-AL-RICUSARE"/>
+    <frbr:embodiment rdf:resource="#m_1971-AL-RICUSARE_2"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
@@ -3735,13 +3757,55 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:publisher rdf:resource="#publisher_einaudi"/>
   </rdf:Description>
   <rdf:Description rdf:about="#w_1974-AL-UNESCO">
+    <dcterms:description xml:lang="it">Dichiarazione contro le posizioni anti-israeliane dell'Unesco. Promossa da Argan, Garosci, Jemolo, Silone e Zevi; sottoscritta da molte personalità della cultura italiana fra cui Primo Levi.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
     <rdfs:label xml:lang="it">Non lavoreremo per l'Unesco</rdfs:label>
     <dcterms:title xml:lang="it">Non lavoreremo per l'Unesco</dcterms:title>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <frbr:realization rdf:resource="#e_1974-AL-UNESCO"/>
+    <dcterms:contributor rdf:resource="#agent_giulio-carlo-argan"/>
+    <dcterms:contributor rdf:resource="#agent_aldo-garosci"/>
+    <dcterms:contributor rdf:resource="#agent_arturo-carlo-jemolo"/>
+    <dcterms:contributor rdf:resource="#agent_ignazio-silone"/>
+    <dcterms:contributor rdf:resource="#agent_bruno-zevi"/>
+    <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
   </rdf:Description>
+<rdf:Description rdf:about="#m_1974-AL-UNESCO_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">«Non lavoreremo per l'Unesco» [Riga 38, 2017]</rdfs:label>
+  <dcterms:title xml:lang="it">«Non lavoreremo per l'Unesco»</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1974-AL-UNESCO"/>
+  <frbr:partOf rdf:resource="#manifestation_journalissue-riga-38-2017"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">308-309</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
+<rdf:Description rdf:about="#agent_adriano-sofri">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Adriano Sofri</rdfs:label>
+  <schema:name xml:lang="it">Adriano Sofri</schema:name>
+  <owl:sameAs rdf:resource="http://viaf.org/viaf/2525276"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q376016"/>
+  <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1942</schema:birthDate>
+</rdf:Description>
+<rdf:Description rdf:about="#publisher_sellerio">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+  <rdfs:label xml:lang="it">Sellerio</rdfs:label>
+  <schema:name xml:lang="it">Sellerio</schema:name>
+  <schema:location rdf:resource="#place_palermo"/>
+  <owl:sameAs rdf:resource="https://www.wikidata.org/entity/Q745301"/>
+  <owl:sameAs rdf:resource="http://viaf.org/viaf/148933498"/>
+</rdf:Description>
+<rdf:Description rdf:about="#series_la-memoria-sellerio">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/BookSeries"/>
+  <rdfs:label xml:lang="it">La memoria</rdfs:label>
+  <dcterms:title xml:lang="it">La memoria</dcterms:title>
+  <dcterms:publisher rdf:resource="#publisher_sellerio"/>
+</rdf:Description>
   <rdf:Description rdf:about="#w_1950-ST-ZOLFO">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/ShortStory"/>
@@ -3952,33 +4016,32 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
     <rdfs:label xml:lang="it">Le forche di Bagdad e la questione israeliana [1969]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1969-AL-BAGDAD"/>
-    <dcterms:contributor rdf:resource="#agent_laura-colombo"/>
-    <dcterms:contributor rdf:resource="#agent_lia-corinaldi"/>
-    <dcterms:contributor rdf:resource="#agent_marisa-diena"/>
-    <dcterms:contributor rdf:resource="#agent_guido-fubini"/>
-    <dcterms:contributor rdf:resource="#agent_franco-lattes"/>
-    <dcterms:contributor rdf:resource="#agent_luisa-levi"/>
-    <dcterms:contributor rdf:resource="#agent_mario-levi"/>
-    <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
-    <dcterms:contributor rdf:resource="#agent_giorgina-levi-arian"/>
-    <dcterms:contributor rdf:resource="#agent_anna-maria-levi-fubini"/>
-    <dcterms:contributor rdf:resource="#agent_ada-luzzati"/>
-    <dcterms:contributor rdf:resource="#agent_pia-luzzatto"/>
-    <dcterms:contributor rdf:resource="#agent_carmela-mayo-levi"/>
-    <dcterms:contributor rdf:resource="#agent_giorgio-olivetti"/>
-    <dcterms:contributor rdf:resource="#agent_ginetta-ortona"/>
-    <dcterms:contributor rdf:resource="#agent_guido-ortona"/>
-    <dcterms:contributor rdf:resource="#agent_silvio-ortona"/>
-    <dcterms:contributor rdf:resource="#agent_elena-ottolenghi-vita-finzi"/>
-    <dcterms:contributor rdf:resource="#agent_davide-terracini"/>
-    <dcterms:contributor rdf:resource="#agent_emilio-vita-finzi"/>
-    <dcterms:contributor rdf:resource="#agent_amalia-viterbo"/>
-    <dcterms:contributor rdf:resource="#agent_aldo-zargani"/>
-    <dcterms:contributor rdf:resource="#agent_ada-della-torre"/>
     <frbr:embodiment rdf:resource="#m_1969-AL-BAGDAD"/>
+    <frbr:embodiment rdf:resource="#m_1969-AL-BAGDAD_2"/>
+    <frbr:embodiment rdf:resource="#m_1969-AL-BAGDAD_3"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <dcterms:language rdf:resource="#lang_it"/>
   </rdf:Description>
+<rdf:Description rdf:about="#m_1969-AL-BAGDAD_2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Le forche di Bagdad e la questione israeliana [Rondini 2012]</rdfs:label>
+  <dcterms:title xml:lang="it">Le forche di Bagdad e la questione israeliana</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1969-AL-BAGDAD"/>
+  <frbr:partOf rdf:resource="#m_rondini-2012"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_1969-AL-BAGDAD_3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Le forche di Bagdad e la questione israeliana [Riga 38, 2017]</rdfs:label>
+  <dcterms:title xml:lang="it">Le forche di Bagdad e la questione israeliana</dcterms:title>
+  <frbr:embodimentOf rdf:resource="#e_1969-AL-BAGDAD"/>
+  <frbr:partOf rdf:resource="#manifestation_journalissue-riga-38-2017"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310-311</prism:pageRange>
+  <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
+</rdf:Description>
   <rdf:Description rdf:about="#let_amsallem_1985-02-16">
     <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
     <rdfs:label>Lettera di Levi ad Amsallem, 16 febbraio 1985</rdfs:label>
@@ -5463,7 +5526,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <schema:author rdf:resource="#agent_carlo-salinari"/>
     <schema:author rdf:resource="#agent_vladimiro-scatturin"/>
     <schema:author rdf:resource="#agent_mario-spinella"/>
-    <rdfs:comment xml:lang="it">Lettera aperta. 309 firmatari fra cui Primo Levi.</rdfs:comment>
+    <dcterms:description xml:lang="it">Lettera aperta. Estensori e primi firmatari: Berengo, Brizio, Fachinelli, Gambi, Maccacaro, Musatti, Paci, Salinari, Scatturin, Spinella. Riguarda il caso Pinelli. Nell'Espresso del 20 giugno Levi figura fra i 309 nuovi firmatari; totale 743.</dcterms:description>
     <frbr:realization rdf:resource="#e_1971-AL-RICUSARE"/>
   </rdf:Description>
  <rdf:Description rdf:about="#m_squ-nuovi-coralli-1979">
@@ -7153,8 +7216,32 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Announcement"/>
     <rdfs:label xml:lang="it">Le forche di Bagdad e la questione israeliana</rdfs:label>
     <dcterms:title xml:lang="it">Le forche di Bagdad e la questione israeliana</dcterms:title>
+    <dcterms:description xml:lang="it">Appello firmato da un gruppo di «ebrei torinesi, aderenti o vicini ai movimenti di sinistra».</dcterms:description>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
     <frbr:realization rdf:resource="#e_1969-AL-BAGDAD"/>
+    <dcterms:contributor rdf:resource="#agent_laura-colombo"/>
+    <dcterms:contributor rdf:resource="#agent_lia-corinaldi"/>
+    <dcterms:contributor rdf:resource="#agent_marisa-diena"/>
+    <dcterms:contributor rdf:resource="#agent_guido-fubini"/>
+    <dcterms:contributor rdf:resource="#agent_franco-lattes"/>
+    <dcterms:contributor rdf:resource="#agent_luisa-levi"/>
+    <dcterms:contributor rdf:resource="#agent_mario-levi"/>
+    <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
+    <dcterms:contributor rdf:resource="#agent_giorgina-levi-arian"/>
+    <dcterms:contributor rdf:resource="#agent_anna-maria-levi-fubini"/>
+    <dcterms:contributor rdf:resource="#agent_ada-luzzati"/>
+    <dcterms:contributor rdf:resource="#agent_pia-luzzatto"/>
+    <dcterms:contributor rdf:resource="#agent_carmela-mayo-levi"/>
+    <dcterms:contributor rdf:resource="#agent_giorgio-olivetti"/>
+    <dcterms:contributor rdf:resource="#agent_ginetta-ortona"/>
+    <dcterms:contributor rdf:resource="#agent_guido-ortona"/>
+    <dcterms:contributor rdf:resource="#agent_silvio-ortona"/>
+    <dcterms:contributor rdf:resource="#agent_elena-ottolenghi-vita-finzi"/>
+    <dcterms:contributor rdf:resource="#agent_davide-terracini"/>
+    <dcterms:contributor rdf:resource="#agent_emilio-vita-finzi"/>
+    <dcterms:contributor rdf:resource="#agent_amalia-viterbo"/>
+    <dcterms:contributor rdf:resource="#agent_aldo-zargani"/>
+    <dcterms:contributor rdf:resource="#agent_ada-della-torre"/>
   </rdf:Description>
   <rdf:Description rdf:about="#place_torino">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
