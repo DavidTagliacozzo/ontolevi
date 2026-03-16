@@ -3864,6 +3864,17 @@
     <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
   >IT\ICCU\TO0\1096415</ontolevi:codiceOpacSbn>
   </rdf:Description>
+<rdf:Description rdf:about="#m_scarpa-principio-2013">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Scarpa, Al principio fu il Lager [Domenica. Il Sole 24 Ore, 2013-11-10]</rdfs:label>
+  <dcterms:title xml:lang="it">Al principio fu il Lager</dcterms:title>
+  <schema:author rdf:resource="#agent_domenico-scarpa"/>
+  <frbr:partOf rdf:resource="#manifestation_newspissue-domenica-sole24ore-2013-11-10"/>
+  <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</prism:pageRange>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-11-10</prism:publicationDate>
+  <dcterms:description xml:lang="it">Contiene la trascrizione integrale del «Volantino» n. 15 di Primo Levi.</dcterms:description>
+</rdf:Description>
 <rdf:Description rdf:about="#m_sofri-2009">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
@@ -5387,8 +5398,7 @@
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">[Senza titolo]</dcterms:title>
     <rdfs:label xml:lang="it">[Senza titolo] [Volantino - Domenica. Il Sole 24 Ore 2013]</rdfs:label>
-    <frbr:partOf rdf:resource="#manifestation_newspissue-domenica-sole24ore-2013-11-10"/>
-    <dcterms:contributor rdf:resource="#agent_domenico-scarpa"/>
+    <frbr:partOf rdf:resource="#m_scarpa-principio-2013"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2013</prism:publicationDate>
     <dcterms:description xml:lang="it">Al principio fu il Lager</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</prism:pageRange>
