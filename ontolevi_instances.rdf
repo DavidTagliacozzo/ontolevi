@@ -5086,7 +5086,6 @@ copie, pp. 25 non numerate.</dcterms:description>
   <schema:author rdf:resource="#agent_claudio-panella"/>
   <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</prism:publicationDate>
   <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49-79</prism:pageRange>
-  <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
 </rdf:Description>
 <rdf:Description rdf:about="#m_scarpa-primo-levi-al-plurale-2021">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
