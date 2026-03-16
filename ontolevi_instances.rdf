@@ -999,7 +999,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <dcterms:title xml:lang="it">Buna</dcterms:title>
-    <rdfs:label xml:lang="it">Buna [L'osteria di Brema 1975]</rdfs:label>
+    <rdfs:label xml:lang="it">Buna [Poesie 1970]</rdfs:label>
     <frbr:partOf rdf:resource="#m_P-1970"/>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
