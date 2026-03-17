@@ -7761,7 +7761,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 
 <rdf:Description rdf:about="#item_squ-desilva-1947_inv3093">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">Se questo è un uomo [De Silva 1947] — inv. 3093</rdfs:label>
   <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_squ-desilva-1947"/>
@@ -7776,7 +7776,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
 <rdf:Description rdf:about="#item_squ-einaudi-1958_inv411">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi 1958] — inv. 411</rdfs:label>
   <dcterms:title xml:lang="it">Se questo è un uomo</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_squ-einaudi-1958"/>
@@ -7791,7 +7791,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
 <rdf:Description rdf:about="#item_tregua-einaudi-1963_inv51120">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">La tregua [Einaudi 1963] — inv. 51120</rdfs:label>
   <dcterms:title xml:lang="it">La tregua</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_1963-ST-TREGUA_1"/>
@@ -7806,7 +7806,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
 <rdf:Description rdf:about="#item_sn-einaudi-1966_inv54915">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">Storie naturali [Einaudi 1966] — inv. 54915</rdfs:label>
   <dcterms:title xml:lang="it">Storie naturali</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_1966-ST-SN_1"/>
@@ -7821,7 +7821,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
 <rdf:Description rdf:about="#item_sp-einaudi-1975_inv54909">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">Il sistema periodico [Einaudi 1975] — inv. 54909</rdfs:label>
   <dcterms:title xml:lang="it">Il sistema periodico</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_1975-ST-SP_1"/>
@@ -7836,7 +7836,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
 <rdf:Description rdf:about="#item_lilit-einaudi-1981_inv21844">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">Lilít e altri racconti [Einaudi 1981] — inv. 21844</rdfs:label>
   <dcterms:title xml:lang="it">Lilít e altri racconti</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_lilit-nuovi-coralli-1981"/>
@@ -7851,7 +7851,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
 <rdf:Description rdf:about="#item_aoi-garzanti-1984_inv50983">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">Ad ora incerta [Garzanti 1984] — inv. 50983</rdfs:label>
   <dcterms:title xml:lang="it">Ad ora incerta</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_1984-ST-POESIE"/>
@@ -7866,7 +7866,7 @@ copie, pp. 25 non numerate.</dcterms:description>
 </rdf:Description>
 <rdf:Description rdf:about="#item_opere-einaudi-1987v1_inv12497">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/AnalogItem"/>
   <rdfs:label xml:lang="it">Opere vol. I [Einaudi 1987] — inv. 12497</rdfs:label>
   <dcterms:title xml:lang="it">Opere. Volume primo</dcterms:title>
   <frbr:exemplarOf rdf:resource="#m_1987-ST-OP_1"/>
