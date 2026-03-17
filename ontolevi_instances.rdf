@@ -6435,7 +6435,7 @@
 <rdf:Description rdf:about="#e_1970-AL-DICHIARAZ">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/PersonalCommunication"/>
-    <rdfs:label xml:lang="it">[Dichiarazione] [25 gennaio 1970]</rdfs:label>
+    <rdfs:label xml:lang="it">[Dichiarazione, 25 gennaio 1970] [expr]</rdfs:label>
     <frbr:realizationOf rdf:resource="#w_1970-AL-DICHIARAZ"/>
     <dcterms:contributor rdf:resource="#agent_PrimoLevi"/>
     <dcterms:isPartOf rdf:resource="#col_AppellieLettereAperte"/>
