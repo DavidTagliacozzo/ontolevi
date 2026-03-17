@@ -1463,7 +1463,7 @@
 
 <rdf:Description rdf:about="#library_centro-studi-primo-levi">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://schema.org/Library"/>
+  <rdf:type rdf:resource="https://schema.org/Library"/>
   <rdfs:label xml:lang="it">Centro Internazionale di Studi Primo Levi</rdfs:label>
   <schema:name xml:lang="it">Centro Internazionale di Studi Primo Levi</schema:name>
   <schema:location rdf:resource="#place_torino"/>
