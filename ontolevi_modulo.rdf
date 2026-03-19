@@ -217,6 +217,24 @@
        PROPRIETÀ DATATYPE ESTERNE NON COPERTE DAGLI IMPORT
        ================================================================ -->
 
+  <rdf:Description rdf:about="https://schema.org/startDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+    <rdfs:label xml:lang="en">start date</rdfs:label>
+    <rdfs:label xml:lang="it">data di inizio</rdfs:label>
+    <rdfs:comment xml:lang="en">The start date of an event or time period.</rdfs:comment>
+    <rdfs:comment xml:lang="it">La data di inizio di un evento o periodo temporale.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://schema.org/endDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+    <rdfs:label xml:lang="en">end date</rdfs:label>
+    <rdfs:label xml:lang="it">data di fine</rdfs:label>
+    <rdfs:comment xml:lang="en">The end date of an event or time period.</rdfs:comment>
+    <rdfs:comment xml:lang="it">La data di fine di un evento o periodo temporale.</rdfs:comment>
+  </rdf:Description>
+
   <rdf:Description rdf:about="https://schema.org/name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en">name</rdfs:label>
