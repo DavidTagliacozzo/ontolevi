@@ -156,16 +156,6 @@
     <rdfs:comment xml:lang="it">Il destinatario di una lettera o altra comunicazione.</rdfs:comment>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://schema.org/affiliation">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-    <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
-    <rdfs:label xml:lang="en">affiliation</rdfs:label>
-    <rdfs:label xml:lang="it">affiliazione</rdfs:label>
-    <rdfs:comment xml:lang="en">The organization to which a person is affiliated.</rdfs:comment>
-    <rdfs:comment xml:lang="it">L'organizzazione a cui una persona è affiliata.</rdfs:comment>
-  </rdf:Description>
-
   <rdf:Description rdf:about="https://schema.org/location">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
