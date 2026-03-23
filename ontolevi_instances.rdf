@@ -5402,8 +5402,7 @@
     <frbr:embodiment rdf:resource="#m_squ-einaudi-1958"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo [Einaudi 1958]</rdfs:label>
-    <dcterms:description xml:lang="it">Einaudi, Torino [9 maggio] 1958, pp. 196 («Saggi», n. 232), sovracoperta originale di Bruno Munari, risvolto di sovracoperta non firmato ma di Italo Calvino, il quale riprende in massima parte la sua recensione all’edizione De Silva 1947 (Se questo è un uomo, in «l’Unità. Edizione piemontese», 6 maggio 1948). A partire dalla ristampa del 23 giugno 1979 («Nuovi coralli», n. 2), l’edizione di Se questo è un uomo comprenderà stabilmente una Appendice, datata «Novembre 1976».</dcterms:description>
+    <rdfs:label xml:lang="it">Se questo è un uomo [1958]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-SQU"/>
@@ -7437,7 +7436,7 @@ copie, pp. 25 non numerate.</dcterms:description>
   <dcterms:isPartOf rdf:resource="#series_saggi"/>
   <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232</fabio:hasSequenceIdentifier>
-  <dcterms:description xml:lang="it">Edizione aumentata. Sovracoperta Bruno Munari. Risvolto di Italo Calvino.</dcterms:description>
+  <dcterms:description xml:lang="it">Einaudi, Torino [9 maggio] 1958, pp. 196 («Saggi», n. 232), sovracoperta originale di Bruno Munari, risvolto di sovracoperta non firmato ma di Italo Calvino, il quale riprende in massima parte la sua recensione all’edizione De Silva 1947 (Se questo è un uomo, in «l’Unità. Edizione piemontese», 6 maggio 1948). A partire dalla ristampa del 23 giugno 1979 («Nuovi coralli», n. 2), l’edizione di Se questo è un uomo comprenderà stabilmente una Appendice, datata «Novembre 1976».</dcterms:description>
   <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
     >http://id.sbn.it/bid/SBL0485399</ontolevi:permalinkOpacSbn>
   <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
