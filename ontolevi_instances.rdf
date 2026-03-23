@@ -2782,7 +2782,7 @@
   </rdf:Description>
 <rdf:Description rdf:about="#newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12">
     <frbr:embodiment rdf:resource="#manifestation_newspissue_terra-nostra-settimanale-dei-socialisti-mantovani_XIX_34_1963-09-12"/>
-    <rdfs:label xml:lang="it">«Terra nostra [Mantova] - XIX - n. 34 - 1963-09-12» [fasc.]</rdfs:label>
+    <rdfs:label xml:lang="it">«Terra nostra [Mantova] - XIX - n. 34 - 1963-09-12»</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <fabio:hasSequenceIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</fabio:hasSequenceIdentifier>
