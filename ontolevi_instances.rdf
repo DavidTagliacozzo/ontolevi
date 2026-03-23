@@ -5273,7 +5273,7 @@
     <frbr:embodiment rdf:resource="#m_squ-desilva-1947"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label xml:lang="it">Se questo è un uomo 1947 [princeps]</rdfs:label>
+    <rdfs:label xml:lang="it">Se questo è un uomo [1947]</rdfs:label>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1947-ST-SQU"/>
