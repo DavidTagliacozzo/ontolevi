@@ -5696,7 +5696,7 @@
 <rdf:Description rdf:about="#e_1975-ST-SP_1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Book"/>
-    <rdfs:label>Il sistema periodico [Einaudi 1975]</rdfs:label>
+    <rdfs:label>Il sistema periodico [1975]</rdfs:label>
     <dcterms:language rdf:resource="#lang_it"/>
     <frbr:realizationOf rdf:resource="#w_1975-ST-SP"/>
     <frbr:embodiment rdf:resource="#m_1975-ST-SP_1"/>
