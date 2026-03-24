@@ -358,6 +358,18 @@
        AGENTI — Persone e Enti
        ============================================================ -->
 
+<rdf:Description rdf:about="#agent_raffaele-cile">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Raffaele Cile</rdfs:label>
+  <schema:name xml:lang="it">Raffaele Cile</schema:name>
+</rdf:Description>
+<rdf:Description rdf:about="#agent_bruno-baudissone">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+  <rdfs:label xml:lang="it">Bruno Baudissone</rdfs:label>
+  <schema:name xml:lang="it">Bruno Baudissone</schema:name>
+</rdf:Description>
 <rdf:Description rdf:about="#agent_franco-antonicelli">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
@@ -1474,6 +1486,13 @@
        EDITORI (Publisher)
        ============================================================ -->
 
+<rdf:Description rdf:about="#publisher_ilmiolibro">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
+  <rdfs:label xml:lang="it">ilmiolibro.it</rdfs:label>
+  <schema:name xml:lang="it">ilmiolibro.it</schema:name>
+  <schema:location rdf:resource="#place_roma"/>
+</rdf:Description>
 <rdf:Description rdf:about="#publisher_liceo-classico-dazeglio">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Publisher"/>
@@ -3403,12 +3422,41 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label>Carteggio Levi–Bellonci</rdfs:label>
   </rdf:Description>
-
+<rdf:Description rdf:about="#corr_baudissone">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#CorrespondenceAggregate"/>
+  <rdfs:label xml:lang="it">Carteggio Levi–Baudissone</rdfs:label>
+  <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
+  <schema:participant rdf:resource="#agent_PrimoLevi"/>
+  <schema:participant rdf:resource="#agent_bruno-baudissone"/>
+  <frbr:part rdf:resource="#let_baudissone_1979-04-24"/>
+</rdf:Description>
 
   <!-- ============================================================
        CORRISPONDENZA — Lettere
        ============================================================ -->
 
+<rdf:Description rdf:about="#let_baudissone_1979-04-24">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
+  <rdfs:label xml:lang="it">Lettera di Levi a Baudissone, 24 aprile 1979</rdfs:label>
+  <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
+  <frbr:partOf rdf:resource="#corr_baudissone"/>
+  <schema:sender rdf:resource="#agent_PrimoLevi"/>
+  <schema:recipient rdf:resource="#agent_bruno-baudissone"/>
+  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1979-04-24</dcterms:date>
+  <dcterms:language rdf:resource="#lang_it"/>
+  <frbr:embodiment rdf:resource="#m_let_baudissone_1979-04-24_pane"/>
+</rdf:Description>
+<rdf:Description rdf:about="#m_let_baudissone_1979-04-24_pane">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Lettera Levi–Baudissone 24 aprile 1979 [in: Pane al pane 2009]</rdfs:label>
+  <frbr:embodimentOf rdf:resource="#let_baudissone_1979-04-24"/>
+  <frbr:partOf rdf:resource="#m_baudissone-pane-2009"/>
+  <dcterms:isPartOf rdf:resource="#col_Corrispondenza"/>
+  <dcterms:description xml:lang="it">Pagina di controfrontespizio, non numerata.</dcterms:description>
+</rdf:Description>
 <rdf:Description rdf:about="#let_langbein_1970-01-15">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://purl.org/spar/fabio/Letter"/>
@@ -3676,6 +3724,14 @@
        CITAZIONI — cito:Citation
        ============================================================ -->
 
+<rdf:Description rdf:about="#cit_baudissone-pane-cites-let-1979-04-24">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
+  <rdfs:label xml:lang="it">Baudissone 2009 cita lettera Levi→Baudissone 24 aprile 1979</rdfs:label>
+  <cito:hasCitingEntity rdf:resource="#m_baudissone-pane-2009"/>
+  <cito:hasCitedEntity rdf:resource="#let_baudissone_1979-04-24"/>
+  <cito:hasCitationCharacterization rdf:resource="http://purl.org/spar/cito/includesQuotationFrom"/>
+</rdf:Description>
 <rdf:Description rdf:about="#cit_panella2021-cites-let-antonicelli">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="http://purl.org/spar/cito/Citation"/>
@@ -7753,6 +7809,18 @@ copie, pp. 25 non numerate.</dcterms:description>
   >http://id.sbn.it/bid/RAV2005931</ontolevi:permalinkOpacSbn>
 <ontolevi:codiceOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
   >IT\ICCU\RAV\2005931</ontolevi:codiceOpacSbn>
+</rdf:Description>
+<rdf:Description rdf:about="#m_baudissone-pane-2009">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
+  <rdfs:label xml:lang="it">Cile, Pane al pane, a cura di Baudissone [ilmiolibro.it 2009]</rdfs:label>
+  <dcterms:title xml:lang="it">Pane al pane</dcterms:title>
+  <schema:author rdf:resource="#agent_raffaele-cile"/>
+  <schema:editor rdf:resource="#agent_bruno-baudissone"/>
+  <dcterms:publisher rdf:resource="#publisher_ilmiolibro"/>
+  <fabio:hasPlaceOfPublication rdf:resource="#place_roma"/>
+  <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2009</prism:publicationDate>
+  <dcterms:description xml:lang="it">Il frontespizio riporta la datazione «1975-2009».</dcterms:description>
 </rdf:Description>
 
  <!-- ============================================================
