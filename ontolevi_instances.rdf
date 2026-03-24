@@ -2268,6 +2268,10 @@
   <dcterms:title xml:lang="it">La Stampa</dcterms:title>
   <schema:location rdf:resource="#place_torino"/>
   <dcterms:description xml:lang="it">Quotidiano torinese fondato nel 1867.</dcterms:description>
+<ontolevi:permalinkAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+  >https://acnpsearch.unibo.it/journal/84253</ontolevi:permalinkAcnp>
+<ontolevi:codiceAcnp rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+  >84253</ontolevi:codiceAcnp>
 </rdf:Description>
 <rdf:Description rdf:about="#newspaper_gente-milano">
     <dcterms:title xml:lang="it">Gente</dcterms:title>
@@ -5820,7 +5824,7 @@
     <dcterms:contributor rdf:resource="#agent_umberto-olobardi"/>
     <prism:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1951</prism:publicationDate>
     <fabio:hasPlaceOfPublication rdf:resource="#place_firenze"/>
-    <dcterms:description xml:lang="it">titolo La selezione</dcterms:description>
+    <dcterms:description xml:lang="it">Capitolo di SQU Ottobre 1944, pubblicato con titolo "La selezione"</dcterms:description>
     <prism:pageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">372-376</prism:pageRange>
     <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
   </rdf:Description>
@@ -5835,6 +5839,7 @@
     <dcterms:contributor rdf:resource="#agent_marco-belpoliti"/>
     <dcterms:contributor rdf:resource="#agent_daniele-del-giudice"/>
     <dcterms:contributor rdf:resource="#agent_ernesto-ferrero"/>
+    <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <dcterms:title>Opere complete. Volume II</dcterms:title>
     <frbr:partOf rdf:resource="#m_2016-ST-OPCOMP"/>
     <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
@@ -7647,6 +7652,7 @@ copie, pp. 25 non numerate.</dcterms:description>
     <dcterms:contributor rdf:resource="#agent_marco-belpoliti"/>
     <dcterms:contributor rdf:resource="#agent_daniele-del-giudice"/>
     <dcterms:contributor rdf:resource="#agent_ernesto-ferrero"/>
+    <dcterms:isPartOf rdf:resource="#col_ScrittieTraduzioni"/>
     <schema:author rdf:resource="#agent_PrimoLevi"/>
    <ontolevi:permalinkOpacSbn rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
   >http://id.sbn.it/bid/CFI0386128</ontolevi:permalinkOpacSbn>
